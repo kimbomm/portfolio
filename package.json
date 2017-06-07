@@ -1,0 +1,26 @@
+{
+  "name": "league",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimbomm/portfolio.git"
+  },
+  "author": "kimbomm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimbomm/portfolio/issues"
+  },
+  "homepage": "https://github.com/kimbomm/portfolio#readme",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "serve": "^5.2.1"
+  }
+}
