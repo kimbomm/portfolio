@@ -1,0 +1,275 @@
+/* line 1, assets\less\reset.less */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* line 2, assets\less\reset.less */
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 3, assets\less\reset.less */
+ol,
+ul {
+  list-style: none;
+}
+/* line 4, assets\less\reset.less */
+img {
+  vertical-align: top;
+}
+/* line 5, assets\less\reset.less */
+body {
+  font-family: 'Noto Sans KR';
+}
+/* line 6, assets\less\reset.less */
+html,
+body {
+  height: 100%;
+}
+/* line 5, assets/less/index.less */
+.wrapper {
+  height: 100%;
+}
+/* line 8, assets/less/index.less */
+header {
+  height: 80px;
+  width: 100%;
+  vertical-align: middle;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 14, assets/less/index.less */
+header .button {
+  font-size: 0;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  top: 31px;
+}
+/* line 21, assets/less/index.less */
+header .button span {
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 15px;
+  color: #fff;
+}
+/* line 27, assets/less/index.less */
+header .button .login {
+  border-right: 1px #fff solid;
+}
+/* line 32, assets/less/index.less */
+nav {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  background-color: #f00;
+}
+/* line 39, assets/less/index.less */
+.content_wrap {
+  height: 100%;
+  margin-left: 300px;
+}
+/* line 42, assets/less/index.less */
+.content_wrap .main {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* line 46, assets/less/index.less */
+.content_wrap .main li {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../../photo/main_01.png) no-repeat center;
+  background-size: 100%;
+  text-align: center;
+}
+/* line 54, assets/less/index.less */
+.content_wrap .main li:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 61, assets/less/index.less */
+.content_wrap .main .text_wrap {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 65, assets/less/index.less */
+.content_wrap .main .text_wrap span {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: lighter;
+  color: #4a0001;
+}
+/* line 73, assets/less/index.less */
+.content_wrap .main .text_wrap .sub {
+  position: absolute;
+  top: 120px;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 43.2px;
+  color: #f90304;
+}
+/* line 83, assets/less/index.less */
+.content_wrap .main .text_wrap .line {
+  width: 240px;
+  height: 6px;
+  margin: 60px auto 0;
+  background-color: #f90304;
+}
+/* line 90, assets/less/index.less */
+.content_wrap .match {
+  width: 100%;
+  height: 540px;
+  background: url('../../photo/main_match.png') no-repeat center;
+}
+/* line 93, assets/less/index.less */
+.content_wrap .match .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+  text-align: center;
+  position: relative;
+}
+/* line 97, assets/less/index.less */
+.content_wrap .match .inner:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 104, assets/less/index.less */
+.content_wrap .match .text_wrap {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 108, assets/less/index.less */
+.content_wrap .match .text_wrap span {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: lighter;
+  color: #4a0001;
+}
+/* line 116, assets/less/index.less */
+.content_wrap .match .text_wrap .sub {
+  position: absolute;
+  top: 120px;
+  left: 45px;
+  font-size: 36px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 43.2px;
+  color: #f90304;
+}
+/* line 126, assets/less/index.less */
+.content_wrap .match .text_wrap .line {
+  width: 240px;
+  height: 6px;
+  margin: 60px auto 0;
+  background-color: #f90304;
+}
+/* line 133, assets/less/index.less */
+.content_wrap .match .score div {
+  width: 200px;
+  font-size: 0;
+  position: absolute;
+  top: 100px;
+}
+/* line 139, assets/less/index.less */
+.content_wrap .match .score span {
+  font-size: 30px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  vertical-align: middle;
+}
+/* line 148, assets/less/index.less */
+.content_wrap .match .score .score_team {
+  font-size: 200px;
+  margin-top: 50px;
+}
+/* line 152, assets/less/index.less */
+.content_wrap .match .score .first_team {
+  left: 15px;
+}
+/* line 155, assets/less/index.less */
+.content_wrap .match .score .second_team {
+  right: 15px;
+}
+/* line 161, assets/less/index.less */
+.content_wrap .news .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+}
+/* line 164, assets/less/index.less */
+.content_wrap .news .text_wrap {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding-top: 140px;
+}
+/* line 169, assets/less/index.less */
+.content_wrap .news .text_wrap span {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: lighter;
+  color: #4a0001;
+}
+/* line 177, assets/less/index.less */
+.content_wrap .news .text_wrap .line {
+  width: 240px;
+  height: 6px;
+  margin: 60px auto 0;
+  background-color: #e0e0e0;
+}
+/* line 183, assets/less/index.less */
+.content_wrap .news .news_wrap {
+  outline: 1px #f00 solid;
+  height: 100%;
+  padding: 40px 15px;
+}
+/* line 187, assets/less/index.less */
+.content_wrap .news .news_wrap > div {
+  width: 50%;
+  outline: 1px #f00 solid;
+}
+/* line 191, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_left {
+  float: left;
+  border-right: 1px #e0e0e0 solid;
+}
+/* line 195, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_left .section .title {
+  font-size: 18px;
+}
+/* line 200, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_right {
+  float: right;
+  border-left: 1px #e0e0e0 solid;
+}
