@@ -253,22 +253,102 @@ nav {
   outline: 1px #f00 solid;
   height: 100%;
   padding: 40px 15px;
+  overflow: hidden;
 }
-/* line 187, assets/less/index.less */
+/* line 188, assets/less/index.less */
 .content_wrap .news .news_wrap > div {
   width: 50%;
   outline: 1px #f00 solid;
 }
-/* line 191, assets/less/index.less */
+/* line 192, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left {
   float: left;
   border-right: 1px #e0e0e0 solid;
 }
 /* line 195, assets/less/index.less */
-.content_wrap .news .news_wrap .sec_left .section .title {
-  font-size: 18px;
+.content_wrap .news .news_wrap .sec_left .section {
+  outline: 1px #f00 solid;
+  position: relative;
+  float: right;
+  width: 100%;
 }
 /* line 200, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_left .section:last-child {
+  margin-top: 60px;
+}
+/* line 203, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_left .section .title_img {
+  float: right;
+  margin-bottom: 20px;
+}
+/* line 207, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_left .section .title {
+  float: right;
+  width: 300px;
+  height: 25px;
+  vertical-align: middle;
+}
+/* line 211, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_left .section .title span {
+  font-size: 18px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 218, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_left .section .date {
+  width: 100px;
+  height: 25px;
+  float: right;
+  display: inline-block;
+  text-align: right;
+}
+/* line 223, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_left .section .date span {
+  font-size: 14px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+  color: #333333;
+  margin-right: 10px;
+}
+/* line 232, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_left .section .content {
+  float: right;
+  width: 380px;
+  height: 100px;
+  margin: 20px 10px;
+  outline: 1px #f00 solid;
+}
+/* line 237, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_left .section .content p {
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  outline: 1px #f00 solid;
+}
+/* line 247, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_left .section .reply {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 97px;
+  text-align: center;
+}
+/* line 252, assets/less/index.less */
+.content_wrap .news .news_wrap .sec_left .section .reply i {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 60px;
+  color: #fff;
+  width: 70px;
+  height: 67px;
+  background: url('../../photo/icon/chat.png') no-repeat center;
+}
+/* line 263, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right {
   float: right;
   border-left: 1px #e0e0e0 solid;

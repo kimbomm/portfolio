@@ -216,6 +216,7 @@ nav {
   outline: 1px #f00 solid;
   height: 100%;
   padding: 40px 15px;
+  overflow: hidden;
 }
 .content_wrap .news .news_wrap > div {
   width: 50%;
@@ -225,8 +226,77 @@ nav {
   float: left;
   border-right: 1px #e0e0e0 solid;
 }
+.content_wrap .news .news_wrap .sec_left .section {
+  outline: 1px #f00 solid;
+  position: relative;
+  float: right;
+  width: 100%;
+}
+.content_wrap .news .news_wrap .sec_left .section:last-child {
+  margin-top: 60px;
+}
+.content_wrap .news .news_wrap .sec_left .section .title_img {
+  float: right;
+  margin-bottom: 20px;
+}
 .content_wrap .news .news_wrap .sec_left .section .title {
+  float: right;
+  width: 300px;
+  height: 25px;
+  vertical-align: middle;
+}
+.content_wrap .news .news_wrap .sec_left .section .title span {
   font-size: 18px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content_wrap .news .news_wrap .sec_left .section .date {
+  width: 100px;
+  height: 25px;
+  float: right;
+  display: inline-block;
+  text-align: right;
+}
+.content_wrap .news .news_wrap .sec_left .section .date span {
+  font-size: 14px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+  color: #333333;
+  margin-right: 10px;
+}
+.content_wrap .news .news_wrap .sec_left .section .content {
+  float: right;
+  width: 380px;
+  height: 100px;
+  margin: 20px 10px;
+  outline: 1px #f00 solid;
+}
+.content_wrap .news .news_wrap .sec_left .section .content p {
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  outline: 1px #f00 solid;
+}
+.content_wrap .news .news_wrap .sec_left .section .reply {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 97px;
+  text-align: center;
+}
+.content_wrap .news .news_wrap .sec_left .section .reply i {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 60px;
+  color: #fff;
+  width: 70px;
+  height: 67px;
+  background: url('../../photo/icon/chat.png') no-repeat center;
 }
 .content_wrap .news .news_wrap .sec_right {
   float: right;

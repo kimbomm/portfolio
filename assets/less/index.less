@@ -184,6 +184,7 @@ nav{
       .outline();
       height: 100%;
       padding: 40px 15px;
+      overflow: hidden;
       >div{
         width: 50%;
         .outline();
@@ -192,8 +193,70 @@ nav{
         float: left;
         border-right: 1px @line-gray solid;
         .section{
+          .outline();
+          position: relative;
+          float: right;
+          width: 100%;
+          &:last-child{
+            margin-top: 60px;
+          }
+          .title_img{
+            float: right;
+            margin-bottom: 20px;
+          }
           .title{
-            font-size: 18px;
+            float: right;
+            width: 300px;height: 25px;
+            vertical-align: middle;
+            span{
+              font-size: 18px;
+              line-height: 1;
+              display: inline-block;
+              vertical-align: middle;
+            }
+          }
+          .date{
+            width: 100px;height: 25px;
+            float: right;
+            display: inline-block;
+            text-align: right;
+            span{
+              font-size: 14px;
+              line-height: 1;
+              display: inline-block;
+              vertical-align: middle;
+              color: #333333;
+              margin-right: 10px;
+            }
+          }
+          .content{
+            float: right;
+            width: 380px;height: 100px;
+            margin: 20px 10px;
+            .outline();
+            p{
+              display: block;
+              font-size: 16px;
+              line-height: 26px;
+              height: 100px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              .outline();
+            }
+          }
+          .reply{
+            position: absolute;
+            left: 0;bottom: 50px;
+            width: 97px;
+            text-align: center;
+            i{
+              display: inline-block;
+              font-size: 24px;
+              line-height: 60px;
+              color:@font-white;
+              width: 70px;height: 67px;
+              background: url('../../photo/icon/chat.png') no-repeat center;
+            }
           }
         }
       }
