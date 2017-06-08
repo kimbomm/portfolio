@@ -20,6 +20,15 @@ html,
 body {
   height: 100%;
 }
+button {
+  background-color: rgba(0, 0, 0, 0);
+}
+legend {
+  text-indent: -9999px;
+}
+fieldset {
+  border: none;
+}
 .wrapper {
   height: 100%;
 }
@@ -29,22 +38,16 @@ body {
   outline: 1px #f00 solid;
 }
 .content_wrap > div {
-  height: 100%;
-  text-align: center;
   outline: 1px #f00 solid;
-}
-.content_wrap > div:before {
-  content: "";
-  height: 100%;
-  display: inline-block;
-  vertical-align: middle;
 }
 .content_wrap > div .text_wrap {
   position: relative;
   display: inline-block;
   vertical-align: middle;
+  text-align: center;
+  width: 400px;
 }
-.content_wrap > div .text_wrap span {
+.content_wrap > div .text_wrap > span {
   display: block;
   text-align: center;
   font-size: 60px;
@@ -68,11 +71,101 @@ body {
   margin: 60px auto 0;
   background-color: #f90304;
 }
-.recruit_intro {
+.content_wrap .recruit_intro {
+  height: 100%;
+  text-align: center;
   background: url('../../photo/recruit01.png') no-repeat center;
   background-size: 100%;
 }
-.recruit_main {
+.content_wrap .recruit_intro:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content_wrap .recruit_main {
+  height: 100%;
+  text-align: center;
   background: url('../../photo/recruit02.png') no-repeat center;
   background-size: 100%;
+}
+.content_wrap .recruit_main:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content_wrap .recruit_main button {
+  margin-top: 45px;
+  width: 240px;
+  height: 50px;
+  border: 1px #f90304 solid;
+  border-radius: 10%;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 14px;
+  color: #f90304;
+  cursor: pointer;
+}
+.content_wrap .recruit_form {
+  width: 450px;
+  height: 500px;
+  border-radius: 30px;
+  background-color: #8d8d8d;
+  text-align: center;
+}
+.content_wrap .recruit_form .form_title {
+  padding: 30px 0;
+}
+.content_wrap .recruit_form .form_title .title {
+  display: block;
+  font-size: 38px;
+  color: #4a0001;
+  line-height: 1;
+}
+.content_wrap .recruit_form .form_title .sub_title {
+  position: relative;
+  top: -7px;
+  display: block;
+  font-size: 32px;
+  letter-spacing: 16px;
+  line-height: 1;
+  color: #fff;
+  text-transform: uppercase;
+}
+.content_wrap .recruit_form .form_title .line {
+  display: block;
+  width: 120px;
+  height: 3px;
+  margin: 30px auto 0;
+  background-color: #fff;
+}
+.content_wrap .recruit_form .form {
+  text-align: left;
+  width: 300px;
+  margin: 0 auto;
+}
+.content_wrap .recruit_form .form div {
+  margin-bottom: 20px;
+}
+.content_wrap .recruit_form .form div label {
+  font-size: 18px;
+  font-weight: 100;
+}
+.content_wrap .recruit_form .form div label:first-child {
+  display: inline-block;
+  width: 100px;
+}
+.content_wrap .recruit_form .form .btn {
+  text-align: center;
+}
+.content_wrap .recruit_form .form .btn input {
+  margin: 20px 10px 0;
+  width: 100px;
+  height: 30px;
+  border-color: rgba(0, 0, 0, 0);
+  border: 1px #f90304 solid;
+  border-radius: 30px;
+  font-size: 18px;
+  color: #f90304;
 }

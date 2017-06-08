@@ -26,6 +26,18 @@ html,
 body {
   height: 100%;
 }
+/* line 7, assets\less\reset.less */
+button {
+  background-color: rgba(0, 0, 0, 0);
+}
+/* line 8, assets\less\reset.less */
+legend {
+  text-indent: -9999px;
+}
+/* line 9, assets\less\reset.less */
+fieldset {
+  border: none;
+}
 /* line 6, assets/less/index.less */
 .wrapper {
   height: 100%;

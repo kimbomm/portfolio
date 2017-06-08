@@ -10,21 +10,15 @@
   margin-left: 300px;
   .outline();
   >div{
-    height: 100%;
-    text-align: center;
-    &:before{
-      content:"";
-      height: 100%;
-      display: inline-block;
-      vertical-align: middle;
-    }
     .outline();
 
     .text_wrap{
       position: relative;
       display: inline-block;
       vertical-align: middle;
-      span{
+      text-align: center;
+      width: 400px;
+      >span{
         display: block;
         text-align: center;
         font-size: 60px;
@@ -49,12 +43,98 @@
       }
     }
   }
-}
-.recruit_intro{
-  background: url('../../photo/recruit01.png') no-repeat center;
-  background-size: 100%;
-}
-.recruit_main{
-  background: url('../../photo/recruit02.png') no-repeat center;
-  background-size: 100%;
+  .recruit_intro{
+    height: 100%;
+    text-align: center;
+    &:before{
+      content:"";
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    background: url('../../photo/recruit01.png') no-repeat center;
+    background-size: 100%;
+  }
+  .recruit_main{
+    height: 100%;
+    text-align: center;
+    &:before{
+      content:"";
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    background: url('../../photo/recruit02.png') no-repeat center;
+    background-size: 100%;
+    button{
+      margin-top: 45px;
+      width: 240px;height: 50px;
+      border: 1px @font-sub solid;
+      border-radius: 10%;
+      text-align: center;
+      font-size: 28px;
+      letter-spacing: 14px;
+      color:@font-sub;
+      cursor: pointer;
+    }
+  }
+  .recruit_form{
+    width: 450px;height: 500px;
+    border-radius: 30px;
+    background-color: #8d8d8d;
+    text-align: center;
+    .form_title{
+      padding:30px 0;
+      .title{
+        display: block;
+        font-size: 38px;
+        color:@font-main;
+        line-height: 1;
+      }
+      .sub_title{
+        position: relative;
+        top: -7px;
+        display: block;
+        font-size: 32px;
+        letter-spacing: 16px;
+        line-height: 1;
+        color:@font-white;
+        text-transform: uppercase;
+      }
+      .line{
+        display: block;
+        width: 120px;height: 3px;
+        margin: 30px auto 0;
+        background-color: @font-white;
+      }
+    }
+    .form{
+      text-align: left;
+      width: 300px;
+      margin: 0 auto;
+      div{
+        margin-bottom: 20px;
+        label{
+          font-size: 18px;
+          font-weight: 100;
+          &:first-child{
+            display: inline-block;
+            width: 100px;
+          }
+        }
+      }
+      .btn{
+        text-align: center;
+        input{
+          margin: 20px 10px 0;
+          width: 100px;height: 30px;
+          border-color: rgba(0,0,0,0);
+          border: 1px @font-sub solid;
+          border-radius: 30px;
+          font-size: 18px;
+          color:@font-sub;
+        }
+      }
+    }
+  }
 }
