@@ -14,7 +14,7 @@ img {
   vertical-align: top;
 }
 body {
-  font-family: 'Noto Sans KR';
+  font-family: 'NotoSansCJKkr';
 }
 html,
 body {
@@ -49,7 +49,7 @@ header .button span {
 header .button .login {
   border-right: 1px #fff solid;
 }
-nav {
+.nav {
   width: 300px;
   height: 100%;
   position: fixed;
@@ -213,24 +213,20 @@ nav {
   background-color: #e0e0e0;
 }
 .content_wrap .news .news_wrap {
-  outline: 1px #f00 solid;
   height: 100%;
   padding: 40px 15px;
   overflow: hidden;
 }
 .content_wrap .news .news_wrap > div {
-  width: 50%;
-  outline: 1px #f00 solid;
+  width: 496px;
 }
 .content_wrap .news .news_wrap .sec_left {
   float: left;
-  border-right: 1px #e0e0e0 solid;
 }
 .content_wrap .news .news_wrap .sec_left .section {
-  outline: 1px #f00 solid;
   position: relative;
   float: right;
-  width: 100%;
+  padding: 10px;
 }
 .content_wrap .news .news_wrap .sec_left .section:last-child {
   margin-top: 60px;
@@ -238,18 +234,6 @@ nav {
 .content_wrap .news .news_wrap .sec_left .section .title_img {
   float: right;
   margin-bottom: 20px;
-}
-.content_wrap .news .news_wrap .sec_left .section .title {
-  float: right;
-  width: 300px;
-  height: 25px;
-  vertical-align: middle;
-}
-.content_wrap .news .news_wrap .sec_left .section .title span {
-  font-size: 18px;
-  line-height: 1;
-  display: inline-block;
-  vertical-align: middle;
 }
 .content_wrap .news .news_wrap .sec_left .section .date {
   width: 100px;
@@ -266,12 +250,23 @@ nav {
   color: #333333;
   margin-right: 10px;
 }
+.content_wrap .news .news_wrap .sec_left .section .title {
+  float: right;
+  width: 300px;
+  height: 25px;
+  vertical-align: middle;
+}
+.content_wrap .news .news_wrap .sec_left .section .title span {
+  font-size: 18px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
 .content_wrap .news .news_wrap .sec_left .section .content {
   float: right;
   width: 380px;
   height: 100px;
   margin: 20px 10px;
-  outline: 1px #f00 solid;
 }
 .content_wrap .news .news_wrap .sec_left .section .content p {
   display: block;
@@ -280,7 +275,7 @@ nav {
   height: 100px;
   overflow: hidden;
   text-overflow: ellipsis;
-  outline: 1px #f00 solid;
+  color: #666666;
 }
 .content_wrap .news .news_wrap .sec_left .section .reply {
   position: absolute;
@@ -300,5 +295,214 @@ nav {
 }
 .content_wrap .news .news_wrap .sec_right {
   float: right;
-  border-left: 1px #e0e0e0 solid;
+  border-left: 2px #e0e0e0 solid;
+  padding-top: 70px;
+}
+.content_wrap .news .news_wrap .sec_right .section {
+  position: relative;
+  float: left;
+  padding: 10px;
+}
+.content_wrap .news .news_wrap .sec_right .section:last-child {
+  margin-top: 60px;
+}
+.content_wrap .news .news_wrap .sec_right .section .title_img {
+  float: left;
+  margin-bottom: 20px;
+}
+.content_wrap .news .news_wrap .sec_right .section .date {
+  clear: left;
+  float: right;
+  margin-right: 60px;
+  width: 100px;
+  height: 25px;
+  display: inline-block;
+  text-align: left;
+}
+.content_wrap .news .news_wrap .sec_right .section .date span {
+  font-size: 14px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+  color: #333333;
+}
+.content_wrap .news .news_wrap .sec_right .section .title {
+  float: left;
+  width: 300px;
+  height: 25px;
+  vertical-align: middle;
+}
+.content_wrap .news .news_wrap .sec_right .section .title span {
+  font-size: 18px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content_wrap .news .news_wrap .sec_right .section .content {
+  float: left;
+  width: 380px;
+  height: 100px;
+  margin: 20px 10px;
+}
+.content_wrap .news .news_wrap .sec_right .section .content p {
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #666666;
+}
+.content_wrap .news .news_wrap .sec_right .section .reply {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  width: 97px;
+  text-align: center;
+}
+.content_wrap .news .news_wrap .sec_right .section .reply i {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 60px;
+  color: #fff;
+  width: 70px;
+  height: 67px;
+  background: url('../../photo/icon/chat.png') no-repeat center;
+}
+.content_wrap .team .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+}
+.content_wrap .team .text_wrap {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding-top: 140px;
+}
+.content_wrap .team .text_wrap span {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: lighter;
+  color: #4a0001;
+}
+.content_wrap .team .text_wrap .line {
+  width: 240px;
+  height: 6px;
+  margin: 60px auto 0;
+  background-color: #e0e0e0;
+}
+.content_wrap .team .player_list {
+  padding: 60px 10px;
+  overflow: hidden;
+}
+.content_wrap .team .player_list li {
+  width: 320px;
+  height: 320px;
+  float: left;
+  margin: 10px 10px;
+}
+.content_wrap .team .player_list li:first-child {
+  margin-left: 0;
+}
+.content_wrap .team .player_list li:last-child {
+  margin-right: 0;
+}
+.content_wrap .team .player_list li .player_info {
+  padding: 10px 0;
+  overflow: hidden;
+}
+.content_wrap .team .player_list li .name {
+  float: right;
+  font-size: 48px;
+  line-height: 1;
+}
+.content_wrap .team .player_list li .sub_info {
+  float: right;
+  text-align: right;
+  padding: 5px 10px;
+}
+.content_wrap .team .player_list li .sub_info span {
+  font-size: 24px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 1;
+}
+.content_wrap .recruit {
+  width: 100%;
+  height: 230px;
+  background-color: #4a0001;
+  margin-top: 140px;
+}
+.content_wrap .recruit .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+  text-align: center;
+}
+.content_wrap .recruit .inner:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content_wrap .recruit .inner div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content_wrap .recruit .inner span {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  display: block;
+}
+.content_wrap .recruit .inner span:last-child {
+  text-decoration: underline;
+}
+.content_wrap .footer {
+  width: 100%;
+  height: 230px;
+}
+.content_wrap .footer .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+  text-align: center;
+}
+.content_wrap .footer .inner:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content_wrap .footer .inner > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content_wrap .footer .inner i {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+.content_wrap .footer .inner .facebook {
+  background: url('../../photo/icon/sns01.png') no-repeat center;
+}
+.content_wrap .footer .inner .google {
+  background: url('../../photo/icon/sns02.png') no-repeat center;
+}
+.content_wrap .footer .inner .twitter {
+  background: url('../../photo/icon/sns03.png') no-repeat center;
+}
+.content_wrap .footer .inner .youtube {
+  background: url('../../photo/icon/sns04.png') no-repeat center;
+}
+.content_wrap .map {
+  width: 100%;
+  height: 600px;
 }
