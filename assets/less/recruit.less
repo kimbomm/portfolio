@@ -1,0 +1,60 @@
+@import "reset.less";
+@import "mixin.less";
+@import "var.less";
+
+.wrapper{
+  height: 100%;
+}
+.content_wrap{
+  height: 100%;
+  margin-left: 300px;
+  .outline();
+  >div{
+    height: 100%;
+    text-align: center;
+    &:before{
+      content:"";
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .outline();
+
+    .text_wrap{
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      span{
+        display: block;
+        text-align: center;
+        font-size: 60px;
+        line-height: 68px;
+        font-weight: lighter;
+        color:@font-main;
+      }
+      .sub{
+        position: absolute;
+        top: 120px;
+        font-size: 36px;
+        line-height: 1;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 43.2px;
+        color:@font-sub;
+      }
+      .line{
+        width: 240px;height: 6px;
+        margin: 60px auto 0;
+        background-color: @font-sub;
+      }
+    }
+  }
+}
+.recruit_intro{
+  background: url('../../photo/recruit01.png') no-repeat center;
+  background-size: 100%;
+}
+.recruit_main{
+  background: url('../../photo/recruit02.png') no-repeat center;
+  background-size: 100%;
+}

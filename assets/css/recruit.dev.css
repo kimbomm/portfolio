@@ -1,0 +1,94 @@
+/* line 1, assets\less\reset.less */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* line 2, assets\less\reset.less */
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 3, assets\less\reset.less */
+ol,
+ul {
+  list-style: none;
+}
+/* line 4, assets\less\reset.less */
+img {
+  vertical-align: top;
+}
+/* line 5, assets\less\reset.less */
+body {
+  font-family: 'NotoSansCJKkr';
+}
+/* line 6, assets\less\reset.less */
+html,
+body {
+  height: 100%;
+}
+/* line 5, assets/less/recruit.less */
+.wrapper {
+  height: 100%;
+}
+/* line 8, assets/less/recruit.less */
+.content_wrap {
+  height: 100%;
+  margin-left: 300px;
+  outline: 1px #f00 solid;
+}
+/* line 12, assets/less/recruit.less */
+.content_wrap > div {
+  height: 100%;
+  text-align: center;
+  outline: 1px #f00 solid;
+}
+/* line 15, assets/less/recruit.less */
+.content_wrap > div:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 23, assets/less/recruit.less */
+.content_wrap > div .text_wrap {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 27, assets/less/recruit.less */
+.content_wrap > div .text_wrap span {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: lighter;
+  color: #4a0001;
+}
+/* line 35, assets/less/recruit.less */
+.content_wrap > div .text_wrap .sub {
+  position: absolute;
+  top: 120px;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 43.2px;
+  color: #f90304;
+}
+/* line 45, assets/less/recruit.less */
+.content_wrap > div .text_wrap .line {
+  width: 240px;
+  height: 6px;
+  margin: 60px auto 0;
+  background-color: #f90304;
+}
+/* line 53, assets/less/recruit.less */
+.recruit_intro {
+  background: url('../../photo/recruit01.png') no-repeat center;
+  background-size: 100%;
+}
+/* line 57, assets/less/recruit.less */
+.recruit_main {
+  background: url('../../photo/recruit02.png') no-repeat center;
+  background-size: 100%;
+}

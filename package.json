@@ -24,6 +24,7 @@
     "grunt-contrib-cssmin": "^2.2.0",
     "grunt-contrib-less": "^1.4.1",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-includes": "^1.0.0",
     "grunt-serve": "^0.1.6",
     "serve": "^5.2.1"
   }

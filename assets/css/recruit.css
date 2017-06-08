@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+body {
+  font-family: 'NotoSansCJKkr';
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  height: 100%;
+}
+.content_wrap {
+  height: 100%;
+  margin-left: 300px;
+  outline: 1px #f00 solid;
+}
+.content_wrap > div {
+  height: 100%;
+  text-align: center;
+  outline: 1px #f00 solid;
+}
+.content_wrap > div:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content_wrap > div .text_wrap {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content_wrap > div .text_wrap span {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: lighter;
+  color: #4a0001;
+}
+.content_wrap > div .text_wrap .sub {
+  position: absolute;
+  top: 120px;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 43.2px;
+  color: #f90304;
+}
+.content_wrap > div .text_wrap .line {
+  width: 240px;
+  height: 6px;
+  margin: 60px auto 0;
+  background-color: #f90304;
+}
+.recruit_intro {
+  background: url('../../photo/recruit01.png') no-repeat center;
+  background-size: 100%;
+}
+.recruit_main {
+  background: url('../../photo/recruit02.png') no-repeat center;
+  background-size: 100%;
+}

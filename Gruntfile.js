@@ -15,7 +15,8 @@ module.exports = function(grunt) {
           paths: ['assets/less']
         },
         files: {
-          'assets/css/index.css': 'assets/less/index.less'
+          'assets/css/index.css': 'assets/less/index.less',
+          'assets/css/recruit.css': 'assets/less/recruit.less'
         }
       },
       development: {
@@ -24,7 +25,8 @@ module.exports = function(grunt) {
           dumpLineNumbers:"comments"
         },
         files: {
-          'assets/css/index.dev.css': 'assets/less/index.less'
+          'assets/css/index.dev.css': 'assets/less/index.less',
+          'assets/css/recruit.dev.css': 'assets/less/recruit.less'
         }
       }
     },
@@ -41,7 +43,19 @@ module.exports = function(grunt) {
         }
       }
     },
-
+    includes: {
+      files: {
+        cwd: 'html',
+        src: ['*.html'], // 메인 및 서브 페이지들의 경로
+        dest: 'html/bulid', // 완성될 페이지의 경로
+        flatten: true,
+         // include 파일이 존재할 경로
+        options: {
+          silent: true,
+          includesPath: 'include/', // 메인 및 서브 페이지가 들어있는 페이지
+        }
+      }
+    },
     watch: {
       less: {
         files: 'assets/less/*.less',
@@ -57,8 +71,14 @@ module.exports = function(grunt) {
           spaw:false
         }
       }
+      // includes:{
+      //   files: 'html/*.html',
+      //   tasks: ['includes'],
+      //   options: {
+      //     spaw:false
+      //   }
+      // }
     }
-
 
   });
 
@@ -66,10 +86,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
-
+  grunt.loadNpmTasks('grunt-includes');
   grunt.loadNpmTasks('grunt-serve');
 
   // Default task(s).
   grunt.registerTask('default', ['serve']);
+  grunt.registerTask('dev', 'includes');
 
 };
