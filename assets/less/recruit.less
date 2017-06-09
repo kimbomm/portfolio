@@ -13,33 +13,31 @@
     .outline();
 
     .text_wrap{
-      position: relative;
       display: inline-block;
       vertical-align: middle;
       text-align: center;
-      width: 400px;
       >span{
         display: block;
         text-align: center;
-        font-size: 60px;
+        font-size: @intro_title;
         line-height: 68px;
         font-weight: lighter;
         color:@font-main;
       }
       .sub{
-        position: absolute;
-        top: 120px;
-        font-size: 36px;
+        position: relative;
+        top:-20px;
+        font-size: @sub_title;
         line-height: 1;
         text-align: center;
         text-transform: uppercase;
         letter-spacing: 43.2px;
-        color:@font-sub;
+        color:@font-white;
       }
       .line{
         width: 240px;height: 6px;
-        margin: 60px auto 0;
-        background-color: @font-sub;
+        margin: 40px auto 0;
+        background-color: @font-white;
       }
     }
   }
@@ -66,6 +64,14 @@
     }
     background: url('../../photo/recruit02.png') no-repeat center;
     background-size: 100%;
+    .text_wrap{
+      .sub{
+        color:@font-sub;
+      }
+      .line{
+        background-color: @font-sub;
+      }
+    }
     button{
       margin-top: 45px;
       width: 240px;height: 50px;
@@ -74,7 +80,7 @@
       text-align: center;
       font-size: 28px;
       letter-spacing: 14px;
-      color:@font-sub;
+      color:@font-black;
       cursor: pointer;
     }
   }
@@ -130,7 +136,7 @@
           width: 100px;height: 30px;
           border-color: rgba(0,0,0,0);
           border: 1px @font-sub solid;
-          border-radius: 30px;
+          border-radius: 10px;
           font-size: 18px;
           color:@font-sub;
         }
