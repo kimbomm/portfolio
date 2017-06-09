@@ -16,7 +16,8 @@ module.exports = function(grunt) {
         },
         files: {
           'assets/css/index.css': 'assets/less/index.less',
-          'assets/css/recruit.css': 'assets/less/recruit.less'
+          'assets/css/recruit.css': 'assets/less/recruit.less',
+          'assets/css/club.css': 'assets/less/club.less'
         }
       },
       development: {
@@ -26,7 +27,8 @@ module.exports = function(grunt) {
         },
         files: {
           'assets/css/index.dev.css': 'assets/less/index.less',
-          'assets/css/recruit.dev.css': 'assets/less/recruit.less'
+          'assets/css/recruit.dev.css': 'assets/less/recruit.less',
+          'assets/css/club.dev.css': 'assets/less/club.less'
         }
       }
     },

@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+body {
+  font-family: 'NotoSansCJKkr';
+}
+html,
+body {
+  height: 100%;
+}
+button {
+  background-color: rgba(0, 0, 0, 0);
+}
+legend {
+  text-indent: -9999px;
+}
+fieldset {
+  border: none;
+}
+.wrapper {
+  height: 100%;
+}
+.wrapper .content_wrap {
+  height: 100%;
+  margin-left: 300px;
+}
+.wrapper .club_intro {
+  width: 100%;
+  height: 50%;
+  background: url('../../photo/club01.png') no-repeat center;
+}
+.wrapper .club_intro .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+  text-align: center;
+}
+.wrapper .club_intro .inner:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.wrapper .club_intro .text_wrap {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.wrapper .club_intro .text_wrap > span {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: lighter;
+  color: #4a0001;
+}
+.wrapper .club_intro .text_wrap .sub {
+  position: relative;
+  top: -20px;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 43.2px;
+  color: #fff;
+}
+.wrapper .club_intro .text_wrap .line {
+  width: 240px;
+  height: 6px;
+  margin: 40px auto;
+  background-color: #fff;
+}
+.wrapper .club_intro .text_wrap .comment {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+}
+.wrapper .club_content > div {
+  padding-top: 140px;
+}
+.wrapper .club_content .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+  text-align: center;
+}
+.wrapper .club_content .inner:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.wrapper .club_content .text_wrap {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.wrapper .club_content .text_wrap > span {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: lighter;
+  color: #4a0001;
+}
+.wrapper .club_content .text_wrap .sub {
+  position: relative;
+  top: -20px;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 43.2px;
+  color: #999999;
+}
+.wrapper .club_content .text_wrap .line {
+  width: 240px;
+  height: 6px;
+  margin: 40px auto;
+  background-color: #4a0001;
+}

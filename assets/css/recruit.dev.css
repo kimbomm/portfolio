@@ -54,13 +54,11 @@ fieldset {
 }
 /* line 15, assets/less/recruit.less */
 .content_wrap > div .text_wrap {
-  position: relative;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  width: 400px;
 }
-/* line 21, assets/less/recruit.less */
+/* line 19, assets/less/recruit.less */
 .content_wrap > div .text_wrap > span {
   display: block;
   text-align: center;
@@ -69,53 +67,61 @@ fieldset {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 29, assets/less/recruit.less */
+/* line 27, assets/less/recruit.less */
 .content_wrap > div .text_wrap .sub {
-  position: absolute;
-  top: 120px;
+  position: relative;
+  top: -20px;
   font-size: 36px;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
-  color: #f90304;
+  color: #fff;
 }
-/* line 39, assets/less/recruit.less */
+/* line 37, assets/less/recruit.less */
 .content_wrap > div .text_wrap .line {
   width: 240px;
   height: 6px;
-  margin: 60px auto 0;
-  background-color: #f90304;
+  margin: 40px auto 0;
+  background-color: #fff;
 }
-/* line 46, assets/less/recruit.less */
+/* line 44, assets/less/recruit.less */
 .content_wrap .recruit_intro {
   height: 100%;
   text-align: center;
   background: url('../../photo/recruit01.png') no-repeat center;
   background-size: 100%;
 }
-/* line 49, assets/less/recruit.less */
+/* line 47, assets/less/recruit.less */
 .content_wrap .recruit_intro:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 58, assets/less/recruit.less */
+/* line 56, assets/less/recruit.less */
 .content_wrap .recruit_main {
   height: 100%;
   text-align: center;
   background: url('../../photo/recruit02.png') no-repeat center;
   background-size: 100%;
 }
-/* line 61, assets/less/recruit.less */
+/* line 59, assets/less/recruit.less */
 .content_wrap .recruit_main:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 69, assets/less/recruit.less */
+/* line 68, assets/less/recruit.less */
+.content_wrap .recruit_main .text_wrap .sub {
+  color: #f90304;
+}
+/* line 71, assets/less/recruit.less */
+.content_wrap .recruit_main .text_wrap .line {
+  background-color: #f90304;
+}
+/* line 75, assets/less/recruit.less */
 .content_wrap .recruit_main button {
   margin-top: 45px;
   width: 240px;
@@ -125,10 +131,10 @@ fieldset {
   text-align: center;
   font-size: 28px;
   letter-spacing: 14px;
-  color: #f90304;
+  color: #000;
   cursor: pointer;
 }
-/* line 81, assets/less/recruit.less */
+/* line 87, assets/less/recruit.less */
 .content_wrap .recruit_form {
   width: 450px;
   height: 500px;
@@ -136,18 +142,18 @@ fieldset {
   background-color: #8d8d8d;
   text-align: center;
 }
-/* line 86, assets/less/recruit.less */
+/* line 92, assets/less/recruit.less */
 .content_wrap .recruit_form .form_title {
   padding: 30px 0;
 }
-/* line 88, assets/less/recruit.less */
+/* line 94, assets/less/recruit.less */
 .content_wrap .recruit_form .form_title .title {
   display: block;
   font-size: 38px;
   color: #4a0001;
   line-height: 1;
 }
-/* line 94, assets/less/recruit.less */
+/* line 100, assets/less/recruit.less */
 .content_wrap .recruit_form .form_title .sub_title {
   position: relative;
   top: -7px;
@@ -158,7 +164,7 @@ fieldset {
   color: #fff;
   text-transform: uppercase;
 }
-/* line 104, assets/less/recruit.less */
+/* line 110, assets/less/recruit.less */
 .content_wrap .recruit_form .form_title .line {
   display: block;
   width: 120px;
@@ -166,38 +172,38 @@ fieldset {
   margin: 30px auto 0;
   background-color: #fff;
 }
-/* line 111, assets/less/recruit.less */
+/* line 117, assets/less/recruit.less */
 .content_wrap .recruit_form .form {
   text-align: left;
   width: 300px;
   margin: 0 auto;
 }
-/* line 115, assets/less/recruit.less */
+/* line 121, assets/less/recruit.less */
 .content_wrap .recruit_form .form div {
   margin-bottom: 20px;
 }
-/* line 117, assets/less/recruit.less */
+/* line 123, assets/less/recruit.less */
 .content_wrap .recruit_form .form div label {
   font-size: 18px;
   font-weight: 100;
 }
-/* line 120, assets/less/recruit.less */
+/* line 126, assets/less/recruit.less */
 .content_wrap .recruit_form .form div label:first-child {
   display: inline-block;
   width: 100px;
 }
-/* line 126, assets/less/recruit.less */
+/* line 132, assets/less/recruit.less */
 .content_wrap .recruit_form .form .btn {
   text-align: center;
 }
-/* line 128, assets/less/recruit.less */
+/* line 134, assets/less/recruit.less */
 .content_wrap .recruit_form .form .btn input {
   margin: 20px 10px 0;
   width: 100px;
   height: 30px;
   border-color: rgba(0, 0, 0, 0);
   border: 1px #f90304 solid;
-  border-radius: 30px;
+  border-radius: 10px;
   font-size: 18px;
   color: #f90304;
 }
