@@ -41,11 +41,9 @@ fieldset {
   outline: 1px #f00 solid;
 }
 .content_wrap > div .text_wrap {
-  position: relative;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  width: 400px;
 }
 .content_wrap > div .text_wrap > span {
   display: block;
@@ -56,20 +54,20 @@ fieldset {
   color: #4a0001;
 }
 .content_wrap > div .text_wrap .sub {
-  position: absolute;
-  top: 120px;
+  position: relative;
+  top: -20px;
   font-size: 36px;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
-  color: #f90304;
+  color: #fff;
 }
 .content_wrap > div .text_wrap .line {
   width: 240px;
   height: 6px;
-  margin: 60px auto 0;
-  background-color: #f90304;
+  margin: 40px auto 0;
+  background-color: #fff;
 }
 .content_wrap .recruit_intro {
   height: 100%;
@@ -95,6 +93,12 @@ fieldset {
   display: inline-block;
   vertical-align: middle;
 }
+.content_wrap .recruit_main .text_wrap .sub {
+  color: #f90304;
+}
+.content_wrap .recruit_main .text_wrap .line {
+  background-color: #f90304;
+}
 .content_wrap .recruit_main button {
   margin-top: 45px;
   width: 240px;
@@ -104,7 +108,7 @@ fieldset {
   text-align: center;
   font-size: 28px;
   letter-spacing: 14px;
-  color: #f90304;
+  color: #000;
   cursor: pointer;
 }
 .content_wrap .recruit_form {
@@ -165,7 +169,7 @@ fieldset {
   height: 30px;
   border-color: rgba(0, 0, 0, 0);
   border: 1px #f90304 solid;
-  border-radius: 30px;
+  border-radius: 10px;
   font-size: 18px;
   color: #f90304;
 }
