@@ -1,0 +1,185 @@
+@import "reset.less";
+@import "mixin.less";
+@import "var.less";
+
+.wrapper{
+  height: 100%;
+}
+.content_wrap{
+  height: 100%;
+  margin-left: 300px;
+}
+.match_intro{
+  width: 100%;height: 50%;
+  background: url('../../photo/match01.png') no-repeat center;
+  .inner{
+    .inner();
+    text-align: center;
+    &:before{
+      content:"";
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+    }
+  }
+  .text_wrap{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    >span{
+      display: block;
+      text-align: center;
+      font-size: @intro_title;
+      line-height: 68px;
+      font-weight: lighter;
+      color:@font-main;
+    }
+    .sub{
+      position: relative;
+      top:-20px;
+      font-size: @sub_title;
+      line-height: 1;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 43.2px;
+      color:@font-sub;
+    }
+    .line{
+      width: 240px;height: 6px;
+      margin: 40px auto;
+      background-color: @font-sub;
+    }
+    .comment{
+      font-size: 20px;
+      line-height: 26px;
+      text-align: center;
+      color:@font-white;
+    }
+  }
+}
+.match_info{
+  margin-top: 65px;
+  text-align: center;
+  .inner{
+    .inner();
+    >div{
+      margin: 10px 0;
+    }
+  }
+  .match_date{
+    span{
+      font-size: 38px;
+    }
+  }
+  .match_status{
+    span{
+      font-size: 32px;
+      color:@font-sub;
+    }
+  }
+  .match_stadium{
+    span{
+      font-size: 32px;
+    }
+  }
+  .match_team{
+    font-size: 0px;
+    div{
+      display: inline-block;
+      padding: 10px 30px;
+      .outline();
+    }
+    .name{
+      font-size: 32px;
+      padding: 20px 10px;
+      color:@font-main;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .score{
+      font-size: 72px;
+      color: @font-black;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 10px;
+    }
+    .first_team{
+      &:before{
+        content:"";
+        display: inline-block;
+        vertical-align: middle;
+        width: 130px;height: 130px;
+        border: 1px #000 solid;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+    }
+    .second_team{
+      &:after{
+        content:"";
+        display: inline-block;
+        vertical-align: middle;
+        width: 130px;height: 130px;
+        border: 1px #000 solid;
+        border-radius: 50%;
+        margin-left: 20px;
+      }
+    }
+  }
+  .line{
+    display: block;
+    width: 240px;height: 6px;
+    margin: 50px auto;
+    background-color: @font-sub;
+  }
+}
+.record_detail{
+  .inner{
+    .inner();
+  }
+  .record{
+    padding: 15px 0;
+    position: relative;
+    text-align: center;
+    span{
+      font-size: 32px;
+      display: inline-block;
+    }
+    .title{
+      position: relative;
+      .sub{
+        position: absolute;
+        top: 0;bottom: 0;right: 0;left: 0;
+        margin: 22px auto;
+        font-size: 28px;
+        color:@color-gray;
+        text-transform: uppercase;
+      }
+    }
+    .a_team{
+      position: absolute;
+      top: 20px;
+      left: 150px;
+    }
+    .b_team{
+      position: absolute;
+      top: 20px;
+      right: 150px;
+    }
+  }
+}
+.btngroup{
+  margin-top: 80px;
+  text-align: center;
+  button{
+    width: 120px;height: 40px;
+    border: 1px @font-sub solid;
+    border-radius: 10px;
+    margin: 10px 20px;
+    cursor: pointer;
+    span{
+      font-size: 18px;
+      color:@font-sub;
+    }
+  }
+}

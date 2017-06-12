@@ -17,7 +17,9 @@ module.exports = function(grunt) {
         files: {
           'assets/css/index.css': 'assets/less/index.less',
           'assets/css/recruit.css': 'assets/less/recruit.less',
-          'assets/css/club.css': 'assets/less/club.less'
+          'assets/css/club.css': 'assets/less/club.less',
+          'assets/css/match.css': 'assets/less/match.less',
+          'assets/css/match_view.css': 'assets/less/match_view.less'
         }
       },
       development: {
@@ -26,9 +28,11 @@ module.exports = function(grunt) {
           dumpLineNumbers:"comments"
         },
         files: {
-          'assets/css/index.dev.css': 'assets/less/index.less',
-          'assets/css/recruit.dev.css': 'assets/less/recruit.less',
-          'assets/css/club.dev.css': 'assets/less/club.less'
+          'assets/css/dev/index.dev.css': 'assets/less/index.less',
+          'assets/css/dev/recruit.dev.css': 'assets/less/recruit.less',
+          'assets/css/dev/club.dev.css': 'assets/less/club.less',
+          'assets/css/dev/match.dev.css': 'assets/less/match.less',
+          'assets/css/dev/match_view.dev.css': 'assets/less/match_view.less'
         }
       }
     },

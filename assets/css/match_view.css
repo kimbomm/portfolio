@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+body {
+  font-family: 'NotoSansCJKkr';
+}
+html,
+body {
+  height: 100%;
+}
+button {
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  border-color: none;
+}
+legend {
+  text-indent: -9999px;
+}
+fieldset {
+  border: none;
+}
+.wrapper {
+  height: 100%;
+}
+.content_wrap {
+  height: 100%;
+  margin-left: 300px;
+}
+.match_intro {
+  width: 100%;
+  height: 50%;
+  background: url('../../photo/match01.png') no-repeat center;
+}
+.match_intro .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+  text-align: center;
+}
+.match_intro .inner:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.match_intro .text_wrap {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.match_intro .text_wrap > span {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: lighter;
+  color: #4a0001;
+}
+.match_intro .text_wrap .sub {
+  position: relative;
+  top: -20px;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 43.2px;
+  color: #f90304;
+}
+.match_intro .text_wrap .line {
+  width: 240px;
+  height: 6px;
+  margin: 40px auto;
+  background-color: #f90304;
+}
+.match_intro .text_wrap .comment {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+}
+.match_info {
+  margin-top: 65px;
+  text-align: center;
+}
+.match_info .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+}
+.match_info .inner > div {
+  margin: 10px 0;
+}
+.match_info .match_date span {
+  font-size: 38px;
+}
+.match_info .match_status span {
+  font-size: 32px;
+  color: #f90304;
+}
+.match_info .match_stadium span {
+  font-size: 32px;
+}
+.match_info .match_team {
+  font-size: 0px;
+}
+.match_info .match_team div {
+  display: inline-block;
+  padding: 10px 30px;
+  outline: 1px #f00 solid;
+}
+.match_info .match_team .name {
+  font-size: 32px;
+  padding: 20px 10px;
+  color: #4a0001;
+  display: inline-block;
+  vertical-align: middle;
+}
+.match_info .match_team .score {
+  font-size: 72px;
+  color: #000;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+.match_info .match_team .first_team:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 130px;
+  height: 130px;
+  border: 1px #000 solid;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.match_info .match_team .second_team:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 130px;
+  height: 130px;
+  border: 1px #000 solid;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.match_info .line {
+  display: block;
+  width: 240px;
+  height: 6px;
+  margin: 50px auto;
+  background-color: #f90304;
+}
+.record_detail .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+}
+.record_detail .record {
+  padding: 15px 0;
+  position: relative;
+  text-align: center;
+}
+.record_detail .record span {
+  font-size: 32px;
+  display: inline-block;
+}
+.record_detail .record .title {
+  position: relative;
+}
+.record_detail .record .title .sub {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 22px auto;
+  font-size: 28px;
+  color: #999999;
+  text-transform: uppercase;
+}
+.record_detail .record .a_team {
+  position: absolute;
+  top: 20px;
+  left: 150px;
+}
+.record_detail .record .b_team {
+  position: absolute;
+  top: 20px;
+  right: 150px;
+}
+.btngroup {
+  margin-top: 80px;
+  text-align: center;
+}
+.btngroup button {
+  width: 120px;
+  height: 40px;
+  border: 1px #f90304 solid;
+  border-radius: 10px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+.btngroup button span {
+  font-size: 18px;
+  color: #f90304;
+}
