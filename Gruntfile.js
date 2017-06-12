@@ -19,7 +19,8 @@ module.exports = function(grunt) {
           'assets/css/recruit.css': 'assets/less/recruit.less',
           'assets/css/club.css': 'assets/less/club.less',
           'assets/css/match.css': 'assets/less/match.less',
-          'assets/css/match_view.css': 'assets/less/match_view.less'
+          'assets/css/match_view.css': 'assets/less/match_view.less',
+          'assets/css/team.css': 'assets/less/team.less'
         }
       },
       development: {
@@ -32,7 +33,8 @@ module.exports = function(grunt) {
           'assets/css/dev/recruit.dev.css': 'assets/less/recruit.less',
           'assets/css/dev/club.dev.css': 'assets/less/club.less',
           'assets/css/dev/match.dev.css': 'assets/less/match.less',
-          'assets/css/dev/match_view.dev.css': 'assets/less/match_view.less'
+          'assets/css/dev/match_view.dev.css': 'assets/less/match_view.less',
+          'assets/css/dev/team.css': 'assets/less/team.less'
         }
       }
     },
