@@ -1,0 +1,228 @@
+@import "reset.less";
+@import "mixin.less";
+@import "var.less";
+
+.wrapper{
+  height: 100%;
+}
+.content_wrap{
+  height: 100%;
+  margin-left: 300px;
+}
+.match_intro{
+  width: 100%;height: 50%;
+  background: url('../../photo/match01.png') no-repeat center;
+  .inner{
+    .inner();
+    text-align: center;
+    &:before{
+      content:"";
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+    }
+  }
+  .text_wrap{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    >span{
+      display: block;
+      text-align: center;
+      font-size: @intro_title;
+      line-height: 68px;
+      font-weight: lighter;
+      color:@font-main;
+    }
+    .sub{
+      position: relative;
+      top:-20px;
+      font-size: @sub_title;
+      line-height: 1;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 43.2px;
+      color:@font-sub;
+    }
+    .line{
+      width: 240px;height: 6px;
+      margin: 40px auto;
+      background-color: @font-sub;
+    }
+    .comment{
+      font-size: 20px;
+      line-height: 26px;
+      text-align: center;
+      color:@font-white;
+    }
+  }
+}
+.match_title{
+  >div{
+    padding-top: 140px;
+  }
+  .inner{
+    .inner();
+    text-align: center;
+    &:before{
+      content:"";
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+    }
+  }
+  .text_wrap{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    >span{
+      display: block;
+      text-align: center;
+      font-size: @intro_title;
+      line-height: 68px;
+      font-weight: lighter;
+      color:@font-main;
+    }
+    .sub{
+      position: relative;
+      top:-20px;
+      font-size: @sub_title;
+      line-height: 1;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 43.2px;
+      color:@color-gray;
+    }
+    .line{
+      width: 240px;height: 6px;
+      margin: 40px auto;
+      background-color: @font-main;
+    }
+  }
+}
+.match_schedule{
+  padding: 20px 0;
+  .inner{
+    .inner();
+    position: relative;
+  }
+  .btngroup{
+    button{
+      width: 16px;height: 30px;
+      position: absolute;
+      top: 20px;
+      cursor: pointer;
+    }
+    .next{
+      right: 400px;
+      background: url(../../photo/icon/next01.png) no-repeat center;
+    }
+    .prev{
+      left: 400px;
+      background: url(../../photo/icon/prev01.png) no-repeat center;
+    }
+  }
+  .match_month{
+    text-align: center;
+    .month{
+      display: inline-block;
+      font-size: 38px;
+      padding: 10px;
+      .outline();
+    }
+    .month_date{
+      font-size: 0;
+      li{
+        display: inline-block;
+        width: 34.133333px;
+        height: 34.133333px;
+        background-color: @font-sub;
+        .outline();
+        &:before{
+          content:"";
+          display: inline-block;
+          vertical-align: middle;
+          height: 100%;
+        }
+        span{
+          display: inline-block;
+          vertical-align: middle;
+          font-size: 10px;
+          color: @font-white;
+
+        }
+      }
+    }
+  }
+  .schedule{
+    margin-top: 70px;
+    text-align: center;
+    .match_info{
+      display: inline-block;
+      padding-bottom: 50px;
+      border-bottom: 1px @color-gray solid;
+      >div{
+        margin: 10px 0;
+      }
+      .match_date{
+        span{
+          font-size: 20px;
+        }
+      }
+      .match_status{
+        span{
+          font-size: 18px;
+          color:@font-sub;
+        }
+      }
+      .match_stadium{
+        span{
+          font-size: 18px;
+        }
+      }
+      .match_team{
+        font-size: 0px;
+        div{
+          display: inline-block;
+          padding: 10px 30px;
+          .outline();
+        }
+        .name{
+          font-size: 24px;
+          color:@font-main;
+          display: inline-block;
+          vertical-align: middle;
+        }
+        .score{
+          font-size: 60px;
+          color: @font-black;
+          display: inline-block;
+          vertical-align: middle;
+          padding: 0 10px;
+        }
+        .first_team{
+          &:before{
+            content:"";
+            display: inline-block;
+            vertical-align: middle;
+            width: 75px;height: 75px;
+            border: 1px #000 solid;
+            border-radius: 50%;
+            margin-right: 20px;
+          }
+        }
+        .second_team{
+          &:after{
+            content:"";
+            display: inline-block;
+            vertical-align: middle;
+            width: 75px;height: 75px;
+            border: 1px #000 solid;
+            border-radius: 50%;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+}

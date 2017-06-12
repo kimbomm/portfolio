@@ -22,6 +22,8 @@ body {
 }
 button {
   background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  border-color: none;
 }
 legend {
   text-indent: -9999px;

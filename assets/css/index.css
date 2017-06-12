@@ -22,6 +22,8 @@ body {
 }
 button {
   background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  border-color: none;
 }
 legend {
   text-indent: -9999px;
@@ -94,6 +96,7 @@ header .button .login {
   vertical-align: middle;
 }
 .content_wrap .main .text_wrap {
+  position: relative;
   display: inline-block;
   vertical-align: middle;
 }
@@ -106,8 +109,8 @@ header .button .login {
   color: #4a0001;
 }
 .content_wrap .main .text_wrap .sub {
-  position: relative;
-  top: -20px;
+  position: absolute;
+  top: 120px;
   font-size: 36px;
   line-height: 1;
   text-align: center;
@@ -118,7 +121,7 @@ header .button .login {
 .content_wrap .main .text_wrap .line {
   width: 240px;
   height: 6px;
-  margin: 40px auto 0;
+  margin: 60px auto 0;
   background-color: #f90304;
 }
 .content_wrap .match {
@@ -141,6 +144,7 @@ header .button .login {
   vertical-align: middle;
 }
 .content_wrap .match .text_wrap {
+  position: relative;
   display: inline-block;
   vertical-align: middle;
 }
@@ -153,8 +157,9 @@ header .button .login {
   color: #4a0001;
 }
 .content_wrap .match .text_wrap .sub {
-  position: relative;
-  top: -20px;
+  position: absolute;
+  top: 120px;
+  left: 45px;
   font-size: 36px;
   line-height: 1;
   text-transform: uppercase;
@@ -199,6 +204,7 @@ header .button .login {
   outline: 1px #f00 solid;
 }
 .content_wrap .news .text_wrap {
+  position: relative;
   display: block;
   text-align: center;
   padding-top: 140px;
@@ -214,7 +220,7 @@ header .button .login {
 .content_wrap .news .text_wrap .line {
   width: 240px;
   height: 6px;
-  margin: 40px auto 0;
+  margin: 60px auto 0;
   background-color: #e0e0e0;
 }
 .content_wrap .news .news_wrap {
@@ -381,6 +387,7 @@ header .button .login {
   outline: 1px #f00 solid;
 }
 .content_wrap .team .text_wrap {
+  position: relative;
   display: block;
   text-align: center;
   padding-top: 140px;
@@ -396,7 +403,7 @@ header .button .login {
 .content_wrap .team .text_wrap .line {
   width: 240px;
   height: 6px;
-  margin: 40px auto 0;
+  margin: 60px auto 0;
   background-color: #e0e0e0;
 }
 .content_wrap .team .player_list {

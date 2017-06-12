@@ -29,6 +29,8 @@ body {
 /* line 7, assets\less\reset.less */
 button {
   background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  border-color: none;
 }
 /* line 8, assets\less\reset.less */
 legend {
