@@ -163,3 +163,203 @@ fieldset {
   padding: 10px;
   margin-left: 30px;
 }
+.player_list .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+}
+.player_list .player_img {
+  width: 945px;
+  height: 450px;
+  margin: 0 auto;
+  border-radius: 10px;
+  outline: 1px #f00 solid;
+}
+.player_list .player_other {
+  position: relative;
+}
+.player_list .player_other .btngroup button {
+  position: absolute;
+  top: 35px;
+  width: 16px;
+  height: 30px;
+  display: block;
+  cursor: pointer;
+}
+.player_list .player_other .btngroup .next {
+  background: url(../../photo/icon/next01.png) no-repeat center;
+  right: 50px;
+}
+.player_list .player_other .btngroup .prev {
+  background: url(../../photo/icon/prev01.png) no-repeat center;
+  left: 50px;
+}
+.player_list .player_other ul {
+  width: 800px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 0;
+}
+.player_list .player_other li {
+  display: inline-block;
+  width: 75px;
+  height: 100px;
+  text-align: center;
+  margin: 0 20px;
+  outline: 1px #f00 solid;
+}
+.player_list .player_other .other_img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.player_list .player_other span {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  padding: 5px 2px;
+}
+.player_list .player {
+  text-align: center;
+  font-size: 0px;
+  margin: 50px 0;
+}
+.player_list .player span {
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.player_list .player .position {
+  font-size: 60px;
+  letter-spacing: 12px;
+  padding-left: 12px;
+}
+.player_list .player .name {
+  font-size: 60px;
+  letter-spacing: 12px;
+  padding-left: 12px;
+}
+.player_list .player .number {
+  display: block;
+  margin: 0 auto;
+  font-size: 36px;
+  letter-spacing: 7.2px;
+  padding-left: 7.2px;
+  color: #999999;
+  position: relative;
+  top: -10px;
+}
+.player_list .details {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.player_list .details span {
+  width: 250px;
+  font-size: 24px;
+  line-height: 1;
+  color: #999999;
+  display: block;
+  position: relative;
+  text-transform: uppercase;
+}
+.player_list .details .join,
+.player_list .details .birth,
+.player_list .details .foot {
+  text-align: right;
+  margin: 0 auto 0 200px;
+}
+.player_list .details .height,
+.player_list .details .weight,
+.player_list .details .blood {
+  text-align: left;
+  margin: 0 200px 0 auto;
+  position: relative;
+  top: -10px;
+}
+.player_list .record_line {
+  border-bottom: 2px #4a0001 solid;
+  width: 1000px;
+  margin: 0 auto;
+}
+.player_list .record_line span {
+  display: inline-block;
+  font-size: 24px;
+  color: #4a0001;
+  padding: 10px 40px;
+}
+.player_list .record {
+  text-align: center;
+  margin: 50px auto;
+}
+.player_list .record .record_title .text_wrap {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.player_list .record .record_title .text_wrap > span {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: lighter;
+  color: #4a0001;
+}
+.player_list .record .record_title .text_wrap .sub {
+  position: relative;
+  top: -20px;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 43.2px;
+  color: #999999;
+}
+.player_list .record .record_title .text_wrap .line {
+  width: 240px;
+  height: 6px;
+  margin: 40px auto;
+  background-color: #4a0001;
+}
+.player_list .record .record_title .text_wrap .vertical_line {
+  width: 2px;
+  height: 100px;
+  background-color: #4a0001;
+  margin: 0 auto 40px;
+}
+.player_list .record .record_info {
+  overflow: hidden;
+}
+.player_list .record .record_info div {
+  width: 100px;
+  padding: 10px 0;
+  margin: 0 35px;
+  float: left;
+  outline: 1px #f00 solid;
+  text-align: center;
+}
+.player_list .record .record_info div span {
+  display: block;
+  line-height: 1;
+}
+.player_list .record .record_info div span:first-child {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+.player_list .record .record_info div .score {
+  font-size: 60px;
+  color: #4a0001;
+}
+.player_list .btn {
+  margin: 80px 0;
+  text-align: center;
+}
+.player_list .btn button {
+  width: 120px;
+  height: 40px;
+  border: 1px #f90304 solid;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #f90304;
+  cursor: pointer;
+}
