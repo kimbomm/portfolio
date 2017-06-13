@@ -39,30 +39,30 @@ fieldset {
   height: 100%;
   margin-left: 300px;
 }
-.team_intro {
+.news_intro {
   width: 100%;
   height: 50%;
-  background: url('../../photo/team01.png') no-repeat center;
+  background: url('../../photo/news01.png') no-repeat center;
 }
-.team_intro .inner {
+.news_intro .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   outline: 1px #f00 solid;
   text-align: center;
 }
-.team_intro .inner:before {
+.news_intro .inner:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-.team_intro .text_wrap {
+.news_intro .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-.team_intro .text_wrap > span {
+.news_intro .text_wrap > span {
   display: block;
   text-align: center;
   font-size: 60px;
@@ -70,7 +70,7 @@ fieldset {
   font-weight: lighter;
   color: #4a0001;
 }
-.team_intro .text_wrap .sub {
+.news_intro .text_wrap .sub {
   position: relative;
   top: -20px;
   font-size: 36px;
@@ -80,40 +80,40 @@ fieldset {
   letter-spacing: 43.2px;
   color: #fff;
 }
-.team_intro .text_wrap .line {
+.news_intro .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #fff;
 }
-.team_intro .text_wrap .comment {
+.news_intro .text_wrap .comment {
   font-size: 20px;
   line-height: 26px;
   text-align: center;
   color: #fff;
 }
-.team_title > div {
+.news_title > div {
   padding-top: 140px;
 }
-.team_title .inner {
+.news_title .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   outline: 1px #f00 solid;
   text-align: center;
 }
-.team_title .inner:before {
+.news_title .inner:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-.team_title .text_wrap {
+.news_title .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-.team_title .text_wrap > span {
+.news_title .text_wrap > span {
   display: block;
   text-align: center;
   font-size: 60px;
@@ -121,7 +121,7 @@ fieldset {
   font-weight: lighter;
   color: #4a0001;
 }
-.team_title .text_wrap .sub {
+.news_title .text_wrap .sub {
   position: relative;
   top: -20px;
   font-size: 36px;
@@ -131,82 +131,146 @@ fieldset {
   letter-spacing: 43.2px;
   color: #999999;
 }
-.team_title .text_wrap .line {
+.news_title .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
 }
-.team_title .text_wrap .vertical_line {
+.news_title .text_wrap .vertical_line {
   width: 2px;
   height: 100px;
   background-color: #4a0001;
   margin: 0 auto 40px;
 }
-.team_menu .inner {
+.news_menu .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   outline: 1px #f00 solid;
   text-align: center;
 }
-.team_menu ul {
+.news_menu ul {
   width: 1000px;
   font-size: 0px;
   border-bottom: 2px #4a0001 solid;
   text-align: left;
   margin: 0 auto 40px;
 }
-.team_menu li {
+.news_menu li {
+  text-transform: uppercase;
   display: inline-block;
   font-size: 24px;
-  color: #4a0001;
   padding: 10px;
   margin-left: 30px;
 }
-.team_list .inner {
+.news_menu li a {
+  color: #4a0001;
+}
+.news_list .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   outline: 1px #f00 solid;
-  padding: 50px 0;
-  font-size: 0px;
   text-align: center;
 }
-.team_list .player {
-  width: 175px;
-  text-align: center;
-  padding: 10px;
-  display: inline-block;
-  margin: 10px 30px;
+.news_list ul {
+  overflow: hidden;
+  padding: 10px 0;
   outline: 1px #f00 solid;
 }
-.team_list .player .player_img {
-  width: 175px;
-  height: 175px;
+.news_list li {
+  float: left;
+  width: 50%;
+  outline: 1px #f00 solid;
+}
+.news_list li:nth-child(2) img {
+  width: 320px;
+  height: 330px;
+}
+.news_list li:nth-child(3) img {
+  width: 400px;
+  height: 500px;
+}
+.news_list li:last-child img {
+  width: 250px;
+  height: 200px;
+}
+.news_list .news_wrap {
+  padding: 20px 50px;
+  overflow: hidden;
+}
+.news_list .news_img img {
   border-radius: 10px;
-  margin-bottom: 10px;
+  float: left;
+  width: 320px;
+  height: 200px;
+  background-color: #4a0001;
+  margin-bottom: 20px;
 }
-.team_list .player .name {
-  display: block;
-  font-size: 32px;
-  color: #4a0001;
+.news_list .news_text {
+  float: right;
+  width: 400px;
 }
-.team_list .player .position {
+.news_list .news_text:before {
+  content: "";
+  float: left;
+  margin-right: 30px;
   display: inline-block;
-  font-size: 24px;
-  color: #999999;
-  letter-spacing: 7px;
-  text-transform: uppercase;
-  position: relative;
-  top: -15px;
+  width: 70px;
+  height: 67px;
+  background: url('../../photo/icon/chat.png') no-repeat center;
 }
-.team_list .player .number {
+.news_list .news_text span {
   display: inline-block;
-  font-size: 24px;
+  width: 300px;
+  text-align: left;
+}
+.news_list .news_text .writer,
+.news_list .news_text .date {
+  font-size: 16px;
   color: #999999;
-  letter-spacing: 7px;
-  text-transform: uppercase;
-  position: relative;
-  top: -15px;
+}
+.news_list .news_text .title {
+  font-size: 18px;
+  margin: 5px 0;
+}
+.news_list .search {
+  display: inline-block;
+  height: 40px;
+  margin-top: 20px;
+}
+.news_list .search:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.news_list .search input {
+  vertical-align: middle;
+}
+.news_list .search input:first-child {
+  width: 200px;
+  height: 30px;
+  padding: 2px 10px;
+  border-radius: 10px;
+  border: 1px #000 solid;
+}
+.news_list .search input:last-child {
+  width: 40px;
+  height: 36px;
+  border: 1px #000 solid;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+.news_list .btn {
+  text-align: center;
+  margin: 50px 0;
+}
+.news_list .btn button {
+  width: 120px;
+  height: 40px;
+  border: 1px #f90304 solid;
+  border-radius: 10px;
+  color: #f90304;
 }

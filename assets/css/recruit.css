@@ -24,6 +24,7 @@ button {
   background-color: rgba(0, 0, 0, 0);
   border-style: none;
   border-color: none;
+  cursor: pointer;
 }
 legend {
   text-indent: -9999px;

@@ -21,7 +21,9 @@ module.exports = function(grunt) {
           'assets/css/match.css': 'assets/less/match.less',
           'assets/css/match_view.css': 'assets/less/match_view.less',
           'assets/css/team.css': 'assets/less/team.less',
-          'assets/css/team_view.css': 'assets/less/team_view.less'
+          'assets/css/team_view.css': 'assets/less/team_view.less',
+          'assets/css/news.css': 'assets/less/news.less',
+          'assets/css/news_view.css': 'assets/less/news_view.less'
         }
       },
       development: {
@@ -35,8 +37,10 @@ module.exports = function(grunt) {
           'assets/css/dev/club.dev.css': 'assets/less/club.less',
           'assets/css/dev/match.dev.css': 'assets/less/match.less',
           'assets/css/dev/match_view.dev.css': 'assets/less/match_view.less',
-          'assets/css/dev/team.css': 'assets/less/team.less',
-          'assets/css/dev/team_view.css': 'assets/less/team_view.less'
+          'assets/css/dev/team.dev.css': 'assets/less/team.less',
+          'assets/css/dev/team_view.dev.css': 'assets/less/team_view.less',
+          'assets/css/dev/news.dev.css': 'assets/less/news.less',
+          'assets/css/dev/news_view.dev.css': 'assets/less/news_view.less'
         }
       }
     },

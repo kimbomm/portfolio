@@ -31,6 +31,7 @@ button {
   background-color: rgba(0, 0, 0, 0);
   border-style: none;
   border-color: none;
+  cursor: pointer;
 }
 /* line 8, assets\less\reset.less */
 legend {
