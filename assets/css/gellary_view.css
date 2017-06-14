@@ -1,3 +1,4 @@
+@import url('fonts.googleapis.com/earlyaccess/notosanskr.css');
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,7 @@ img {
   vertical-align: top;
 }
 body {
-  font-family: 'NotoSansCJKkr';
+  font-family: 'Noto Sans KR', sans-serif;
 }
 html,
 body {
@@ -93,6 +94,7 @@ header .nav li a {
 .content_wrap .footer {
   width: 100%;
   height: 230px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .content_wrap .footer .inner {
   width: 1024px;
