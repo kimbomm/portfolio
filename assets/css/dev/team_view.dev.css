@@ -118,7 +118,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 11, assets\less\include\footer.less */
@@ -176,7 +175,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 16, assets/less/team_view.less */
@@ -235,7 +233,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 65, assets/less/team_view.less */
@@ -290,7 +287,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 111, assets/less/team_view.less */
@@ -314,7 +310,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
 }
 /* line 130, assets/less/team_view.less */
 .player_list .player_img {
@@ -322,13 +317,18 @@ header .nav li a {
   height: 450px;
   margin: 0 auto;
   border-radius: 10px;
-  outline: 1px #f00 solid;
+  background: url('../../photo/team/player_box.png') no-repeat center;
+  background-size: width: 100%;
 }
 /* line 136, assets/less/team_view.less */
+.player_list .player_img img {
+  height: 100%;
+}
+/* line 140, assets/less/team_view.less */
 .player_list .player_other {
   position: relative;
 }
-/* line 139, assets/less/team_view.less */
+/* line 143, assets/less/team_view.less */
 .player_list .player_other .btngroup button {
   position: absolute;
   top: 35px;
@@ -337,70 +337,73 @@ header .nav li a {
   display: block;
   cursor: pointer;
 }
-/* line 146, assets/less/team_view.less */
+/* line 150, assets/less/team_view.less */
 .player_list .player_other .btngroup .next {
   background: url(../../photo/icon/next01.png) no-repeat center;
   right: 50px;
 }
-/* line 150, assets/less/team_view.less */
+/* line 154, assets/less/team_view.less */
 .player_list .player_other .btngroup .prev {
   background: url(../../photo/icon/prev01.png) no-repeat center;
   left: 50px;
 }
-/* line 155, assets/less/team_view.less */
+/* line 159, assets/less/team_view.less */
 .player_list .player_other ul {
   width: 800px;
   margin: 30px auto;
   text-align: center;
   font-size: 0;
 }
-/* line 161, assets/less/team_view.less */
+/* line 165, assets/less/team_view.less */
 .player_list .player_other li {
   display: inline-block;
   width: 75px;
   height: 100px;
   text-align: center;
   margin: 0 20px;
-  outline: 1px #f00 solid;
 }
-/* line 168, assets/less/team_view.less */
+/* line 171, assets/less/team_view.less */
 .player_list .player_other .other_img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
 }
-/* line 172, assets/less/team_view.less */
+/* line 174, assets/less/team_view.less */
+.player_list .player_other .other_img img {
+  width: 100%;
+}
+/* line 178, assets/less/team_view.less */
 .player_list .player_other span {
   text-transform: uppercase;
   display: inline-block;
   font-size: 13px;
   padding: 5px 2px;
 }
-/* line 179, assets/less/team_view.less */
+/* line 185, assets/less/team_view.less */
 .player_list .player {
   text-align: center;
   font-size: 0px;
   margin: 50px 0;
 }
-/* line 183, assets/less/team_view.less */
+/* line 189, assets/less/team_view.less */
 .player_list .player span {
   display: inline-block;
   text-transform: uppercase;
   line-height: 1;
 }
-/* line 188, assets/less/team_view.less */
+/* line 194, assets/less/team_view.less */
 .player_list .player .position {
   font-size: 60px;
   letter-spacing: 12px;
   padding-left: 12px;
 }
-/* line 193, assets/less/team_view.less */
+/* line 199, assets/less/team_view.less */
 .player_list .player .name {
   font-size: 60px;
   letter-spacing: 12px;
   padding-left: 12px;
 }
-/* line 198, assets/less/team_view.less */
+/* line 204, assets/less/team_view.less */
 .player_list .player .number {
   display: block;
   margin: 0 auto;
@@ -411,12 +414,12 @@ header .nav li a {
   position: relative;
   top: -10px;
 }
-/* line 209, assets/less/team_view.less */
+/* line 215, assets/less/team_view.less */
 .player_list .details {
   text-align: center;
   margin-bottom: 50px;
 }
-/* line 212, assets/less/team_view.less */
+/* line 218, assets/less/team_view.less */
 .player_list .details span {
   width: 250px;
   font-size: 24px;
@@ -426,14 +429,14 @@ header .nav li a {
   position: relative;
   text-transform: uppercase;
 }
-/* line 221, assets/less/team_view.less */
+/* line 227, assets/less/team_view.less */
 .player_list .details .join,
 .player_list .details .birth,
 .player_list .details .foot {
   text-align: right;
   margin: 0 auto 0 200px;
 }
-/* line 226, assets/less/team_view.less */
+/* line 232, assets/less/team_view.less */
 .player_list .details .height,
 .player_list .details .weight,
 .player_list .details .blood {
@@ -442,31 +445,31 @@ header .nav li a {
   position: relative;
   top: -10px;
 }
-/* line 233, assets/less/team_view.less */
+/* line 239, assets/less/team_view.less */
 .player_list .record_line {
   border-bottom: 2px #4a0001 solid;
   width: 1000px;
   margin: 0 auto;
 }
-/* line 237, assets/less/team_view.less */
+/* line 243, assets/less/team_view.less */
 .player_list .record_line span {
   display: inline-block;
   font-size: 24px;
   color: #4a0001;
   padding: 10px 40px;
 }
-/* line 244, assets/less/team_view.less */
+/* line 250, assets/less/team_view.less */
 .player_list .record {
   text-align: center;
   margin: 50px auto;
 }
-/* line 248, assets/less/team_view.less */
+/* line 254, assets/less/team_view.less */
 .player_list .record .record_title .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 252, assets/less/team_view.less */
+/* line 258, assets/less/team_view.less */
 .player_list .record .record_title .text_wrap > span {
   display: block;
   text-align: center;
@@ -475,7 +478,7 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 260, assets/less/team_view.less */
+/* line 266, assets/less/team_view.less */
 .player_list .record .record_title .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -486,54 +489,55 @@ header .nav li a {
   letter-spacing: 43.2px;
   color: #999999;
 }
-/* line 270, assets/less/team_view.less */
+/* line 276, assets/less/team_view.less */
 .player_list .record .record_title .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
 }
-/* line 275, assets/less/team_view.less */
+/* line 281, assets/less/team_view.less */
 .player_list .record .record_title .text_wrap .vertical_line {
   width: 2px;
   height: 100px;
   background-color: #4a0001;
   margin: 0 auto 40px;
 }
-/* line 282, assets/less/team_view.less */
+/* line 288, assets/less/team_view.less */
 .player_list .record .record_info {
   overflow: hidden;
 }
-/* line 284, assets/less/team_view.less */
+/* line 290, assets/less/team_view.less */
 .player_list .record .record_info div {
   width: 100px;
   padding: 10px 0;
-  margin: 0 35px;
+  margin: 0 33px;
   float: left;
-  outline: 1px #f00 solid;
+  border: 1px #999999 solid;
+  border-radius: 10px;
   text-align: center;
 }
-/* line 291, assets/less/team_view.less */
+/* line 298, assets/less/team_view.less */
 .player_list .record .record_info div span {
   display: block;
   line-height: 1;
 }
-/* line 294, assets/less/team_view.less */
+/* line 301, assets/less/team_view.less */
 .player_list .record .record_info div span:first-child {
   font-size: 32px;
   margin-bottom: 40px;
 }
-/* line 299, assets/less/team_view.less */
+/* line 306, assets/less/team_view.less */
 .player_list .record .record_info div .score {
   font-size: 60px;
   color: #4a0001;
 }
-/* line 306, assets/less/team_view.less */
+/* line 313, assets/less/team_view.less */
 .player_list .btn {
   margin: 80px 0;
   text-align: center;
 }
-/* line 309, assets/less/team_view.less */
+/* line 316, assets/less/team_view.less */
 .player_list .btn button {
   width: 120px;
   height: 40px;

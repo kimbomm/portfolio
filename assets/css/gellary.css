@@ -98,7 +98,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .content_wrap .footer .inner:before {
@@ -145,7 +144,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .news_intro .inner:before {
@@ -196,7 +194,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .news_title .inner:before {
@@ -244,7 +241,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .news_menu ul {
@@ -268,7 +264,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .gellary_list .inner ul {

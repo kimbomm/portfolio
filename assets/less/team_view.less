@@ -131,7 +131,11 @@
     width: 945px;height: 450px;
     margin: 0 auto;
     border-radius: 10px;
-    .outline();
+    background: url('../../photo/team/player_box.png') no-repeat center;
+    background-size: width: 100%;
+    img{
+      height: 100%;
+    }
   }
   .player_other{
     position: relative;
@@ -163,11 +167,13 @@
       width: 75px;height: 100px;
       text-align: center;
       margin: 0 20px;
-      .outline();
     }
     .other_img{
       width: 75px;height: 75px;
       border-radius: 50%;
+      img{
+        width: 100%;
+      }
     }
     span{
       text-transform: uppercase;
@@ -284,9 +290,10 @@
       div{
         width: 100px;
         padding: 10px 0;
-        margin: 0 35px;
+        margin: 0 33px;
         float: left;
-        .outline();
+        border: 1px @color-gray solid;
+        border-radius: 10px;
         text-align: center;
         span{
           display: block;

@@ -98,7 +98,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .content_wrap .footer .inner:before {
@@ -145,7 +144,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .team_intro .inner:before {
@@ -196,7 +194,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .team_title .inner:before {
@@ -244,7 +241,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .team_menu ul {
@@ -265,8 +261,7 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
-  padding: 50px 0;
+  padding: 0 0 50px;
   font-size: 0px;
   text-align: center;
 }
@@ -276,13 +271,15 @@ header .nav li a {
   padding: 10px;
   display: inline-block;
   margin: 10px 30px;
-  outline: 1px #f00 solid;
 }
 .team_list .player .player_img {
   width: 175px;
   height: 175px;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+.team_list .player .player_img img {
+  width: 100%;
 }
 .team_list .player .name {
   display: block;

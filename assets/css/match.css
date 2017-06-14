@@ -98,7 +98,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .content_wrap .footer .inner:before {
@@ -145,7 +144,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .match_intro .inner:before {
@@ -196,7 +194,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .match_title .inner:before {
@@ -241,7 +238,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   position: relative;
 }
 .match_schedule .btngroup button {
@@ -266,7 +262,6 @@ header .nav li a {
   display: inline-block;
   font-size: 38px;
   padding: 10px;
-  outline: 1px #f00 solid;
 }
 .match_schedule .match_month .month_date {
   font-size: 0;
@@ -276,7 +271,6 @@ header .nav li a {
   width: 34.133333px;
   height: 34.133333px;
   background-color: #f90304;
-  outline: 1px #f00 solid;
 }
 .match_schedule .match_month .month_date li:before {
   content: "";
@@ -318,7 +312,6 @@ header .nav li a {
 .match_schedule .schedule .match_info .match_team div {
   display: inline-block;
   padding: 10px 30px;
-  outline: 1px #f00 solid;
 }
 .match_schedule .schedule .match_info .match_team .name {
   font-size: 24px;

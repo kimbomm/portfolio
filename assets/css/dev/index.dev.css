@@ -187,7 +187,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
   position: relative;
 }
@@ -266,7 +265,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
 }
 /* line 184, assets/less/index.less */
 .content_wrap .news .text_wrap {
@@ -479,7 +477,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
 }
 /* line 355, assets/less/index.less */
 .content_wrap .team .text_wrap {
@@ -560,7 +557,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 418, assets/less/index.less */
@@ -596,7 +592,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 446, assets/less/index.less */

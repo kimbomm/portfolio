@@ -118,7 +118,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 11, assets\less\include\footer.less */
@@ -176,7 +175,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 16, assets/less/match.less */
@@ -235,7 +233,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 65, assets/less/match.less */
@@ -287,7 +284,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   position: relative;
 }
 /* line 108, assets/less/match.less */
@@ -317,80 +313,77 @@ header .nav li a {
   display: inline-block;
   font-size: 38px;
   padding: 10px;
-  outline: 1px #f00 solid;
 }
-/* line 131, assets/less/match.less */
+/* line 130, assets/less/match.less */
 .match_schedule .match_month .month_date {
   font-size: 0;
 }
-/* line 133, assets/less/match.less */
+/* line 132, assets/less/match.less */
 .match_schedule .match_month .month_date li {
   display: inline-block;
   width: 34.133333px;
   height: 34.133333px;
   background-color: #f90304;
-  outline: 1px #f00 solid;
 }
-/* line 139, assets/less/match.less */
+/* line 137, assets/less/match.less */
 .match_schedule .match_month .month_date li:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 145, assets/less/match.less */
+/* line 143, assets/less/match.less */
 .match_schedule .match_month .month_date li span {
   display: inline-block;
   vertical-align: middle;
   font-size: 10px;
   color: #fff;
 }
-/* line 155, assets/less/match.less */
+/* line 153, assets/less/match.less */
 .match_schedule .schedule {
   margin-top: 70px;
   text-align: center;
 }
-/* line 158, assets/less/match.less */
+/* line 156, assets/less/match.less */
 .match_schedule .schedule .match_info {
   display: inline-block;
   padding-bottom: 50px;
   border-bottom: 1px #999999 solid;
 }
-/* line 162, assets/less/match.less */
+/* line 160, assets/less/match.less */
 .match_schedule .schedule .match_info > div {
   margin: 10px 0;
 }
-/* line 166, assets/less/match.less */
+/* line 164, assets/less/match.less */
 .match_schedule .schedule .match_info .match_date span {
   font-size: 20px;
 }
-/* line 171, assets/less/match.less */
+/* line 169, assets/less/match.less */
 .match_schedule .schedule .match_info .match_status span {
   font-size: 18px;
   color: #f90304;
 }
-/* line 177, assets/less/match.less */
+/* line 175, assets/less/match.less */
 .match_schedule .schedule .match_info .match_stadium span {
   font-size: 18px;
 }
-/* line 181, assets/less/match.less */
+/* line 179, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team {
   font-size: 0px;
 }
-/* line 183, assets/less/match.less */
+/* line 181, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team div {
   display: inline-block;
   padding: 10px 30px;
-  outline: 1px #f00 solid;
 }
-/* line 188, assets/less/match.less */
+/* line 185, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .name {
   font-size: 24px;
   color: #4a0001;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 194, assets/less/match.less */
+/* line 191, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .score {
   font-size: 60px;
   color: #000;
@@ -398,7 +391,7 @@ header .nav li a {
   vertical-align: middle;
   padding: 0 10px;
 }
-/* line 202, assets/less/match.less */
+/* line 199, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .first_team:before {
   content: "";
   display: inline-block;
@@ -409,7 +402,7 @@ header .nav li a {
   border-radius: 50%;
   margin-right: 20px;
 }
-/* line 213, assets/less/match.less */
+/* line 210, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .second_team:after {
   content: "";
   display: inline-block;

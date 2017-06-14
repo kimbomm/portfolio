@@ -118,7 +118,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 11, assets\less\include\footer.less */
@@ -176,7 +175,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 16, assets/less/news_view.less */
@@ -235,7 +233,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 65, assets/less/news_view.less */
@@ -290,7 +287,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 111, assets/less/news_view.less */
@@ -322,7 +318,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
 }
 /* line 134, assets/less/news_view.less */
 .news_content .view_title {

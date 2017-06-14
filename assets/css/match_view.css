@@ -98,7 +98,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .content_wrap .footer .inner:before {
@@ -145,7 +144,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .match_intro .inner:before {
@@ -197,7 +195,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
 }
 .match_info .inner > div {
   margin: 10px 0;
@@ -265,7 +262,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
 }
 .record_detail .record {
   padding: 15px 0;

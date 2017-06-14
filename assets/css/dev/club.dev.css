@@ -118,7 +118,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 11, assets\less\include\footer.less */
@@ -176,7 +175,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 15, assets/less/club.less */
@@ -235,7 +233,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 64, assets/less/club.less */
@@ -348,6 +345,7 @@ header .nav li a {
 }
 /* line 159, assets/less/club.less */
 .wrapper .club_content .club_stadium .map {
+  margin-top: 20px;
   width: 100%;
   height: 400px;
 }

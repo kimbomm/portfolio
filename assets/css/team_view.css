@@ -98,7 +98,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .content_wrap .footer .inner:before {
@@ -145,7 +144,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .team_intro .inner:before {
@@ -196,7 +194,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .team_title .inner:before {
@@ -244,7 +241,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 .team_menu ul {
@@ -265,14 +261,17 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
 }
 .player_list .player_img {
   width: 945px;
   height: 450px;
   margin: 0 auto;
   border-radius: 10px;
-  outline: 1px #f00 solid;
+  background: url('../../photo/team/player_box.png') no-repeat center;
+  background-size: width: 100%;
+}
+.player_list .player_img img {
+  height: 100%;
 }
 .player_list .player_other {
   position: relative;
@@ -305,12 +304,14 @@ header .nav li a {
   height: 100px;
   text-align: center;
   margin: 0 20px;
-  outline: 1px #f00 solid;
 }
 .player_list .player_other .other_img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
+}
+.player_list .player_other .other_img img {
+  width: 100%;
 }
 .player_list .player_other span {
   text-transform: uppercase;
@@ -431,9 +432,10 @@ header .nav li a {
 .player_list .record .record_info div {
   width: 100px;
   padding: 10px 0;
-  margin: 0 35px;
+  margin: 0 33px;
   float: left;
-  outline: 1px #f00 solid;
+  border: 1px #999999 solid;
+  border-radius: 10px;
   text-align: center;
 }
 .player_list .record .record_info div span {

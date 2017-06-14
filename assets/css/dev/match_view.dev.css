@@ -118,7 +118,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 11, assets\less\include\footer.less */
@@ -176,7 +175,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 16, assets/less/match_view.less */
@@ -236,7 +234,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
 }
 /* line 63, assets/less/match_view.less */
 .match_info .inner > div {
@@ -316,7 +313,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
 }
 /* line 138, assets/less/match_view.less */
 .record_detail .record {

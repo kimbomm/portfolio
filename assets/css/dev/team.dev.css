@@ -118,7 +118,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 11, assets\less\include\footer.less */
@@ -176,7 +175,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 16, assets/less/team.less */
@@ -235,7 +233,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 65, assets/less/team.less */
@@ -290,7 +287,6 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
   text-align: center;
 }
 /* line 111, assets/less/team.less */
@@ -314,8 +310,7 @@ header .nav li a {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
-  outline: 1px #f00 solid;
-  padding: 50px 0;
+  padding: 0 0 50px;
   font-size: 0px;
   text-align: center;
 }
@@ -326,22 +321,25 @@ header .nav li a {
   padding: 10px;
   display: inline-block;
   margin: 10px 30px;
-  outline: 1px #f00 solid;
 }
-/* line 140, assets/less/team.less */
+/* line 139, assets/less/team.less */
 .team_list .player .player_img {
   width: 175px;
   height: 175px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
-/* line 145, assets/less/team.less */
+/* line 143, assets/less/team.less */
+.team_list .player .player_img img {
+  width: 100%;
+}
+/* line 147, assets/less/team.less */
 .team_list .player .name {
   display: block;
   font-size: 32px;
   color: #4a0001;
 }
-/* line 150, assets/less/team.less */
+/* line 152, assets/less/team.less */
 .team_list .player .position {
   display: inline-block;
   font-size: 24px;
@@ -351,7 +349,7 @@ header .nav li a {
   position: relative;
   top: -15px;
 }
-/* line 159, assets/less/team.less */
+/* line 161, assets/less/team.less */
 .team_list .player .number {
   display: inline-block;
   font-size: 24px;
