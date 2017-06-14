@@ -10,7 +10,23 @@
 </head>
 <body>
   <div class="wrapper">
-    include "header.html"
+    <header>
+      <div class="button">
+        <a href="#"><span class="login">로그인</span></a>
+        <a href="#"><span class="join">회원가입</span></a>
+      </div>
+      <div class="nav">
+        <h1 class="logo">동네스리그</h1>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="build/news.html">새소식</a></li>
+          <li><a href="build/club.html">클럽소개</a></li>
+          <li><a href="build/team.html">팀원</a></li>
+          <li><a href="build/match.html">경기/기록</a></li>
+          <li><a href="build/recruit.html">팀원모집</a></li>
+        </ul>
+      </div>
+    </header>
     <div class="content_wrap">
 
       <!-- main-intro -->
@@ -202,7 +218,6 @@
           center: new daum.maps.LatLng(33.450701, 126.570667),
           level: 3
         };
-
         var map = new daum.maps.Map(container, options);
       </script>
     </div>

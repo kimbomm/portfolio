@@ -41,22 +41,137 @@ legend {
 fieldset {
   border: none;
 }
-/* line 5, assets/less/news.less */
+/* line 5, assets\less\include\header.less */
+header {
+  height: 80px;
+  width: 100%;
+  vertical-align: middle;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 11, assets\less\include\header.less */
+header .button {
+  font-size: 0;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  top: 31px;
+}
+/* line 18, assets\less\include\header.less */
+header .button span {
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 15px;
+  color: #fff;
+}
+/* line 24, assets\less\include\header.less */
+header .button .login {
+  border-right: 1px #fff solid;
+}
+/* line 28, assets\less\include\header.less */
+header .nav {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  background-color: #f00;
+}
+/* line 34, assets\less\include\header.less */
+header .nav h1 {
+  text-indent: -9999px;
+  width: 140px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  background: url('../../photo/logo.png') no-repeat center;
+}
+/* line 41, assets\less\include\header.less */
+header .nav ul {
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/* line 47, assets\less\include\header.less */
+header .nav li {
+  padding: 10px 5px;
+}
+/* line 49, assets\less\include\header.less */
+header .nav li a {
+  font-size: 18px;
+  color: #fff;
+}
+/* line 6, assets\less\include\footer.less */
+.content_wrap .footer {
+  width: 100%;
+  height: 230px;
+}
+/* line 8, assets\less\include\footer.less */
+.content_wrap .footer .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+  text-align: center;
+}
+/* line 11, assets\less\include\footer.less */
+.content_wrap .footer .inner:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 17, assets\less\include\footer.less */
+.content_wrap .footer .inner > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 21, assets\less\include\footer.less */
+.content_wrap .footer .inner i {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+/* line 26, assets\less\include\footer.less */
+.content_wrap .footer .inner .facebook {
+  background: url('../../photo/icon/sns01.png') no-repeat center;
+}
+/* line 29, assets\less\include\footer.less */
+.content_wrap .footer .inner .google {
+  background: url('../../photo/icon/sns02.png') no-repeat center;
+}
+/* line 32, assets\less\include\footer.less */
+.content_wrap .footer .inner .twitter {
+  background: url('../../photo/icon/sns03.png') no-repeat center;
+}
+/* line 35, assets\less\include\footer.less */
+.content_wrap .footer .inner .youtube {
+  background: url('../../photo/icon/sns04.png') no-repeat center;
+}
+/* line 3, assets/less/news.less */
 .wrapper {
   height: 100%;
 }
-/* line 8, assets/less/news.less */
+/* line 6, assets/less/news.less */
 .content_wrap {
   height: 100%;
   margin-left: 300px;
 }
-/* line 12, assets/less/news.less */
+/* line 10, assets/less/news.less */
 .news_intro {
   width: 100%;
   height: 50%;
   background: url('../../photo/news01.png') no-repeat center;
 }
-/* line 15, assets/less/news.less */
+/* line 13, assets/less/news.less */
 .news_intro .inner {
   width: 1024px;
   height: 100%;
@@ -64,20 +179,20 @@ fieldset {
   outline: 1px #f00 solid;
   text-align: center;
 }
-/* line 18, assets/less/news.less */
+/* line 16, assets/less/news.less */
 .news_intro .inner:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 25, assets/less/news.less */
+/* line 23, assets/less/news.less */
 .news_intro .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 29, assets/less/news.less */
+/* line 27, assets/less/news.less */
 .news_intro .text_wrap > span {
   display: block;
   text-align: center;
@@ -86,7 +201,7 @@ fieldset {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 37, assets/less/news.less */
+/* line 35, assets/less/news.less */
 .news_intro .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -97,25 +212,25 @@ fieldset {
   letter-spacing: 43.2px;
   color: #fff;
 }
-/* line 47, assets/less/news.less */
+/* line 45, assets/less/news.less */
 .news_intro .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #fff;
 }
-/* line 52, assets/less/news.less */
+/* line 50, assets/less/news.less */
 .news_intro .text_wrap .comment {
   font-size: 20px;
   line-height: 26px;
   text-align: center;
   color: #fff;
 }
-/* line 61, assets/less/news.less */
+/* line 59, assets/less/news.less */
 .news_title > div {
   padding-top: 140px;
 }
-/* line 64, assets/less/news.less */
+/* line 62, assets/less/news.less */
 .news_title .inner {
   width: 1024px;
   height: 100%;
@@ -123,20 +238,20 @@ fieldset {
   outline: 1px #f00 solid;
   text-align: center;
 }
-/* line 67, assets/less/news.less */
+/* line 65, assets/less/news.less */
 .news_title .inner:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 74, assets/less/news.less */
+/* line 72, assets/less/news.less */
 .news_title .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 78, assets/less/news.less */
+/* line 76, assets/less/news.less */
 .news_title .text_wrap > span {
   display: block;
   text-align: center;
@@ -145,7 +260,7 @@ fieldset {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 86, assets/less/news.less */
+/* line 84, assets/less/news.less */
 .news_title .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -156,21 +271,21 @@ fieldset {
   letter-spacing: 43.2px;
   color: #999999;
 }
-/* line 96, assets/less/news.less */
+/* line 94, assets/less/news.less */
 .news_title .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
 }
-/* line 101, assets/less/news.less */
+/* line 99, assets/less/news.less */
 .news_title .text_wrap .vertical_line {
   width: 2px;
   height: 100px;
   background-color: #4a0001;
   margin: 0 auto 40px;
 }
-/* line 109, assets/less/news.less */
+/* line 107, assets/less/news.less */
 .news_menu .inner {
   width: 1024px;
   height: 100%;
@@ -178,7 +293,7 @@ fieldset {
   outline: 1px #f00 solid;
   text-align: center;
 }
-/* line 113, assets/less/news.less */
+/* line 111, assets/less/news.less */
 .news_menu ul {
   width: 1000px;
   font-size: 0px;
@@ -186,7 +301,7 @@ fieldset {
   text-align: left;
   margin: 0 auto 40px;
 }
-/* line 120, assets/less/news.less */
+/* line 118, assets/less/news.less */
 .news_menu li {
   text-transform: uppercase;
   display: inline-block;
@@ -194,11 +309,11 @@ fieldset {
   padding: 10px;
   margin-left: 30px;
 }
-/* line 126, assets/less/news.less */
+/* line 124, assets/less/news.less */
 .news_menu li a {
   color: #4a0001;
 }
-/* line 132, assets/less/news.less */
+/* line 130, assets/less/news.less */
 .news_list .inner {
   width: 1024px;
   height: 100%;
@@ -206,39 +321,39 @@ fieldset {
   outline: 1px #f00 solid;
   text-align: center;
 }
-/* line 136, assets/less/news.less */
+/* line 134, assets/less/news.less */
 .news_list ul {
   overflow: hidden;
   padding: 10px 0;
   outline: 1px #f00 solid;
 }
-/* line 141, assets/less/news.less */
+/* line 139, assets/less/news.less */
 .news_list li {
   float: left;
   width: 50%;
   outline: 1px #f00 solid;
 }
-/* line 146, assets/less/news.less */
+/* line 144, assets/less/news.less */
 .news_list li:nth-child(2) img {
   width: 320px;
   height: 330px;
 }
-/* line 151, assets/less/news.less */
+/* line 149, assets/less/news.less */
 .news_list li:nth-child(3) img {
   width: 400px;
   height: 500px;
 }
-/* line 156, assets/less/news.less */
+/* line 154, assets/less/news.less */
 .news_list li:last-child img {
   width: 250px;
   height: 200px;
 }
-/* line 161, assets/less/news.less */
+/* line 159, assets/less/news.less */
 .news_list .news_wrap {
   padding: 20px 50px;
   overflow: hidden;
 }
-/* line 166, assets/less/news.less */
+/* line 164, assets/less/news.less */
 .news_list .news_img img {
   border-radius: 10px;
   float: left;
@@ -247,12 +362,12 @@ fieldset {
   background-color: #4a0001;
   margin-bottom: 20px;
 }
-/* line 174, assets/less/news.less */
+/* line 172, assets/less/news.less */
 .news_list .news_text {
   float: right;
   width: 400px;
 }
-/* line 177, assets/less/news.less */
+/* line 175, assets/less/news.less */
 .news_list .news_text:before {
   content: "";
   float: left;
@@ -262,41 +377,41 @@ fieldset {
   height: 67px;
   background: url('../../photo/icon/chat.png') no-repeat center;
 }
-/* line 185, assets/less/news.less */
+/* line 183, assets/less/news.less */
 .news_list .news_text span {
   display: inline-block;
   width: 300px;
   text-align: left;
 }
-/* line 190, assets/less/news.less */
+/* line 188, assets/less/news.less */
 .news_list .news_text .writer,
 .news_list .news_text .date {
   font-size: 16px;
   color: #999999;
 }
-/* line 194, assets/less/news.less */
+/* line 192, assets/less/news.less */
 .news_list .news_text .title {
   font-size: 18px;
   margin: 5px 0;
 }
-/* line 199, assets/less/news.less */
+/* line 197, assets/less/news.less */
 .news_list .search {
   display: inline-block;
   height: 40px;
   margin-top: 20px;
 }
-/* line 203, assets/less/news.less */
+/* line 201, assets/less/news.less */
 .news_list .search:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 209, assets/less/news.less */
+/* line 207, assets/less/news.less */
 .news_list .search input {
   vertical-align: middle;
 }
-/* line 211, assets/less/news.less */
+/* line 209, assets/less/news.less */
 .news_list .search input:first-child {
   width: 200px;
   height: 30px;
@@ -304,7 +419,7 @@ fieldset {
   border-radius: 10px;
   border: 1px #000 solid;
 }
-/* line 217, assets/less/news.less */
+/* line 215, assets/less/news.less */
 .news_list .search input:last-child {
   width: 40px;
   height: 36px;
@@ -312,12 +427,12 @@ fieldset {
   background-color: rgba(0, 0, 0, 0);
   border-radius: 10px;
 }
-/* line 225, assets/less/news.less */
+/* line 223, assets/less/news.less */
 .news_list .btn {
   text-align: center;
   margin: 50px 0;
 }
-/* line 228, assets/less/news.less */
+/* line 226, assets/less/news.less */
 .news_list .btn button {
   width: 120px;
   height: 40px;

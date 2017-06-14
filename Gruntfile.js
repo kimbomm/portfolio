@@ -23,7 +23,9 @@ module.exports = function(grunt) {
           'assets/css/team.css': 'assets/less/team.less',
           'assets/css/team_view.css': 'assets/less/team_view.less',
           'assets/css/news.css': 'assets/less/news.less',
-          'assets/css/news_view.css': 'assets/less/news_view.less'
+          'assets/css/news_view.css': 'assets/less/news_view.less',
+          'assets/css/gellary.css': 'assets/less/gellary.less',
+          'assets/css/gellary_view.css': 'assets/less/gellary_view.less',
         }
       },
       development: {
@@ -40,7 +42,9 @@ module.exports = function(grunt) {
           'assets/css/dev/team.dev.css': 'assets/less/team.less',
           'assets/css/dev/team_view.dev.css': 'assets/less/team_view.less',
           'assets/css/dev/news.dev.css': 'assets/less/news.less',
-          'assets/css/dev/news_view.dev.css': 'assets/less/news_view.less'
+          'assets/css/dev/news_view.dev.css': 'assets/less/news_view.less',
+          'assets/css/dev/gellary.dev.css': 'assets/less/gellary.less',
+          'assets/css/dev/gellary_view.dev.css': 'assets/less/gellary_view.less'
         }
       }
     },
@@ -58,15 +62,13 @@ module.exports = function(grunt) {
       }
     },
     includes: {
-      files: {
+      build: {
         cwd: 'html',
         src: ['*.html'], // 메인 및 서브 페이지들의 경로
-        dest: 'html/bulid', // 완성될 페이지의 경로
-        flatten: true,
-         // include 파일이 존재할 경로
+        dest: 'bulid/', // 완성될 페이지의 경로
         options: {
-          silent: true,
-          includesPath: 'include/', // 메인 및 서브 페이지가 들어있는 페이지
+          flatten: true,
+          includePath: 'include' // 메인 및 서브 페이지가 들어있는 페이지
         }
       }
     },
@@ -85,13 +87,6 @@ module.exports = function(grunt) {
           spaw:false
         }
       }
-      // includes:{
-      //   files: 'html/*.html',
-      //   tasks: ['includes'],
-      //   options: {
-      //     spaw:false
-      //   }
-      // }
     }
 
   });

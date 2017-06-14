@@ -1,0 +1,41 @@
+@import "reset.less";
+@import "mixin.less";
+@import "var.less";
+
+.content_wrap{
+  .footer{
+    width: 100%;height: 230px;
+    .inner{
+      .inner();
+      text-align: center;
+      &:before{
+        content:"";
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      >div{
+        display: inline-block;
+        vertical-align: middle;
+      }
+      i{
+        display: inline-block;
+        width: 25px;height: 25px;
+        margin: 10px;
+      }
+      .facebook{
+        background: url('../../photo/icon/sns01.png') no-repeat center;
+      }
+      .google{
+        background: url('../../photo/icon/sns02.png') no-repeat center;
+      }
+      .twitter{
+        background: url('../../photo/icon/sns03.png') no-repeat center;
+      }
+      .youtube{
+        background: url('../../photo/icon/sns04.png') no-repeat center;
+      }
+    }
+
+  }
+}

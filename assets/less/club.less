@@ -1,6 +1,4 @@
-@import "reset.less";
-@import "mixin.less";
-@import "var.less";
+@import "import.less";
 
 .wrapper{
   height: 100%;
@@ -96,6 +94,38 @@
         width: 240px;height: 6px;
         margin: 40px auto;
         background-color: @font-main;
+      }
+    }
+    .club_uniform{
+      text-align: center;
+      .uniform{
+        overflow: hidden;
+        margin-top: 100px;
+        div{
+          width: 50%;
+          float: left;
+        }
+        img{
+          display: block;
+          margin: 0 auto;
+        }
+        span{
+          display: block;
+          font-size: 36px;
+          margin-top: 20px;
+          color:@font-main;
+          text-transform: uppercase;
+        }
+      }
+    }
+    .club_emblem{
+      .emblem{
+        text-align: center;
+        margin-top: 100px;
+        img{
+          display: block;
+          margin: 0 auto;
+        }
       }
     }
   }

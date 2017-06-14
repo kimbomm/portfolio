@@ -41,22 +41,137 @@ legend {
 fieldset {
   border: none;
 }
-/* line 5, assets/less/club.less */
+/* line 5, assets\less\include\header.less */
+header {
+  height: 80px;
+  width: 100%;
+  vertical-align: middle;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 11, assets\less\include\header.less */
+header .button {
+  font-size: 0;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  top: 31px;
+}
+/* line 18, assets\less\include\header.less */
+header .button span {
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 15px;
+  color: #fff;
+}
+/* line 24, assets\less\include\header.less */
+header .button .login {
+  border-right: 1px #fff solid;
+}
+/* line 28, assets\less\include\header.less */
+header .nav {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  background-color: #f00;
+}
+/* line 34, assets\less\include\header.less */
+header .nav h1 {
+  text-indent: -9999px;
+  width: 140px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  background: url('../../photo/logo.png') no-repeat center;
+}
+/* line 41, assets\less\include\header.less */
+header .nav ul {
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/* line 47, assets\less\include\header.less */
+header .nav li {
+  padding: 10px 5px;
+}
+/* line 49, assets\less\include\header.less */
+header .nav li a {
+  font-size: 18px;
+  color: #fff;
+}
+/* line 6, assets\less\include\footer.less */
+.content_wrap .footer {
+  width: 100%;
+  height: 230px;
+}
+/* line 8, assets\less\include\footer.less */
+.content_wrap .footer .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+  text-align: center;
+}
+/* line 11, assets\less\include\footer.less */
+.content_wrap .footer .inner:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 17, assets\less\include\footer.less */
+.content_wrap .footer .inner > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 21, assets\less\include\footer.less */
+.content_wrap .footer .inner i {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+/* line 26, assets\less\include\footer.less */
+.content_wrap .footer .inner .facebook {
+  background: url('../../photo/icon/sns01.png') no-repeat center;
+}
+/* line 29, assets\less\include\footer.less */
+.content_wrap .footer .inner .google {
+  background: url('../../photo/icon/sns02.png') no-repeat center;
+}
+/* line 32, assets\less\include\footer.less */
+.content_wrap .footer .inner .twitter {
+  background: url('../../photo/icon/sns03.png') no-repeat center;
+}
+/* line 35, assets\less\include\footer.less */
+.content_wrap .footer .inner .youtube {
+  background: url('../../photo/icon/sns04.png') no-repeat center;
+}
+/* line 3, assets/less/club.less */
 .wrapper {
   height: 100%;
 }
-/* line 7, assets/less/club.less */
+/* line 5, assets/less/club.less */
 .wrapper .content_wrap {
   height: 100%;
   margin-left: 300px;
 }
-/* line 11, assets/less/club.less */
+/* line 9, assets/less/club.less */
 .wrapper .club_intro {
   width: 100%;
   height: 50%;
   background: url('../../photo/club01.png') no-repeat center;
 }
-/* line 14, assets/less/club.less */
+/* line 12, assets/less/club.less */
 .wrapper .club_intro .inner {
   width: 1024px;
   height: 100%;
@@ -64,20 +179,20 @@ fieldset {
   outline: 1px #f00 solid;
   text-align: center;
 }
-/* line 17, assets/less/club.less */
+/* line 15, assets/less/club.less */
 .wrapper .club_intro .inner:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 24, assets/less/club.less */
+/* line 22, assets/less/club.less */
 .wrapper .club_intro .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 28, assets/less/club.less */
+/* line 26, assets/less/club.less */
 .wrapper .club_intro .text_wrap > span {
   display: block;
   text-align: center;
@@ -86,7 +201,7 @@ fieldset {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 36, assets/less/club.less */
+/* line 34, assets/less/club.less */
 .wrapper .club_intro .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -97,25 +212,25 @@ fieldset {
   letter-spacing: 43.2px;
   color: #fff;
 }
-/* line 46, assets/less/club.less */
+/* line 44, assets/less/club.less */
 .wrapper .club_intro .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #fff;
 }
-/* line 51, assets/less/club.less */
+/* line 49, assets/less/club.less */
 .wrapper .club_intro .text_wrap .comment {
   font-size: 20px;
   line-height: 26px;
   text-align: center;
   color: #fff;
 }
-/* line 60, assets/less/club.less */
+/* line 58, assets/less/club.less */
 .wrapper .club_content > div {
   padding-top: 140px;
 }
-/* line 63, assets/less/club.less */
+/* line 61, assets/less/club.less */
 .wrapper .club_content .inner {
   width: 1024px;
   height: 100%;
@@ -123,20 +238,20 @@ fieldset {
   outline: 1px #f00 solid;
   text-align: center;
 }
-/* line 66, assets/less/club.less */
+/* line 64, assets/less/club.less */
 .wrapper .club_content .inner:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 73, assets/less/club.less */
+/* line 71, assets/less/club.less */
 .wrapper .club_content .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 77, assets/less/club.less */
+/* line 75, assets/less/club.less */
 .wrapper .club_content .text_wrap > span {
   display: block;
   text-align: center;
@@ -145,7 +260,7 @@ fieldset {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 85, assets/less/club.less */
+/* line 83, assets/less/club.less */
 .wrapper .club_content .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -156,10 +271,47 @@ fieldset {
   letter-spacing: 43.2px;
   color: #999999;
 }
-/* line 95, assets/less/club.less */
+/* line 93, assets/less/club.less */
 .wrapper .club_content .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
+}
+/* line 99, assets/less/club.less */
+.wrapper .club_content .club_uniform {
+  text-align: center;
+}
+/* line 101, assets/less/club.less */
+.wrapper .club_content .club_uniform .uniform {
+  overflow: hidden;
+  margin-top: 100px;
+}
+/* line 104, assets/less/club.less */
+.wrapper .club_content .club_uniform .uniform div {
+  width: 50%;
+  float: left;
+}
+/* line 108, assets/less/club.less */
+.wrapper .club_content .club_uniform .uniform img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 112, assets/less/club.less */
+.wrapper .club_content .club_uniform .uniform span {
+  display: block;
+  font-size: 36px;
+  margin-top: 20px;
+  color: #4a0001;
+  text-transform: uppercase;
+}
+/* line 122, assets/less/club.less */
+.wrapper .club_content .club_emblem .emblem {
+  text-align: center;
+  margin-top: 100px;
+}
+/* line 125, assets/less/club.less */
+.wrapper .club_content .club_emblem .emblem img {
+  display: block;
+  margin: 0 auto;
 }

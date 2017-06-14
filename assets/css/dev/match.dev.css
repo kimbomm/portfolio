@@ -41,22 +41,137 @@ legend {
 fieldset {
   border: none;
 }
-/* line 5, assets/less/match.less */
+/* line 5, assets\less\include\header.less */
+header {
+  height: 80px;
+  width: 100%;
+  vertical-align: middle;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 11, assets\less\include\header.less */
+header .button {
+  font-size: 0;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  top: 31px;
+}
+/* line 18, assets\less\include\header.less */
+header .button span {
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 15px;
+  color: #fff;
+}
+/* line 24, assets\less\include\header.less */
+header .button .login {
+  border-right: 1px #fff solid;
+}
+/* line 28, assets\less\include\header.less */
+header .nav {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  background-color: #f00;
+}
+/* line 34, assets\less\include\header.less */
+header .nav h1 {
+  text-indent: -9999px;
+  width: 140px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  background: url('../../photo/logo.png') no-repeat center;
+}
+/* line 41, assets\less\include\header.less */
+header .nav ul {
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/* line 47, assets\less\include\header.less */
+header .nav li {
+  padding: 10px 5px;
+}
+/* line 49, assets\less\include\header.less */
+header .nav li a {
+  font-size: 18px;
+  color: #fff;
+}
+/* line 6, assets\less\include\footer.less */
+.content_wrap .footer {
+  width: 100%;
+  height: 230px;
+}
+/* line 8, assets\less\include\footer.less */
+.content_wrap .footer .inner {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  outline: 1px #f00 solid;
+  text-align: center;
+}
+/* line 11, assets\less\include\footer.less */
+.content_wrap .footer .inner:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 17, assets\less\include\footer.less */
+.content_wrap .footer .inner > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 21, assets\less\include\footer.less */
+.content_wrap .footer .inner i {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+/* line 26, assets\less\include\footer.less */
+.content_wrap .footer .inner .facebook {
+  background: url('../../photo/icon/sns01.png') no-repeat center;
+}
+/* line 29, assets\less\include\footer.less */
+.content_wrap .footer .inner .google {
+  background: url('../../photo/icon/sns02.png') no-repeat center;
+}
+/* line 32, assets\less\include\footer.less */
+.content_wrap .footer .inner .twitter {
+  background: url('../../photo/icon/sns03.png') no-repeat center;
+}
+/* line 35, assets\less\include\footer.less */
+.content_wrap .footer .inner .youtube {
+  background: url('../../photo/icon/sns04.png') no-repeat center;
+}
+/* line 3, assets/less/match.less */
 .wrapper {
   height: 100%;
 }
-/* line 8, assets/less/match.less */
+/* line 6, assets/less/match.less */
 .content_wrap {
   height: 100%;
   margin-left: 300px;
 }
-/* line 12, assets/less/match.less */
+/* line 10, assets/less/match.less */
 .match_intro {
   width: 100%;
   height: 50%;
   background: url('../../photo/match01.png') no-repeat center;
 }
-/* line 15, assets/less/match.less */
+/* line 13, assets/less/match.less */
 .match_intro .inner {
   width: 1024px;
   height: 100%;
@@ -64,20 +179,20 @@ fieldset {
   outline: 1px #f00 solid;
   text-align: center;
 }
-/* line 18, assets/less/match.less */
+/* line 16, assets/less/match.less */
 .match_intro .inner:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 25, assets/less/match.less */
+/* line 23, assets/less/match.less */
 .match_intro .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 29, assets/less/match.less */
+/* line 27, assets/less/match.less */
 .match_intro .text_wrap > span {
   display: block;
   text-align: center;
@@ -86,7 +201,7 @@ fieldset {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 37, assets/less/match.less */
+/* line 35, assets/less/match.less */
 .match_intro .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -97,25 +212,25 @@ fieldset {
   letter-spacing: 43.2px;
   color: #f90304;
 }
-/* line 47, assets/less/match.less */
+/* line 45, assets/less/match.less */
 .match_intro .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #f90304;
 }
-/* line 52, assets/less/match.less */
+/* line 50, assets/less/match.less */
 .match_intro .text_wrap .comment {
   font-size: 20px;
   line-height: 26px;
   text-align: center;
   color: #fff;
 }
-/* line 61, assets/less/match.less */
+/* line 59, assets/less/match.less */
 .match_title > div {
   padding-top: 140px;
 }
-/* line 64, assets/less/match.less */
+/* line 62, assets/less/match.less */
 .match_title .inner {
   width: 1024px;
   height: 100%;
@@ -123,20 +238,20 @@ fieldset {
   outline: 1px #f00 solid;
   text-align: center;
 }
-/* line 67, assets/less/match.less */
+/* line 65, assets/less/match.less */
 .match_title .inner:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 74, assets/less/match.less */
+/* line 72, assets/less/match.less */
 .match_title .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 78, assets/less/match.less */
+/* line 76, assets/less/match.less */
 .match_title .text_wrap > span {
   display: block;
   text-align: center;
@@ -145,7 +260,7 @@ fieldset {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 86, assets/less/match.less */
+/* line 84, assets/less/match.less */
 .match_title .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -156,18 +271,18 @@ fieldset {
   letter-spacing: 43.2px;
   color: #999999;
 }
-/* line 96, assets/less/match.less */
+/* line 94, assets/less/match.less */
 .match_title .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
 }
-/* line 103, assets/less/match.less */
+/* line 101, assets/less/match.less */
 .match_schedule {
   padding: 20px 0;
 }
-/* line 105, assets/less/match.less */
+/* line 103, assets/less/match.less */
 .match_schedule .inner {
   width: 1024px;
   height: 100%;
@@ -175,7 +290,7 @@ fieldset {
   outline: 1px #f00 solid;
   position: relative;
 }
-/* line 110, assets/less/match.less */
+/* line 108, assets/less/match.less */
 .match_schedule .btngroup button {
   width: 16px;
   height: 30px;
@@ -183,32 +298,32 @@ fieldset {
   top: 20px;
   cursor: pointer;
 }
-/* line 116, assets/less/match.less */
+/* line 114, assets/less/match.less */
 .match_schedule .btngroup .next {
   right: 400px;
   background: url(../../photo/icon/next01.png) no-repeat center;
 }
-/* line 120, assets/less/match.less */
+/* line 118, assets/less/match.less */
 .match_schedule .btngroup .prev {
   left: 400px;
   background: url(../../photo/icon/prev01.png) no-repeat center;
 }
-/* line 125, assets/less/match.less */
+/* line 123, assets/less/match.less */
 .match_schedule .match_month {
   text-align: center;
 }
-/* line 127, assets/less/match.less */
+/* line 125, assets/less/match.less */
 .match_schedule .match_month .month {
   display: inline-block;
   font-size: 38px;
   padding: 10px;
   outline: 1px #f00 solid;
 }
-/* line 133, assets/less/match.less */
+/* line 131, assets/less/match.less */
 .match_schedule .match_month .month_date {
   font-size: 0;
 }
-/* line 135, assets/less/match.less */
+/* line 133, assets/less/match.less */
 .match_schedule .match_month .month_date li {
   display: inline-block;
   width: 34.133333px;
@@ -216,66 +331,66 @@ fieldset {
   background-color: #f90304;
   outline: 1px #f00 solid;
 }
-/* line 141, assets/less/match.less */
+/* line 139, assets/less/match.less */
 .match_schedule .match_month .month_date li:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 147, assets/less/match.less */
+/* line 145, assets/less/match.less */
 .match_schedule .match_month .month_date li span {
   display: inline-block;
   vertical-align: middle;
   font-size: 10px;
   color: #fff;
 }
-/* line 157, assets/less/match.less */
+/* line 155, assets/less/match.less */
 .match_schedule .schedule {
   margin-top: 70px;
   text-align: center;
 }
-/* line 160, assets/less/match.less */
+/* line 158, assets/less/match.less */
 .match_schedule .schedule .match_info {
   display: inline-block;
   padding-bottom: 50px;
   border-bottom: 1px #999999 solid;
 }
-/* line 164, assets/less/match.less */
+/* line 162, assets/less/match.less */
 .match_schedule .schedule .match_info > div {
   margin: 10px 0;
 }
-/* line 168, assets/less/match.less */
+/* line 166, assets/less/match.less */
 .match_schedule .schedule .match_info .match_date span {
   font-size: 20px;
 }
-/* line 173, assets/less/match.less */
+/* line 171, assets/less/match.less */
 .match_schedule .schedule .match_info .match_status span {
   font-size: 18px;
   color: #f90304;
 }
-/* line 179, assets/less/match.less */
+/* line 177, assets/less/match.less */
 .match_schedule .schedule .match_info .match_stadium span {
   font-size: 18px;
 }
-/* line 183, assets/less/match.less */
+/* line 181, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team {
   font-size: 0px;
 }
-/* line 185, assets/less/match.less */
+/* line 183, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team div {
   display: inline-block;
   padding: 10px 30px;
   outline: 1px #f00 solid;
 }
-/* line 190, assets/less/match.less */
+/* line 188, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .name {
   font-size: 24px;
   color: #4a0001;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 196, assets/less/match.less */
+/* line 194, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .score {
   font-size: 60px;
   color: #000;
@@ -283,7 +398,7 @@ fieldset {
   vertical-align: middle;
   padding: 0 10px;
 }
-/* line 204, assets/less/match.less */
+/* line 202, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .first_team:before {
   content: "";
   display: inline-block;
@@ -294,7 +409,7 @@ fieldset {
   border-radius: 50%;
   margin-right: 20px;
 }
-/* line 215, assets/less/match.less */
+/* line 213, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .second_team:after {
   content: "";
   display: inline-block;
