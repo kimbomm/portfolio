@@ -65,7 +65,7 @@ module.exports = function(grunt) {
       build: {
         cwd: 'html',
         src: ['*.html'], // 메인 및 서브 페이지들의 경로
-        dest: 'bulid/', // 완성될 페이지의 경로
+        dest: 'build/', // 완성될 페이지의 경로
         options: {
           flatten: true,
           includePath: 'include' // 메인 및 서브 페이지가 들어있는 페이지
