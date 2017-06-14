@@ -269,12 +269,10 @@ header .nav li a {
 .news_list ul {
   overflow: hidden;
   padding: 10px 0;
-  outline: 1px #f00 solid;
 }
 .news_list li {
   float: left;
   width: 50%;
-  outline: 1px #f00 solid;
 }
 .news_list li:nth-child(2) img {
   width: 320px;
