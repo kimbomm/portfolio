@@ -264,3 +264,32 @@ header .nav li a {
   display: block;
   margin: 0 auto;
 }
+.wrapper .club_content .club_stadium .stadium_img {
+  margin: 40px 0;
+}
+.wrapper .club_content .club_stadium .stadium_info {
+  margin-bottom: 40px;
+}
+.wrapper .club_content .club_stadium .stadium_info span {
+  display: block;
+  width: 750px;
+  margin: 0 auto;
+  font-size: 15px;
+}
+.wrapper .club_content .club_stadium .stadium_info .main {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.wrapper .club_content .club_stadium .location span {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
+.wrapper .club_content .club_stadium .location .loca_info {
+  font-size: 23px;
+}
+.wrapper .club_content .club_stadium .map {
+  width: 100%;
+  height: 400px;
+}

@@ -41,126 +41,11 @@ legend {
 fieldset {
   border: none;
 }
-/* line 5, assets\less\include\header.less */
-header {
-  height: 80px;
-  width: 100%;
-  vertical-align: middle;
-  position: fixed;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-/* line 11, assets\less\include\header.less */
-header .button {
-  font-size: 0;
-  line-height: 1;
-  display: inline-block;
-  position: absolute;
-  z-index: 2;
-  right: 30px;
-  top: 31px;
-}
-/* line 18, assets\less\include\header.less */
-header .button span {
-  display: inline-block;
-  font-size: 16px;
-  padding: 0 15px;
-  color: #fff;
-}
-/* line 24, assets\less\include\header.less */
-header .button .login {
-  border-right: 1px #fff solid;
-}
-/* line 28, assets\less\include\header.less */
-header .nav {
-  width: 300px;
-  height: 100%;
-  position: fixed;
-  z-index: 2;
-  left: 0;
-  background-color: #f00;
-}
-/* line 34, assets\less\include\header.less */
-header .nav h1 {
-  text-indent: -9999px;
-  width: 140px;
-  height: 100px;
-  position: absolute;
-  top: 100px;
-  left: 80px;
-  background: url('../../photo/logo.png') no-repeat center;
-}
-/* line 41, assets\less\include\header.less */
-header .nav ul {
-  position: absolute;
-  text-align: center;
-  top: 35%;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-/* line 47, assets\less\include\header.less */
-header .nav li {
-  padding: 10px 5px;
-}
-/* line 49, assets\less\include\header.less */
-header .nav li a {
-  font-size: 18px;
-  color: #fff;
-}
-/* line 6, assets\less\include\footer.less */
-.content_wrap .footer {
-  width: 100%;
-  height: 230px;
-}
-/* line 8, assets\less\include\footer.less */
-.content_wrap .footer .inner {
-  width: 1024px;
-  height: 100%;
-  margin: 0 auto;
-  outline: 1px #f00 solid;
-  text-align: center;
-}
-/* line 11, assets\less\include\footer.less */
-.content_wrap .footer .inner:before {
-  content: "";
-  height: 100%;
-  display: inline-block;
-  vertical-align: middle;
-}
-/* line 17, assets\less\include\footer.less */
-.content_wrap .footer .inner > div {
-  display: inline-block;
-  vertical-align: middle;
-}
-/* line 21, assets\less\include\footer.less */
-.content_wrap .footer .inner i {
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  margin: 10px;
-}
-/* line 26, assets\less\include\footer.less */
-.content_wrap .footer .inner .facebook {
-  background: url('../../photo/icon/sns01.png') no-repeat center;
-}
-/* line 29, assets\less\include\footer.less */
-.content_wrap .footer .inner .google {
-  background: url('../../photo/icon/sns02.png') no-repeat center;
-}
-/* line 32, assets\less\include\footer.less */
-.content_wrap .footer .inner .twitter {
-  background: url('../../photo/icon/sns03.png') no-repeat center;
-}
-/* line 35, assets\less\include\footer.less */
-.content_wrap .footer .inner .youtube {
-  background: url('../../photo/icon/sns04.png') no-repeat center;
-}
-/* line 3, assets/less/index.less */
+/* line 5, assets/less/index.less */
 .wrapper {
   height: 100%;
 }
-/* line 6, assets/less/index.less */
+/* line 8, assets/less/index.less */
 header {
   height: 80px;
   width: 100%;
@@ -169,7 +54,7 @@ header {
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 12, assets/less/index.less */
+/* line 14, assets/less/index.less */
 header .button {
   font-size: 0;
   line-height: 1;
@@ -179,18 +64,18 @@ header .button {
   right: 30px;
   top: 31px;
 }
-/* line 19, assets/less/index.less */
+/* line 21, assets/less/index.less */
 header .button span {
   display: inline-block;
   font-size: 16px;
   padding: 0 15px;
   color: #fff;
 }
-/* line 25, assets/less/index.less */
+/* line 27, assets/less/index.less */
 header .button .login {
   border-right: 1px #fff solid;
 }
-/* line 29, assets/less/index.less */
+/* line 31, assets/less/index.less */
 header .nav {
   width: 300px;
   height: 100%;
@@ -199,7 +84,7 @@ header .nav {
   left: 0;
   background-color: #f00;
 }
-/* line 35, assets/less/index.less */
+/* line 37, assets/less/index.less */
 header .nav h1 {
   text-indent: -9999px;
   width: 140px;
@@ -209,7 +94,7 @@ header .nav h1 {
   left: 80px;
   background: url('../../photo/logo.png') no-repeat center;
 }
-/* line 42, assets/less/index.less */
+/* line 44, assets/less/index.less */
 header .nav ul {
   position: absolute;
   text-align: center;
@@ -218,28 +103,28 @@ header .nav ul {
   right: 0;
   margin: auto;
 }
-/* line 48, assets/less/index.less */
+/* line 50, assets/less/index.less */
 header .nav li {
   padding: 10px 5px;
 }
-/* line 50, assets/less/index.less */
+/* line 52, assets/less/index.less */
 header .nav li a {
   font-size: 18px;
   color: #fff;
 }
-/* line 57, assets/less/index.less */
+/* line 59, assets/less/index.less */
 .content_wrap {
   height: 100%;
   margin-left: 300px;
 }
-/* line 60, assets/less/index.less */
+/* line 62, assets/less/index.less */
 .content_wrap .main {
   display: block;
   width: 100%;
   height: 100%;
   position: relative;
 }
-/* line 64, assets/less/index.less */
+/* line 66, assets/less/index.less */
 .content_wrap .main li {
   display: block;
   width: 100%;
@@ -251,20 +136,20 @@ header .nav li a {
   background-size: 100%;
   text-align: center;
 }
-/* line 72, assets/less/index.less */
+/* line 74, assets/less/index.less */
 .content_wrap .main li:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 79, assets/less/index.less */
+/* line 81, assets/less/index.less */
 .content_wrap .main .text_wrap {
   position: relative;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 83, assets/less/index.less */
+/* line 85, assets/less/index.less */
 .content_wrap .main .text_wrap span {
   display: block;
   text-align: center;
@@ -273,7 +158,7 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 91, assets/less/index.less */
+/* line 93, assets/less/index.less */
 .content_wrap .main .text_wrap .sub {
   position: absolute;
   top: 120px;
@@ -284,20 +169,20 @@ header .nav li a {
   letter-spacing: 43.2px;
   color: #f90304;
 }
-/* line 101, assets/less/index.less */
+/* line 103, assets/less/index.less */
 .content_wrap .main .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 60px auto 0;
   background-color: #f90304;
 }
-/* line 108, assets/less/index.less */
+/* line 110, assets/less/index.less */
 .content_wrap .match {
   width: 100%;
   height: 540px;
   background: url('../../photo/main_match.png') no-repeat center;
 }
-/* line 111, assets/less/index.less */
+/* line 113, assets/less/index.less */
 .content_wrap .match .inner {
   width: 1024px;
   height: 100%;
@@ -306,20 +191,20 @@ header .nav li a {
   text-align: center;
   position: relative;
 }
-/* line 115, assets/less/index.less */
+/* line 117, assets/less/index.less */
 .content_wrap .match .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 122, assets/less/index.less */
+/* line 124, assets/less/index.less */
 .content_wrap .match .text_wrap {
   position: relative;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 126, assets/less/index.less */
+/* line 128, assets/less/index.less */
 .content_wrap .match .text_wrap span {
   display: block;
   text-align: center;
@@ -328,7 +213,7 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 134, assets/less/index.less */
+/* line 136, assets/less/index.less */
 .content_wrap .match .text_wrap .sub {
   position: absolute;
   top: 120px;
@@ -339,21 +224,21 @@ header .nav li a {
   letter-spacing: 43.2px;
   color: #f90304;
 }
-/* line 144, assets/less/index.less */
+/* line 146, assets/less/index.less */
 .content_wrap .match .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 60px auto 0;
   background-color: #f90304;
 }
-/* line 151, assets/less/index.less */
+/* line 153, assets/less/index.less */
 .content_wrap .match .score div {
   width: 200px;
   font-size: 0;
   position: absolute;
   top: 100px;
 }
-/* line 157, assets/less/index.less */
+/* line 159, assets/less/index.less */
 .content_wrap .match .score span {
   font-size: 30px;
   line-height: 1;
@@ -363,34 +248,34 @@ header .nav li a {
   display: block;
   vertical-align: middle;
 }
-/* line 166, assets/less/index.less */
+/* line 168, assets/less/index.less */
 .content_wrap .match .score .score_team {
   font-size: 200px;
   margin-top: 50px;
 }
-/* line 170, assets/less/index.less */
+/* line 172, assets/less/index.less */
 .content_wrap .match .score .first_team {
   left: 15px;
 }
-/* line 173, assets/less/index.less */
+/* line 175, assets/less/index.less */
 .content_wrap .match .score .second_team {
   right: 15px;
 }
-/* line 179, assets/less/index.less */
+/* line 181, assets/less/index.less */
 .content_wrap .news .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   outline: 1px #f00 solid;
 }
-/* line 182, assets/less/index.less */
+/* line 184, assets/less/index.less */
 .content_wrap .news .text_wrap {
   position: relative;
   display: block;
   text-align: center;
   padding-top: 140px;
 }
-/* line 187, assets/less/index.less */
+/* line 189, assets/less/index.less */
 .content_wrap .news .text_wrap span {
   display: block;
   text-align: center;
@@ -399,43 +284,43 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 195, assets/less/index.less */
+/* line 197, assets/less/index.less */
 .content_wrap .news .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 60px auto 0;
   background-color: #e0e0e0;
 }
-/* line 201, assets/less/index.less */
+/* line 203, assets/less/index.less */
 .content_wrap .news .news_wrap {
   height: 100%;
   padding: 40px 15px;
   overflow: hidden;
 }
-/* line 205, assets/less/index.less */
+/* line 207, assets/less/index.less */
 .content_wrap .news .news_wrap > div {
   width: 496px;
 }
-/* line 208, assets/less/index.less */
+/* line 210, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left {
   float: left;
 }
-/* line 210, assets/less/index.less */
+/* line 212, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section {
   position: relative;
   float: right;
   padding: 10px;
 }
-/* line 214, assets/less/index.less */
+/* line 216, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section:last-child {
   margin-top: 60px;
 }
-/* line 217, assets/less/index.less */
+/* line 219, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .title_img {
   float: right;
   margin-bottom: 20px;
 }
-/* line 221, assets/less/index.less */
+/* line 223, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .date {
   width: 100px;
   height: 25px;
@@ -443,7 +328,7 @@ header .nav li a {
   display: inline-block;
   text-align: right;
 }
-/* line 226, assets/less/index.less */
+/* line 228, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .date span {
   font-size: 14px;
   line-height: 1;
@@ -452,28 +337,28 @@ header .nav li a {
   color: #333333;
   margin-right: 10px;
 }
-/* line 235, assets/less/index.less */
+/* line 237, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .title {
   float: right;
   width: 300px;
   height: 25px;
   vertical-align: middle;
 }
-/* line 239, assets/less/index.less */
+/* line 241, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .title span {
   font-size: 18px;
   line-height: 1;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 246, assets/less/index.less */
+/* line 248, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .content {
   float: right;
   width: 380px;
   height: 100px;
   margin: 20px 10px;
 }
-/* line 250, assets/less/index.less */
+/* line 252, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .content p {
   display: block;
   font-size: 16px;
@@ -483,7 +368,7 @@ header .nav li a {
   text-overflow: ellipsis;
   color: #666666;
 }
-/* line 260, assets/less/index.less */
+/* line 262, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .reply {
   position: absolute;
   left: 0;
@@ -491,7 +376,7 @@ header .nav li a {
   width: 97px;
   text-align: center;
 }
-/* line 265, assets/less/index.less */
+/* line 267, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .reply i {
   display: inline-block;
   font-size: 24px;
@@ -501,28 +386,28 @@ header .nav li a {
   height: 67px;
   background: url('../../photo/icon/chat.png') no-repeat center;
 }
-/* line 276, assets/less/index.less */
+/* line 278, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right {
   float: right;
   border-left: 2px #e0e0e0 solid;
   padding-top: 70px;
 }
-/* line 280, assets/less/index.less */
+/* line 282, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section {
   position: relative;
   float: left;
   padding: 10px;
 }
-/* line 284, assets/less/index.less */
+/* line 286, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section:last-child {
   margin-top: 60px;
 }
-/* line 287, assets/less/index.less */
+/* line 289, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .title_img {
   float: left;
   margin-bottom: 20px;
 }
-/* line 291, assets/less/index.less */
+/* line 293, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .date {
   clear: left;
   float: right;
@@ -532,7 +417,7 @@ header .nav li a {
   display: inline-block;
   text-align: left;
 }
-/* line 298, assets/less/index.less */
+/* line 300, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .date span {
   font-size: 14px;
   line-height: 1;
@@ -540,28 +425,28 @@ header .nav li a {
   vertical-align: middle;
   color: #333333;
 }
-/* line 306, assets/less/index.less */
+/* line 308, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .title {
   float: left;
   width: 300px;
   height: 25px;
   vertical-align: middle;
 }
-/* line 310, assets/less/index.less */
+/* line 312, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .title span {
   font-size: 18px;
   line-height: 1;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 317, assets/less/index.less */
+/* line 319, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .content {
   float: left;
   width: 380px;
   height: 100px;
   margin: 20px 10px;
 }
-/* line 321, assets/less/index.less */
+/* line 323, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .content p {
   display: block;
   font-size: 16px;
@@ -571,7 +456,7 @@ header .nav li a {
   text-overflow: ellipsis;
   color: #666666;
 }
-/* line 331, assets/less/index.less */
+/* line 333, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .reply {
   position: absolute;
   right: 0;
@@ -579,7 +464,7 @@ header .nav li a {
   width: 97px;
   text-align: center;
 }
-/* line 336, assets/less/index.less */
+/* line 338, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .reply i {
   display: inline-block;
   font-size: 24px;
@@ -589,21 +474,21 @@ header .nav li a {
   height: 67px;
   background: url('../../photo/icon/chat.png') no-repeat center;
 }
-/* line 350, assets/less/index.less */
+/* line 352, assets/less/index.less */
 .content_wrap .team .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   outline: 1px #f00 solid;
 }
-/* line 353, assets/less/index.less */
+/* line 355, assets/less/index.less */
 .content_wrap .team .text_wrap {
   position: relative;
   display: block;
   text-align: center;
   padding-top: 140px;
 }
-/* line 358, assets/less/index.less */
+/* line 360, assets/less/index.less */
 .content_wrap .team .text_wrap span {
   display: block;
   text-align: center;
@@ -612,65 +497,65 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 366, assets/less/index.less */
+/* line 368, assets/less/index.less */
 .content_wrap .team .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 60px auto 0;
   background-color: #e0e0e0;
 }
-/* line 372, assets/less/index.less */
+/* line 374, assets/less/index.less */
 .content_wrap .team .player_list {
   padding: 60px 10px;
   overflow: hidden;
 }
-/* line 375, assets/less/index.less */
+/* line 377, assets/less/index.less */
 .content_wrap .team .player_list li {
   width: 320px;
   height: 320px;
   float: left;
   margin: 10px 10px;
 }
-/* line 379, assets/less/index.less */
+/* line 381, assets/less/index.less */
 .content_wrap .team .player_list li:first-child {
   margin-left: 0;
 }
-/* line 382, assets/less/index.less */
+/* line 384, assets/less/index.less */
 .content_wrap .team .player_list li:last-child {
   margin-right: 0;
 }
-/* line 385, assets/less/index.less */
+/* line 387, assets/less/index.less */
 .content_wrap .team .player_list li .player_info {
   padding: 10px 0;
   overflow: hidden;
 }
-/* line 389, assets/less/index.less */
+/* line 391, assets/less/index.less */
 .content_wrap .team .player_list li .name {
   float: right;
   font-size: 48px;
   line-height: 1;
 }
-/* line 394, assets/less/index.less */
+/* line 396, assets/less/index.less */
 .content_wrap .team .player_list li .sub_info {
   float: right;
   text-align: right;
   padding: 5px 10px;
 }
-/* line 398, assets/less/index.less */
+/* line 400, assets/less/index.less */
 .content_wrap .team .player_list li .sub_info span {
   font-size: 24px;
   text-transform: uppercase;
   display: block;
   line-height: 1;
 }
-/* line 408, assets/less/index.less */
+/* line 410, assets/less/index.less */
 .content_wrap .recruit {
   width: 100%;
   height: 230px;
   background-color: #4a0001;
   margin-top: 140px;
 }
-/* line 413, assets/less/index.less */
+/* line 415, assets/less/index.less */
 .content_wrap .recruit .inner {
   width: 1024px;
   height: 100%;
@@ -678,35 +563,35 @@ header .nav li a {
   outline: 1px #f00 solid;
   text-align: center;
 }
-/* line 416, assets/less/index.less */
+/* line 418, assets/less/index.less */
 .content_wrap .recruit .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 422, assets/less/index.less */
+/* line 424, assets/less/index.less */
 .content_wrap .recruit .inner div {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 426, assets/less/index.less */
+/* line 428, assets/less/index.less */
 .content_wrap .recruit .inner span {
   font-size: 30px;
   font-weight: 300;
   color: #fff;
   display: block;
 }
-/* line 432, assets/less/index.less */
+/* line 434, assets/less/index.less */
 .content_wrap .recruit .inner span:last-child {
   text-decoration: underline;
 }
-/* line 439, assets/less/index.less */
+/* line 441, assets/less/index.less */
 .content_wrap .footer {
   width: 100%;
   height: 230px;
 }
-/* line 441, assets/less/index.less */
+/* line 443, assets/less/index.less */
 .content_wrap .footer .inner {
   width: 1024px;
   height: 100%;
@@ -714,42 +599,42 @@ header .nav li a {
   outline: 1px #f00 solid;
   text-align: center;
 }
-/* line 444, assets/less/index.less */
+/* line 446, assets/less/index.less */
 .content_wrap .footer .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 450, assets/less/index.less */
+/* line 452, assets/less/index.less */
 .content_wrap .footer .inner > div {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 454, assets/less/index.less */
+/* line 456, assets/less/index.less */
 .content_wrap .footer .inner i {
   display: inline-block;
   width: 25px;
   height: 25px;
   margin: 10px;
 }
-/* line 459, assets/less/index.less */
+/* line 461, assets/less/index.less */
 .content_wrap .footer .inner .facebook {
   background: url('../../photo/icon/sns01.png') no-repeat center;
 }
-/* line 462, assets/less/index.less */
+/* line 464, assets/less/index.less */
 .content_wrap .footer .inner .google {
   background: url('../../photo/icon/sns02.png') no-repeat center;
 }
-/* line 465, assets/less/index.less */
+/* line 467, assets/less/index.less */
 .content_wrap .footer .inner .twitter {
   background: url('../../photo/icon/sns03.png') no-repeat center;
 }
-/* line 468, assets/less/index.less */
+/* line 470, assets/less/index.less */
 .content_wrap .footer .inner .youtube {
   background: url('../../photo/icon/sns04.png') no-repeat center;
 }
-/* line 474, assets/less/index.less */
+/* line 476, assets/less/index.less */
 .content_wrap .map {
   width: 100%;
   height: 600px;

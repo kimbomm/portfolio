@@ -86,6 +86,13 @@ module.exports = function(grunt) {
         options: {
           spaw:false
         }
+      },
+      include:{
+        files: 'html/*.html',
+        tasks: ['includes'],
+        options: {
+          spaw:false
+        }
       }
     }
 
