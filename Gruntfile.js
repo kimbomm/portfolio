@@ -72,6 +72,26 @@ module.exports = function(grunt) {
         }
       }
     },
+    imagemin: {                          // Task
+      dynamic: {                         // Another target
+        files: [{
+          expand: true,                  // Enable dynamic expansion
+          cwd: 'photo/',                   // Src matches are relative to this path
+          src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+          dest: 'assets/photo/'                  // Destination path prefix
+        }]
+      }
+    },
+    jshint: {
+      all: ['Gruntfile.js', 'js/*.js', 'assets/**/*.js']
+    },
+    // uglify: {
+    //   my_target: {
+    //     files: {
+    //       'assets/js/output.min.js': ['js/index.js', 'js/news.js']
+    //     }
+    //   }
+    // },
     watch: {
       less: {
         files: 'assets/less/*.less',
@@ -87,6 +107,20 @@ module.exports = function(grunt) {
           spaw:false
         }
       },
+      // jshint:{
+      //   files: 'js/*.js',
+      //   tasks: ['jshint'],
+      //   option: {
+      //     spaw:false
+      //   }
+      // },
+      // uglify:{
+      //   files: 'js/*.js',
+      //   tasks: ['uglify'],
+      //   option: {
+      //     spaw:false
+      //   }
+      // },
       include:{
         files: 'html/*.html',
         tasks: ['includes'],
@@ -99,9 +133,12 @@ module.exports = function(grunt) {
   });
 
   // 플러그인 로드.
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-includes');
   grunt.loadNpmTasks('grunt-serve');
 

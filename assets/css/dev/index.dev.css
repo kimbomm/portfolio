@@ -26,6 +26,7 @@ body {
 html,
 body {
   height: 100%;
+  overflow-x: hidden;
 }
 /* line 7, assets\less\reset.less */
 button {
@@ -83,7 +84,7 @@ header .nav {
   position: fixed;
   z-index: 2;
   left: 0;
-  background-color: #f00;
+  background-color: #4a0001;
 }
 /* line 38, assets/less/index.less */
 header .nav h1 {
@@ -93,7 +94,7 @@ header .nav h1 {
   position: absolute;
   top: 100px;
   left: 80px;
-  background: url('../../photo/logo.png') no-repeat center;
+  background: url('../photo/logo.png') no-repeat center;
 }
 /* line 45, assets/less/index.less */
 header .nav ul {
@@ -133,7 +134,7 @@ header .nav li a {
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../../photo/main_01.png) no-repeat center;
+  background: url(../photo/main_01.png) no-repeat center;
   background-size: 100%;
   text-align: center;
 }
@@ -146,11 +147,10 @@ header .nav li a {
 }
 /* line 82, assets/less/index.less */
 .content_wrap .main .text_wrap {
-  position: relative;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 86, assets/less/index.less */
+/* line 85, assets/less/index.less */
 .content_wrap .main .text_wrap span {
   display: block;
   text-align: center;
@@ -159,15 +159,16 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 94, assets/less/index.less */
+/* line 93, assets/less/index.less */
 .content_wrap .main .text_wrap .sub {
-  position: absolute;
-  top: 120px;
+  position: relative;
+  top: -20px;
   font-size: 36px;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
+  padding-left: 43.2px;
   color: #f90304;
 }
 /* line 104, assets/less/index.less */
@@ -177,13 +178,23 @@ header .nav li a {
   margin: 60px auto 0;
   background-color: #f90304;
 }
-/* line 111, assets/less/index.less */
+/* line 110, assets/less/index.less */
+.content_wrap .main .main_intro2 {
+  display: none;
+  background: url(../photo/main_03.png) no-repeat center;
+}
+/* line 114, assets/less/index.less */
+.content_wrap .main .main_intro3 {
+  display: none;
+  background: url(../photo/main_02.png) no-repeat center;
+}
+/* line 119, assets/less/index.less */
 .content_wrap .match {
   width: 100%;
   height: 540px;
-  background: url('../../photo/main_match.png') no-repeat center;
+  background: url('../photo/main_match.png') no-repeat center;
 }
-/* line 114, assets/less/index.less */
+/* line 122, assets/less/index.less */
 .content_wrap .match .inner {
   width: 1024px;
   height: 100%;
@@ -191,20 +202,20 @@ header .nav li a {
   text-align: center;
   position: relative;
 }
-/* line 118, assets/less/index.less */
+/* line 126, assets/less/index.less */
 .content_wrap .match .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 125, assets/less/index.less */
+/* line 133, assets/less/index.less */
 .content_wrap .match .text_wrap {
   position: relative;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 129, assets/less/index.less */
+/* line 137, assets/less/index.less */
 .content_wrap .match .text_wrap span {
   display: block;
   text-align: center;
@@ -213,7 +224,7 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 137, assets/less/index.less */
+/* line 145, assets/less/index.less */
 .content_wrap .match .text_wrap .sub {
   position: absolute;
   top: 120px;
@@ -224,21 +235,21 @@ header .nav li a {
   letter-spacing: 43.2px;
   color: #f90304;
 }
-/* line 147, assets/less/index.less */
+/* line 155, assets/less/index.less */
 .content_wrap .match .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 60px auto 0;
   background-color: #f90304;
 }
-/* line 154, assets/less/index.less */
+/* line 162, assets/less/index.less */
 .content_wrap .match .score div {
   width: 200px;
   font-size: 0;
   position: absolute;
   top: 100px;
 }
-/* line 160, assets/less/index.less */
+/* line 168, assets/less/index.less */
 .content_wrap .match .score span {
   font-size: 30px;
   line-height: 1;
@@ -248,33 +259,33 @@ header .nav li a {
   display: block;
   vertical-align: middle;
 }
-/* line 169, assets/less/index.less */
+/* line 177, assets/less/index.less */
 .content_wrap .match .score .score_team {
   font-size: 200px;
   margin-top: 50px;
 }
-/* line 173, assets/less/index.less */
+/* line 181, assets/less/index.less */
 .content_wrap .match .score .first_team {
   left: 15px;
 }
-/* line 176, assets/less/index.less */
+/* line 184, assets/less/index.less */
 .content_wrap .match .score .second_team {
   right: 15px;
 }
-/* line 182, assets/less/index.less */
+/* line 190, assets/less/index.less */
 .content_wrap .news .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
 }
-/* line 185, assets/less/index.less */
+/* line 193, assets/less/index.less */
 .content_wrap .news .text_wrap {
   position: relative;
   display: block;
   text-align: center;
   padding-top: 140px;
 }
-/* line 190, assets/less/index.less */
+/* line 198, assets/less/index.less */
 .content_wrap .news .text_wrap span {
   display: block;
   text-align: center;
@@ -283,43 +294,43 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 198, assets/less/index.less */
+/* line 206, assets/less/index.less */
 .content_wrap .news .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 60px auto 0;
   background-color: #e0e0e0;
 }
-/* line 204, assets/less/index.less */
+/* line 212, assets/less/index.less */
 .content_wrap .news .news_wrap {
   height: 100%;
   padding: 40px 15px;
   overflow: hidden;
 }
-/* line 208, assets/less/index.less */
+/* line 216, assets/less/index.less */
 .content_wrap .news .news_wrap > div {
   width: 496px;
 }
-/* line 211, assets/less/index.less */
+/* line 219, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left {
   float: left;
 }
-/* line 213, assets/less/index.less */
+/* line 221, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section {
   position: relative;
   float: right;
   padding: 10px;
 }
-/* line 217, assets/less/index.less */
+/* line 225, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section:last-child {
   margin-top: 60px;
 }
-/* line 220, assets/less/index.less */
+/* line 228, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .title_img {
   float: right;
   margin-bottom: 20px;
 }
-/* line 224, assets/less/index.less */
+/* line 232, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .date {
   width: 100px;
   height: 25px;
@@ -327,7 +338,7 @@ header .nav li a {
   display: inline-block;
   text-align: right;
 }
-/* line 229, assets/less/index.less */
+/* line 237, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .date span {
   font-size: 14px;
   line-height: 1;
@@ -336,28 +347,28 @@ header .nav li a {
   color: #333333;
   margin-right: 10px;
 }
-/* line 238, assets/less/index.less */
+/* line 246, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .title {
   float: right;
   width: 300px;
   height: 25px;
   vertical-align: middle;
 }
-/* line 242, assets/less/index.less */
+/* line 250, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .title span {
   font-size: 18px;
   line-height: 1;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 249, assets/less/index.less */
+/* line 257, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .content {
   float: right;
   width: 380px;
   height: 100px;
   margin: 20px 10px;
 }
-/* line 253, assets/less/index.less */
+/* line 261, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .content p {
   display: block;
   font-size: 16px;
@@ -367,7 +378,7 @@ header .nav li a {
   text-overflow: ellipsis;
   color: #666666;
 }
-/* line 263, assets/less/index.less */
+/* line 271, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .reply {
   position: absolute;
   left: 0;
@@ -375,7 +386,7 @@ header .nav li a {
   width: 97px;
   text-align: center;
 }
-/* line 268, assets/less/index.less */
+/* line 276, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .reply i {
   display: inline-block;
   font-size: 24px;
@@ -383,30 +394,30 @@ header .nav li a {
   color: #fff;
   width: 70px;
   height: 67px;
-  background: url('../../photo/icon/chat.png') no-repeat center;
+  background: url('../photo/icon/chat.png') no-repeat center;
 }
-/* line 279, assets/less/index.less */
+/* line 287, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right {
   float: right;
   border-left: 2px #e0e0e0 solid;
   padding-top: 70px;
 }
-/* line 283, assets/less/index.less */
+/* line 291, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section {
   position: relative;
   float: left;
   padding: 10px;
 }
-/* line 287, assets/less/index.less */
+/* line 295, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section:last-child {
   margin-top: 60px;
 }
-/* line 290, assets/less/index.less */
+/* line 298, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .title_img {
   float: left;
   margin-bottom: 20px;
 }
-/* line 294, assets/less/index.less */
+/* line 302, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .date {
   clear: left;
   float: right;
@@ -416,7 +427,7 @@ header .nav li a {
   display: inline-block;
   text-align: left;
 }
-/* line 301, assets/less/index.less */
+/* line 309, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .date span {
   font-size: 14px;
   line-height: 1;
@@ -424,28 +435,28 @@ header .nav li a {
   vertical-align: middle;
   color: #333333;
 }
-/* line 309, assets/less/index.less */
+/* line 317, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .title {
   float: left;
   width: 300px;
   height: 25px;
   vertical-align: middle;
 }
-/* line 313, assets/less/index.less */
+/* line 321, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .title span {
   font-size: 18px;
   line-height: 1;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 320, assets/less/index.less */
+/* line 328, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .content {
   float: left;
   width: 380px;
   height: 100px;
   margin: 20px 10px;
 }
-/* line 324, assets/less/index.less */
+/* line 332, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .content p {
   display: block;
   font-size: 16px;
@@ -455,7 +466,7 @@ header .nav li a {
   text-overflow: ellipsis;
   color: #666666;
 }
-/* line 334, assets/less/index.less */
+/* line 342, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .reply {
   position: absolute;
   right: 0;
@@ -463,7 +474,7 @@ header .nav li a {
   width: 97px;
   text-align: center;
 }
-/* line 339, assets/less/index.less */
+/* line 347, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .reply i {
   display: inline-block;
   font-size: 24px;
@@ -471,22 +482,22 @@ header .nav li a {
   color: #fff;
   width: 70px;
   height: 67px;
-  background: url('../../photo/icon/chat.png') no-repeat center;
+  background: url('../photo/icon/chat.png') no-repeat center;
 }
-/* line 353, assets/less/index.less */
+/* line 361, assets/less/index.less */
 .content_wrap .team .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
 }
-/* line 356, assets/less/index.less */
+/* line 364, assets/less/index.less */
 .content_wrap .team .text_wrap {
   position: relative;
   display: block;
   text-align: center;
   padding-top: 140px;
 }
-/* line 361, assets/less/index.less */
+/* line 369, assets/less/index.less */
 .content_wrap .team .text_wrap span {
   display: block;
   text-align: center;
@@ -495,142 +506,143 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 369, assets/less/index.less */
+/* line 377, assets/less/index.less */
 .content_wrap .team .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 60px auto 0;
   background-color: #e0e0e0;
 }
-/* line 375, assets/less/index.less */
+/* line 383, assets/less/index.less */
 .content_wrap .team .player_list {
   padding: 60px 10px;
   overflow: hidden;
 }
-/* line 378, assets/less/index.less */
+/* line 386, assets/less/index.less */
 .content_wrap .team .player_list li {
   width: 320px;
   height: 320px;
   float: left;
   margin: 10px 10px;
 }
-/* line 382, assets/less/index.less */
+/* line 390, assets/less/index.less */
 .content_wrap .team .player_list li:first-child {
   margin-left: 0;
 }
-/* line 385, assets/less/index.less */
+/* line 393, assets/less/index.less */
 .content_wrap .team .player_list li:last-child {
   margin-right: 0;
 }
-/* line 388, assets/less/index.less */
+/* line 396, assets/less/index.less */
 .content_wrap .team .player_list li .player_info {
   padding: 10px 0;
   overflow: hidden;
 }
-/* line 392, assets/less/index.less */
+/* line 400, assets/less/index.less */
 .content_wrap .team .player_list li .name {
   float: right;
   font-size: 48px;
   line-height: 1;
 }
-/* line 397, assets/less/index.less */
+/* line 405, assets/less/index.less */
 .content_wrap .team .player_list li .sub_info {
   float: right;
   text-align: right;
   padding: 5px 10px;
 }
-/* line 401, assets/less/index.less */
+/* line 409, assets/less/index.less */
 .content_wrap .team .player_list li .sub_info span {
   font-size: 24px;
   text-transform: uppercase;
   display: block;
   line-height: 1;
 }
-/* line 411, assets/less/index.less */
+/* line 419, assets/less/index.less */
 .content_wrap .recruit {
   width: 100%;
   height: 230px;
-  background-color: #4a0001;
+  background: url('../photo/main_recruit01.png');
   margin-top: 140px;
 }
-/* line 416, assets/less/index.less */
+/* line 424, assets/less/index.less */
 .content_wrap .recruit .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 419, assets/less/index.less */
+/* line 427, assets/less/index.less */
 .content_wrap .recruit .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 425, assets/less/index.less */
+/* line 433, assets/less/index.less */
 .content_wrap .recruit .inner div {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 429, assets/less/index.less */
+/* line 437, assets/less/index.less */
 .content_wrap .recruit .inner span {
   font-size: 30px;
   font-weight: 300;
   color: #fff;
   display: block;
 }
-/* line 435, assets/less/index.less */
+/* line 443, assets/less/index.less */
 .content_wrap .recruit .inner span:last-child {
   text-decoration: underline;
 }
-/* line 442, assets/less/index.less */
+/* line 450, assets/less/index.less */
 .content_wrap .footer {
   width: 100%;
   height: 230px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 444, assets/less/index.less */
+/* line 453, assets/less/index.less */
 .content_wrap .footer .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 447, assets/less/index.less */
+/* line 456, assets/less/index.less */
 .content_wrap .footer .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 453, assets/less/index.less */
+/* line 462, assets/less/index.less */
 .content_wrap .footer .inner > div {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 457, assets/less/index.less */
+/* line 466, assets/less/index.less */
 .content_wrap .footer .inner i {
   display: inline-block;
   width: 25px;
   height: 25px;
   margin: 10px;
 }
-/* line 462, assets/less/index.less */
-.content_wrap .footer .inner .facebook {
-  background: url('../../photo/icon/sns01.png') no-repeat center;
-}
-/* line 465, assets/less/index.less */
-.content_wrap .footer .inner .google {
-  background: url('../../photo/icon/sns02.png') no-repeat center;
-}
-/* line 468, assets/less/index.less */
-.content_wrap .footer .inner .twitter {
-  background: url('../../photo/icon/sns03.png') no-repeat center;
-}
 /* line 471, assets/less/index.less */
-.content_wrap .footer .inner .youtube {
-  background: url('../../photo/icon/sns04.png') no-repeat center;
+.content_wrap .footer .inner .facebook {
+  background: url('../photo/icon/sns01.png') no-repeat center;
+}
+/* line 474, assets/less/index.less */
+.content_wrap .footer .inner .google {
+  background: url('../photo/icon/sns02.png') no-repeat center;
 }
 /* line 477, assets/less/index.less */
+.content_wrap .footer .inner .twitter {
+  background: url('../photo/icon/sns03.png') no-repeat center;
+}
+/* line 480, assets/less/index.less */
+.content_wrap .footer .inner .youtube {
+  background: url('../photo/icon/sns04.png') no-repeat center;
+}
+/* line 486, assets/less/index.less */
 .content_wrap .map {
   width: 100%;
   height: 600px;

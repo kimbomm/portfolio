@@ -20,6 +20,7 @@ body {
 html,
 body {
   height: 100%;
+  overflow-x: hidden;
 }
 button {
   background-color: rgba(0, 0, 0, 0);
@@ -65,7 +66,7 @@ header .nav {
   position: fixed;
   z-index: 2;
   left: 0;
-  background-color: #f00;
+  background-color: #4a0001;
 }
 header .nav h1 {
   text-indent: -9999px;
@@ -140,7 +141,7 @@ header .nav li a {
 .news_intro {
   width: 100%;
   height: 50%;
-  background: url('../../photo/news01.png') no-repeat center;
+  background: url('../photo/news01.png') no-repeat center;
 }
 .news_intro .inner {
   width: 1024px;
@@ -327,6 +328,10 @@ header .nav li a {
   height: 130px;
   background-color: #4a0001;
   margin: 10px;
+}
+.gellary_content .gellary_view .view li img {
+  width: 100%;
+  height: 100%;
 }
 .gellary_content .gellary_view .view .main_img {
   display: block;
