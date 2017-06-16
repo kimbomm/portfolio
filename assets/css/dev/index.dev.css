@@ -1,45 +1,45 @@
 @import url('fonts.googleapis.com/earlyaccess/notosanskr.css');
-/* line 1, assets\less\reset.less */
+/* line 1, assets/less/reset.less */
 * {
   margin: 0;
   padding: 0;
 }
-/* line 2, assets\less\reset.less */
+/* line 2, assets/less/reset.less */
 a {
   text-decoration: none;
   color: #000;
 }
-/* line 3, assets\less\reset.less */
+/* line 3, assets/less/reset.less */
 ol,
 ul {
   list-style: none;
 }
-/* line 4, assets\less\reset.less */
+/* line 4, assets/less/reset.less */
 img {
   vertical-align: top;
 }
-/* line 5, assets\less\reset.less */
+/* line 5, assets/less/reset.less */
 body {
   font-family: 'Noto Sans KR', sans-serif;
 }
-/* line 6, assets\less\reset.less */
+/* line 6, assets/less/reset.less */
 html,
 body {
   height: 100%;
   overflow-x: hidden;
 }
-/* line 7, assets\less\reset.less */
+/* line 7, assets/less/reset.less */
 button {
   background-color: rgba(0, 0, 0, 0);
   border-style: none;
   border-color: none;
   cursor: pointer;
 }
-/* line 8, assets\less\reset.less */
+/* line 8, assets/less/reset.less */
 legend {
   text-indent: -9999px;
 }
-/* line 9, assets\less\reset.less */
+/* line 9, assets/less/reset.less */
 fieldset {
   border: none;
 }
