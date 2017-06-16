@@ -157,16 +157,20 @@
       }
     }
     ul{
-      width: 800px;
+      width: 800px;height: 100px;
       margin: 30px auto;
       text-align: center;
       font-size: 0;
+      .outline();
+      overflow: hidden;
+      position: relative;
     }
     li{
       display: inline-block;
       width: 75px;height: 100px;
       text-align: center;
       margin: 0 20px;
+      .outline();
     }
     .other_img{
       width: 75px;height: 75px;
@@ -210,6 +214,9 @@
       color:@color-gray;
       position: relative;
       top: -10px;
+      &:before{
+        content:"NO. ";
+      }
     }
   }
   .details{
@@ -227,13 +234,54 @@
     .join,.birth,.foot{
       text-align: right;
       margin: 0 auto 0 200px;
-
+    }
+    .join{
+      &:before{
+        content:"입단년도 : ";
+      }
+      &:after{
+        content:"년";
+      }
+    }
+    .birth{
+      &:before{
+        content:"생년월일 : ";
+      }
+    }
+    .foot{
+      &:before{
+        content:"주 사용발 : ";
+      }
     }
     .height,.weight,.blood{
       text-align: left;
       margin: 0 200px 0 auto;
       position: relative;
       top: -10px;
+    }
+    .height{
+      &:before{
+        content:"신장 : ";
+      }
+      &:after{
+        content:"cm";
+      }
+    }
+    .weight{
+      &:before{
+        content:"체중 : ";
+      }
+      &:after{
+        content:"kg";
+      }
+    }
+    .blood{
+      &:before{
+        content:"혈액형 : ";
+      }
+      &:after{
+        content:"형";
+      }
     }
   }
   .record_line{

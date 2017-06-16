@@ -120,16 +120,16 @@ header .nav li a {
   margin: 10px;
 }
 .content_wrap .footer .inner .facebook {
-  background: url('../../photo/icon/sns01.png') no-repeat center;
+  background: url('../photo/icon/sns01.png') no-repeat center;
 }
 .content_wrap .footer .inner .google {
-  background: url('../../photo/icon/sns02.png') no-repeat center;
+  background: url('../photo/icon/sns02.png') no-repeat center;
 }
 .content_wrap .footer .inner .twitter {
-  background: url('../../photo/icon/sns03.png') no-repeat center;
+  background: url('../photo/icon/sns03.png') no-repeat center;
 }
 .content_wrap .footer .inner .youtube {
-  background: url('../../photo/icon/sns04.png') no-repeat center;
+  background: url('../photo/icon/sns04.png') no-repeat center;
 }
 .wrapper {
   height: 100%;
@@ -297,9 +297,13 @@ header .nav li a {
 }
 .player_list .player_other ul {
   width: 800px;
+  height: 100px;
   margin: 30px auto;
   text-align: center;
   font-size: 0;
+  outline: 1px #f00 solid;
+  overflow: hidden;
+  position: relative;
 }
 .player_list .player_other li {
   display: inline-block;
@@ -307,6 +311,7 @@ header .nav li a {
   height: 100px;
   text-align: center;
   margin: 0 20px;
+  outline: 1px #f00 solid;
 }
 .player_list .player_other .other_img {
   width: 75px;
@@ -352,6 +357,9 @@ header .nav li a {
   position: relative;
   top: -10px;
 }
+.player_list .player .number:before {
+  content: "NO. ";
+}
 .player_list .details {
   text-align: center;
   margin-bottom: 50px;
@@ -371,6 +379,18 @@ header .nav li a {
   text-align: right;
   margin: 0 auto 0 200px;
 }
+.player_list .details .join:before {
+  content: "입단년도 : ";
+}
+.player_list .details .join:after {
+  content: "년";
+}
+.player_list .details .birth:before {
+  content: "생년월일 : ";
+}
+.player_list .details .foot:before {
+  content: "주 사용발 : ";
+}
 .player_list .details .height,
 .player_list .details .weight,
 .player_list .details .blood {
@@ -378,6 +398,24 @@ header .nav li a {
   margin: 0 200px 0 auto;
   position: relative;
   top: -10px;
+}
+.player_list .details .height:before {
+  content: "신장 : ";
+}
+.player_list .details .height:after {
+  content: "cm";
+}
+.player_list .details .weight:before {
+  content: "체중 : ";
+}
+.player_list .details .weight:after {
+  content: "kg";
+}
+.player_list .details .blood:before {
+  content: "혈액형 : ";
+}
+.player_list .details .blood:after {
+  content: "형";
 }
 .player_list .record_line {
   border-bottom: 2px #4a0001 solid;
