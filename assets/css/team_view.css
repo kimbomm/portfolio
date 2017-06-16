@@ -296,12 +296,12 @@ header .nav li a {
   left: 50px;
 }
 .player_list .player_other ul {
-  width: 800px;
+  width: 750px;
   height: 100px;
+  padding: 0 25px;
   margin: 30px auto;
   text-align: center;
   font-size: 0;
-  outline: 1px #f00 solid;
   overflow: hidden;
   position: relative;
 }
@@ -310,8 +310,7 @@ header .nav li a {
   width: 75px;
   height: 100px;
   text-align: center;
-  margin: 0 20px;
-  outline: 1px #f00 solid;
+  margin: 0 25px;
 }
 .player_list .player_other .other_img {
   width: 75px;
