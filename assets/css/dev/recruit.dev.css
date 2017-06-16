@@ -209,7 +209,7 @@ header .nav li a {
 .content_wrap .recruit_intro {
   height: 100%;
   text-align: center;
-  background: url('../photo/recruit01.png') no-repeat center;
+  background: url('../photo/recruit01.jpg') no-repeat center;
   background-size: 100%;
 }
 /* line 45, assets/less/recruit.less */
@@ -223,7 +223,7 @@ header .nav li a {
 .content_wrap .recruit_main {
   height: 100%;
   text-align: center;
-  background: url('../photo/recruit02.png') no-repeat center;
+  background: url('../photo/recruit02.jpg') no-repeat center;
   background-size: 100%;
 }
 /* line 57, assets/less/recruit.less */
