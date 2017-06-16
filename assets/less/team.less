@@ -128,7 +128,6 @@
     .inner();
     padding: 0 0 50px;
     font-size: 0px;
-    text-align: center;
   }
   .player{
     width: 175px;
@@ -136,6 +135,7 @@
     padding: 10px;
     display: inline-block;
     margin: 10px 30px;
+    cursor: pointer;
     .player_img{
       width: 175px;height: 175px;
       border-radius: 10px;
@@ -156,7 +156,7 @@
       letter-spacing: 7px;
       text-transform: uppercase;
       position: relative;
-      top: -15px;
+      top: -15px;left: -5px;
     }
     .number{
       display: inline-block;
@@ -165,7 +165,10 @@
       letter-spacing: 7px;
       text-transform: uppercase;
       position: relative;
-      top: -15px;
+      top: -15px;left: 5px;
+      &:before{
+        content: "no."
+      }
     }
   }
 }

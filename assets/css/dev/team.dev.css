@@ -315,15 +315,15 @@ header .nav li a {
   margin: 0 auto;
   padding: 0 0 50px;
   font-size: 0px;
-  text-align: center;
 }
-/* line 133, assets/less/team.less */
+/* line 132, assets/less/team.less */
 .team_list .player {
   width: 175px;
   text-align: center;
   padding: 10px;
   display: inline-block;
   margin: 10px 30px;
+  cursor: pointer;
 }
 /* line 139, assets/less/team.less */
 .team_list .player .player_img {
@@ -351,6 +351,7 @@ header .nav li a {
   text-transform: uppercase;
   position: relative;
   top: -15px;
+  left: -5px;
 }
 /* line 161, assets/less/team.less */
 .team_list .player .number {
@@ -361,4 +362,9 @@ header .nav li a {
   text-transform: uppercase;
   position: relative;
   top: -15px;
+  left: 5px;
+}
+/* line 169, assets/less/team.less */
+.team_list .player .number:before {
+  content: "no.";
 }

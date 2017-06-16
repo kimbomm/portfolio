@@ -266,7 +266,6 @@ header .nav li a {
   margin: 0 auto;
   padding: 0 0 50px;
   font-size: 0px;
-  text-align: center;
 }
 .team_list .player {
   width: 175px;
@@ -274,6 +273,7 @@ header .nav li a {
   padding: 10px;
   display: inline-block;
   margin: 10px 30px;
+  cursor: pointer;
 }
 .team_list .player .player_img {
   width: 175px;
@@ -297,6 +297,7 @@ header .nav li a {
   text-transform: uppercase;
   position: relative;
   top: -15px;
+  left: -5px;
 }
 .team_list .player .number {
   display: inline-block;
@@ -306,4 +307,8 @@ header .nav li a {
   text-transform: uppercase;
   position: relative;
   top: -15px;
+  left: 5px;
+}
+.team_list .player .number:before {
+  content: "no.";
 }

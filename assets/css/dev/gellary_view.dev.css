@@ -415,12 +415,12 @@ header .nav li a {
 }
 /* line 205, assets/less/gellary_view.less */
 .gellary_content .gellary_view .img_btn .next {
-  background: url('../../photo/icon/arrow02.png') no-repeat center;
+  background: url('../photo/icon/arrow02.png') no-repeat center;
   right: 10px;
 }
 /* line 209, assets/less/gellary_view.less */
 .gellary_content .gellary_view .img_btn .prev {
-  background: url('../../photo/icon/arrow01.png') no-repeat center;
+  background: url('../photo/icon/arrow01.png') no-repeat center;
   left: 10px;
 }
 /* line 214, assets/less/gellary_view.less */

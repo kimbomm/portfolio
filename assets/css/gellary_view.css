@@ -346,11 +346,11 @@ header .nav li a {
   top: 30%;
 }
 .gellary_content .gellary_view .img_btn .next {
-  background: url('../../photo/icon/arrow02.png') no-repeat center;
+  background: url('../photo/icon/arrow02.png') no-repeat center;
   right: 10px;
 }
 .gellary_content .gellary_view .img_btn .prev {
-  background: url('../../photo/icon/arrow01.png') no-repeat center;
+  background: url('../photo/icon/arrow01.png') no-repeat center;
   left: 10px;
 }
 .gellary_content .gellary_view .view_btn {
