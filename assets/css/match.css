@@ -266,6 +266,9 @@ header .nav li a {
   font-size: 38px;
   padding: 10px;
 }
+.match_schedule .match_month .month:after {
+  content: "월";
+}
 .match_schedule .match_month .month_date {
   font-size: 0;
 }
