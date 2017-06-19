@@ -49,41 +49,45 @@ $(function(){
        match_prev--;
    })
 
-   //경기일정 출력하기
 
-   // function match(i){
-   //
-   //     var html = "";
-   //
-   //          html += '<div class="match_date">';
-   //          html += '<span>' + match.calendar[i].month + '</span>';
-   //          html += '<span>'+math.calendar[i].time+'</span>';
-   //          html += '</div>';
-   //          html += '<div class="match_status">';
-   //          html += '<span>경기전</span>';
-   //          html += '</div>';
-   //          html += '<div class="match_team">';
-   //          html += '<a href="match_view.html">';
-   //          html += '<div class="first_team">';
-   //          html += '<span class="name">'+match.calendar[i].home+'</span>';
-   //          html += '<span class="score">'+match.calendar[i].home_score+'</span>';
-   //          html += '</div>';
-   //          html += '<div class="second_team">';
-   //          html += '<span class="score">'+match.calendar[i].away_score+'</span>';
-   //          html += '<span class="name">'+match.calendar[i].away+'</span>';
-   //          html += '</div>';
-   //          html += '</a>';
-   //          html += '</div>';
-   //          html += '<div class="match_stadium">';
-   //          html += '<span>'+match.calendar[i].stadium+'</span>';
-   //          html += '</div>';
-   //
-   //      $('.schedule .match_info').append(html);
-   //
-   // };
-   // $('.schedule .match_info div').remove();
-   // match(0);
 
  })
 
+ //경기일정 출력하기
+ $.get('../json/match.json', function(match){
+
+
+   function aa(i){
+     var html='';
+
+      html += '<div class="match_date">';
+      html += '<span>' + match.calendar[i].month + '</span>';
+      html += '<span>'+match.calendar[i].time+'</span>';
+      html += '</div>';
+      html += '<div class="match_status">';
+      html += '<span>경기전</span>';
+      html += '</div>';
+      html += '<div class="match_team">';
+      html += '<a href="match_view.html">';
+      html += '<div class="first_team">';
+      html += '<span class="name">'+match.calendar[i].home+'</span>';
+      html += '<span class="score">'+match.calendar[i].home_score+'</span>';
+      html += '</div>';
+      html += '<div class="second_team">';
+      html += '<span class="score">'+match.calendar[i].away_score+'</span>';
+      html += '<span class="name">'+match.calendar[i].away+'</span>';
+      html += '</div>';
+      html += '</a>';
+      html += '</div>';
+      html += '<div class="match_stadium">';
+      html += '<span>'+match.calendar[i].stadium+'</span>';
+      html += '</div>';
+
+      $('.schedule .match_info').append(html);
+   }
+
+   $('.schedule .match_info div').remove();
+   aa(0)
+
+  })
 })

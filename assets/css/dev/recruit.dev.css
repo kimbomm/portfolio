@@ -1,49 +1,49 @@
 @import url('fonts.googleapis.com/earlyaccess/notosanskr.css');
-/* line 1, assets/less/reset.less */
+/* line 1, assets\less\reset.less */
 * {
   margin: 0;
   padding: 0;
 }
-/* line 2, assets/less/reset.less */
+/* line 2, assets\less\reset.less */
 a {
   text-decoration: none;
   color: #000;
 }
-/* line 3, assets/less/reset.less */
+/* line 3, assets\less\reset.less */
 ol,
 ul {
   list-style: none;
 }
-/* line 4, assets/less/reset.less */
+/* line 4, assets\less\reset.less */
 img {
   vertical-align: top;
 }
-/* line 5, assets/less/reset.less */
+/* line 5, assets\less\reset.less */
 body {
   font-family: 'Noto Sans KR', sans-serif;
 }
-/* line 6, assets/less/reset.less */
+/* line 6, assets\less\reset.less */
 html,
 body {
   height: 100%;
   overflow-x: hidden;
 }
-/* line 7, assets/less/reset.less */
+/* line 7, assets\less\reset.less */
 button {
   background-color: rgba(0, 0, 0, 0);
   border-style: none;
   border-color: none;
   cursor: pointer;
 }
-/* line 8, assets/less/reset.less */
+/* line 8, assets\less\reset.less */
 legend {
   text-indent: -9999px;
 }
-/* line 9, assets/less/reset.less */
+/* line 9, assets\less\reset.less */
 fieldset {
   border: none;
 }
-/* line 5, assets/less/include/header.less */
+/* line 5, assets\less\include\header.less */
 header {
   height: 80px;
   width: 100%;
@@ -52,7 +52,7 @@ header {
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 11, assets/less/include/header.less */
+/* line 11, assets\less\include\header.less */
 header .button {
   font-size: 0;
   line-height: 1;
@@ -62,37 +62,38 @@ header .button {
   right: 30px;
   top: 31px;
 }
-/* line 18, assets/less/include/header.less */
+/* line 18, assets\less\include\header.less */
 header .button span {
   display: inline-block;
   font-size: 16px;
   padding: 0 15px;
   color: #fff;
 }
-/* line 24, assets/less/include/header.less */
+/* line 24, assets\less\include\header.less */
 header .button .login {
   border-right: 1px #fff solid;
 }
-/* line 28, assets/less/include/header.less */
+/* line 28, assets\less\include\header.less */
 header .nav {
-  width: 300px;
+  width: 15.625%;
   height: 100%;
   position: fixed;
   z-index: 2;
   left: 0;
   background-color: #4a0001;
 }
-/* line 34, assets/less/include/header.less */
+/* line 34, assets\less\include\header.less */
 header .nav h1 {
   text-indent: -9999px;
-  width: 140px;
+  width: 46.66666%;
   height: 100px;
   position: absolute;
   top: 100px;
-  left: 80px;
-  background: url('../../photo/logo.png') no-repeat center;
+  left: 27%;
+  background: url('../photo/logo.png') no-repeat center;
+  background-size: 100%;
 }
-/* line 41, assets/less/include/header.less */
+/* line 42, assets\less\include\header.less */
 header .nav ul {
   position: absolute;
   text-align: center;
@@ -101,60 +102,60 @@ header .nav ul {
   right: 0;
   margin: auto;
 }
-/* line 47, assets/less/include/header.less */
+/* line 48, assets\less\include\header.less */
 header .nav li {
   padding: 10px 5px;
 }
-/* line 49, assets/less/include/header.less */
+/* line 50, assets\less\include\header.less */
 header .nav li a {
   font-size: 18px;
   color: #fff;
 }
-/* line 6, assets/less/include/footer.less */
+/* line 6, assets\less\include\footer.less */
 .content_wrap .footer {
   width: 100%;
   height: 230px;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 9, assets/less/include/footer.less */
+/* line 9, assets\less\include\footer.less */
 .content_wrap .footer .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 12, assets/less/include/footer.less */
+/* line 12, assets\less\include\footer.less */
 .content_wrap .footer .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 18, assets/less/include/footer.less */
+/* line 18, assets\less\include\footer.less */
 .content_wrap .footer .inner > div {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 22, assets/less/include/footer.less */
+/* line 22, assets\less\include\footer.less */
 .content_wrap .footer .inner i {
   display: inline-block;
   width: 25px;
   height: 25px;
   margin: 10px;
 }
-/* line 27, assets/less/include/footer.less */
+/* line 27, assets\less\include\footer.less */
 .content_wrap .footer .inner .facebook {
   background: url('../photo/icon/sns01.png') no-repeat center;
 }
-/* line 30, assets/less/include/footer.less */
+/* line 30, assets\less\include\footer.less */
 .content_wrap .footer .inner .google {
   background: url('../photo/icon/sns02.png') no-repeat center;
 }
-/* line 33, assets/less/include/footer.less */
+/* line 33, assets\less\include\footer.less */
 .content_wrap .footer .inner .twitter {
   background: url('../photo/icon/sns03.png') no-repeat center;
 }
-/* line 36, assets/less/include/footer.less */
+/* line 36, assets\less\include\footer.less */
 .content_wrap .footer .inner .youtube {
   background: url('../photo/icon/sns04.png') no-repeat center;
 }
@@ -165,20 +166,16 @@ header .nav li a {
 /* line 6, assets/less/recruit.less */
 .content_wrap {
   height: 100%;
-  margin-left: 300px;
+  margin-left: 15.625%;
   outline: 1px #f00 solid;
 }
-/* line 10, assets/less/recruit.less */
-.content_wrap > div {
-  outline: 1px #f00 solid;
-}
-/* line 13, assets/less/recruit.less */
+/* line 11, assets/less/recruit.less */
 .content_wrap > div .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 17, assets/less/recruit.less */
+/* line 15, assets/less/recruit.less */
 .content_wrap > div .text_wrap > span {
   display: block;
   text-align: center;
@@ -187,7 +184,7 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 25, assets/less/recruit.less */
+/* line 23, assets/less/recruit.less */
 .content_wrap > div .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -198,50 +195,48 @@ header .nav li a {
   letter-spacing: 43.2px;
   color: #fff;
 }
-/* line 35, assets/less/recruit.less */
+/* line 33, assets/less/recruit.less */
 .content_wrap > div .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto 0;
   background-color: #fff;
 }
-/* line 42, assets/less/recruit.less */
+/* line 40, assets/less/recruit.less */
 .content_wrap .recruit_intro {
   height: 100%;
   text-align: center;
   background: url('../photo/recruit01.jpg') no-repeat center;
-  background-size: 100%;
 }
-/* line 45, assets/less/recruit.less */
+/* line 43, assets/less/recruit.less */
 .content_wrap .recruit_intro:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 54, assets/less/recruit.less */
+/* line 51, assets/less/recruit.less */
 .content_wrap .recruit_main {
   height: 100%;
   text-align: center;
   background: url('../photo/recruit02.jpg') no-repeat center;
-  background-size: 100%;
 }
-/* line 57, assets/less/recruit.less */
+/* line 54, assets/less/recruit.less */
 .content_wrap .recruit_main:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 66, assets/less/recruit.less */
+/* line 62, assets/less/recruit.less */
 .content_wrap .recruit_main .text_wrap .sub {
   color: #f90304;
 }
-/* line 69, assets/less/recruit.less */
+/* line 65, assets/less/recruit.less */
 .content_wrap .recruit_main .text_wrap .line {
   background-color: #f90304;
 }
-/* line 73, assets/less/recruit.less */
+/* line 69, assets/less/recruit.less */
 .content_wrap .recruit_main button {
   margin-top: 45px;
   width: 240px;
@@ -254,26 +249,27 @@ header .nav li a {
   color: #000;
   cursor: pointer;
 }
-/* line 85, assets/less/recruit.less */
+/* line 81, assets/less/recruit.less */
 .content_wrap .recruit_form {
+  display: none;
   width: 450px;
   height: 500px;
   border-radius: 30px;
   background-color: #8d8d8d;
   text-align: center;
 }
-/* line 90, assets/less/recruit.less */
+/* line 87, assets/less/recruit.less */
 .content_wrap .recruit_form .form_title {
   padding: 30px 0;
 }
-/* line 92, assets/less/recruit.less */
+/* line 89, assets/less/recruit.less */
 .content_wrap .recruit_form .form_title .title {
   display: block;
   font-size: 38px;
   color: #4a0001;
   line-height: 1;
 }
-/* line 98, assets/less/recruit.less */
+/* line 95, assets/less/recruit.less */
 .content_wrap .recruit_form .form_title .sub_title {
   position: relative;
   top: -7px;
@@ -284,7 +280,7 @@ header .nav li a {
   color: #fff;
   text-transform: uppercase;
 }
-/* line 108, assets/less/recruit.less */
+/* line 105, assets/less/recruit.less */
 .content_wrap .recruit_form .form_title .line {
   display: block;
   width: 120px;
@@ -292,31 +288,31 @@ header .nav li a {
   margin: 30px auto 0;
   background-color: #fff;
 }
-/* line 115, assets/less/recruit.less */
+/* line 112, assets/less/recruit.less */
 .content_wrap .recruit_form .form {
   text-align: left;
   width: 300px;
   margin: 0 auto;
 }
-/* line 119, assets/less/recruit.less */
+/* line 116, assets/less/recruit.less */
 .content_wrap .recruit_form .form div {
   margin-bottom: 20px;
 }
-/* line 121, assets/less/recruit.less */
+/* line 118, assets/less/recruit.less */
 .content_wrap .recruit_form .form div label {
   font-size: 18px;
   font-weight: 100;
 }
-/* line 124, assets/less/recruit.less */
+/* line 121, assets/less/recruit.less */
 .content_wrap .recruit_form .form div label:first-child {
   display: inline-block;
   width: 100px;
 }
-/* line 130, assets/less/recruit.less */
+/* line 127, assets/less/recruit.less */
 .content_wrap .recruit_form .form .btn {
   text-align: center;
 }
-/* line 132, assets/less/recruit.less */
+/* line 129, assets/less/recruit.less */
 .content_wrap .recruit_form .form .btn input {
   margin: 20px 10px 0;
   width: 100px;

@@ -64,7 +64,7 @@ header .button .login {
   border-right: 1px #fff solid;
 }
 header .nav {
-  width: 300px;
+  width: 15.625%;
   height: 100%;
   position: fixed;
   z-index: 2;
@@ -73,12 +73,13 @@ header .nav {
 }
 header .nav h1 {
   text-indent: -9999px;
-  width: 140px;
+  width: 46.66666%;
   height: 100px;
   position: absolute;
   top: 100px;
-  left: 80px;
+  left: 27%;
   background: url('../photo/logo.png') no-repeat center;
+  background-size: 100%;
 }
 header .nav ul {
   position: absolute;
@@ -97,7 +98,7 @@ header .nav li a {
 }
 .content_wrap {
   height: 100%;
-  margin-left: 300px;
+  margin-left: 15.625%;
 }
 .content_wrap .main {
   display: block;
@@ -113,7 +114,6 @@ header .nav li a {
   left: 0;
   top: 0;
   background: url(../photo/main_01.jpg) no-repeat center;
-  background-size: 100%;
   text-align: center;
 }
 .content_wrap .main li:before {
@@ -191,9 +191,8 @@ header .nav li a {
   color: #4a0001;
 }
 .content_wrap .match .text_wrap .sub {
-  position: absolute;
-  top: 120px;
-  left: 45px;
+  position: relative;
+  top: -15px;
   font-size: 36px;
   line-height: 1;
   text-transform: uppercase;
@@ -443,16 +442,23 @@ header .nav li a {
   overflow: hidden;
 }
 .content_wrap .team .player_list li {
-  width: 320px;
-  height: 320px;
+  width: 32%;
   float: left;
   margin: 10px 10px;
+  text-align: center;
 }
 .content_wrap .team .player_list li:first-child {
   margin-left: 0;
 }
 .content_wrap .team .player_list li:last-child {
   margin-right: 0;
+}
+.content_wrap .team .player_list li .player_img {
+  border: 1px #000 solid;
+  margin: 0 10px;
+}
+.content_wrap .team .player_list li .player_img img {
+  width: 100%;
 }
 .content_wrap .team .player_list li .player_info {
   padding: 10px 0;
@@ -547,4 +553,368 @@ header .nav li a {
 .content_wrap .map {
   width: 100%;
   height: 600px;
+}
+@media screen and (max-width: 1200px) {
+  header .nav {
+    width: 120px;
+  }
+  header .nav h1 {
+    width: 80px;
+    margin: 50px auto 0;
+    position: static;
+  }
+  header .nav ul {
+    position: static;
+    margin: 30px auto 0;
+  }
+  header .nav li a {
+    font-size: 15px;
+  }
+  .content_wrap {
+    margin-left: 120px;
+  }
+  .content_wrap .match {
+    height: 300px;
+  }
+  .content_wrap .match .inner {
+    width: 100%;
+  }
+  .content_wrap .match .text_wrap span {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .content_wrap .match .text_wrap .sub {
+    font-size: 24px;
+  }
+  .content_wrap .match .text_wrap .line {
+    width: 200px;
+    height: 4px;
+    margin: 30px auto 0;
+  }
+  .content_wrap .match .score span {
+    font-size: 24px;
+  }
+  .content_wrap .match .score .score_team {
+    font-size: 60px;
+    margin-top: 35px;
+  }
+  .content_wrap .news .inner {
+    width: 100%;
+  }
+  .content_wrap .news .text_wrap {
+    padding-top: 70px;
+  }
+  .content_wrap .news .text_wrap span {
+    font-size: 38px;
+    line-height: 1;
+  }
+  .content_wrap .news .text_wrap .line {
+    width: 200px;
+    height: 4px;
+    margin: 30px auto 0;
+  }
+  .content_wrap .team .inner {
+    width: 100%;
+  }
+  .content_wrap .team .text_wrap {
+    padding-top: 70px;
+  }
+  .content_wrap .team .text_wrap span {
+    font-size: 38px;
+    line-height: 1;
+  }
+  .content_wrap .team .text_wrap .line {
+    width: 200px;
+    height: 4px;
+    margin: 30px auto 0;
+  }
+  .content_wrap .team .player_list li {
+    margin: 0;
+  }
+  .content_wrap .recruit {
+    margin-top: 70px;
+  }
+  .content_wrap .recruit .inner {
+    width: 100%;
+  }
+  .content_wrap .footer .inner {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    position: static;
+    text-align: center;
+  }
+  header .button {
+    display: none;
+  }
+  header .nav {
+    position: static;
+    width: 100%;
+    height: 80px;
+  }
+  header .nav h1 {
+    margin: 0 10px;
+    height: 80px;
+    float: left;
+  }
+  header .nav ul {
+    margin: 0 auto;
+    font-size: 0;
+  }
+  header .nav li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+    line-height: 80px;
+  }
+  .content_wrap {
+    margin-left: 0;
+  }
+  .content_wrap .main .text_wrap span {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .content_wrap .main .text_wrap .sub {
+    font-size: 28px;
+  }
+  .content_wrap .main .text_wrap .line {
+    width: 200px;
+    height: 4px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 580px) {
+  header .nav {
+    position: relative;
+  }
+  header .nav:before {
+    content: "";
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 27px;
+    right: 27px;
+    background: url('../photo/icon/menu01.png') no-repeat center;
+    background-size: 100%;
+    cursor: pointer;
+  }
+  header .nav ul {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: initial;
+    margin: 0;
+    width: 320px;
+    height: auto;
+    border: 1px #999999 solid;
+    background-color: #4a0001;
+  }
+  header .nav li {
+    display: block;
+    line-height: 50px;
+    border-bottom: 1px #999999 solid;
+  }
+  header .nav li:last-child {
+    border-bottom: none;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .content_wrap .news .news_wrap {
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .content_wrap .news .news_wrap > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+  }
+  .content_wrap .news .news_wrap .sec_left {
+    float: none;
+  }
+  .content_wrap .news .news_wrap .sec_left .section {
+    float: none;
+    overflow: hidden;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .date {
+    width: auto;
+    height: 20px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .date span {
+    font-size: 12px;
+    margin-right: 0;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .title {
+    width: 230px;
+    height: 20px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .title span {
+    font-size: 16px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .content {
+    width: 250px;
+    height: 85px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .content p {
+    font-size: 14px;
+    line-height: 22px;
+    height: 85px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .reply {
+    width: 50px;
+    left: 10px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .reply i {
+    font-size: 18px;
+    line-height: 45px;
+    width: 50px;
+    height: 47px;
+    background-size: 100%;
+  }
+  .content_wrap .news .news_wrap .sec_right {
+    float: none;
+  }
+  .content_wrap .news .news_wrap .sec_right .section {
+    float: none;
+    overflow: hidden;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .date {
+    width: auto;
+    height: 20px;
+    margin-right: 0;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .date span {
+    font-size: 12px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .title {
+    width: 230px;
+    height: 20px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .title span {
+    font-size: 16px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .content {
+    width: 250px;
+    height: 85px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .content p {
+    font-size: 14px;
+    line-height: 22px;
+    height: 85px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .reply {
+    width: 50px;
+    right: 10px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .reply i {
+    font-size: 18px;
+    line-height: 45px;
+    width: 50px;
+    height: 47px;
+    background-size: 100%;
+  }
+}
+@media screen and (max-width: 862px) and (min-width: 769px) {
+  .content_wrap .news .news_wrap {
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .content_wrap .news .news_wrap > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+  }
+  .content_wrap .news .news_wrap .sec_left {
+    float: none;
+  }
+  .content_wrap .news .news_wrap .sec_left .section {
+    float: none;
+    overflow: hidden;
+    padding: 5px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .date {
+    width: auto;
+    height: 20px;
+    position: relative;
+    top: 15px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .date span {
+    font-size: 12px;
+    margin-right: 0;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .title {
+    width: auto;
+    height: 20px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .title span {
+    font-size: 16px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .content {
+    width: 200px;
+    height: 85px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .content p {
+    font-size: 14px;
+    line-height: 22px;
+    height: 85px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .reply {
+    width: 50px;
+    left: 10px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .reply i {
+    font-size: 18px;
+    line-height: 45px;
+    width: 50px;
+    height: 47px;
+    background-size: 100%;
+  }
+  .content_wrap .news .news_wrap .sec_right {
+    float: none;
+  }
+  .content_wrap .news .news_wrap .sec_right .section {
+    float: none;
+    overflow: hidden;
+    padding: 5px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .date {
+    width: auto;
+    height: 20px;
+    margin-right: 0;
+    position: relative;
+    top: 15px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .date span {
+    font-size: 12px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .title {
+    width: auto;
+    height: 20px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .title span {
+    font-size: 16px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .content {
+    width: 200px;
+    height: 85px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .content p {
+    font-size: 14px;
+    line-height: 22px;
+    height: 85px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .reply {
+    width: 50px;
+    right: 10px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .reply i {
+    font-size: 18px;
+    line-height: 45px;
+    width: 50px;
+    height: 47px;
+    background-size: 100%;
+  }
 }

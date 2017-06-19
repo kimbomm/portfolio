@@ -61,7 +61,7 @@ header .button .login {
   border-right: 1px #fff solid;
 }
 header .nav {
-  width: 300px;
+  width: 15.625%;
   height: 100%;
   position: fixed;
   z-index: 2;
@@ -70,12 +70,13 @@ header .nav {
 }
 header .nav h1 {
   text-indent: -9999px;
-  width: 140px;
+  width: 46.66666%;
   height: 100px;
   position: absolute;
   top: 100px;
-  left: 80px;
-  background: url('../../photo/logo.png') no-repeat center;
+  left: 27%;
+  background: url('../photo/logo.png') no-repeat center;
+  background-size: 100%;
 }
 header .nav ul {
   position: absolute;
@@ -136,10 +137,7 @@ header .nav li a {
 }
 .content_wrap {
   height: 100%;
-  margin-left: 300px;
-  outline: 1px #f00 solid;
-}
-.content_wrap > div {
+  margin-left: 15.625%;
   outline: 1px #f00 solid;
 }
 .content_wrap > div .text_wrap {
@@ -175,7 +173,6 @@ header .nav li a {
   height: 100%;
   text-align: center;
   background: url('../photo/recruit01.jpg') no-repeat center;
-  background-size: 100%;
 }
 .content_wrap .recruit_intro:before {
   content: "";
@@ -187,7 +184,6 @@ header .nav li a {
   height: 100%;
   text-align: center;
   background: url('../photo/recruit02.jpg') no-repeat center;
-  background-size: 100%;
 }
 .content_wrap .recruit_main:before {
   content: "";
@@ -214,6 +210,7 @@ header .nav li a {
   cursor: pointer;
 }
 .content_wrap .recruit_form {
+  display: none;
   width: 450px;
   height: 500px;
   border-radius: 30px;
