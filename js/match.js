@@ -1,64 +1,93 @@
 $(function(){
- $.get('../json/match.json', function(match){
+  $.get('../json/match.json', function(match){
 
 
-     //달력만들기
+    //달력만들기
     function calendar(control){
 
-        var date = 1;
-        for(i = 0; i < match.calendar[control].date.length; i++){
-            var k = i + date;
-            var html = "";
+      var date = 1;
+      for(i = 0; i < match.calendar[control].date.length; i++){
+        var k = i + date;
+        var html = "";
 
-            html += '<li><a href=""><span>'+k+'</span></a></li>';
+        html += '<li><a href=""><span>'+k+'</span></a></li>';
 
-            $('.match_schedule .month_date').append(html);
-        }
+        $('.match_schedule .month_date').append(html);
+      }
     }
 
-    function month_title(control2){
-        var html = '<span class="month">'+control2+'</span>'
-        $('.match_schedule .month_wrap').append(html);
+    $('.month_date li').remove();
+    var dat = new Date();
+    var month = [];
 
-    };
-    $('.month_wrap>span').remove();
-   $('.month_date li').remove();
-   var month = new Date();
-   month_title(month.getMonth());
-   calendar(month.getMonth());
+    for(i=0; i<12; i++){
+      month[i] = i+1;
+    }
 
-   var match_next = 1;
-   var match_prev = 1;
+    $('.month_wrap .month').html(month[dat.getMonth()]);
+    calendar(dat.getMonth());
 
-   $('.match_schedule .next').click(function(){
-       $('.month_wrap>span').remove();
-       $('.month_date li').remove();
-       month_title(month.getMonth() + match_next);
-       calendar(month.getMonth() + match_next);
-       match_prev = match_next -1;
-       match_next++;
-   });
+    var match_next = 1;
+    var match_prev = -1;
+
+    // 다음 달 이동
+    $('.match_schedule .next').click(function(){
+      $('.month_date li').remove();
+      $('.month_wrap .month').html(month[dat.getMonth()]+match_next);
+      calendar(dat.getMonth()+match_next);
+      match_prev = match_next -1;
+
+      if(match.calendar[dat.getMonth()+match_next].month == 12){
+        $(this).css('display','none');
+      }else if(match.calendar[dat.getMonth()+match_next].month == 2){
+        $('.match_schedule .prev').css('display','block')
+      }
+      calWidth(dat.getMonth()+match_next);
+      match_next++;
+    });
+
+    // 이전 달 이동
+    $('.match_schedule .prev').click(function(){
+      $('.month_date li').remove();
+      $('.month_wrap .month').html(month[dat.getMonth()]+match_prev);
+      calendar(dat.getMonth()+match_prev);
+      match_next = match_prev +1;
+
+      if(match.calendar[dat.getMonth()+match_prev].month == 1){
+        $(this).css('display','none');
+      }else if(match.calendar[dat.getMonth()+match_prev].month == 11){
+        $('.match_schedule .next').css('display','block')
+      }
+      calWidth(dat.getMonth()+match_prev);
+      match_prev--;
+    })
+
+    //달력너비 맞추기
+    function calWidth(i){
+      if(match.calendar[i].date.length == 31){
+        $('.match_schedule .month_date li').css({
+          'width' : $('.match_schedule .inner').width() / 31,
+          'height' : $('.match_schedule .inner').width() / 31
+        })
+      }
+      else if(match.calendar[i].date.length == 30){
+        $('.match_schedule .month_date li').css({
+          'width' : $('.match_schedule .inner').width() / 30,
+          'height' : $('.match_schedule .inner').width() / 30
+        })
+      }
+    }
 
 
-   $('.match_schedule .prev').click(function(){
-       $('.month_wrap>span').remove();
-       $('.month_date li').remove();
-       month_title(month.getMonth() + match_prev);
-       calendar(month.getMonth() + match_prev);
-       match_next = match_prev +1;
-       match_prev--;
-   })
+
+  })
+
+  //경기일정 출력하기
+  $.get('../json/match.json', function(match){
 
 
-
- })
-
- //경기일정 출력하기
- $.get('../json/match.json', function(match){
-
-
-   function aa(i){
-     var html='';
+    function aa(i){
+      var html='';
 
       html += '<div class="match_date">';
       html += '<span>' + match.calendar[i].month + '</span>';
@@ -84,10 +113,10 @@ $(function(){
       html += '</div>';
 
       $('.schedule .match_info').append(html);
-   }
+    }
 
-   $('.schedule .match_info div').remove();
-   aa(0)
+    $('.schedule .match_info div').remove();
+    aa(0)
 
   })
 })
