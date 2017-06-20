@@ -56,6 +56,15 @@ header{
         color:@font-white;
       }
     }
+    .hamburger{
+      display: none;
+      width: 26px;height: 26px;
+      position: absolute;
+      top: 27px;right: 27px;
+      background: url('../photo/icon/menu01.png') no-repeat center;
+      background-size: 100%;
+      cursor: pointer;
+    }
   }
 }
 .content_wrap{
@@ -155,6 +164,14 @@ header{
         width: 240px;height: 6px;
         margin: 60px auto 0;
         background-color: @font-sub;
+      }
+      .match{
+        display: none;
+        margin-top: 30px;
+        width: 100px;height: 30px;
+        border: 1px @font-main solid;
+        border-radius: 10px;
+        color: @font-main;
       }
     }
     .score{
@@ -387,11 +404,17 @@ header{
         float: left;
         margin: 10px 10px;
         text-align: center;
+        position: relative;
         &:first-child{
           margin-left: 0;
         }
         &:last-child{
           margin-right: 0;
+        }
+        &:hover{
+          .player_info{
+            display: block;
+          }
         }
         .player_img{
           border: 1px #000 solid;
@@ -401,23 +424,44 @@ header{
           }
         }
         .player_info{
-          padding: 10px 0;
+          display: none;
+          position: absolute;
+          top: 0;right: 10px;bottom: 0;left: 10px;
+          background-color: rgba(0,0,0,0.3);
           overflow: hidden;
-        }
-        .name{
-          float: right;
-          font-size: 48px;
-          line-height: 1;
-        }
-        .sub_info{
-          float: right;
-          text-align: right;
-          padding: 5px 10px;
-          span{
-            font-size: 24px;
-            text-transform: uppercase;
-            display: block;
-            line-height: 1;
+          text-align: center;
+          &:before{
+            content:"";
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+          }
+          .sub_info{
+            display: inline-block;
+            vertical-align: middle;
+            padding: 5px 10px;
+            font-size: 0px;
+            span{
+              color:@font-white;
+              font-size: 24px;
+              text-transform: uppercase;
+              display: inline-block;
+              line-height: 1;
+            }
+            .name{
+              display: block;
+              font-size: 48px;
+              line-height: 1;
+              margin-bottom: 20px;
+            }
+            .position{
+              margin-right: 20px;
+            }
+            .number{
+              &:before{
+                content:"no. "
+              }
+            }
           }
         }
       }
@@ -489,10 +533,6 @@ header{
       }
     }
 
-  }
-  .map{
-    width: 100%;
-    height: 600px;
   }
 }
 
@@ -645,22 +685,32 @@ header{
     }
   }
 }
-// nav 부분 상세 media query
 @media screen and (max-width:580px){
+  .content_wrap{
+    .recruit{
+      .inner{
+        span{
+          font-size: 24px;
+          font-weight: 100;
+        }
+      }
+    }
+    .footer{
+      .inner{
+        span{
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
 
+
+// nav, main 부분 상세 media query
+@media screen and (max-width:580px){
   header{
     .nav{
       position: relative;
-      &:before{
-        content:"";
-        display: inline-block;
-        width: 26px;height: 26px;
-        position: absolute;
-        top: 27px;right: 27px;
-        background: url('../photo/icon/menu01.png') no-repeat center;
-        background-size: 100%;
-        cursor: pointer;
-      }
       ul{
         display: none;
         position: absolute;
@@ -680,10 +730,79 @@ header{
           border-bottom: none;
         }
       }
+      .hamburger{
+        display: block;
+      }
+    }
+  }
+  .content_wrap{
+    .main{
+      .text_wrap{
+        span{
+          font-size: 32px;
+          line-height: 40px;
+        }
+        .sub{
+          font-size: 24px;
+          letter-spacing: 32px;
+          padding-left: 32px;
+        }
+        .line{
+          width: 150px;height: 2px;
+          margin-top: 30px;
+        }
+      }
     }
   }
 }
-// 뉴스 부분 media query
+
+//match 부분 상세 media query
+@media screen and (max-width:630px){
+  .content_wrap{
+    .match{
+      .text_wrap{
+        span{
+          font-size: 32px;
+          line-height: 40px;
+        }
+        .sub{
+          font-size: 24px;
+          letter-spacing: 32px;
+          padding-left: 32px;
+        }
+        .line{
+          width: 150px;height: 2px;
+        }
+      }
+      .score{
+        span{
+          font-size: 18px;
+        }
+        .score_team{
+          font-size: 48px;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+
+}
+@media screen and (max-width:580px){
+  .content_wrap{
+    .match{
+      .text_wrap{
+        .match{
+          display: inline-block;
+        }
+      }
+      .score{
+        display: none;
+      }
+    }
+  }
+}
+
+// news 부분 media query
 @media screen and (max-width:1160px){
   .content_wrap{
     .news{
@@ -775,7 +894,7 @@ header{
     }
   }
 }
-@media screen and (max-width:862px) and (min-width:769px){
+@media screen and (max-width:862px){
   .content_wrap{
     .news{
       .news_wrap{
@@ -864,6 +983,115 @@ header{
                 line-height: 45px;
                 width: 50px;height: 47px;
                 background-size: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:642px){
+  .content_wrap{
+    .news{
+      .news_wrap{
+        >div{
+          width: 320px;
+        }
+        .sec_left{
+          .section{
+            border-bottom: 1px @font-main solid;
+            &:last-child{
+              margin-top: 30px;
+            }
+            .title{
+              float: left;
+            }
+            .content{
+              width: 260px;
+              margin-right: 0;
+            }
+            .reply{
+              left: 0;
+            }
+          }
+        }
+        .sec_right{
+          padding-top: 30px;
+          border-left: none;
+          .section{
+            border-bottom: 1px @font-main solid;
+            &:last-child{
+              margin-top: 30px;
+            }
+            .content{
+              float: right;
+              width: 260px;
+              margin-right: 0;
+            }
+            .reply{
+              left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//team 부분 상세 media query
+@media screen and (max-width:862px){
+  .content_wrap{
+    .team{
+      .player_list{
+        li{
+          .player_info{
+            .sub_info{
+              span{
+                font-size: 18px;
+              }
+              .name{
+                font-size: 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:580px){
+  .content_wrap{
+    .team{
+      .player_list{
+        text-align: center;
+        li{
+          display: inline-block;
+          float: none;
+          width: 300px;
+          .player_info{
+            display: block;
+            top:initial;
+            left:10px;
+            right:10px;
+            height: 40px;
+            bottom: 0;
+            .sub_info{
+              span{
+                font-size: 24px;
+                position: absolute;
+                top: 8px;
+              }
+              .name{
+                font-size: 24px;
+                display: inline-block;
+                right: 30px;
+              }
+              .position{
+                left: 30px;
+              }
+              .number{
+                left: 100px;
               }
             }
           }

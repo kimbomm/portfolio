@@ -94,7 +94,7 @@ module.exports = function(grunt) {
     // },
     watch: {
       less: {
-        files: 'assets/less/*.less',
+        files: ['assets/less/*.less','assets/**/*.less'],
         tasks: ['less'],
         options: {
           spaw:false

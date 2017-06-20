@@ -96,6 +96,17 @@ header .nav li a {
   font-size: 18px;
   color: #fff;
 }
+header .nav .hamburger {
+  display: none;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 27px;
+  right: 27px;
+  background: url('../photo/icon/menu01.png') no-repeat center;
+  background-size: 100%;
+  cursor: pointer;
+}
 .content_wrap {
   height: 100%;
   margin-left: 15.625%;
@@ -204,6 +215,15 @@ header .nav li a {
   height: 6px;
   margin: 60px auto 0;
   background-color: #f90304;
+}
+.content_wrap .match .text_wrap .match {
+  display: none;
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  border: 1px #4a0001 solid;
+  border-radius: 10px;
+  color: #4a0001;
 }
 .content_wrap .match .score div {
   width: 200px;
@@ -446,12 +466,16 @@ header .nav li a {
   float: left;
   margin: 10px 10px;
   text-align: center;
+  position: relative;
 }
 .content_wrap .team .player_list li:first-child {
   margin-left: 0;
 }
 .content_wrap .team .player_list li:last-child {
   margin-right: 0;
+}
+.content_wrap .team .player_list li:hover .player_info {
+  display: block;
 }
 .content_wrap .team .player_list li .player_img {
   border: 1px #000 solid;
@@ -461,24 +485,46 @@ header .nav li a {
   width: 100%;
 }
 .content_wrap .team .player_list li .player_info {
-  padding: 10px 0;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
   overflow: hidden;
+  text-align: center;
 }
-.content_wrap .team .player_list li .name {
-  float: right;
-  font-size: 48px;
-  line-height: 1;
+.content_wrap .team .player_list li .player_info:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
 }
-.content_wrap .team .player_list li .sub_info {
-  float: right;
-  text-align: right;
+.content_wrap .team .player_list li .player_info .sub_info {
+  display: inline-block;
+  vertical-align: middle;
   padding: 5px 10px;
+  font-size: 0px;
 }
-.content_wrap .team .player_list li .sub_info span {
+.content_wrap .team .player_list li .player_info .sub_info span {
+  color: #fff;
   font-size: 24px;
   text-transform: uppercase;
-  display: block;
+  display: inline-block;
   line-height: 1;
+}
+.content_wrap .team .player_list li .player_info .sub_info .name {
+  display: block;
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.content_wrap .team .player_list li .player_info .sub_info .position {
+  margin-right: 20px;
+}
+.content_wrap .team .player_list li .player_info .sub_info .number:before {
+  content: "no. ";
 }
 .content_wrap .recruit {
   width: 100%;
@@ -549,10 +595,6 @@ header .nav li a {
 }
 .content_wrap .footer .inner .youtube {
   background: url('../photo/icon/sns04.png') no-repeat center;
-}
-.content_wrap .map {
-  width: 100%;
-  height: 600px;
 }
 @media screen and (max-width: 1200px) {
   header .nav {
@@ -686,20 +728,17 @@ header .nav li a {
   }
 }
 @media screen and (max-width: 580px) {
+  .content_wrap .recruit .inner span {
+    font-size: 24px;
+    font-weight: 100;
+  }
+  .content_wrap .footer .inner span {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 580px) {
   header .nav {
     position: relative;
-  }
-  header .nav:before {
-    content: "";
-    display: inline-block;
-    width: 26px;
-    height: 26px;
-    position: absolute;
-    top: 27px;
-    right: 27px;
-    background: url('../photo/icon/menu01.png') no-repeat center;
-    background-size: 100%;
-    cursor: pointer;
   }
   header .nav ul {
     display: none;
@@ -720,6 +759,53 @@ header .nav li a {
   }
   header .nav li:last-child {
     border-bottom: none;
+  }
+  header .nav .hamburger {
+    display: block;
+  }
+  .content_wrap .main .text_wrap span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .content_wrap .main .text_wrap .sub {
+    font-size: 24px;
+    letter-spacing: 32px;
+    padding-left: 32px;
+  }
+  .content_wrap .main .text_wrap .line {
+    width: 150px;
+    height: 2px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .content_wrap .match .text_wrap span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .content_wrap .match .text_wrap .sub {
+    font-size: 24px;
+    letter-spacing: 32px;
+    padding-left: 32px;
+  }
+  .content_wrap .match .text_wrap .line {
+    width: 150px;
+    height: 2px;
+  }
+  .content_wrap .match .score span {
+    font-size: 18px;
+  }
+  .content_wrap .match .score .score_team {
+    font-size: 48px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .content_wrap .match .text_wrap .match {
+    display: inline-block;
+  }
+  .content_wrap .match .score {
+    display: none;
   }
 }
 @media screen and (max-width: 1160px) {
@@ -817,7 +903,7 @@ header .nav li a {
     background-size: 100%;
   }
 }
-@media screen and (max-width: 862px) and (min-width: 769px) {
+@media screen and (max-width: 862px) {
   .content_wrap .news .news_wrap {
     padding: 20px 10px;
     text-align: center;
@@ -916,5 +1002,86 @@ header .nav li a {
     width: 50px;
     height: 47px;
     background-size: 100%;
+  }
+}
+@media screen and (max-width: 642px) {
+  .content_wrap .news .news_wrap > div {
+    width: 320px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section {
+    border-bottom: 1px #4a0001 solid;
+  }
+  .content_wrap .news .news_wrap .sec_left .section:last-child {
+    margin-top: 30px;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .title {
+    float: left;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .content {
+    width: 260px;
+    margin-right: 0;
+  }
+  .content_wrap .news .news_wrap .sec_left .section .reply {
+    left: 0;
+  }
+  .content_wrap .news .news_wrap .sec_right {
+    padding-top: 30px;
+    border-left: none;
+  }
+  .content_wrap .news .news_wrap .sec_right .section {
+    border-bottom: 1px #4a0001 solid;
+  }
+  .content_wrap .news .news_wrap .sec_right .section:last-child {
+    margin-top: 30px;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .content {
+    float: right;
+    width: 260px;
+    margin-right: 0;
+  }
+  .content_wrap .news .news_wrap .sec_right .section .reply {
+    left: 0;
+  }
+}
+@media screen and (max-width: 862px) {
+  .content_wrap .team .player_list li .player_info .sub_info span {
+    font-size: 18px;
+  }
+  .content_wrap .team .player_list li .player_info .sub_info .name {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .content_wrap .team .player_list {
+    text-align: center;
+  }
+  .content_wrap .team .player_list li {
+    display: inline-block;
+    float: none;
+    width: 300px;
+  }
+  .content_wrap .team .player_list li .player_info {
+    display: block;
+    top: initial;
+    left: 10px;
+    right: 10px;
+    height: 40px;
+    bottom: 0;
+  }
+  .content_wrap .team .player_list li .player_info .sub_info span {
+    font-size: 24px;
+    position: absolute;
+    top: 8px;
+  }
+  .content_wrap .team .player_list li .player_info .sub_info .name {
+    font-size: 24px;
+    display: inline-block;
+    right: 30px;
+  }
+  .content_wrap .team .player_list li .player_info .sub_info .position {
+    left: 30px;
+  }
+  .content_wrap .team .player_list li .player_info .sub_info .number {
+    left: 100px;
   }
 }

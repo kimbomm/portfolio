@@ -115,19 +115,31 @@ header .nav li a {
   font-size: 18px;
   color: #fff;
 }
-/* line 61, assets/less/index.less */
+/* line 59, assets/less/index.less */
+header .nav .hamburger {
+  display: none;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 27px;
+  right: 27px;
+  background: url('../photo/icon/menu01.png') no-repeat center;
+  background-size: 100%;
+  cursor: pointer;
+}
+/* line 70, assets/less/index.less */
 .content_wrap {
   height: 100%;
   margin-left: 15.625%;
 }
-/* line 64, assets/less/index.less */
+/* line 73, assets/less/index.less */
 .content_wrap .main {
   display: block;
   width: 100%;
   height: 100%;
   position: relative;
 }
-/* line 68, assets/less/index.less */
+/* line 77, assets/less/index.less */
 .content_wrap .main li {
   display: block;
   width: 100%;
@@ -138,19 +150,19 @@ header .nav li a {
   background: url(../photo/main_01.jpg) no-repeat center;
   text-align: center;
 }
-/* line 75, assets/less/index.less */
+/* line 84, assets/less/index.less */
 .content_wrap .main li:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 82, assets/less/index.less */
+/* line 91, assets/less/index.less */
 .content_wrap .main .text_wrap {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 85, assets/less/index.less */
+/* line 94, assets/less/index.less */
 .content_wrap .main .text_wrap span {
   display: block;
   text-align: center;
@@ -159,7 +171,7 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 93, assets/less/index.less */
+/* line 102, assets/less/index.less */
 .content_wrap .main .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -171,30 +183,30 @@ header .nav li a {
   padding-left: 43.2px;
   color: #f90304;
 }
-/* line 104, assets/less/index.less */
+/* line 113, assets/less/index.less */
 .content_wrap .main .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 60px auto 0;
   background-color: #f90304;
 }
-/* line 110, assets/less/index.less */
+/* line 119, assets/less/index.less */
 .content_wrap .main .main_intro2 {
   display: none;
   background: url(../photo/main_03.jpg) no-repeat center;
 }
-/* line 114, assets/less/index.less */
+/* line 123, assets/less/index.less */
 .content_wrap .main .main_intro3 {
   display: none;
   background: url(../photo/main_02.jpg) no-repeat center;
 }
-/* line 119, assets/less/index.less */
+/* line 128, assets/less/index.less */
 .content_wrap .match {
   width: 100%;
   height: 540px;
   background: url('../photo/main_match.jpg') no-repeat center;
 }
-/* line 122, assets/less/index.less */
+/* line 131, assets/less/index.less */
 .content_wrap .match .inner {
   width: 1024px;
   height: 100%;
@@ -202,20 +214,20 @@ header .nav li a {
   text-align: center;
   position: relative;
 }
-/* line 126, assets/less/index.less */
+/* line 135, assets/less/index.less */
 .content_wrap .match .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 133, assets/less/index.less */
+/* line 142, assets/less/index.less */
 .content_wrap .match .text_wrap {
   position: relative;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 137, assets/less/index.less */
+/* line 146, assets/less/index.less */
 .content_wrap .match .text_wrap span {
   display: block;
   text-align: center;
@@ -224,7 +236,7 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 145, assets/less/index.less */
+/* line 154, assets/less/index.less */
 .content_wrap .match .text_wrap .sub {
   position: relative;
   top: -15px;
@@ -234,21 +246,31 @@ header .nav li a {
   letter-spacing: 43.2px;
   color: #f90304;
 }
-/* line 154, assets/less/index.less */
+/* line 163, assets/less/index.less */
 .content_wrap .match .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 60px auto 0;
   background-color: #f90304;
 }
-/* line 161, assets/less/index.less */
+/* line 168, assets/less/index.less */
+.content_wrap .match .text_wrap .match {
+  display: none;
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  border: 1px #4a0001 solid;
+  border-radius: 10px;
+  color: #4a0001;
+}
+/* line 178, assets/less/index.less */
 .content_wrap .match .score div {
   width: 200px;
   font-size: 0;
   position: absolute;
   top: 100px;
 }
-/* line 167, assets/less/index.less */
+/* line 184, assets/less/index.less */
 .content_wrap .match .score span {
   font-size: 30px;
   line-height: 1;
@@ -258,33 +280,33 @@ header .nav li a {
   display: block;
   vertical-align: middle;
 }
-/* line 176, assets/less/index.less */
+/* line 193, assets/less/index.less */
 .content_wrap .match .score .score_team {
   font-size: 200px;
   margin-top: 50px;
 }
-/* line 180, assets/less/index.less */
+/* line 197, assets/less/index.less */
 .content_wrap .match .score .first_team {
   left: 15px;
 }
-/* line 183, assets/less/index.less */
+/* line 200, assets/less/index.less */
 .content_wrap .match .score .second_team {
   right: 15px;
 }
-/* line 189, assets/less/index.less */
+/* line 206, assets/less/index.less */
 .content_wrap .news .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
 }
-/* line 192, assets/less/index.less */
+/* line 209, assets/less/index.less */
 .content_wrap .news .text_wrap {
   position: relative;
   display: block;
   text-align: center;
   padding-top: 140px;
 }
-/* line 197, assets/less/index.less */
+/* line 214, assets/less/index.less */
 .content_wrap .news .text_wrap span {
   display: block;
   text-align: center;
@@ -293,43 +315,43 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 205, assets/less/index.less */
+/* line 222, assets/less/index.less */
 .content_wrap .news .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 60px auto 0;
   background-color: #e0e0e0;
 }
-/* line 211, assets/less/index.less */
+/* line 228, assets/less/index.less */
 .content_wrap .news .news_wrap {
   height: 100%;
   padding: 40px 15px;
   overflow: hidden;
 }
-/* line 215, assets/less/index.less */
+/* line 232, assets/less/index.less */
 .content_wrap .news .news_wrap > div {
   width: 496px;
 }
-/* line 218, assets/less/index.less */
+/* line 235, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left {
   float: left;
 }
-/* line 220, assets/less/index.less */
+/* line 237, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section {
   position: relative;
   float: right;
   padding: 10px;
 }
-/* line 224, assets/less/index.less */
+/* line 241, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section:last-child {
   margin-top: 60px;
 }
-/* line 227, assets/less/index.less */
+/* line 244, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .title_img {
   float: right;
   margin-bottom: 20px;
 }
-/* line 231, assets/less/index.less */
+/* line 248, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .date {
   width: 100px;
   height: 25px;
@@ -337,7 +359,7 @@ header .nav li a {
   display: inline-block;
   text-align: right;
 }
-/* line 236, assets/less/index.less */
+/* line 253, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .date span {
   font-size: 14px;
   line-height: 1;
@@ -346,28 +368,28 @@ header .nav li a {
   color: #333333;
   margin-right: 10px;
 }
-/* line 245, assets/less/index.less */
+/* line 262, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .title {
   float: right;
   width: 300px;
   height: 25px;
   vertical-align: middle;
 }
-/* line 249, assets/less/index.less */
+/* line 266, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .title span {
   font-size: 18px;
   line-height: 1;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 256, assets/less/index.less */
+/* line 273, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .content {
   float: right;
   width: 380px;
   height: 100px;
   margin: 20px 10px;
 }
-/* line 260, assets/less/index.less */
+/* line 277, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .content p {
   display: block;
   font-size: 16px;
@@ -377,7 +399,7 @@ header .nav li a {
   text-overflow: ellipsis;
   color: #666666;
 }
-/* line 270, assets/less/index.less */
+/* line 287, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .reply {
   position: absolute;
   left: 0;
@@ -385,7 +407,7 @@ header .nav li a {
   width: 97px;
   text-align: center;
 }
-/* line 275, assets/less/index.less */
+/* line 292, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_left .section .reply i {
   display: inline-block;
   font-size: 24px;
@@ -395,28 +417,28 @@ header .nav li a {
   height: 67px;
   background: url('../photo/icon/chat.png') no-repeat center;
 }
-/* line 286, assets/less/index.less */
+/* line 303, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right {
   float: right;
   border-left: 2px #e0e0e0 solid;
   padding-top: 70px;
 }
-/* line 290, assets/less/index.less */
+/* line 307, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section {
   position: relative;
   float: left;
   padding: 10px;
 }
-/* line 294, assets/less/index.less */
+/* line 311, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section:last-child {
   margin-top: 60px;
 }
-/* line 297, assets/less/index.less */
+/* line 314, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .title_img {
   float: left;
   margin-bottom: 20px;
 }
-/* line 301, assets/less/index.less */
+/* line 318, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .date {
   clear: left;
   float: right;
@@ -426,7 +448,7 @@ header .nav li a {
   display: inline-block;
   text-align: left;
 }
-/* line 308, assets/less/index.less */
+/* line 325, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .date span {
   font-size: 14px;
   line-height: 1;
@@ -434,28 +456,28 @@ header .nav li a {
   vertical-align: middle;
   color: #333333;
 }
-/* line 316, assets/less/index.less */
+/* line 333, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .title {
   float: left;
   width: 300px;
   height: 25px;
   vertical-align: middle;
 }
-/* line 320, assets/less/index.less */
+/* line 337, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .title span {
   font-size: 18px;
   line-height: 1;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 327, assets/less/index.less */
+/* line 344, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .content {
   float: left;
   width: 380px;
   height: 100px;
   margin: 20px 10px;
 }
-/* line 331, assets/less/index.less */
+/* line 348, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .content p {
   display: block;
   font-size: 16px;
@@ -465,7 +487,7 @@ header .nav li a {
   text-overflow: ellipsis;
   color: #666666;
 }
-/* line 341, assets/less/index.less */
+/* line 358, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .reply {
   position: absolute;
   right: 0;
@@ -473,7 +495,7 @@ header .nav li a {
   width: 97px;
   text-align: center;
 }
-/* line 346, assets/less/index.less */
+/* line 363, assets/less/index.less */
 .content_wrap .news .news_wrap .sec_right .section .reply i {
   display: inline-block;
   font-size: 24px;
@@ -483,20 +505,20 @@ header .nav li a {
   height: 67px;
   background: url('../photo/icon/chat.png') no-repeat center;
 }
-/* line 360, assets/less/index.less */
+/* line 377, assets/less/index.less */
 .content_wrap .team .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
 }
-/* line 363, assets/less/index.less */
+/* line 380, assets/less/index.less */
 .content_wrap .team .text_wrap {
   position: relative;
   display: block;
   text-align: center;
   padding-top: 140px;
 }
-/* line 368, assets/less/index.less */
+/* line 385, assets/less/index.less */
 .content_wrap .team .text_wrap span {
   display: block;
   text-align: center;
@@ -505,315 +527,340 @@ header .nav li a {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 376, assets/less/index.less */
+/* line 393, assets/less/index.less */
 .content_wrap .team .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 60px auto 0;
   background-color: #e0e0e0;
 }
-/* line 382, assets/less/index.less */
+/* line 399, assets/less/index.less */
 .content_wrap .team .player_list {
   padding: 60px 10px;
   overflow: hidden;
 }
-/* line 385, assets/less/index.less */
+/* line 402, assets/less/index.less */
 .content_wrap .team .player_list li {
   width: 32%;
   float: left;
   margin: 10px 10px;
   text-align: center;
+  position: relative;
 }
-/* line 390, assets/less/index.less */
+/* line 408, assets/less/index.less */
 .content_wrap .team .player_list li:first-child {
   margin-left: 0;
 }
-/* line 393, assets/less/index.less */
+/* line 411, assets/less/index.less */
 .content_wrap .team .player_list li:last-child {
   margin-right: 0;
 }
-/* line 396, assets/less/index.less */
+/* line 415, assets/less/index.less */
+.content_wrap .team .player_list li:hover .player_info {
+  display: block;
+}
+/* line 419, assets/less/index.less */
 .content_wrap .team .player_list li .player_img {
   border: 1px #000 solid;
   margin: 0 10px;
 }
-/* line 399, assets/less/index.less */
+/* line 422, assets/less/index.less */
 .content_wrap .team .player_list li .player_img img {
   width: 100%;
 }
-/* line 403, assets/less/index.less */
+/* line 426, assets/less/index.less */
 .content_wrap .team .player_list li .player_info {
-  padding: 10px 0;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
   overflow: hidden;
+  text-align: center;
 }
-/* line 407, assets/less/index.less */
-.content_wrap .team .player_list li .name {
-  float: right;
-  font-size: 48px;
-  line-height: 1;
+/* line 433, assets/less/index.less */
+.content_wrap .team .player_list li .player_info:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
 }
-/* line 412, assets/less/index.less */
-.content_wrap .team .player_list li .sub_info {
-  float: right;
-  text-align: right;
+/* line 439, assets/less/index.less */
+.content_wrap .team .player_list li .player_info .sub_info {
+  display: inline-block;
+  vertical-align: middle;
   padding: 5px 10px;
+  font-size: 0px;
 }
-/* line 416, assets/less/index.less */
-.content_wrap .team .player_list li .sub_info span {
+/* line 444, assets/less/index.less */
+.content_wrap .team .player_list li .player_info .sub_info span {
+  color: #fff;
   font-size: 24px;
   text-transform: uppercase;
-  display: block;
+  display: inline-block;
   line-height: 1;
 }
-/* line 426, assets/less/index.less */
+/* line 451, assets/less/index.less */
+.content_wrap .team .player_list li .player_info .sub_info .name {
+  display: block;
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+/* line 457, assets/less/index.less */
+.content_wrap .team .player_list li .player_info .sub_info .position {
+  margin-right: 20px;
+}
+/* line 461, assets/less/index.less */
+.content_wrap .team .player_list li .player_info .sub_info .number:before {
+  content: "no. ";
+}
+/* line 470, assets/less/index.less */
 .content_wrap .recruit {
   width: 100%;
   height: 230px;
   background: url('../photo/main_recruit01.jpg');
   margin-top: 140px;
 }
-/* line 431, assets/less/index.less */
+/* line 475, assets/less/index.less */
 .content_wrap .recruit .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 434, assets/less/index.less */
+/* line 478, assets/less/index.less */
 .content_wrap .recruit .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 440, assets/less/index.less */
+/* line 484, assets/less/index.less */
 .content_wrap .recruit .inner div {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 444, assets/less/index.less */
+/* line 488, assets/less/index.less */
 .content_wrap .recruit .inner span {
   font-size: 30px;
   font-weight: 300;
   color: #fff;
   display: block;
 }
-/* line 450, assets/less/index.less */
+/* line 494, assets/less/index.less */
 .content_wrap .recruit .inner span:last-child {
   text-decoration: underline;
 }
-/* line 457, assets/less/index.less */
+/* line 501, assets/less/index.less */
 .content_wrap .footer {
   width: 100%;
   height: 230px;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 460, assets/less/index.less */
+/* line 504, assets/less/index.less */
 .content_wrap .footer .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 463, assets/less/index.less */
+/* line 507, assets/less/index.less */
 .content_wrap .footer .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 469, assets/less/index.less */
+/* line 513, assets/less/index.less */
 .content_wrap .footer .inner > div {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 473, assets/less/index.less */
+/* line 517, assets/less/index.less */
 .content_wrap .footer .inner i {
   display: inline-block;
   width: 25px;
   height: 25px;
   margin: 10px;
 }
-/* line 478, assets/less/index.less */
+/* line 522, assets/less/index.less */
 .content_wrap .footer .inner .facebook {
   background: url('../photo/icon/sns01.png') no-repeat center;
 }
-/* line 481, assets/less/index.less */
+/* line 525, assets/less/index.less */
 .content_wrap .footer .inner .google {
   background: url('../photo/icon/sns02.png') no-repeat center;
 }
-/* line 484, assets/less/index.less */
+/* line 528, assets/less/index.less */
 .content_wrap .footer .inner .twitter {
   background: url('../photo/icon/sns03.png') no-repeat center;
 }
-/* line 487, assets/less/index.less */
+/* line 531, assets/less/index.less */
 .content_wrap .footer .inner .youtube {
   background: url('../photo/icon/sns04.png') no-repeat center;
 }
-/* line 493, assets/less/index.less */
-.content_wrap .map {
-  width: 100%;
-  height: 600px;
-}
 @media screen and (max-width: 1200px) {
-  /* line 502, assets/less/index.less */
+  /* line 542, assets/less/index.less */
   header .nav {
     width: 120px;
   }
-  /* line 504, assets/less/index.less */
+  /* line 544, assets/less/index.less */
   header .nav h1 {
     width: 80px;
     margin: 50px auto 0;
     position: static;
   }
-  /* line 509, assets/less/index.less */
+  /* line 549, assets/less/index.less */
   header .nav ul {
     position: static;
     margin: 30px auto 0;
   }
-  /* line 514, assets/less/index.less */
+  /* line 554, assets/less/index.less */
   header .nav li a {
     font-size: 15px;
   }
-  /* line 520, assets/less/index.less */
+  /* line 560, assets/less/index.less */
   .content_wrap {
     margin-left: 120px;
   }
-  /* line 522, assets/less/index.less */
+  /* line 562, assets/less/index.less */
   .content_wrap .match {
     height: 300px;
   }
-  /* line 524, assets/less/index.less */
+  /* line 564, assets/less/index.less */
   .content_wrap .match .inner {
     width: 100%;
   }
-  /* line 528, assets/less/index.less */
+  /* line 568, assets/less/index.less */
   .content_wrap .match .text_wrap span {
     font-size: 38px;
     line-height: 42px;
   }
-  /* line 532, assets/less/index.less */
+  /* line 572, assets/less/index.less */
   .content_wrap .match .text_wrap .sub {
     font-size: 24px;
   }
-  /* line 535, assets/less/index.less */
+  /* line 575, assets/less/index.less */
   .content_wrap .match .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
-  /* line 541, assets/less/index.less */
+  /* line 581, assets/less/index.less */
   .content_wrap .match .score span {
     font-size: 24px;
   }
-  /* line 544, assets/less/index.less */
+  /* line 584, assets/less/index.less */
   .content_wrap .match .score .score_team {
     font-size: 60px;
     margin-top: 35px;
   }
-  /* line 551, assets/less/index.less */
+  /* line 591, assets/less/index.less */
   .content_wrap .news .inner {
     width: 100%;
   }
-  /* line 554, assets/less/index.less */
+  /* line 594, assets/less/index.less */
   .content_wrap .news .text_wrap {
     padding-top: 70px;
   }
-  /* line 556, assets/less/index.less */
+  /* line 596, assets/less/index.less */
   .content_wrap .news .text_wrap span {
     font-size: 38px;
     line-height: 1;
   }
-  /* line 560, assets/less/index.less */
+  /* line 600, assets/less/index.less */
   .content_wrap .news .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
-  /* line 567, assets/less/index.less */
+  /* line 607, assets/less/index.less */
   .content_wrap .team .inner {
     width: 100%;
   }
-  /* line 570, assets/less/index.less */
+  /* line 610, assets/less/index.less */
   .content_wrap .team .text_wrap {
     padding-top: 70px;
   }
-  /* line 572, assets/less/index.less */
+  /* line 612, assets/less/index.less */
   .content_wrap .team .text_wrap span {
     font-size: 38px;
     line-height: 1;
   }
-  /* line 576, assets/less/index.less */
+  /* line 616, assets/less/index.less */
   .content_wrap .team .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
-  /* line 582, assets/less/index.less */
+  /* line 622, assets/less/index.less */
   .content_wrap .team .player_list li {
     margin: 0;
   }
-  /* line 587, assets/less/index.less */
+  /* line 627, assets/less/index.less */
   .content_wrap .recruit {
     margin-top: 70px;
   }
-  /* line 589, assets/less/index.less */
+  /* line 629, assets/less/index.less */
   .content_wrap .recruit .inner {
     width: 100%;
   }
-  /* line 594, assets/less/index.less */
+  /* line 634, assets/less/index.less */
   .content_wrap .footer .inner {
     width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 601, assets/less/index.less */
+  /* line 641, assets/less/index.less */
   header {
     position: static;
     text-align: center;
   }
-  /* line 604, assets/less/index.less */
+  /* line 644, assets/less/index.less */
   header .button {
     display: none;
   }
-  /* line 607, assets/less/index.less */
+  /* line 647, assets/less/index.less */
   header .nav {
     position: static;
     width: 100%;
     height: 80px;
   }
-  /* line 611, assets/less/index.less */
+  /* line 651, assets/less/index.less */
   header .nav h1 {
     margin: 0 10px;
     height: 80px;
     float: left;
   }
-  /* line 617, assets/less/index.less */
+  /* line 657, assets/less/index.less */
   header .nav ul {
     margin: 0 auto;
     font-size: 0;
   }
-  /* line 621, assets/less/index.less */
+  /* line 661, assets/less/index.less */
   header .nav li {
     display: inline-block;
     margin: 0 15px;
     padding: 0;
     line-height: 80px;
   }
-  /* line 629, assets/less/index.less */
+  /* line 669, assets/less/index.less */
   .content_wrap {
     margin-left: 0;
   }
-  /* line 633, assets/less/index.less */
+  /* line 673, assets/less/index.less */
   .content_wrap .main .text_wrap span {
     font-size: 42px;
     line-height: 50px;
   }
-  /* line 637, assets/less/index.less */
+  /* line 677, assets/less/index.less */
   .content_wrap .main .text_wrap .sub {
     font-size: 28px;
   }
-  /* line 640, assets/less/index.less */
+  /* line 680, assets/less/index.less */
   .content_wrap .main .text_wrap .line {
     width: 200px;
     height: 4px;
@@ -821,24 +868,22 @@ header .nav li a {
   }
 }
 @media screen and (max-width: 580px) {
-  /* line 652, assets/less/index.less */
+  /* line 692, assets/less/index.less */
+  .content_wrap .recruit .inner span {
+    font-size: 24px;
+    font-weight: 100;
+  }
+  /* line 700, assets/less/index.less */
+  .content_wrap .footer .inner span {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 580px) {
+  /* line 712, assets/less/index.less */
   header .nav {
     position: relative;
   }
-  /* line 654, assets/less/index.less */
-  header .nav:before {
-    content: "";
-    display: inline-block;
-    width: 26px;
-    height: 26px;
-    position: absolute;
-    top: 27px;
-    right: 27px;
-    background: url('../photo/icon/menu01.png') no-repeat center;
-    background-size: 100%;
-    cursor: pointer;
-  }
-  /* line 664, assets/less/index.less */
+  /* line 714, assets/less/index.less */
   header .nav ul {
     display: none;
     position: absolute;
@@ -851,74 +896,132 @@ header .nav li a {
     border: 1px #999999 solid;
     background-color: #4a0001;
   }
-  /* line 675, assets/less/index.less */
+  /* line 725, assets/less/index.less */
   header .nav li {
     display: block;
     line-height: 50px;
     border-bottom: 1px #999999 solid;
   }
-  /* line 679, assets/less/index.less */
+  /* line 729, assets/less/index.less */
   header .nav li:last-child {
     border-bottom: none;
   }
+  /* line 733, assets/less/index.less */
+  header .nav .hamburger {
+    display: block;
+  }
+  /* line 741, assets/less/index.less */
+  .content_wrap .main .text_wrap span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  /* line 745, assets/less/index.less */
+  .content_wrap .main .text_wrap .sub {
+    font-size: 24px;
+    letter-spacing: 32px;
+    padding-left: 32px;
+  }
+  /* line 750, assets/less/index.less */
+  .content_wrap .main .text_wrap .line {
+    width: 150px;
+    height: 2px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 630px) {
+  /* line 764, assets/less/index.less */
+  .content_wrap .match .text_wrap span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  /* line 768, assets/less/index.less */
+  .content_wrap .match .text_wrap .sub {
+    font-size: 24px;
+    letter-spacing: 32px;
+    padding-left: 32px;
+  }
+  /* line 773, assets/less/index.less */
+  .content_wrap .match .text_wrap .line {
+    width: 150px;
+    height: 2px;
+  }
+  /* line 778, assets/less/index.less */
+  .content_wrap .match .score span {
+    font-size: 18px;
+  }
+  /* line 781, assets/less/index.less */
+  .content_wrap .match .score .score_team {
+    font-size: 48px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 580px) {
+  /* line 794, assets/less/index.less */
+  .content_wrap .match .text_wrap .match {
+    display: inline-block;
+  }
+  /* line 798, assets/less/index.less */
+  .content_wrap .match .score {
+    display: none;
+  }
 }
 @media screen and (max-width: 1160px) {
-  /* line 690, assets/less/index.less */
+  /* line 809, assets/less/index.less */
   .content_wrap .news .news_wrap {
     padding: 20px 10px;
     text-align: center;
   }
-  /* line 693, assets/less/index.less */
+  /* line 812, assets/less/index.less */
   .content_wrap .news .news_wrap > div {
     display: inline-block;
     vertical-align: top;
     width: 350px;
   }
-  /* line 698, assets/less/index.less */
+  /* line 817, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left {
     float: none;
   }
-  /* line 700, assets/less/index.less */
+  /* line 819, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section {
     float: none;
     overflow: hidden;
   }
-  /* line 703, assets/less/index.less */
+  /* line 822, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .date {
     width: auto;
     height: 20px;
   }
-  /* line 705, assets/less/index.less */
+  /* line 824, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .date span {
     font-size: 12px;
     margin-right: 0;
   }
-  /* line 710, assets/less/index.less */
+  /* line 829, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .title {
     width: 230px;
     height: 20px;
   }
-  /* line 712, assets/less/index.less */
+  /* line 831, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .title span {
     font-size: 16px;
   }
-  /* line 716, assets/less/index.less */
+  /* line 835, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .content {
     width: 250px;
     height: 85px;
   }
-  /* line 718, assets/less/index.less */
+  /* line 837, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .content p {
     font-size: 14px;
     line-height: 22px;
     height: 85px;
   }
-  /* line 724, assets/less/index.less */
+  /* line 843, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .reply {
     width: 50px;
     left: 10px;
   }
-  /* line 727, assets/less/index.less */
+  /* line 846, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .reply i {
     font-size: 18px;
     line-height: 45px;
@@ -926,51 +1029,51 @@ header .nav li a {
     height: 47px;
     background-size: 100%;
   }
-  /* line 736, assets/less/index.less */
+  /* line 855, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right {
     float: none;
   }
-  /* line 738, assets/less/index.less */
+  /* line 857, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section {
     float: none;
     overflow: hidden;
   }
-  /* line 741, assets/less/index.less */
+  /* line 860, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .date {
     width: auto;
     height: 20px;
     margin-right: 0;
   }
-  /* line 744, assets/less/index.less */
+  /* line 863, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .date span {
     font-size: 12px;
   }
-  /* line 748, assets/less/index.less */
+  /* line 867, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .title {
     width: 230px;
     height: 20px;
   }
-  /* line 750, assets/less/index.less */
+  /* line 869, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .title span {
     font-size: 16px;
   }
-  /* line 754, assets/less/index.less */
+  /* line 873, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .content {
     width: 250px;
     height: 85px;
   }
-  /* line 756, assets/less/index.less */
+  /* line 875, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .content p {
     font-size: 14px;
     line-height: 22px;
     height: 85px;
   }
-  /* line 762, assets/less/index.less */
+  /* line 881, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .reply {
     width: 50px;
     right: 10px;
   }
-  /* line 765, assets/less/index.less */
+  /* line 884, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .reply i {
     font-size: 18px;
     line-height: 45px;
@@ -979,66 +1082,66 @@ header .nav li a {
     background-size: 100%;
   }
 }
-@media screen and (max-width: 862px) and (min-width: 769px) {
-  /* line 781, assets/less/index.less */
+@media screen and (max-width: 862px) {
+  /* line 900, assets/less/index.less */
   .content_wrap .news .news_wrap {
     padding: 20px 10px;
     text-align: center;
   }
-  /* line 784, assets/less/index.less */
+  /* line 903, assets/less/index.less */
   .content_wrap .news .news_wrap > div {
     display: inline-block;
     vertical-align: top;
     width: 300px;
   }
-  /* line 789, assets/less/index.less */
+  /* line 908, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left {
     float: none;
   }
-  /* line 791, assets/less/index.less */
+  /* line 910, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section {
     float: none;
     overflow: hidden;
     padding: 5px;
   }
-  /* line 795, assets/less/index.less */
+  /* line 914, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .date {
     width: auto;
     height: 20px;
     position: relative;
     top: 15px;
   }
-  /* line 799, assets/less/index.less */
+  /* line 918, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .date span {
     font-size: 12px;
     margin-right: 0;
   }
-  /* line 804, assets/less/index.less */
+  /* line 923, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .title {
     width: auto;
     height: 20px;
   }
-  /* line 806, assets/less/index.less */
+  /* line 925, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .title span {
     font-size: 16px;
   }
-  /* line 810, assets/less/index.less */
+  /* line 929, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .content {
     width: 200px;
     height: 85px;
   }
-  /* line 812, assets/less/index.less */
+  /* line 931, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .content p {
     font-size: 14px;
     line-height: 22px;
     height: 85px;
   }
-  /* line 818, assets/less/index.less */
+  /* line 937, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .reply {
     width: 50px;
     left: 10px;
   }
-  /* line 821, assets/less/index.less */
+  /* line 940, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_left .section .reply i {
     font-size: 18px;
     line-height: 45px;
@@ -1046,17 +1149,17 @@ header .nav li a {
     height: 47px;
     background-size: 100%;
   }
-  /* line 830, assets/less/index.less */
+  /* line 949, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right {
     float: none;
   }
-  /* line 832, assets/less/index.less */
+  /* line 951, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section {
     float: none;
     overflow: hidden;
     padding: 5px;
   }
-  /* line 836, assets/less/index.less */
+  /* line 955, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .date {
     width: auto;
     height: 20px;
@@ -1064,41 +1167,142 @@ header .nav li a {
     position: relative;
     top: 15px;
   }
-  /* line 841, assets/less/index.less */
+  /* line 960, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .date span {
     font-size: 12px;
   }
-  /* line 845, assets/less/index.less */
+  /* line 964, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .title {
     width: auto;
     height: 20px;
   }
-  /* line 847, assets/less/index.less */
+  /* line 966, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .title span {
     font-size: 16px;
   }
-  /* line 851, assets/less/index.less */
+  /* line 970, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .content {
     width: 200px;
     height: 85px;
   }
-  /* line 853, assets/less/index.less */
+  /* line 972, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .content p {
     font-size: 14px;
     line-height: 22px;
     height: 85px;
   }
-  /* line 859, assets/less/index.less */
+  /* line 978, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .reply {
     width: 50px;
     right: 10px;
   }
-  /* line 862, assets/less/index.less */
+  /* line 981, assets/less/index.less */
   .content_wrap .news .news_wrap .sec_right .section .reply i {
     font-size: 18px;
     line-height: 45px;
     width: 50px;
     height: 47px;
     background-size: 100%;
+  }
+}
+@media screen and (max-width: 642px) {
+  /* line 998, assets/less/index.less */
+  .content_wrap .news .news_wrap > div {
+    width: 320px;
+  }
+  /* line 1002, assets/less/index.less */
+  .content_wrap .news .news_wrap .sec_left .section {
+    border-bottom: 1px #4a0001 solid;
+  }
+  /* line 1004, assets/less/index.less */
+  .content_wrap .news .news_wrap .sec_left .section:last-child {
+    margin-top: 30px;
+  }
+  /* line 1007, assets/less/index.less */
+  .content_wrap .news .news_wrap .sec_left .section .title {
+    float: left;
+  }
+  /* line 1010, assets/less/index.less */
+  .content_wrap .news .news_wrap .sec_left .section .content {
+    width: 260px;
+    margin-right: 0;
+  }
+  /* line 1014, assets/less/index.less */
+  .content_wrap .news .news_wrap .sec_left .section .reply {
+    left: 0;
+  }
+  /* line 1019, assets/less/index.less */
+  .content_wrap .news .news_wrap .sec_right {
+    padding-top: 30px;
+    border-left: none;
+  }
+  /* line 1022, assets/less/index.less */
+  .content_wrap .news .news_wrap .sec_right .section {
+    border-bottom: 1px #4a0001 solid;
+  }
+  /* line 1024, assets/less/index.less */
+  .content_wrap .news .news_wrap .sec_right .section:last-child {
+    margin-top: 30px;
+  }
+  /* line 1027, assets/less/index.less */
+  .content_wrap .news .news_wrap .sec_right .section .content {
+    float: right;
+    width: 260px;
+    margin-right: 0;
+  }
+  /* line 1032, assets/less/index.less */
+  .content_wrap .news .news_wrap .sec_right .section .reply {
+    left: 0;
+  }
+}
+@media screen and (max-width: 862px) {
+  /* line 1050, assets/less/index.less */
+  .content_wrap .team .player_list li .player_info .sub_info span {
+    font-size: 18px;
+  }
+  /* line 1053, assets/less/index.less */
+  .content_wrap .team .player_list li .player_info .sub_info .name {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 580px) {
+  /* line 1066, assets/less/index.less */
+  .content_wrap .team .player_list {
+    text-align: center;
+  }
+  /* line 1068, assets/less/index.less */
+  .content_wrap .team .player_list li {
+    display: inline-block;
+    float: none;
+    width: 300px;
+  }
+  /* line 1072, assets/less/index.less */
+  .content_wrap .team .player_list li .player_info {
+    display: block;
+    top: initial;
+    left: 10px;
+    right: 10px;
+    height: 40px;
+    bottom: 0;
+  }
+  /* line 1080, assets/less/index.less */
+  .content_wrap .team .player_list li .player_info .sub_info span {
+    font-size: 24px;
+    position: absolute;
+    top: 8px;
+  }
+  /* line 1085, assets/less/index.less */
+  .content_wrap .team .player_list li .player_info .sub_info .name {
+    font-size: 24px;
+    display: inline-block;
+    right: 30px;
+  }
+  /* line 1090, assets/less/index.less */
+  .content_wrap .team .player_list li .player_info .sub_info .position {
+    left: 30px;
+  }
+  /* line 1093, assets/less/index.less */
+  .content_wrap .team .player_list li .player_info .sub_info .number {
+    left: 100px;
   }
 }
