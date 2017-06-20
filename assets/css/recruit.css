@@ -233,7 +233,6 @@ header .nav .hamburger {
 .content_wrap {
   height: 100%;
   margin-left: 15.625%;
-  outline: 1px #f00 solid;
 }
 .content_wrap > div .text_wrap {
   display: inline-block;
@@ -256,6 +255,7 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
+  padding-left: 43.2px;
   color: #fff;
 }
 .content_wrap > div .text_wrap .line {
@@ -297,10 +297,11 @@ header .nav .hamburger {
   width: 240px;
   height: 50px;
   border: 1px #f90304 solid;
-  border-radius: 10%;
+  border-radius: 10px;
   text-align: center;
-  font-size: 28px;
-  letter-spacing: 14px;
+  font-size: 24px;
+  letter-spacing: 24px;
+  padding-left: 24px;
   color: #000;
   cursor: pointer;
 }
@@ -366,4 +367,60 @@ header .nav .hamburger {
   border-radius: 10px;
   font-size: 18px;
   color: #f90304;
+}
+@media screen and (max-width: 1200px) {
+  .content_wrap {
+    margin-left: 120px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content_wrap {
+    margin-left: 0;
+  }
+  .content_wrap > div .text_wrap > span {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .content_wrap > div .text_wrap .sub {
+    font-size: 28px;
+  }
+  .content_wrap > div .text_wrap .line {
+    width: 200px;
+    height: 4px;
+    margin-top: 40px;
+  }
+  .content_wrap .recruit_main button {
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    letter-spacing: 18px;
+    padding-left: 18px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .content_wrap {
+    margin-left: 0;
+  }
+  .content_wrap > div .text_wrap > span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .content_wrap > div .text_wrap .sub {
+    font-size: 24px;
+    letter-spacing: 24px;
+    padding-left: 24px;
+  }
+  .content_wrap > div .text_wrap .line {
+    width: 150px;
+    height: 2px;
+    margin-top: 30px;
+  }
+  .content_wrap .recruit_main button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 15px;
+    padding-left: 15px;
+  }
 }
