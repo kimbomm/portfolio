@@ -233,6 +233,7 @@
   }
 }
 
+//공통 부분 media query
 @media screen and (max-width:1200px){
   .content_wrap{
     margin-left: 120px;
@@ -281,8 +282,28 @@
           width: 200px;height: 4px;
           margin: 30px auto 0;
         }
+        .vertical_line{
+          height: 70px;
+          margin-bottom: 30px;
+        }
       }
     }
+  .news_menu{
+    .inner{
+      width: 100%;
+    }
+    ul{
+      width: 95%;
+    }
+    li{
+      font-size: 18px;
+    }
+  }
+  .news_list{
+    .inner{
+      width: 100%;
+    }
+  }
 }
 @media screen and (max-width:768px){
   .content_wrap{
@@ -298,6 +319,117 @@
       }
       .line{
         width: 150px;height: 2px;
+      }
+      .vertical_line{
+        height: 50px;
+      }
+    }
+  }
+  .news_menu{
+    li{
+      font-size: 14px;
+      margin-left: 15px;
+      padding: 10px 5px;
+    }
+  }
+  .news_list{
+    .btn{
+    margin: 30px 0;
+    button{
+      width: 100px;height: 30px;
+    }
+  }
+  }
+}
+@media screen and (max-width:460px){
+  .news_menu{
+    li{
+      text-align: center;
+      width: 45%;
+      margin-left: 0;
+    }
+  }
+}
+
+
+//news list 부분 media query
+@media screen and (max-width:1130px){
+  .news_list{
+    .news_wrap{
+      padding: 10px 30px;
+    }
+    .news_text{
+      display: inline-block;
+      height: 100px;
+      float: none;
+      &:before{
+        float: none;
+        width: 50px;height: 100%;
+        background-size: 100%;
+      }
+      a{
+        display: inline-block;
+        width: 250px;
+      }
+      span{
+        width: 250px;
+      }
+    }
+  }
+}
+@media screen and (max-width:1000px){
+  .news_list{
+    .news_wrap{
+      padding: 10px 10px;
+    }
+  }
+}
+@media screen and (max-width:960px){
+  .news_list{
+    li{
+      width: 600px;
+      float: none;
+      margin: 0 auto;
+    }
+    .odd{
+      float: none;
+    }
+    .news_img{
+      display: inline-block;
+      margin: 0 auto;
+    }
+  }
+}
+@media screen and (max-width:630px){
+  .news_list{
+    li{
+      width: 350px;
+      border-bottom: 1px @color-gray solid;
+      &:last-child{
+        border-bottom: none;
+      }
+    }
+    .news_img{
+      width: 350px;
+      img{
+        width: 100%;
+      }
+    }
+    .news_text{
+      width: 350px;
+      &:before{
+        margin-right: 15px;
+        vertical-align: middle;
+      }
+      a{
+        vertical-align: middle;
+      }
+      .writer, .date{
+        font-size: 12px;
+      }
+      .title{
+        font-size: 15px;
+        margin: 2px 0;
       }
     }
   }

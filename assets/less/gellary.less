@@ -259,8 +259,28 @@
           width: 200px;height: 4px;
           margin: 30px auto 0;
         }
+        .vertical_line{
+          height: 70px;
+          margin-bottom: 30px;
+        }
       }
     }
+  .news_menu{
+    .inner{
+      width: 100%;
+    }
+    ul{
+      width: 95%;
+    }
+    li{
+      font-size: 18px;
+    }
+  }
+  .gellary_list{
+    .inner{
+      width: 100%;
+    }
+  }
 }
 @media screen and (max-width:768px){
   .content_wrap{
@@ -277,6 +297,41 @@
       .line{
         width: 150px;height: 2px;
       }
+      .vertical_line{
+        height: 50px;
+      }
+    }
+  }
+  .news_menu{
+    li{
+      font-size: 14px;
+      margin-left: 15px;
+      padding: 10px 5px;
+    }
+  }
+  .gellary_list{
+    .inner{
+      li{
+        border-bottom: 1px @color-gray solid;
+        &:last-child{
+          border-bottom: none;
+        }
+      }
+    }
+    .btn{
+      margin: 30px 0;
+      button{
+        width: 100px;height: 30px;
+      }
+    }
+  }
+}
+@media screen and (max-width:460px){
+  .news_menu{
+    li{
+      text-align: center;
+      width: 45%;
+      margin-left: 0;
     }
   }
 }

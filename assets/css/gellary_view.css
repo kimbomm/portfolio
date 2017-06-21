@@ -603,6 +603,65 @@ header .nav .hamburger {
     height: 4px;
     margin: 30px auto 0;
   }
+  .news_title .text_wrap .vertical_line {
+    height: 70px;
+    margin-bottom: 30px;
+  }
+  .news_menu .inner {
+    width: 100%;
+  }
+  .news_menu ul {
+    width: 95%;
+  }
+  .news_menu li {
+    font-size: 18px;
+  }
+  .gellary_content .inner {
+    width: 100%;
+  }
+  .gellary_content .gellary_view {
+    padding: 50px 10px;
+  }
+  .gellary_content .view_title {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .gellary_content .view_title .title {
+    font-size: 24px;
+  }
+  .gellary_content .view_title .writer {
+    font-size: 18px;
+  }
+  .gellary_content .view_title .date,
+  .gellary_content .view_title .view {
+    font-size: 15px;
+  }
+  .gellary_content .reply_wrap {
+    width: 90%;
+    margin: 30px auto;
+  }
+  .gellary_content .reply_wrap .reply_line {
+    width: 100%;
+  }
+  .gellary_content .reply_wrap .reply_line span {
+    font-size: 16px;
+    padding: 5px 25px;
+  }
+  .gellary_content .reply_wrap .reply_info {
+    height: 80px;
+  }
+  .gellary_content .reply_wrap .reply_info .comment {
+    width: 70%;
+  }
+  .gellary_content .reply_wrap .reply_list .comment {
+    width: 90%;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+  .gellary_content .reply_wrap .reply_list .comment p {
+    display: block;
+    width: 90%;
+  }
 }
 @media screen and (max-width: 768px) {
   .content_wrap {
@@ -617,5 +676,48 @@ header .nav .hamburger {
   .news_intro .text_wrap .line {
     width: 150px;
     height: 2px;
+  }
+  .news_intro .text_wrap .vertical_line {
+    height: 50px;
+  }
+  .news_menu li {
+    font-size: 14px;
+    margin-left: 15px;
+    padding: 10px 5px;
+  }
+  .gellary_content .view_title {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .gellary_content .view_title .title {
+    font-size: 18px;
+  }
+  .gellary_content .view_title .writer {
+    font-size: 13px;
+    margin-right: 20px;
+  }
+  .gellary_content .view_title .date,
+  .gellary_content .view_title .view {
+    font-size: 11px;
+  }
+  .gellary_content .view_title .date {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .news_menu li {
+    text-align: center;
+    width: 45%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 820px) {
+  .gellary_content .gellary_view .view li {
+    width: 75px;
+    height: 75px;
+  }
+  .gellary_content .gellary_view .view .main_img {
+    width: 400px;
+    height: 300px;
   }
 }

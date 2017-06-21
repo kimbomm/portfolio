@@ -150,6 +150,7 @@
       line-height: 1;
       display: inline-block;
       vertical-align: middle;
+      font-weight: 200;
     }
     .title{
       font-size: 32px;
@@ -206,7 +207,7 @@
     }
     .file_content{
       padding: 0 20px;
-      min-height: 150px;
+      min-height: 50px;
       border-bottom: 1px @color-gray solid;
       .file{
         padding: 5px 0;
@@ -381,12 +382,100 @@
           width: 200px;height: 4px;
           margin: 30px auto 0;
         }
+        .vertical_line{
+          height: 70px;
+          margin-bottom: 30px;
+        }
       }
     }
+  .news_menu{
+    .inner{
+      width: 100%;
+    }
+    ul{
+      width: 95%;
+    }
+    li{
+      font-size: 18px;
+    }
+  }
+  .news_content{
+    .inner{
+      width: 100%;
+    }
+    .view_title{
+      width: 95%;
+      margin: 0 auto;
+      .title{
+        font-size: 24px;
+      }
+      .writer{
+        font-size: 18px;
+      }
+      .date, .view{
+        font-size: 15px;
+      }
+    }
+    .view_content{
+      width: 650px;
+      margin: 20px auto;
+    }
+    .file_wrap{
+      width: 95%;
+      margin-bottom: 40px;
+      .file_line{
+        width: 100%;
+        span{
+          font-size: 16px;
+          padding: 5px 25px;
+        }
+      }
+    }
+    .reply_wrap{
+      width: 90%;
+      margin: 30px auto;
+      .reply_line{
+        width: 100%;
+        span{
+          font-size: 16px;
+          padding: 5px 25px;
+        }
+      }
+      .reply_info{
+        height: 80px;
+        .comment{
+          width: 70%;
+        }
+      }
+      .reply_list{
+        .comment{
+          width: 90%;
+          padding-left: 0;
+          margin: 0 auto;
+          p{
+            display: block;
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width:768px){
   .content_wrap{
     margin-left: 0px;
+  }
+  .news_content{
+    .view_content{
+      width: 80%;
+    }
+    .file_wrap{
+      .file_content{
+        label{
+          font-size: 13px;
+        }
+      }
+    }
   }
 }
 @media screen and (max-width:630px){
@@ -398,6 +487,122 @@
       }
       .line{
         width: 150px;height: 2px;
+      }
+      .vertical_line{
+        height: 50px;
+      }
+    }
+  }
+  .news_menu{
+    li{
+      font-size: 14px;
+      margin-left: 15px;
+      padding: 10px 5px;
+    }
+  }
+  .news_content{
+    .view_title{
+      width: 95%;
+      margin: 0 auto;
+      .title{
+        font-size: 18px;
+      }
+      .writer{
+        font-size: 13px;
+        margin-right: 20px;
+      }
+      .date, .view{
+        font-size: 11px;
+      }
+      .date{
+        margin-right: 10px;
+      }
+    }
+    .view_content{
+      p{
+        font-size: 14px;
+      }
+      .view_img{
+        width: 90%;
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:460px){
+  .news_menu{
+    li{
+      text-align: center;
+      width: 45%;
+      margin-left: 0;
+    }
+  }
+}
+
+// new list button media query
+@media screen and (max-width:680px){
+  .news_content{
+    .file_wrap{
+      .file_btn{
+        button{
+          margin-top: 5px;
+          width: 80px;height: 20px;
+        }
+      }
+    }
+    .view_btn{
+      padding: 0 30px;
+      button{
+        width: 80px;height: 20px;
+        margin: 3px;
+      }
+    }
+    .reply_wrap{
+      .reply_info{
+        .submit{
+          width: 80px;height: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:520px){
+  .news_content{
+    .view_btn{
+      padding: 0 10px;
+      .modi_btn{
+        float: left;
+      }
+    }
+    .reply_wrap{
+      .reply_info{
+        .name,.pw{
+          width: 70px;
+          margin-right: 10px;
+        }
+        .submit{
+          top: 15px;
+        }
+      }
+      .reply_list{
+        .comment_info{
+          .name{
+            font-size: 13px;
+          }
+          .date{
+            font-size: 11px;
+          }
+        }
+        .comment{
+            p{
+              font-size: 12px;
+            }
+          }
+        .comment_btn{
+          right: 10px;
+        }
       }
     }
   }
