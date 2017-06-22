@@ -435,7 +435,7 @@ header .nav .hamburger {
   margin: 0 auto;
   border-radius: 10px;
   background: url('../photo/team/player_box.png') no-repeat center;
-  background-size: width: 100%;
+  background-size: 100% 100%;
 }
 /* line 136, assets/less/team_view.less */
 .player_list .player_img img {
@@ -511,20 +511,21 @@ header .nav .hamburger {
   display: inline-block;
   text-transform: uppercase;
   line-height: 1;
+  font-weight: 100;
 }
-/* line 197, assets/less/team_view.less */
+/* line 198, assets/less/team_view.less */
 .player_list .player .position {
   font-size: 60px;
   letter-spacing: 12px;
   padding-left: 12px;
 }
-/* line 202, assets/less/team_view.less */
+/* line 203, assets/less/team_view.less */
 .player_list .player .name {
   font-size: 60px;
   letter-spacing: 12px;
   padding-left: 12px;
 }
-/* line 207, assets/less/team_view.less */
+/* line 208, assets/less/team_view.less */
 .player_list .player .number {
   display: block;
   margin: 0 auto;
@@ -535,16 +536,16 @@ header .nav .hamburger {
   position: relative;
   top: -10px;
 }
-/* line 216, assets/less/team_view.less */
+/* line 217, assets/less/team_view.less */
 .player_list .player .number:before {
   content: "NO. ";
 }
-/* line 221, assets/less/team_view.less */
+/* line 222, assets/less/team_view.less */
 .player_list .details {
   text-align: center;
   margin-bottom: 50px;
 }
-/* line 224, assets/less/team_view.less */
+/* line 225, assets/less/team_view.less */
 .player_list .details span {
   width: 250px;
   font-size: 24px;
@@ -554,30 +555,30 @@ header .nav .hamburger {
   position: relative;
   text-transform: uppercase;
 }
-/* line 233, assets/less/team_view.less */
+/* line 234, assets/less/team_view.less */
 .player_list .details .join,
 .player_list .details .birth,
 .player_list .details .foot {
   text-align: right;
   margin: 0 auto 0 200px;
 }
-/* line 238, assets/less/team_view.less */
+/* line 239, assets/less/team_view.less */
 .player_list .details .join:before {
   content: "입단년도 : ";
 }
-/* line 241, assets/less/team_view.less */
+/* line 242, assets/less/team_view.less */
 .player_list .details .join:after {
   content: "년";
 }
-/* line 246, assets/less/team_view.less */
+/* line 247, assets/less/team_view.less */
 .player_list .details .birth:before {
   content: "생년월일 : ";
 }
-/* line 251, assets/less/team_view.less */
+/* line 252, assets/less/team_view.less */
 .player_list .details .foot:before {
   content: "주 사용발 : ";
 }
-/* line 255, assets/less/team_view.less */
+/* line 256, assets/less/team_view.less */
 .player_list .details .height,
 .player_list .details .weight,
 .player_list .details .blood {
@@ -586,55 +587,55 @@ header .nav .hamburger {
   position: relative;
   top: -10px;
 }
-/* line 262, assets/less/team_view.less */
+/* line 263, assets/less/team_view.less */
 .player_list .details .height:before {
   content: "신장 : ";
 }
-/* line 265, assets/less/team_view.less */
+/* line 266, assets/less/team_view.less */
 .player_list .details .height:after {
   content: "cm";
 }
-/* line 270, assets/less/team_view.less */
+/* line 271, assets/less/team_view.less */
 .player_list .details .weight:before {
   content: "체중 : ";
 }
-/* line 273, assets/less/team_view.less */
+/* line 274, assets/less/team_view.less */
 .player_list .details .weight:after {
   content: "kg";
 }
-/* line 278, assets/less/team_view.less */
+/* line 279, assets/less/team_view.less */
 .player_list .details .blood:before {
   content: "혈액형 : ";
 }
-/* line 281, assets/less/team_view.less */
+/* line 282, assets/less/team_view.less */
 .player_list .details .blood:after {
   content: "형";
 }
-/* line 286, assets/less/team_view.less */
+/* line 287, assets/less/team_view.less */
 .player_list .record_line {
   border-bottom: 2px #4a0001 solid;
   width: 1000px;
   margin: 0 auto;
 }
-/* line 290, assets/less/team_view.less */
+/* line 291, assets/less/team_view.less */
 .player_list .record_line span {
   display: inline-block;
   font-size: 24px;
   color: #4a0001;
   padding: 10px 40px;
 }
-/* line 297, assets/less/team_view.less */
+/* line 298, assets/less/team_view.less */
 .player_list .record {
   text-align: center;
   margin: 50px auto;
 }
-/* line 301, assets/less/team_view.less */
+/* line 302, assets/less/team_view.less */
 .player_list .record .record_title .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 305, assets/less/team_view.less */
+/* line 306, assets/less/team_view.less */
 .player_list .record .record_title .text_wrap > span {
   display: block;
   text-align: center;
@@ -643,7 +644,7 @@ header .nav .hamburger {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 313, assets/less/team_view.less */
+/* line 314, assets/less/team_view.less */
 .player_list .record .record_title .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -654,25 +655,25 @@ header .nav .hamburger {
   letter-spacing: 43.2px;
   color: #999999;
 }
-/* line 323, assets/less/team_view.less */
+/* line 324, assets/less/team_view.less */
 .player_list .record .record_title .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
 }
-/* line 328, assets/less/team_view.less */
+/* line 329, assets/less/team_view.less */
 .player_list .record .record_title .text_wrap .vertical_line {
   width: 2px;
   height: 100px;
   background-color: #4a0001;
   margin: 0 auto 40px;
 }
-/* line 335, assets/less/team_view.less */
+/* line 336, assets/less/team_view.less */
 .player_list .record .record_info {
   overflow: hidden;
 }
-/* line 337, assets/less/team_view.less */
+/* line 338, assets/less/team_view.less */
 .player_list .record .record_info div {
   width: 100px;
   padding: 10px 0;
@@ -682,27 +683,27 @@ header .nav .hamburger {
   border-radius: 10px;
   text-align: center;
 }
-/* line 345, assets/less/team_view.less */
+/* line 346, assets/less/team_view.less */
 .player_list .record .record_info div span {
   display: block;
   line-height: 1;
 }
-/* line 348, assets/less/team_view.less */
+/* line 349, assets/less/team_view.less */
 .player_list .record .record_info div span:first-child {
   font-size: 32px;
   margin-bottom: 40px;
 }
-/* line 353, assets/less/team_view.less */
+/* line 354, assets/less/team_view.less */
 .player_list .record .record_info div .score {
   font-size: 60px;
   color: #4a0001;
 }
-/* line 360, assets/less/team_view.less */
+/* line 361, assets/less/team_view.less */
 .player_list .btn {
   margin: 80px 0;
   text-align: center;
 }
-/* line 363, assets/less/team_view.less */
+/* line 364, assets/less/team_view.less */
 .player_list .btn button {
   width: 120px;
   height: 40px;
@@ -713,78 +714,321 @@ header .nav .hamburger {
   cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
-  /* line 375, assets/less/team_view.less */
+  /* line 376, assets/less/team_view.less */
   .content_wrap {
     margin-left: 120px;
   }
-  /* line 378, assets/less/team_view.less */
+  /* line 379, assets/less/team_view.less */
   .team_intro {
     height: 300px;
   }
-  /* line 380, assets/less/team_view.less */
+  /* line 381, assets/less/team_view.less */
   .team_intro .inner {
     width: 100%;
   }
-  /* line 384, assets/less/team_view.less */
+  /* line 385, assets/less/team_view.less */
   .team_intro .text_wrap > span {
     font-size: 38px;
     line-height: 42px;
   }
-  /* line 388, assets/less/team_view.less */
+  /* line 389, assets/less/team_view.less */
   .team_intro .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 394, assets/less/team_view.less */
+  /* line 395, assets/less/team_view.less */
   .team_intro .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto;
   }
-  /* line 401, assets/less/team_view.less */
+  /* line 402, assets/less/team_view.less */
   .team_title > div {
     padding-top: 40px;
   }
-  /* line 404, assets/less/team_view.less */
+  /* line 405, assets/less/team_view.less */
   .team_title .inner {
     width: 100%;
   }
-  /* line 408, assets/less/team_view.less */
+  /* line 409, assets/less/team_view.less */
   .team_title .text_wrap > span {
     font-size: 38px;
     line-height: 1;
   }
-  /* line 412, assets/less/team_view.less */
+  /* line 413, assets/less/team_view.less */
   .team_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 418, assets/less/team_view.less */
+  /* line 419, assets/less/team_view.less */
   .team_title .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
+  /* line 423, assets/less/team_view.less */
+  .team_title .text_wrap .vertical_line {
+    height: 70px;
+  }
+  /* line 429, assets/less/team_view.less */
+  .team_menu .inner {
+    width: 100%;
+  }
+  /* line 432, assets/less/team_view.less */
+  .team_menu ul {
+    width: 95%;
+  }
+  /* line 435, assets/less/team_view.less */
+  .team_menu li {
+    font-size: 18px;
+  }
+  /* line 440, assets/less/team_view.less */
+  .player_list .inner {
+    width: 100%;
+  }
+  /* line 443, assets/less/team_view.less */
+  .player_list .player_img {
+    width: 95%;
+  }
+  /* line 448, assets/less/team_view.less */
+  .player_list .player_other .btngroup .next {
+    right: 5px;
+  }
+  /* line 451, assets/less/team_view.less */
+  .player_list .player_other .btngroup .prev {
+    left: 5px;
+  }
+  /* line 455, assets/less/team_view.less */
+  .player_list .player_other ul {
+    width: 650px;
+    padding: 0 5px;
+  }
+  /* line 459, assets/less/team_view.less */
+  .player_list .player_other li {
+    margin: 0 10px;
+  }
+  /* line 463, assets/less/team_view.less */
+  .player_list .player {
+    margin: 35px 0;
+  }
+  /* line 465, assets/less/team_view.less */
+  .player_list .player .position,
+  .player_list .player .name {
+    font-size: 42px;
+  }
+  /* line 468, assets/less/team_view.less */
+  .player_list .player .number {
+    font-size: 32px;
+  }
+  /* line 472, assets/less/team_view.less */
+  .player_list .details {
+    margin-bottom: 30px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 477, assets/less/team_view.less */
+  .player_list .details span {
+    display: inline-block;
+  }
+  /* line 480, assets/less/team_view.less */
+  .player_list .details .join,
+  .player_list .details .birth,
+  .player_list .details .foot {
+    margin: initial;
+    margin-right: 10px;
+    margin-bottom: 25px;
+  }
+  /* line 485, assets/less/team_view.less */
+  .player_list .details .height,
+  .player_list .details .weight,
+  .player_list .details .blood {
+    margin: initial;
+    top: 25px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+  /* line 492, assets/less/team_view.less */
+  .player_list .record_line {
+    width: 95%;
+  }
+  /* line 494, assets/less/team_view.less */
+  .player_list .record_line span {
+    font-size: 18px;
+  }
+  /* line 501, assets/less/team_view.less */
+  .player_list .record .record_title .text_wrap > span {
+    font-size: 38px;
+    line-height: 1;
+  }
+  /* line 505, assets/less/team_view.less */
+  .player_list .record .record_title .text_wrap .sub {
+    top: -10px;
+    font-size: 24px;
+    letter-spacing: 32px;
+    padding-left: 32px;
+  }
+  /* line 511, assets/less/team_view.less */
+  .player_list .record .record_title .text_wrap .line {
+    width: 200px;
+    height: 4px;
+    margin: 30px auto 0;
+  }
+  /* line 515, assets/less/team_view.less */
+  .player_list .record .record_title .text_wrap .vertical_line {
+    height: 70px;
+  }
+  /* line 520, assets/less/team_view.less */
+  .player_list .record .record_info {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  /* line 524, assets/less/team_view.less */
+  .player_list .record .record_info div {
+    width: 80px;
+    padding: 8px 0;
+    margin: 0 20px;
+  }
+  /* line 529, assets/less/team_view.less */
+  .player_list .record .record_info div span:first-child {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  /* line 534, assets/less/team_view.less */
+  .player_list .record .record_info div .score {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 880px) {
+  /* line 546, assets/less/team_view.less */
+  .player_list .record .record_info div {
+    margin: 0 10px;
+  }
 }
 @media screen and (max-width: 768px) {
-  /* line 426, assets/less/team_view.less */
+  /* line 554, assets/less/team_view.less */
   .content_wrap {
     margin-left: 0px;
   }
+  /* line 558, assets/less/team_view.less */
+  .player_list .player_other {
+    display: none;
+  }
+  /* line 561, assets/less/team_view.less */
+  .player_list .player_img {
+    height: 250px;
+  }
 }
 @media screen and (max-width: 630px) {
-  /* line 433, assets/less/team_view.less */
+  /* line 569, assets/less/team_view.less */
   .team_intro .text_wrap > span {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 437, assets/less/team_view.less */
+  /* line 573, assets/less/team_view.less */
   .team_intro .text_wrap .line {
     width: 150px;
     height: 2px;
+  }
+  /* line 579, assets/less/team_view.less */
+  .team_menu ul {
+    text-align: center;
+  }
+  /* line 582, assets/less/team_view.less */
+  .team_menu li {
+    font-size: 14px;
+    margin-left: 15px;
+    padding: 10px 5px;
+  }
+  /* line 586, assets/less/team_view.less */
+  .team_menu li:first-child {
+    margin-left: 0;
+  }
+  /* line 592, assets/less/team_view.less */
+  .player_list .player {
+    margin: 20px 0;
+  }
+  /* line 594, assets/less/team_view.less */
+  .player_list .player .position,
+  .player_list .player .name {
+    font-size: 34px;
+  }
+  /* line 597, assets/less/team_view.less */
+  .player_list .player .number {
+    font-size: 24px;
+  }
+  /* line 601, assets/less/team_view.less */
+  .player_list .details {
+    margin-bottom: 30px;
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 606, assets/less/team_view.less */
+  .player_list .details span {
+    width: 170px;
+    font-size: 18px;
+  }
+  /* line 610, assets/less/team_view.less */
+  .player_list .details .join,
+  .player_list .details .birth,
+  .player_list .details .foot {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  /* line 615, assets/less/team_view.less */
+  .player_list .details .height,
+  .player_list .details .weight,
+  .player_list .details .blood {
+    text-align: center;
+    top: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  /* line 623, assets/less/team_view.less */
+  .player_list .record_line span {
+    font-size: 14px;
+    padding: 10px 5px;
+    margin-left: 15px;
+  }
+  /* line 629, assets/less/team_view.less */
+  .player_list .record {
+    margin: 20px 0;
+  }
+  /* line 633, assets/less/team_view.less */
+  .player_list .record .record_title .text_wrap .sub {
+    letter-spacing: 24px;
+    padding-left: 24px;
+  }
+  /* line 639, assets/less/team_view.less */
+  .player_list .record .record_info {
+    width: 330px;
+  }
+  /* line 641, assets/less/team_view.less */
+  .player_list .record .record_info div {
+    margin: 0 14px 14px;
+  }
+  /* line 644, assets/less/team_view.less */
+  .player_list .record .record_info div span:first-child {
+    font-size: 18px;
+  }
+  /* line 648, assets/less/team_view.less */
+  .player_list .record .record_info div .score {
+    font-size: 32px;
+  }
+  /* line 654, assets/less/team_view.less */
+  .player_list .btn {
+    margin: 30px 0;
+  }
+  /* line 656, assets/less/team_view.less */
+  .player_list .btn button {
+    width: 100px;
+    height: 30px;
   }
 }

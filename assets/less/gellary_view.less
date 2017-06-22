@@ -391,6 +391,34 @@
     }
     .gellary_view{
       padding: 50px 10px;
+      .reply_wrap{
+        width: 90%;
+        margin: 30px auto;
+        .reply_line{
+          width: 100%;
+          span{
+            font-size: 16px;
+            padding: 5px 25px;
+          }
+        }
+        .reply_info{
+          height: 80px;
+          .comment{
+            width: 70%;
+          }
+        }
+        .reply_list{
+          .comment{
+            width: 90%;
+            padding-left: 0;
+            margin: 0 auto;
+            p{
+              display: block;
+              width: 90%;
+            }
+          }
+        }
+      }
     }
     .view_title{
       width: 95%;
@@ -403,34 +431,6 @@
       }
       .date, .view{
         font-size: 15px;
-      }
-    }
-    .reply_wrap{
-      width: 90%;
-      margin: 30px auto;
-      .reply_line{
-        width: 100%;
-        span{
-          font-size: 16px;
-          padding: 5px 25px;
-        }
-      }
-      .reply_info{
-        height: 80px;
-        .comment{
-          width: 70%;
-        }
-      }
-      .reply_list{
-        .comment{
-          width: 90%;
-          padding-left: 0;
-          margin: 0 auto;
-          p{
-            display: block;
-            width: 90%;
-          }
-        }
       }
     }
   }
@@ -508,66 +508,87 @@
     }
   }
 }
+@media screen and (max-width:580px){
+  .gellary_content{
+    .gellary_view{
+      .img_btn{
+        display: none;
+      }
+      .view{
+        li{
+          border: 1px @color-gray solid;
+          width: 300px;height: 300px;
+          display: block;
+          margin: 0 auto 10px;
+        }
+        .main_img{
+          width: 300px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
 
 // new list button media query
-// @media screen and (max-width:680px){
-//   .gellary_content{
-//     .gellary_view{
-//       .view_btn{
-//       padding: 0 30px;
-//       button{
-//         width: 80px;height: 20px;
-//         margin: 3px;
-//       }
-//     }
-//       .reply_wrap{
-//         .reply_info{
-//           .submit{
-//             width: 80px;height: 20px;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-// @media screen and (max-width:520px){
-//   .gellary_content{
-//     .gellary_view{
-//       .view_btn{
-//         padding: 0 10px;
-//         .modi_btn{
-//           float: left;
-//         }
-//       }
-//       .reply_wrap{
-//         .reply_info{
-//           .name,.pw{
-//             width: 70px;
-//             margin-right: 10px;
-//           }
-//           .submit{
-//             top: 15px;
-//           }
-//         }
-//         .reply_list{
-//           .comment_info{
-//             .name{
-//               font-size: 13px;
-//             }
-//             .date{
-//               font-size: 11px;
-//             }
-//           }
-//           .comment{
-//             p{
-//               font-size: 12px;
-//             }
-//           }
-//           .comment_btn{
-//             right: 10px;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+@media screen and (max-width:680px){
+  .gellary_content{
+    .gellary_view{
+      .view_btn{
+        padding: 0 30px;
+        button{
+          width: 80px;height: 20px;
+          margin: 3px;
+        }
+      }
+      .reply_wrap{
+        .reply_info{
+          .submit{
+            width: 80px;height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:520px){
+  .gellary_content{
+    .gellary_view{
+      .view_btn{
+        padding: 0 10px;
+        .modi_btn{
+          float: left;
+        }
+      }
+      .reply_wrap{
+        .reply_info{
+          .name,.pw{
+            width: 70px;
+            margin-right: 10px;
+          }
+          .submit{
+            top: 15px;
+          }
+        }
+        .reply_list{
+          .comment_info{
+            .name{
+              font-size: 13px;
+            }
+            .date{
+              font-size: 11px;
+            }
+          }
+          .comment{
+            p{
+              font-size: 12px;
+            }
+          }
+          .comment_btn{
+            right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

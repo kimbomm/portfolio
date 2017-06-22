@@ -539,22 +539,79 @@ header .nav .hamburger {
     height: 4px;
     margin: 30px auto 0;
   }
+  /* line 224, assets/less/team.less */
+  .team_title .text_wrap .vertical_line {
+    height: 70px;
+    margin-bottom: 30px;
+  }
+  /* line 231, assets/less/team.less */
+  .team_menu .inner {
+    width: 100%;
+  }
+  /* line 234, assets/less/team.less */
+  .team_menu ul {
+    width: 95%;
+  }
+  /* line 237, assets/less/team.less */
+  .team_menu li {
+    font-size: 18px;
+  }
+  /* line 242, assets/less/team.less */
+  .team_list .inner {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 246, assets/less/team.less */
+  .team_list ul {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 768px) {
-  /* line 228, assets/less/team.less */
+  /* line 252, assets/less/team.less */
   .content_wrap {
     margin-left: 0px;
   }
 }
 @media screen and (max-width: 630px) {
-  /* line 235, assets/less/team.less */
+  /* line 259, assets/less/team.less */
   .team_intro .text_wrap > span {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 239, assets/less/team.less */
+  /* line 263, assets/less/team.less */
   .team_intro .text_wrap .line {
     width: 150px;
     height: 2px;
+  }
+  /* line 269, assets/less/team.less */
+  .team_menu ul {
+    text-align: center;
+  }
+  /* line 272, assets/less/team.less */
+  .team_menu li {
+    font-size: 14px;
+    margin-left: 15px;
+    padding: 10px 5px;
+  }
+  /* line 276, assets/less/team.less */
+  .team_menu li:first-child {
+    margin-left: 0;
+  }
+  /* line 282, assets/less/team.less */
+  .team_list li {
+    border-bottom: 1px #999999 solid;
+  }
+  /* line 284, assets/less/team.less */
+  .team_list li:last-child {
+    border-bottom: none;
+  }
+  /* line 289, assets/less/team.less */
+  .team_list .player .name {
+    font-size: 24px;
+  }
+  /* line 292, assets/less/team.less */
+  .team_list .player .position,
+  .team_list .player .number {
+    font-size: 18px;
   }
 }

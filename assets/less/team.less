@@ -221,8 +221,32 @@
           width: 200px;height: 4px;
           margin: 30px auto 0;
         }
+        .vertical_line{
+          height: 70px;
+          margin-bottom: 30px;
+        }
       }
     }
+  .team_menu{
+    .inner{
+      width: 100%;
+    }
+    ul{
+      width: 95%;
+    }
+    li{
+      font-size: 18px;
+    }
+  }
+  .team_list{
+    .inner{
+      width: 100%;
+      text-align: center;
+    }
+    ul{
+      text-align: center;
+    }
+  }
 }
 @media screen and (max-width:768px){
   .content_wrap{
@@ -238,6 +262,35 @@
       }
       .line{
         width: 150px;height: 2px;
+      }
+    }
+  }
+  .team_menu{
+    ul{
+      text-align: center;
+    }
+    li{
+      font-size: 14px;
+      margin-left: 15px;
+      padding: 10px 5px;
+      &:first-child{
+        margin-left: 0;
+      }
+    }
+  }
+  .team_list{
+    li{
+      border-bottom: 1px @color-gray solid;
+      &:last-child{
+        border-bottom: none;
+      }
+    }
+    .player{
+      .name{
+        font-size: 24px
+      }
+      .position,.number{
+        font-size: 18px;
       }
     }
   }

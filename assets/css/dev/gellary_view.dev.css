@@ -750,56 +750,56 @@ header .nav .hamburger {
   .gellary_content .gellary_view {
     padding: 50px 10px;
   }
-  /* line 395, assets/less/gellary_view.less */
-  .gellary_content .view_title {
-    width: 95%;
-    margin: 0 auto;
-  }
-  /* line 398, assets/less/gellary_view.less */
-  .gellary_content .view_title .title {
-    font-size: 24px;
-  }
-  /* line 401, assets/less/gellary_view.less */
-  .gellary_content .view_title .writer {
-    font-size: 18px;
-  }
-  /* line 404, assets/less/gellary_view.less */
-  .gellary_content .view_title .date,
-  .gellary_content .view_title .view {
-    font-size: 15px;
-  }
-  /* line 408, assets/less/gellary_view.less */
-  .gellary_content .reply_wrap {
+  /* line 394, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap {
     width: 90%;
     margin: 30px auto;
   }
-  /* line 411, assets/less/gellary_view.less */
-  .gellary_content .reply_wrap .reply_line {
+  /* line 397, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_line {
     width: 100%;
   }
-  /* line 413, assets/less/gellary_view.less */
-  .gellary_content .reply_wrap .reply_line span {
+  /* line 399, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_line span {
     font-size: 16px;
     padding: 5px 25px;
   }
-  /* line 418, assets/less/gellary_view.less */
-  .gellary_content .reply_wrap .reply_info {
+  /* line 404, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_info {
     height: 80px;
   }
-  /* line 420, assets/less/gellary_view.less */
-  .gellary_content .reply_wrap .reply_info .comment {
+  /* line 406, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_info .comment {
     width: 70%;
   }
-  /* line 425, assets/less/gellary_view.less */
-  .gellary_content .reply_wrap .reply_list .comment {
+  /* line 411, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_list .comment {
     width: 90%;
     padding-left: 0;
     margin: 0 auto;
   }
-  /* line 429, assets/less/gellary_view.less */
-  .gellary_content .reply_wrap .reply_list .comment p {
+  /* line 415, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_list .comment p {
     display: block;
     width: 90%;
+  }
+  /* line 423, assets/less/gellary_view.less */
+  .gellary_content .view_title {
+    width: 95%;
+    margin: 0 auto;
+  }
+  /* line 426, assets/less/gellary_view.less */
+  .gellary_content .view_title .title {
+    font-size: 24px;
+  }
+  /* line 429, assets/less/gellary_view.less */
+  .gellary_content .view_title .writer {
+    font-size: 18px;
+  }
+  /* line 432, assets/less/gellary_view.less */
+  .gellary_content .view_title .date,
+  .gellary_content .view_title .view {
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -871,5 +871,77 @@ header .nav .hamburger {
   .gellary_content .gellary_view .view .main_img {
     width: 400px;
     height: 300px;
+  }
+}
+@media screen and (max-width: 580px) {
+  /* line 514, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .img_btn {
+    display: none;
+  }
+  /* line 518, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .view li {
+    border: 1px #999999 solid;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  /* line 524, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .view .main_img {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 680px) {
+  /* line 537, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .view_btn {
+    padding: 0 30px;
+  }
+  /* line 539, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .view_btn button {
+    width: 80px;
+    height: 20px;
+    margin: 3px;
+  }
+  /* line 546, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_info .submit {
+    width: 80px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 520px) {
+  /* line 557, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .view_btn {
+    padding: 0 10px;
+  }
+  /* line 559, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .view_btn .modi_btn {
+    float: left;
+  }
+  /* line 565, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_info .name,
+  .gellary_content .gellary_view .reply_wrap .reply_info .pw {
+    width: 70px;
+    margin-right: 10px;
+  }
+  /* line 569, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_info .submit {
+    top: 15px;
+  }
+  /* line 575, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_list .comment_info .name {
+    font-size: 13px;
+  }
+  /* line 578, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_list .comment_info .date {
+    font-size: 11px;
+  }
+  /* line 583, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_list .comment p {
+    font-size: 12px;
+  }
+  /* line 587, assets/less/gellary_view.less */
+  .gellary_content .gellary_view .reply_wrap .reply_list .comment_btn {
+    right: 10px;
   }
 }

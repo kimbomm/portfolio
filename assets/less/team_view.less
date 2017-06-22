@@ -132,7 +132,7 @@
     margin: 0 auto;
     border-radius: 10px;
     background: url('../photo/team/player_box.png') no-repeat center;
-    background-size: width: 100%;
+    background-size: 100% 100%;
     img{
       height: 100%;
     }
@@ -193,6 +193,7 @@
       display: inline-block;
       text-transform: uppercase;
       line-height: 1;
+      font-weight: 100;
     }
     .position{
       font-size: 60px;
@@ -419,12 +420,147 @@
           width: 200px;height: 4px;
           margin: 30px auto 0;
         }
+        .vertical_line{
+          height: 70px;
+        }
       }
     }
+  .team_menu{
+    .inner{
+      width: 100%;
+    }
+    ul{
+      width: 95%;
+    }
+    li{
+      font-size: 18px;
+    }
+  }
+  .player_list{
+    .inner{
+      width: 100%;
+    }
+    .player_img{
+      width: 95%;
+    }
+    .player_other{
+      .btngroup{
+        .next{
+          right: 5px;
+        }
+        .prev{
+          left: 5px;
+        }
+      }
+      ul{
+        width: 650px;
+        padding: 0 5px;
+      }
+      li{
+        margin: 0 10px;
+      }
+    }
+    .player{
+      margin: 35px 0;
+      .position,.name{
+        font-size: 42px;
+      }
+      .number{
+        font-size: 32px;
+      }
+    }
+    .details{
+      margin-bottom: 30px;
+      width: 600px;
+      margin: 0 auto;
+      text-align: center;
+      span{
+        display: inline-block;
+      }
+      .join,.birth,.foot{
+        margin: initial;
+        margin-right: 10px;
+        margin-bottom: 25px;
+      }
+      .height,.weight,.blood{
+        margin: initial;
+        top: 25px;
+        margin-left: 10px;
+        margin-bottom: 25px;
+      }
+    }
+    .record_line{
+      width: 95%;
+      span{
+        font-size: 18px;
+      }
+    }
+    .record{
+      .record_title{
+        .text_wrap{
+          >span{
+            font-size: 38px;
+            line-height: 1;
+          }
+          .sub{
+            top: -10px;
+            font-size: 24px;
+            letter-spacing: 32px;
+            padding-left: 32px;
+          }
+          .line{
+            width: 200px;height: 4px;
+            margin: 30px auto 0;
+          }
+          .vertical_line{
+            height: 70px;
+          }
+        }
+      }
+      .record_info{
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+        div{
+          width: 80px;
+          padding: 8px 0;
+          margin: 0 20px;
+          span{
+            &:first-child{
+              font-size: 28px;
+              margin-bottom: 25px;
+            }
+          }
+          .score{
+            font-size: 48px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:880px){
+  .player_list{
+    .record{
+      .record_info{
+        div{
+          margin: 0 10px;
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width:768px){
   .content_wrap{
     margin-left: 0px;
+  }
+  .player_list{
+    .player_other{
+      display: none;
+    }
+    .player_img{
+      height: 250px;
+    }
   }
 }
 @media screen and (max-width:630px){
@@ -436,6 +572,89 @@
       }
       .line{
         width: 150px;height: 2px;
+      }
+    }
+  }
+  .team_menu{
+    ul{
+      text-align: center;
+    }
+    li{
+      font-size: 14px;
+      margin-left: 15px;
+      padding: 10px 5px;
+      &:first-child{
+        margin-left: 0;
+      }
+    }
+  }
+  .player_list{
+    .player{
+      margin: 20px 0;
+      .position,.name{
+        font-size: 34px;
+      }
+      .number{
+        font-size: 24px;
+      }
+    }
+    .details{
+      margin-bottom: 30px;
+      width: 330px;
+      margin: 0 auto;
+      text-align: center;
+      span{
+        width: 170px;
+        font-size: 18px;
+      }
+      .join,.birth,.foot{
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+      .height,.weight,.blood{
+        text-align: center;
+        top: 0;
+        margin-left: 0;
+        margin-bottom: 10px;
+      }
+    }
+    .record_line{
+      span{
+        font-size: 14px;
+        padding: 10px 5px;
+        margin-left: 15px;
+      }
+    }
+    .record{
+      margin: 20px 0;
+      .record_title{
+        .text_wrap{
+          .sub{
+            letter-spacing: 24px;
+            padding-left: 24px;
+          }
+        }
+      }
+      .record_info{
+        width: 330px;
+        div{
+          margin: 0 14px 14px;
+          span{
+            &:first-child{
+              font-size: 18px;
+            }
+          }
+          .score{
+            font-size: 32px;
+          }
+        }
+      }
+    }
+    .btn{
+      margin: 30px 0;
+      button{
+        width: 100px;height: 30px;
       }
     }
   }

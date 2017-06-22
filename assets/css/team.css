@@ -454,6 +454,26 @@ header .nav .hamburger {
     height: 4px;
     margin: 30px auto 0;
   }
+  .team_title .text_wrap .vertical_line {
+    height: 70px;
+    margin-bottom: 30px;
+  }
+  .team_menu .inner {
+    width: 100%;
+  }
+  .team_menu ul {
+    width: 95%;
+  }
+  .team_menu li {
+    font-size: 18px;
+  }
+  .team_list .inner {
+    width: 100%;
+    text-align: center;
+  }
+  .team_list ul {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 768px) {
   .content_wrap {
@@ -468,5 +488,29 @@ header .nav .hamburger {
   .team_intro .text_wrap .line {
     width: 150px;
     height: 2px;
+  }
+  .team_menu ul {
+    text-align: center;
+  }
+  .team_menu li {
+    font-size: 14px;
+    margin-left: 15px;
+    padding: 10px 5px;
+  }
+  .team_menu li:first-child {
+    margin-left: 0;
+  }
+  .team_list li {
+    border-bottom: 1px #999999 solid;
+  }
+  .team_list li:last-child {
+    border-bottom: none;
+  }
+  .team_list .player .name {
+    font-size: 24px;
+  }
+  .team_list .player .position,
+  .team_list .player .number {
+    font-size: 18px;
   }
 }

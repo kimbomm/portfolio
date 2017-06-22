@@ -498,102 +498,107 @@ header .nav .hamburger {
     height: 4px;
     margin: 30px auto;
   }
-  /* line 196, assets/less/club.less */
+  /* line 193, assets/less/club.less */
+  .wrapper .club_intro .text_wrap .comment {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* line 200, assets/less/club.less */
   .wrapper .club_content > div {
     padding-top: 40px;
   }
-  /* line 199, assets/less/club.less */
+  /* line 203, assets/less/club.less */
   .wrapper .club_content .inner {
     width: 100%;
   }
-  /* line 203, assets/less/club.less */
+  /* line 207, assets/less/club.less */
   .wrapper .club_content .text_wrap > span {
     font-size: 38px;
     line-height: 1;
   }
-  /* line 207, assets/less/club.less */
+  /* line 211, assets/less/club.less */
   .wrapper .club_content .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 213, assets/less/club.less */
+  /* line 217, assets/less/club.less */
   .wrapper .club_content .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
-  /* line 219, assets/less/club.less */
+  /* line 223, assets/less/club.less */
   .wrapper .club_content .club_history .img_history {
     width: 100%;
   }
-  /* line 221, assets/less/club.less */
+  /* line 225, assets/less/club.less */
   .wrapper .club_content .club_history .img_history img {
     width: 100%;
   }
-  /* line 227, assets/less/club.less */
+  /* line 231, assets/less/club.less */
   .wrapper .club_content .club_uniform .uniform {
     margin-top: 30px;
   }
-  /* line 229, assets/less/club.less */
+  /* line 233, assets/less/club.less */
   .wrapper .club_content .club_uniform .uniform span {
     font-size: 32px;
     font-weight: 100;
   }
-  /* line 235, assets/less/club.less */
+  /* line 239, assets/less/club.less */
   .wrapper .club_content .club_stadium {
     width: 100%;
   }
-  /* line 237, assets/less/club.less */
+  /* line 241, assets/less/club.less */
   .wrapper .club_content .club_stadium .stadium_img {
     width: 100%;
   }
-  /* line 239, assets/less/club.less */
+  /* line 243, assets/less/club.less */
   .wrapper .club_content .club_stadium .stadium_img img {
     width: 100%;
   }
 }
 @media screen and (max-width: 900px) {
-  /* line 252, assets/less/club.less */
+  /* line 256, assets/less/club.less */
   .wrapper .club_content .club_stadium .stadium_info span {
     width: 620px;
   }
 }
 @media screen and (max-width: 820px) {
-  /* line 265, assets/less/club.less */
+  /* line 269, assets/less/club.less */
   .wrapper .club_content .club_uniform .uniform img {
     width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 275, assets/less/club.less */
+  /* line 279, assets/less/club.less */
   .wrapper .content_wrap {
     margin-left: 0px;
   }
 }
 @media screen and (max-width: 630px) {
-  /* line 285, assets/less/club.less */
+  /* line 289, assets/less/club.less */
   .wrapper .club_content .club_intro .text_wrap > span {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 289, assets/less/club.less */
+  /* line 293, assets/less/club.less */
   .wrapper .club_content .club_intro .text_wrap .line {
     width: 150px;
     height: 2px;
   }
-  /* line 296, assets/less/club.less */
+  /* line 300, assets/less/club.less */
   .wrapper .club_content .club_stadium .stadium_info span {
     width: 400px;
   }
-  /* line 300, assets/less/club.less */
+  /* line 304, assets/less/club.less */
   .wrapper .club_content .club_stadium .map {
     height: 250px;
   }
 }
 @media screen and (max-width: 580px) {
-  /* line 312, assets/less/club.less */
+  /* line 316, assets/less/club.less */
   .wrapper .club_content .club_uniform .uniform div {
     width: 300px;
     float: none;
@@ -601,28 +606,28 @@ header .nav .hamburger {
     margin: 0 auto;
     border-bottom: 1px #999999 solid;
   }
-  /* line 318, assets/less/club.less */
+  /* line 322, assets/less/club.less */
   .wrapper .club_content .club_uniform .uniform div:last-child {
     margin-top: 30px;
     border-bottom: none;
   }
-  /* line 323, assets/less/club.less */
+  /* line 327, assets/less/club.less */
   .wrapper .club_content .club_uniform .uniform span {
     font-size: 24px;
     margin-bottom: 20px;
   }
-  /* line 330, assets/less/club.less */
+  /* line 334, assets/less/club.less */
   .wrapper .club_content .club_emblem .emblem {
     width: 300px;
     margin: 30px auto 0;
   }
-  /* line 333, assets/less/club.less */
+  /* line 337, assets/less/club.less */
   .wrapper .club_content .club_emblem .emblem img {
     width: 100%;
   }
 }
 @media screen and (max-width: 420px) {
-  /* line 346, assets/less/club.less */
+  /* line 350, assets/less/club.less */
   .wrapper .club_content .club_stadium .stadium_info span {
     width: 300px;
   }

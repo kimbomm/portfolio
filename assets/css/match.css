@@ -473,6 +473,10 @@ header .nav .hamburger {
     height: 4px;
     margin: 30px auto;
   }
+  .match_intro .text_wrap .comment {
+    font-size: 14px;
+    line-height: 20px;
+  }
   .match_title > div {
     padding-top: 40px;
   }
@@ -494,10 +498,90 @@ header .nav .hamburger {
     height: 4px;
     margin: 30px auto 0;
   }
+  .match_schedule .inner {
+    width: 100%;
+  }
+  .match_schedule .match_month {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .match_schedule .match_month .month {
+    font-size: 32px;
+  }
+  .match_schedule .match_month .month_date {
+    display: none;
+  }
+  .match_schedule .btngroup .next {
+    right: 100px;
+  }
+  .match_schedule .btngroup .prev {
+    left: 100px;
+  }
+  .match_schedule .schedule {
+    margin-top: 50px;
+  }
+  .match_schedule .schedule .match_info {
+    padding-bottom: 30px;
+  }
+  .match_schedule .schedule .match_info > div {
+    margin: 0;
+  }
+  .match_schedule .schedule .match_info .match_date span {
+    font-size: 18px;
+  }
+  .match_schedule .schedule .match_info .match_status span,
+  .match_schedule .schedule .match_info .match_stadium span {
+    font-size: 15px;
+  }
+  .match_schedule .schedule .match_info .match_team {
+    padding: 10px 20px;
+  }
+  .match_schedule .schedule .match_info .match_team .name {
+    font-size: 18px;
+  }
+  .match_schedule .schedule .match_info .match_team .score {
+    font-size: 48px;
+  }
+  .match_schedule .schedule .match_info .match_team .first_team:before {
+    width: 60px;
+    height: 60px;
+  }
+  .match_schedule .schedule .match_info .match_team .second_team:after {
+    width: 60px;
+    height: 60px;
+  }
 }
 @media screen and (max-width: 768px) {
   .content_wrap {
     margin-left: 0px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .match_title .text_wrap .sub {
+    letter-spacing: 20px;
+    padding-left: 20px;
+  }
+  .match_schedule .match_month .month {
+    font-size: 24px;
+  }
+  .match_schedule .schedule {
+    margin-top: 30px;
+  }
+  .match_schedule .schedule .match_info .match_team {
+    padding: 5px 10px;
+  }
+  .match_schedule .schedule .match_info .match_team .score {
+    font-size: 32px;
+  }
+  .match_schedule .schedule .match_info .match_team .first_team:before {
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+  }
+  .match_schedule .schedule .match_info .match_team .second_team:after {
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
   }
 }
 @media screen and (max-width: 630px) {
@@ -508,5 +592,61 @@ header .nav .hamburger {
   .match_intro .text_wrap .line {
     width: 150px;
     height: 2px;
+  }
+  .match_title > div {
+    padding-top: 30px;
+  }
+  .match_title .text_wrap > span {
+    font-size: 32px;
+    line-height: 1;
+  }
+  .match_title .text_wrap .sub {
+    top: -10px;
+    font-size: 24px;
+    letter-spacing: 20px;
+    padding-left: 20px;
+  }
+  .match_title .text_wrap .line {
+    width: 150px;
+    height: 2px;
+    margin: 30px auto 0;
+  }
+}
+@media screen and (max-width: 496px) {
+  .match_schedule .schedule .match_info .match_team {
+    height: 100px;
+    width: 330px;
+    position: relative;
+    padding: 0;
+  }
+  .match_schedule .schedule .match_info .match_team .name {
+    position: absolute;
+    top: 65px;
+  }
+  .match_schedule .schedule .match_info .match_team .score {
+    position: absolute;
+    top: 20px;
+  }
+  .match_schedule .schedule .match_info .match_team .first_team .name {
+    left: 35px;
+  }
+  .match_schedule .schedule .match_info .match_team .first_team .score {
+    left: 110px;
+  }
+  .match_schedule .schedule .match_info .match_team .first_team:before {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+  }
+  .match_schedule .schedule .match_info .match_team .second_team .name {
+    right: 35px;
+  }
+  .match_schedule .schedule .match_info .match_team .second_team .score {
+    right: 110px;
+  }
+  .match_schedule .schedule .match_info .match_team .second_team:after {
+    position: absolute;
+    right: 50px;
+    top: 10px;
   }
 }

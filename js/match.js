@@ -26,6 +26,7 @@ $(function(){
 
     $('.month_wrap .month').html(month[dat.getMonth()]);
     calendar(dat.getMonth());
+    calWidth(month[dat.getMonth()]);
 
     var match_next = 1;
     var match_prev = -1;
@@ -66,17 +67,23 @@ $(function(){
     function calWidth(i){
       if(match.calendar[i].date.length == 31){
         $('.match_schedule .month_date li').css({
-          'width' : $('.match_schedule .inner').width() / 31,
-          'height' : $('.match_schedule .inner').width() / 31
+          'width' : $('.match_schedule .match_month').width() / 31,
+          'height' : $('.match_schedule .match_month').width() / 31
         })
       }
       else if(match.calendar[i].date.length == 30){
         $('.match_schedule .month_date li').css({
-          'width' : $('.match_schedule .inner').width() / 30,
-          'height' : $('.match_schedule .inner').width() / 30
+          'width' : $('.match_schedule .match_month').width() / 30,
+          'height' : $('.match_schedule .match_month').width() / 30
+        })
+      }else{
+        $('.match_schedule .month_date li').css({
+          'width' : $('.match_schedule .match_month').width() / match.calendar[i].date.length,
+          'height' : $('.match_schedule .match_month').width() / match.calendar[i].date.length
         })
       }
     }
+
 
 
 
