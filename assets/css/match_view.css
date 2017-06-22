@@ -314,7 +314,6 @@ header .nav .hamburger {
 .match_info .match_team div {
   display: inline-block;
   padding: 10px 30px;
-  outline: 1px #f00 solid;
 }
 .match_info .match_team .name {
   font-size: 32px;
@@ -370,17 +369,12 @@ header .nav .hamburger {
 .record_detail .record span {
   font-size: 32px;
   display: inline-block;
-}
-.record_detail .record .title {
-  position: relative;
+  font-weight: 100;
 }
 .record_detail .record .title .sub {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: 22px auto;
+  position: relative;
+  top: -25px;
+  display: block;
   font-size: 28px;
   color: #999999;
   text-transform: uppercase;
@@ -436,26 +430,85 @@ header .nav .hamburger {
     height: 4px;
     margin: 30px auto;
   }
-  .match_title > div {
-    padding-top: 40px;
+  .match_intro .text_wrap .comment {
+    font-size: 14px;
+    line-height: 20px;
   }
-  .match_title .inner {
+  .match_info {
+    margin-top: 50px;
+  }
+  .match_info .inner {
     width: 100%;
   }
-  .match_title .text_wrap > span {
-    font-size: 38px;
-    line-height: 1;
+  .match_info .match_date span {
+    font-size: 32px;
   }
-  .match_title .text_wrap .sub {
-    top: -10px;
+  .match_info .match_status span {
     font-size: 24px;
-    letter-spacing: 32px;
-    padding-left: 32px;
   }
-  .match_title .text_wrap .line {
+  .match_info .match_stadium span {
+    font-size: 24px;
+  }
+  .match_info .match_team div {
+    padding: 10px 20px;
+  }
+  .match_info .match_team .name {
+    font-size: 28px;
+  }
+  .match_info .match_team .score {
+    font-size: 60px;
+  }
+  .match_info .match_team .first_team:before {
+    width: 100px;
+    height: 100px;
+  }
+  .match_info .match_team .second_team:after {
+    width: 100px;
+    height: 100px;
+  }
+  .match_info .line {
     width: 200px;
     height: 4px;
-    margin: 30px auto 0;
+    margin: 30px auto;
+  }
+  .record_detail .inner {
+    width: 100%;
+  }
+  .record_detail .record {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .record_detail .record span {
+    font-size: 28px;
+  }
+  .record_detail .record .title .sub {
+    top: -20px;
+    font-size: 22px;
+  }
+  .record_detail .record .a_team {
+    left: 100px;
+  }
+  .record_detail .record .b_team {
+    right: 100px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .match_info .match_team div {
+    padding: 5px 10px;
+  }
+  .match_info .match_team .name {
+    font-size: 24px;
+  }
+  .match_info .match_team .score {
+    font-size: 48px;
+  }
+  .match_info .match_team .first_team:before {
+    width: 75px;
+    height: 75px;
+  }
+  .match_info .match_team .second_team:after {
+    width: 75px;
+    height: 75px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -471,5 +524,101 @@ header .nav .hamburger {
   .match_intro .text_wrap .line {
     width: 150px;
     height: 2px;
+  }
+  .match_info .line {
+    width: 150px;
+    height: 2px;
+  }
+  .match_info .match_date span {
+    font-size: 24px;
+  }
+  .match_info .match_status span,
+  .match_info .match_stadium span {
+    font-size: 18px;
+  }
+  .match_info .match_team .name {
+    font-size: 18px;
+  }
+  .match_info .match_team .score {
+    font-size: 35px;
+  }
+  .match_info .match_team .first_team:before {
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+  }
+  .match_info .match_team .second_team:after {
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+  }
+  .record_detail .record {
+    padding: 0;
+  }
+  .record_detail .record span {
+    font-size: 24px;
+  }
+  .record_detail .record .title .sub {
+    font-size: 18px;
+  }
+  .record_detail .record .a_team {
+    top: 0;
+    left: 15%;
+  }
+  .record_detail .record .b_team {
+    top: 0;
+    right: 15%;
+  }
+  .btngroup {
+    margin: 30px 0;
+  }
+  .btngroup button {
+    width: 100px;
+    height: 30px;
+    margin: 3px;
+  }
+  .btngroup button span {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 496px) {
+  .match_info .inner .match_team {
+    margin: 20px auto 40px;
+  }
+  .match_info .match_team {
+    height: 100px;
+    width: 330px;
+    position: relative;
+    padding: 0;
+  }
+  .match_info .match_team .name {
+    position: absolute;
+    top: 65px;
+  }
+  .match_info .match_team .score {
+    position: absolute;
+    top: 20px;
+  }
+  .match_info .match_team .first_team .name {
+    left: 35px;
+  }
+  .match_info .match_team .first_team .score {
+    left: 110px;
+  }
+  .match_info .match_team .first_team:before {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+  }
+  .match_info .match_team .second_team .name {
+    right: 35px;
+  }
+  .match_info .match_team .second_team .score {
+    right: 110px;
+  }
+  .match_info .match_team .second_team:after {
+    position: absolute;
+    right: 50px;
+    top: 10px;
   }
 }

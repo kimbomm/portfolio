@@ -85,7 +85,6 @@
     div{
       display: inline-block;
       padding: 10px 30px;
-      .outline();
     }
     .name{
       font-size: 32px;
@@ -142,13 +141,13 @@
     span{
       font-size: 32px;
       display: inline-block;
+      font-weight: 100;
     }
     .title{
-      position: relative;
       .sub{
-        position: absolute;
-        top: 0;bottom: 0;right: 0;left: 0;
-        margin: 22px auto;
+        position: relative;
+        top: -25px;
+        display: block;
         font-size: 28px;
         color:@color-gray;
         text-transform: uppercase;
@@ -206,32 +205,107 @@
         width: 200px;height: 4px;
         margin: 30px auto;
       }
+      .comment{
+        font-size: 14px;
+        line-height: 20px;
+      }
     }
   }
-  .match_title{
-      >div{
-        padding-top: 40px;
+  .match_info{
+    margin-top: 50px;
+    .inner{
+      width: 100%;
+    }
+    .match_date{
+      span{
+        font-size: 32px;
       }
-      .inner{
-        width: 100%;
+    }
+    .match_status{
+      span{
+        font-size: 24px;
       }
-      .text_wrap{
-        >span{
-          font-size: 38px;
-          line-height: 1;
+    }
+    .match_stadium{
+      span{
+        font-size: 24px;
+      }
+    }
+    .match_team{
+      div{
+        padding: 10px 20px;
+      }
+      .name{
+        font-size: 28px;
+      }
+      .score{
+        font-size: 60px;
+      }
+      .first_team{
+        &:before{
+          width: 100px;height: 100px;
         }
-        .sub{
-          top: -10px;
-          font-size: 24px;
-          letter-spacing: 32px;
-          padding-left: 32px;
-        }
-        .line{
-          width: 200px;height: 4px;
-          margin: 30px auto 0;
+      }
+      .second_team{
+        &:after{
+          width: 100px;height: 100px;
         }
       }
     }
+    .line{
+      width: 200px;height: 4px;
+      margin: 30px auto;
+    }
+  }
+  .record_detail{
+    .inner{
+      width: 100%;
+    }
+    .record{
+      width: 95%;
+      margin: 0 auto;
+      span{
+        font-size: 28px;
+      }
+      .title{
+        .sub{
+          top: -20px;
+          font-size: 22px;
+        }
+      }
+      .a_team{
+        left: 100px;
+      }
+      .b_team{
+        right: 100px;
+      }
+    }
+  }
+}
+@media screen and (max-width:860px){
+  .match_info{
+    .match_team{
+      div{
+        padding: 5px 10px;
+      }
+      .name{
+        font-size: 24px;
+      }
+      .score{
+        font-size: 48px;
+      }
+      .first_team{
+        &:before{
+          width: 75px;height: 75px;
+        }
+      }
+      .second_team{
+        &:after{
+          width: 75px;height: 75px;
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width:768px){
   .content_wrap{
@@ -247,6 +321,119 @@
       }
       .line{
         width: 150px;height: 2px;
+      }
+    }
+  }
+  .match_info{
+    .line{
+      width: 150px;height: 2px;
+    }
+    .match_date{
+      span{
+        font-size: 24px;
+      }
+    }
+    .match_status,.match_stadium{
+      span{
+        font-size: 18px;
+      }
+    }
+    .match_team{
+      .name{
+        font-size: 18px;
+      }
+      .score{
+        font-size: 35px;
+      }
+      .first_team{
+        &:before{
+          width: 45px;height: 45px;
+          margin-right: 5px;
+        }
+      }
+      .second_team{
+        &:after{
+          width: 45px;height: 45px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  .record_detail{
+    .record{
+      padding: 0;
+      span{
+        font-size: 24px;
+      }
+      .title{
+        .sub{
+          font-size: 18px;
+        }
+      }
+      .a_team{
+        top: 0;
+        left: 15%;
+      }
+      .b_team{
+        top: 0;
+        right: 15%;
+      }
+    }
+  }
+  .btngroup{
+    margin: 30px 0;
+    button{
+      width: 100px;height: 30px;
+      margin: 3px;
+      span{
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media screen and (max-width:496px){
+  .match_info{
+    .inner{
+      .match_team{
+        margin: 20px auto 40px;
+      }
+    }
+    .match_team{
+      height: 100px;
+      width: 330px;
+      position: relative;
+      padding: 0;
+      .name{
+        position: absolute;
+        top: 65px;
+      }
+      .score{
+        position: absolute;
+        top: 20px;
+      }
+      .first_team{
+        .name{
+          left: 35px;
+        }
+        .score{
+          left: 110px;
+        }
+        &:before{
+          position: absolute;
+          left: 50px;top: 10px;
+        }
+      }
+      .second_team{
+        .name{
+          right: 35px;
+        }
+        .score{
+          right: 110px;
+        }
+        &:after{
+          position: absolute;
+          right: 50px;top: 10px;
+        }
       }
     }
   }

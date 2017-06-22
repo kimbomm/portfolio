@@ -377,9 +377,8 @@ header .nav .hamburger {
 .match_info .match_team div {
   display: inline-block;
   padding: 10px 30px;
-  outline: 1px #f00 solid;
 }
-/* line 90, assets/less/match_view.less */
+/* line 89, assets/less/match_view.less */
 .match_info .match_team .name {
   font-size: 32px;
   padding: 20px 10px;
@@ -387,7 +386,7 @@ header .nav .hamburger {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 97, assets/less/match_view.less */
+/* line 96, assets/less/match_view.less */
 .match_info .match_team .score {
   font-size: 72px;
   color: #000;
@@ -395,7 +394,7 @@ header .nav .hamburger {
   vertical-align: middle;
   padding: 0 10px;
 }
-/* line 105, assets/less/match_view.less */
+/* line 104, assets/less/match_view.less */
 .match_info .match_team .first_team:before {
   content: "";
   display: inline-block;
@@ -406,7 +405,7 @@ header .nav .hamburger {
   border-radius: 50%;
   margin-right: 20px;
 }
-/* line 116, assets/less/match_view.less */
+/* line 115, assets/less/match_view.less */
 .match_info .match_team .second_team:after {
   content: "";
   display: inline-block;
@@ -417,7 +416,7 @@ header .nav .hamburger {
   border-radius: 50%;
   margin-left: 20px;
 }
-/* line 127, assets/less/match_view.less */
+/* line 126, assets/less/match_view.less */
 .match_info .line {
   display: block;
   width: 240px;
@@ -425,57 +424,51 @@ header .nav .hamburger {
   margin: 50px auto;
   background-color: #f90304;
 }
-/* line 135, assets/less/match_view.less */
+/* line 134, assets/less/match_view.less */
 .record_detail .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
 }
-/* line 138, assets/less/match_view.less */
+/* line 137, assets/less/match_view.less */
 .record_detail .record {
   padding: 15px 0;
   position: relative;
   text-align: center;
 }
-/* line 142, assets/less/match_view.less */
+/* line 141, assets/less/match_view.less */
 .record_detail .record span {
   font-size: 32px;
   display: inline-block;
+  font-weight: 100;
 }
-/* line 146, assets/less/match_view.less */
-.record_detail .record .title {
-  position: relative;
-}
-/* line 148, assets/less/match_view.less */
+/* line 147, assets/less/match_view.less */
 .record_detail .record .title .sub {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: 22px auto;
+  position: relative;
+  top: -25px;
+  display: block;
   font-size: 28px;
   color: #999999;
   text-transform: uppercase;
 }
-/* line 157, assets/less/match_view.less */
+/* line 156, assets/less/match_view.less */
 .record_detail .record .a_team {
   position: absolute;
   top: 20px;
   left: 150px;
 }
-/* line 162, assets/less/match_view.less */
+/* line 161, assets/less/match_view.less */
 .record_detail .record .b_team {
   position: absolute;
   top: 20px;
   right: 150px;
 }
-/* line 169, assets/less/match_view.less */
+/* line 168, assets/less/match_view.less */
 .btngroup {
   margin-top: 80px;
   text-align: center;
 }
-/* line 172, assets/less/match_view.less */
+/* line 171, assets/less/match_view.less */
 .btngroup button {
   width: 120px;
   height: 40px;
@@ -484,84 +477,282 @@ header .nav .hamburger {
   margin: 10px 20px;
   cursor: pointer;
 }
-/* line 178, assets/less/match_view.less */
+/* line 177, assets/less/match_view.less */
 .btngroup button span {
   font-size: 18px;
   color: #f90304;
 }
 @media screen and (max-width: 1200px) {
-  /* line 186, assets/less/match_view.less */
+  /* line 185, assets/less/match_view.less */
   .content_wrap {
     margin-left: 120px;
   }
-  /* line 189, assets/less/match_view.less */
+  /* line 188, assets/less/match_view.less */
   .match_intro {
     height: 300px;
   }
-  /* line 191, assets/less/match_view.less */
+  /* line 190, assets/less/match_view.less */
   .match_intro .inner {
     width: 100%;
   }
-  /* line 195, assets/less/match_view.less */
+  /* line 194, assets/less/match_view.less */
   .match_intro .text_wrap > span {
     font-size: 38px;
     line-height: 42px;
   }
-  /* line 199, assets/less/match_view.less */
+  /* line 198, assets/less/match_view.less */
   .match_intro .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 205, assets/less/match_view.less */
+  /* line 204, assets/less/match_view.less */
   .match_intro .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto;
   }
-  /* line 212, assets/less/match_view.less */
-  .match_title > div {
-    padding-top: 40px;
+  /* line 208, assets/less/match_view.less */
+  .match_intro .text_wrap .comment {
+    font-size: 14px;
+    line-height: 20px;
   }
-  /* line 215, assets/less/match_view.less */
-  .match_title .inner {
+  /* line 214, assets/less/match_view.less */
+  .match_info {
+    margin-top: 50px;
+  }
+  /* line 216, assets/less/match_view.less */
+  .match_info .inner {
     width: 100%;
   }
-  /* line 219, assets/less/match_view.less */
-  .match_title .text_wrap > span {
-    font-size: 38px;
-    line-height: 1;
+  /* line 220, assets/less/match_view.less */
+  .match_info .match_date span {
+    font-size: 32px;
   }
-  /* line 223, assets/less/match_view.less */
-  .match_title .text_wrap .sub {
-    top: -10px;
+  /* line 225, assets/less/match_view.less */
+  .match_info .match_status span {
     font-size: 24px;
-    letter-spacing: 32px;
-    padding-left: 32px;
   }
-  /* line 229, assets/less/match_view.less */
-  .match_title .text_wrap .line {
+  /* line 230, assets/less/match_view.less */
+  .match_info .match_stadium span {
+    font-size: 24px;
+  }
+  /* line 235, assets/less/match_view.less */
+  .match_info .match_team div {
+    padding: 10px 20px;
+  }
+  /* line 238, assets/less/match_view.less */
+  .match_info .match_team .name {
+    font-size: 28px;
+  }
+  /* line 241, assets/less/match_view.less */
+  .match_info .match_team .score {
+    font-size: 60px;
+  }
+  /* line 245, assets/less/match_view.less */
+  .match_info .match_team .first_team:before {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 250, assets/less/match_view.less */
+  .match_info .match_team .second_team:after {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 255, assets/less/match_view.less */
+  .match_info .line {
     width: 200px;
     height: 4px;
-    margin: 30px auto 0;
+    margin: 30px auto;
+  }
+  /* line 261, assets/less/match_view.less */
+  .record_detail .inner {
+    width: 100%;
+  }
+  /* line 264, assets/less/match_view.less */
+  .record_detail .record {
+    width: 95%;
+    margin: 0 auto;
+  }
+  /* line 267, assets/less/match_view.less */
+  .record_detail .record span {
+    font-size: 28px;
+  }
+  /* line 271, assets/less/match_view.less */
+  .record_detail .record .title .sub {
+    top: -20px;
+    font-size: 22px;
+  }
+  /* line 276, assets/less/match_view.less */
+  .record_detail .record .a_team {
+    left: 100px;
+  }
+  /* line 279, assets/less/match_view.less */
+  .record_detail .record .b_team {
+    right: 100px;
+  }
+}
+@media screen and (max-width: 860px) {
+  /* line 288, assets/less/match_view.less */
+  .match_info .match_team div {
+    padding: 5px 10px;
+  }
+  /* line 291, assets/less/match_view.less */
+  .match_info .match_team .name {
+    font-size: 24px;
+  }
+  /* line 294, assets/less/match_view.less */
+  .match_info .match_team .score {
+    font-size: 48px;
+  }
+  /* line 298, assets/less/match_view.less */
+  .match_info .match_team .first_team:before {
+    width: 75px;
+    height: 75px;
+  }
+  /* line 303, assets/less/match_view.less */
+  .match_info .match_team .second_team:after {
+    width: 75px;
+    height: 75px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 237, assets/less/match_view.less */
+  /* line 311, assets/less/match_view.less */
   .content_wrap {
     margin-left: 0px;
   }
 }
 @media screen and (max-width: 630px) {
-  /* line 244, assets/less/match_view.less */
+  /* line 318, assets/less/match_view.less */
   .match_intro .text_wrap > span {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 248, assets/less/match_view.less */
+  /* line 322, assets/less/match_view.less */
   .match_intro .text_wrap .line {
     width: 150px;
     height: 2px;
+  }
+  /* line 328, assets/less/match_view.less */
+  .match_info .line {
+    width: 150px;
+    height: 2px;
+  }
+  /* line 332, assets/less/match_view.less */
+  .match_info .match_date span {
+    font-size: 24px;
+  }
+  /* line 337, assets/less/match_view.less */
+  .match_info .match_status span,
+  .match_info .match_stadium span {
+    font-size: 18px;
+  }
+  /* line 342, assets/less/match_view.less */
+  .match_info .match_team .name {
+    font-size: 18px;
+  }
+  /* line 345, assets/less/match_view.less */
+  .match_info .match_team .score {
+    font-size: 35px;
+  }
+  /* line 349, assets/less/match_view.less */
+  .match_info .match_team .first_team:before {
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+  }
+  /* line 355, assets/less/match_view.less */
+  .match_info .match_team .second_team:after {
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+  }
+  /* line 363, assets/less/match_view.less */
+  .record_detail .record {
+    padding: 0;
+  }
+  /* line 365, assets/less/match_view.less */
+  .record_detail .record span {
+    font-size: 24px;
+  }
+  /* line 369, assets/less/match_view.less */
+  .record_detail .record .title .sub {
+    font-size: 18px;
+  }
+  /* line 373, assets/less/match_view.less */
+  .record_detail .record .a_team {
+    top: 0;
+    left: 15%;
+  }
+  /* line 377, assets/less/match_view.less */
+  .record_detail .record .b_team {
+    top: 0;
+    right: 15%;
+  }
+  /* line 383, assets/less/match_view.less */
+  .btngroup {
+    margin: 30px 0;
+  }
+  /* line 385, assets/less/match_view.less */
+  .btngroup button {
+    width: 100px;
+    height: 30px;
+    margin: 3px;
+  }
+  /* line 388, assets/less/match_view.less */
+  .btngroup button span {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 496px) {
+  /* line 397, assets/less/match_view.less */
+  .match_info .inner .match_team {
+    margin: 20px auto 40px;
+  }
+  /* line 401, assets/less/match_view.less */
+  .match_info .match_team {
+    height: 100px;
+    width: 330px;
+    position: relative;
+    padding: 0;
+  }
+  /* line 406, assets/less/match_view.less */
+  .match_info .match_team .name {
+    position: absolute;
+    top: 65px;
+  }
+  /* line 410, assets/less/match_view.less */
+  .match_info .match_team .score {
+    position: absolute;
+    top: 20px;
+  }
+  /* line 415, assets/less/match_view.less */
+  .match_info .match_team .first_team .name {
+    left: 35px;
+  }
+  /* line 418, assets/less/match_view.less */
+  .match_info .match_team .first_team .score {
+    left: 110px;
+  }
+  /* line 421, assets/less/match_view.less */
+  .match_info .match_team .first_team:before {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+  }
+  /* line 427, assets/less/match_view.less */
+  .match_info .match_team .second_team .name {
+    right: 35px;
+  }
+  /* line 430, assets/less/match_view.less */
+  .match_info .match_team .second_team .score {
+    right: 110px;
+  }
+  /* line 433, assets/less/match_view.less */
+  .match_info .match_team .second_team:after {
+    position: absolute;
+    right: 50px;
+    top: 10px;
   }
 }
