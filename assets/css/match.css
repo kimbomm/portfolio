@@ -393,7 +393,6 @@ header .nav .hamburger {
 .match_schedule .schedule .match_info {
   display: inline-block;
   padding-bottom: 50px;
-  border-bottom: 1px #999999 solid;
 }
 .match_schedule .schedule .match_info > div {
   margin: 10px 0;
@@ -404,6 +403,10 @@ header .nav .hamburger {
 .match_schedule .schedule .match_info .match_status span {
   font-size: 18px;
   color: #f90304;
+}
+.match_schedule .schedule .match_info .match_stadium {
+  border-bottom: 1px #999999 solid;
+  margin-bottom: 30px;
 }
 .match_schedule .schedule .match_info .match_stadium span {
   font-size: 18px;
@@ -416,6 +419,8 @@ header .nav .hamburger {
   padding: 10px 30px;
 }
 .match_schedule .schedule .match_info .match_team .name {
+  text-align: center;
+  width: 200px;
   font-size: 24px;
   color: #4a0001;
   display: inline-block;
@@ -533,10 +538,11 @@ header .nav .hamburger {
   .match_schedule .schedule .match_info .match_stadium span {
     font-size: 15px;
   }
-  .match_schedule .schedule .match_info .match_team {
+  .match_schedule .schedule .match_info .match_team div {
     padding: 10px 20px;
   }
   .match_schedule .schedule .match_info .match_team .name {
+    width: 130px;
     font-size: 18px;
   }
   .match_schedule .schedule .match_info .match_team .score {
@@ -545,10 +551,12 @@ header .nav .hamburger {
   .match_schedule .schedule .match_info .match_team .first_team:before {
     width: 60px;
     height: 60px;
+    margin-right: 10px;
   }
   .match_schedule .schedule .match_info .match_team .second_team:after {
     width: 60px;
     height: 60px;
+    margin-left: 10px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -612,7 +620,7 @@ header .nav .hamburger {
     margin: 30px auto 0;
   }
 }
-@media screen and (max-width: 496px) {
+@media screen and (max-width: 550px) {
   .match_schedule .schedule .match_info .match_team {
     height: 100px;
     width: 330px;
@@ -620,6 +628,7 @@ header .nav .hamburger {
     padding: 0;
   }
   .match_schedule .schedule .match_info .match_team .name {
+    width: auto;
     position: absolute;
     top: 65px;
   }

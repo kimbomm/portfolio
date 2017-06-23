@@ -272,22 +272,22 @@ header .nav .hamburger {
     font-size: 11px;
   }
 }
-/* line 3, assets/less/recruit.less */
+/* line 2, assets/less/recruit.less */
 .wrapper {
   height: 100%;
 }
-/* line 6, assets/less/recruit.less */
+/* line 5, assets/less/recruit.less */
 .content_wrap {
   height: 100%;
   margin-left: 15.625%;
 }
-/* line 10, assets/less/recruit.less */
+/* line 9, assets/less/recruit.less */
 .content_wrap > div .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 14, assets/less/recruit.less */
+/* line 13, assets/less/recruit.less */
 .content_wrap > div .text_wrap > span {
   display: block;
   text-align: center;
@@ -296,7 +296,7 @@ header .nav .hamburger {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 22, assets/less/recruit.less */
+/* line 21, assets/less/recruit.less */
 .content_wrap > div .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -308,48 +308,48 @@ header .nav .hamburger {
   padding-left: 43.2px;
   color: #fff;
 }
-/* line 33, assets/less/recruit.less */
+/* line 32, assets/less/recruit.less */
 .content_wrap > div .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto 0;
   background-color: #fff;
 }
-/* line 40, assets/less/recruit.less */
+/* line 39, assets/less/recruit.less */
 .content_wrap .recruit_intro {
   height: 100%;
   text-align: center;
   background: url('../photo/recruit01.jpg') no-repeat center;
 }
-/* line 43, assets/less/recruit.less */
+/* line 42, assets/less/recruit.less */
 .content_wrap .recruit_intro:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 51, assets/less/recruit.less */
+/* line 50, assets/less/recruit.less */
 .content_wrap .recruit_main {
   height: 100%;
   text-align: center;
   background: url('../photo/recruit02.jpg') no-repeat center;
 }
-/* line 55, assets/less/recruit.less */
+/* line 54, assets/less/recruit.less */
 .content_wrap .recruit_main:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 62, assets/less/recruit.less */
+/* line 61, assets/less/recruit.less */
 .content_wrap .recruit_main .text_wrap .sub {
   color: #f90304;
 }
-/* line 65, assets/less/recruit.less */
+/* line 64, assets/less/recruit.less */
 .content_wrap .recruit_main .text_wrap .line {
   background-color: #f90304;
 }
-/* line 69, assets/less/recruit.less */
+/* line 68, assets/less/recruit.less */
 .content_wrap .recruit_main button {
   margin-top: 45px;
   width: 240px;
@@ -363,7 +363,7 @@ header .nav .hamburger {
   color: #000;
   cursor: pointer;
 }
-/* line 82, assets/less/recruit.less */
+/* line 81, assets/less/recruit.less */
 .content_wrap .recruit_form {
   display: none;
   width: 450px;
@@ -372,18 +372,18 @@ header .nav .hamburger {
   background-color: #8d8d8d;
   text-align: center;
 }
-/* line 88, assets/less/recruit.less */
+/* line 87, assets/less/recruit.less */
 .content_wrap .recruit_form .form_title {
   padding: 30px 0;
 }
-/* line 90, assets/less/recruit.less */
+/* line 89, assets/less/recruit.less */
 .content_wrap .recruit_form .form_title .title {
   display: block;
   font-size: 38px;
   color: #4a0001;
   line-height: 1;
 }
-/* line 96, assets/less/recruit.less */
+/* line 95, assets/less/recruit.less */
 .content_wrap .recruit_form .form_title .sub_title {
   position: relative;
   top: -7px;
@@ -394,7 +394,7 @@ header .nav .hamburger {
   color: #fff;
   text-transform: uppercase;
 }
-/* line 106, assets/less/recruit.less */
+/* line 105, assets/less/recruit.less */
 .content_wrap .recruit_form .form_title .line {
   display: block;
   width: 120px;
@@ -402,31 +402,31 @@ header .nav .hamburger {
   margin: 30px auto 0;
   background-color: #fff;
 }
-/* line 113, assets/less/recruit.less */
+/* line 112, assets/less/recruit.less */
 .content_wrap .recruit_form .form {
   text-align: left;
   width: 300px;
   margin: 0 auto;
 }
-/* line 117, assets/less/recruit.less */
+/* line 116, assets/less/recruit.less */
 .content_wrap .recruit_form .form div {
   margin-bottom: 20px;
 }
-/* line 119, assets/less/recruit.less */
+/* line 118, assets/less/recruit.less */
 .content_wrap .recruit_form .form div label {
   font-size: 18px;
   font-weight: 100;
 }
-/* line 122, assets/less/recruit.less */
+/* line 121, assets/less/recruit.less */
 .content_wrap .recruit_form .form div label:first-child {
   display: inline-block;
   width: 100px;
 }
-/* line 128, assets/less/recruit.less */
+/* line 127, assets/less/recruit.less */
 .content_wrap .recruit_form .form .btn {
   text-align: center;
 }
-/* line 130, assets/less/recruit.less */
+/* line 129, assets/less/recruit.less */
 .content_wrap .recruit_form .form .btn input {
   margin: 20px 10px 0;
   width: 100px;
@@ -438,32 +438,32 @@ header .nav .hamburger {
   color: #f90304;
 }
 @media screen and (max-width: 1200px) {
-  /* line 145, assets/less/recruit.less */
+  /* line 144, assets/less/recruit.less */
   .content_wrap {
     margin-left: 120px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 150, assets/less/recruit.less */
+  /* line 149, assets/less/recruit.less */
   .content_wrap {
     margin-left: 0;
   }
-  /* line 154, assets/less/recruit.less */
+  /* line 153, assets/less/recruit.less */
   .content_wrap > div .text_wrap > span {
     font-size: 42px;
     line-height: 50px;
   }
-  /* line 158, assets/less/recruit.less */
+  /* line 157, assets/less/recruit.less */
   .content_wrap > div .text_wrap .sub {
     font-size: 28px;
   }
-  /* line 161, assets/less/recruit.less */
+  /* line 160, assets/less/recruit.less */
   .content_wrap > div .text_wrap .line {
     width: 200px;
     height: 4px;
     margin-top: 40px;
   }
-  /* line 168, assets/less/recruit.less */
+  /* line 167, assets/less/recruit.less */
   .content_wrap .recruit_main button {
     margin-top: 30px;
     width: 180px;
@@ -474,8 +474,9 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 580px) {
-  /* line 179, assets/less/recruit.less */
+  /* line 178, assets/less/recruit.less */
   .content_wrap {
+    height: 500px;
     margin-left: 0;
   }
   /* line 183, assets/less/recruit.less */
@@ -495,7 +496,16 @@ header .nav .hamburger {
     height: 2px;
     margin-top: 30px;
   }
-  /* line 199, assets/less/recruit.less */
+  /* line 198, assets/less/recruit.less */
+  .content_wrap .recruit_intro {
+    height: 500px;
+    background-position: -750px -350px;
+  }
+  /* line 202, assets/less/recruit.less */
+  .content_wrap .recruit_main {
+    height: 500px;
+  }
+  /* line 204, assets/less/recruit.less */
   .content_wrap .recruit_main button {
     width: 150px;
     height: 30px;

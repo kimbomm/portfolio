@@ -159,7 +159,6 @@
     .match_info{
       display: inline-block;
       padding-bottom: 50px;
-      border-bottom: 1px @color-gray solid;
       >div{
         margin: 10px 0;
       }
@@ -175,6 +174,8 @@
         }
       }
       .match_stadium{
+        border-bottom: 1px @color-gray solid;
+        margin-bottom: 30px;
         span{
           font-size: 18px;
         }
@@ -186,6 +187,8 @@
           padding: 10px 30px;
         }
         .name{
+          text-align: center;
+          width: 200px;
           font-size: 24px;
           color:@font-main;
           display: inline-block;
@@ -319,8 +322,11 @@
           }
         }
         .match_team{
-          padding: 10px 20px;
+          div{
+            padding: 10px 20px;
+          }
           .name{
+            width: 130px;
             font-size: 18px;
           }
           .score{
@@ -329,11 +335,13 @@
           .first_team{
             &:before{
               width: 60px;height: 60px;
+              margin-right: 10px;
             }
           }
           .second_team{
             &:after{
               width: 60px;height: 60px;
+              margin-left: 10px;
             }
           }
         }
@@ -420,7 +428,7 @@
       }
     }
 }
-@media screen and (max-width:496px){
+@media screen and (max-width:550px){
   .match_schedule{
     .schedule{
       .match_info{
@@ -430,6 +438,7 @@
           position: relative;
           padding: 0;
           .name{
+            width: auto;
             position: absolute;
             top: 65px;
           }

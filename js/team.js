@@ -47,7 +47,7 @@ $(function(){
     for(var i = 0; i < team.player.length; i++){
       var html = '';
 
-      html += '<li class="player"><a href="../build/team_view.html">';
+      html += '<li class="player"><a href="../build/team_view.html?seq='+i+'">';
       html += '<div class="player_img">';
       html += '<img src="'+playPhoto[i]+'" alt="">';
       html += '</div>';
@@ -70,7 +70,7 @@ $(function(){
       for(var i = 0; i < team.player.length; i++){
 
         var html = '';
-        html += '<li class="player">';
+        html += '<li class="player"><a href="../build/team_view.html?seq='+i+'">';
         html += '<div class="player_img">';
         html += '<img src="'+playPhoto[i]+'" alt="">';
         html += '</div>';
@@ -79,7 +79,7 @@ $(function(){
         html += '<span class="position">'+playPosition[i]+'</span>';
         html += '<span class="number">'+playNumber[i]+'</span>';
         html += '</div>';
-        html += '</li>';
+        html += '</a></li>';
 
         if(attr == team.player[i].position){
           $('body .team_list .inner ul').append(html);
@@ -123,6 +123,7 @@ $(function(){
         $('.player_other ul').append(html);
       }
     }
+
     var playNext = 1;
     var playPrev = 0;
     play_slider(playPrev);
@@ -152,35 +153,43 @@ $(function(){
 
 
     //선수 이미지 바뀌기, 선수정보 가져오기
+    function playInfo(i){
+      $('.player_img img').attr('src',playProfile[i]);
+      $('.player .position').html(playPosition[i]);
+      $('.player .name').html(playName[i]);
+      $('.player .number').html(playNumber[i]);
+      $('.details .join').html(playJoin[i]);
+      $('.details .height').html(playTall[i]);
+      $('.details .birth').html(playBirth[i]);
+      $('.details .weight').html(playWeight[i]);
+      $('.details .foot').html(playFoot[i]);
+      $('.details .blood').html(playBlood[i]);
+      $('.record_info .enter .score').html(playEnter[i]);
+      $('.record_info .change .score').html(playChange[i]);
+      $('.record_info .goal .score').html(playGoal[i]);
+      $('.record_info .assist .score').html(playAssist[i]);
+      $('.record_info .warning .score').html(playWarning[i]);
+      $('.record_info .out .score').html(playOut[i]);
+    }
+
+
     $('.player_other').on('click','.other_img img',function(){
 
       var player_attr = $(this).attr('src');
 
       for(var i = 0; i < team.player.length; i++){
         if(player_attr == playPhoto[i]){
-          $('.player .position').html(playPosition[i]);
-          $('.player .name').html(playName[i]);
-          $('.player .number').html(playNumber[i]);
-          $('.details .join').html(playJoin[i]);
-          $('.details .height').html(playTall[i]);
-          $('.details .birth').html(playBirth[i]);
-          $('.details .weight').html(playWeight[i]);
-          $('.details .foot').html(playFoot[i]);
-          $('.details .blood').html(playBlood[i]);
-          $('.record_info .enter .score').html(playEnter[i]);
-          $('.record_info .change .score').html(playChange[i]);
-          $('.record_info .goal .score').html(playGoal[i]);
-          $('.record_info .assist .score').html(playAssist[i]);
-          $('.record_info .warning .score').html(playWarning[i]);
-          $('.record_info .out .score').html(playOut[i]);
-          $('.player_img img').attr('src',playProfile[i]);
+          playInfo(i);
         }
       }
 
-
-
-
     });
+
+    var seq = location.href;
+    seq = seq.split('?seq=');
+
+    playInfo(seq[1]);
+
 
   }, 'json');
 
