@@ -262,7 +262,7 @@ header .nav .hamburger {
   font-size: 60px;
   line-height: 68px;
   font-weight: lighter;
-  color: #4a0001;
+  color: #fff;
 }
 .match_intro .text_wrap .sub {
   position: relative;
@@ -272,6 +272,7 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
+  padding-left: 43.2px;
   color: #f90304;
 }
 .match_intro .text_wrap .line {

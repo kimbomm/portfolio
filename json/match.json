@@ -9,7 +9,9 @@
           "home" : "마포구 청룡",
           "away" : "종로 YBM",
           "home_score" : "0",
-          "away_score" : "0"
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo01.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
         },{},{},{},
         {
           "time" : "15:00",
@@ -17,7 +19,9 @@
           "home" : "마포구 홍대",
           "away" : "동대문 한국외대",
           "home_score" : "1",
-          "away_score" : "5"
+          "away_score" : "5",
+          "home_logo" : "../assets/photo/logo/logo03.jpg",
+          "away_logo" : "../assets/photo/logo/logo04.png"
         },{},{},{},{},{},{},{},
         {
           "time" : "13:00",
@@ -25,7 +29,9 @@
           "home" : "노원구 대호",
           "away" : "노원구 비호",
           "home_score" : "2",
-          "away_score" : "5"
+          "away_score" : "5",
+          "home_logo" : "../assets/photo/logo/logo05.png",
+          "away_logo" : "../assets/photo/logo/logo06.jpg"
         },{},{},{},{},{},{},{},
         {
           "time" : "13:00",
@@ -33,7 +39,9 @@
           "home" : "종로 해커스",
           "away" : "종로 YBM",
           "home_score" : "2",
-          "away_score" : "1"
+          "away_score" : "1",
+          "home_logo" : "../assets/photo/logo/logo07.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
         },{},{},{},{},{},{},{},{},{},{}
       ]
     },
@@ -47,7 +55,9 @@
           "home" : "종로 해커스",
           "away" : "종로 YBM",
           "home_score" : "1",
-          "away_score" : "6"
+          "away_score" : "6",
+          "home_logo" : "../assets/photo/logo/logo07.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
         },{},{},{},{},{},{},{},{},{},
         {
           "time" : "09:00",
@@ -55,7 +65,9 @@
           "home" : "노원구 대호",
           "away" : "노원구 비호",
           "home_score" : "0",
-          "away_score" : "0"
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo05.png",
+          "away_logo" : "../assets/photo/logo/logo06.jpg"
         },{},{},{},{},{},{},{},{},{},
         {
           "time" : "19:00",
@@ -63,7 +75,9 @@
           "home" : "마포구 청룡",
           "away" : "종로 YBM",
           "home_score" : "0",
-          "away_score" : "0"
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo01.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
         },{},{},{},{},{},{}
       ]
     },
@@ -76,7 +90,9 @@
           "home" : "마포구 청룡",
           "away" : "종로 YBM",
           "home_score" : "1",
-          "away_score" : "1"
+          "away_score" : "1",
+          "home_logo" : "../assets/photo/logo/logo01.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
         },{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}
       ]
     },
@@ -89,21 +105,70 @@
           "home" : "노원구 대호",
           "away" : "노원구 비호",
           "home_score" : "4",
-          "away_score" : "3"
+          "away_score" : "3",
+          "home_logo" : "../assets/photo/logo/logo05.png",
+          "away_logo" : "../assets/photo/logo/logo06.jpg"
         },{},{},{},{},{},{},{},{
           "time" : "15:00",
           "stadium" : "서울 월드컵 경기장",
           "home" : "종로 해커스",
           "away" : "종로 YBM",
           "home_score" : "2",
-          "away_score" : "2"
+          "away_score" : "2",
+          "home_logo" : "../assets/photo/logo/logo07.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
         },{},{},{},{},{},{},{},{},{}
       ]
     },
     {
       "month" : "5",
       "date" : [
-        {},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}
+        {},{
+          "time" : "19:00",
+          "stadium" : "서울 월드컵 경기장",
+          "home" : "마포구 청룡",
+          "away" : "종로 YBM",
+          "home_score" : "0",
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo01.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },{},{},{},{
+          "time" : "15:00",
+          "stadium" : "서울 월드컵 경기장",
+          "home" : "종로 해커스",
+          "away" : "종로 YBM",
+          "home_score" : "2",
+          "away_score" : "3",
+          "home_logo" : "../assets/photo/logo/logo07.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },{},{},{},{
+          "time" : "18:00",
+          "stadium" : "서울 월드컵 경기장",
+          "home" : "종로 해커스",
+          "away" : "종로 YBM",
+          "home_score" : "2",
+          "away_score" : "3",
+          "home_logo" : "../assets/photo/logo/logo07.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },{},{},{},{},{},{},{
+          "time" : "09:00",
+          "stadium" : "노원 마들구장",
+          "home" : "노원구 대호",
+          "away" : "노원구 비호",
+          "home_score" : "0",
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo05.png",
+          "away_logo" : "../assets/photo/logo/logo06.jpg"
+        },{},{},{},{},{},{},{},{
+          "time" : "20:00",
+          "stadium" : "노원 마들구장",
+          "home" : "노원구 대호",
+          "away" : "노원구 비호",
+          "home_score" : "0",
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo05.png",
+          "away_logo" : "../assets/photo/logo/logo06.jpg"
+        },{},{},{},{},{},{}
       ]
     },
     {
@@ -115,7 +180,9 @@
           "home" : "마포구 청룡",
           "away" : "종로 YBM",
           "home_score" : "0",
-          "away_score" : "0"
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo01.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
         },
         {
           "time" : "15:00",
@@ -123,7 +190,9 @@
           "home" : "마포구 홍익대",
           "away" : "동대문 한국외대",
           "home_score" : "1",
-          "away_score" : "5"
+          "away_score" : "5",
+          "home_logo" : "../assets/photo/logo/logo03.jpg",
+          "away_logo" : "../assets/photo/logo/logo04.png"
         },{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},
         {
           "time" : "15:00",
@@ -131,7 +200,9 @@
           "home" : "종로 해커스",
           "away" : "종로 YBM",
           "home_score" : "2",
-          "away_score" : "3"
+          "away_score" : "3",
+          "home_logo" : "../assets/photo/logo/logo07.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
         },{},{},{},{},{},
         {
           "time" : "09:00",
@@ -139,44 +210,229 @@
           "home" : "노원구 대호",
           "away" : "노원구 비호",
           "home_score" : "0",
-          "away_score" : "0"
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo05.png",
+          "away_logo" : "../assets/photo/logo/logo06.jpg"
         },{},{}
       ]
     },
     {
       "month" : "7",
       "date" : [
-        {},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}
+        {
+          "time" : "19:00",
+          "stadium" : "서울 월드컵 경기장",
+          "home" : "마포구 청룡",
+          "away" : "종로 YBM",
+          "home_score" : "0",
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo01.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },{},{},{},
+        {
+          "time" : "15:00",
+          "stadium" : "서울 월드컵 보조경기장",
+          "home" : "마포구 홍대",
+          "away" : "동대문 한국외대",
+          "home_score" : "1",
+          "away_score" : "5",
+          "home_logo" : "../assets/photo/logo/logo03.jpg",
+          "away_logo" : "../assets/photo/logo/logo04.png"
+        },{},{},{},{},{},{},{},
+        {
+          "time" : "13:00",
+          "stadium" : "불암산 축구구장",
+          "home" : "노원구 대호",
+          "away" : "노원구 비호",
+          "home_score" : "2",
+          "away_score" : "5",
+          "home_logo" : "../assets/photo/logo/logo05.png",
+          "away_logo" : "../assets/photo/logo/logo06.jpg"
+        },{},{},{},{},{},{},{},
+        {
+          "time" : "13:00",
+          "stadium" : "서울 월드컵 경기장",
+          "home" : "종로 해커스",
+          "away" : "종로 YBM",
+          "home_score" : "2",
+          "away_score" : "1",
+          "home_logo" : "../assets/photo/logo/logo07.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },{},{},{},{},{},{},{},{},{},{}
       ]
     },
     {
       "month" : "8",
       "date" : [
-        {},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}
+        {},{},{},{
+          "time" : "20:00",
+          "stadium" : "서울 월드컵 보조경기장",
+          "home" : "마포구 청룡",
+          "away" : "종로 YBM",
+          "home_score" : "1",
+          "away_score" : "1",
+          "home_logo" : "../assets/photo/logo/logo01.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}
       ]
     },
     {
       "month" : "9",
       "date" : [
-        {},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}
+        {
+          "time" : "19:00",
+          "stadium" : "서울 월드컵 경기장",
+          "home" : "마포구 청룡",
+          "away" : "종로 YBM",
+          "home_score" : "0",
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo01.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },
+        {
+          "time" : "15:00",
+          "stadium" : "서울 월드컵 보조경기장",
+          "home" : "마포구 홍익대",
+          "away" : "동대문 한국외대",
+          "home_score" : "1",
+          "away_score" : "5",
+          "home_logo" : "../assets/photo/logo/logo03.jpg",
+          "away_logo" : "../assets/photo/logo/logo04.png"
+        },{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},
+        {
+          "time" : "15:00",
+          "stadium" : "서울 월드컵 경기장",
+          "home" : "종로 해커스",
+          "away" : "종로 YBM",
+          "home_score" : "2",
+          "away_score" : "3",
+          "home_logo" : "../assets/photo/logo/logo07.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },{},{},{},{},{},
+        {
+          "time" : "09:00",
+          "stadium" : "노원 마들구장",
+          "home" : "노원구 대호",
+          "away" : "노원구 비호",
+          "home_score" : "0",
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo05.png",
+          "away_logo" : "../assets/photo/logo/logo06.jpg"
+        },{},{}
       ]
     },
     {
       "month" : "10",
       "date" : [
-        {},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}
+        {
+          "time" : "19:00",
+          "stadium" : "서울 월드컵 경기장",
+          "home" : "마포구 청룡",
+          "away" : "종로 YBM",
+          "home_score" : "0",
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo01.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },{},{},{},
+        {
+          "time" : "15:00",
+          "stadium" : "서울 월드컵 보조경기장",
+          "home" : "마포구 홍대",
+          "away" : "동대문 한국외대",
+          "home_score" : "1",
+          "away_score" : "5",
+          "home_logo" : "../assets/photo/logo/logo03.jpg",
+          "away_logo" : "../assets/photo/logo/logo04.png"
+        },{},{},{},{},{},{},{},
+        {
+          "time" : "13:00",
+          "stadium" : "불암산 축구구장",
+          "home" : "노원구 대호",
+          "away" : "노원구 비호",
+          "home_score" : "2",
+          "away_score" : "5",
+          "home_logo" : "../assets/photo/logo/logo05.png",
+          "away_logo" : "../assets/photo/logo/logo06.jpg"
+        },{},{},{},{},{},{},{},
+        {
+          "time" : "13:00",
+          "stadium" : "서울 월드컵 경기장",
+          "home" : "종로 해커스",
+          "away" : "종로 YBM",
+          "home_score" : "2",
+          "away_score" : "1",
+          "home_logo" : "../assets/photo/logo/logo07.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },{},{},{},{},{},{},{},{},{},{}
       ]
     },
     {
       "month" : "11",
       "date" : [
-        {},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}
+        {
+          "time" : "19:00",
+          "stadium" : "서울 월드컵 경기장",
+          "home" : "마포구 청룡",
+          "away" : "종로 YBM",
+          "home_score" : "0",
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo01.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },
+        {
+          "time" : "15:00",
+          "stadium" : "서울 월드컵 보조경기장",
+          "home" : "마포구 홍익대",
+          "away" : "동대문 한국외대",
+          "home_score" : "1",
+          "away_score" : "5",
+          "home_logo" : "../assets/photo/logo/logo03.jpg",
+          "away_logo" : "../assets/photo/logo/logo04.png"
+        },{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},
+        {
+          "time" : "15:00",
+          "stadium" : "서울 월드컵 경기장",
+          "home" : "종로 해커스",
+          "away" : "종로 YBM",
+          "home_score" : "2",
+          "away_score" : "3",
+          "home_logo" : "../assets/photo/logo/logo07.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },{},{},{},{},{},
+        {
+          "time" : "09:00",
+          "stadium" : "노원 마들구장",
+          "home" : "노원구 대호",
+          "away" : "노원구 비호",
+          "home_score" : "0",
+          "away_score" : "0",
+          "home_logo" : "../assets/photo/logo/logo05.png",
+          "away_logo" : "../assets/photo/logo/logo06.jpg"
+        },{},{}
       ]
     },
     {
       "month" : "12",
       "date" : [
-        {},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}
+        {},{},{},{},{},{},{},{},{},{},{},{},{
+          "time" : "09:00",
+          "stadium" : "노원 마들구장",
+          "home" : "노원구 대호",
+          "away" : "노원구 비호",
+          "home_score" : "4",
+          "away_score" : "3",
+          "home_logo" : "../assets/photo/logo/logo05.png",
+          "away_logo" : "../assets/photo/logo/logo06.jpg"
+        },{},{},{},{},{},{},{},{
+          "time" : "15:00",
+          "stadium" : "서울 월드컵 경기장",
+          "home" : "종로 해커스",
+          "away" : "종로 YBM",
+          "home_score" : "2",
+          "away_score" : "2",
+          "home_logo" : "../assets/photo/logo/logo07.jpg",
+          "away_logo" : "../assets/photo/logo/logo02.jpg"
+        },{},{},{},{},{},{},{},{},{}
       ]
     }
   ]

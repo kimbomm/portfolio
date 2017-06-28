@@ -128,12 +128,14 @@ $(function(){
       html += '<div class="match_team">';
       html += '<a href="match_view.html?seq='+j+'&page-'+i+'">';
       html += '<div class="first_team">';
+      html += '<img src="'+match.calendar[i].date[j].home_logo+'" alt="">';
       html += '<span class="name">'+match.calendar[i].date[j].home+'</span>';
       html += '<span class="score">'+match.calendar[i].date[j].home_score+'</span>';
       html += '</div>';
       html += '<div class="second_team">';
       html += '<span class="score">'+match.calendar[i].date[j].away_score+'</span>';
       html += '<span class="name">'+match.calendar[i].date[j].away+'</span>';
+      html += '<img src="'+match.calendar[i].date[j].away_logo+'" alt="">';
       html += '</div>';
       html += '</a>';
       html += '</div>';
@@ -177,8 +179,11 @@ $(function(){
       $('.second_team .name').html(match.calendar[i].date[j].away);
       $('.second_team .score').html(match.calendar[i].date[j].away_score);
       $('.match_stadium span').html(match.calendar[i].date[j].stadium);
+      $('first_team img').attr('src', match.calendar[i].date[j].home_logo);
+      $('second_team img').attr('src', match.calendar[i].date[j].away_logo);
     }
     matchInfo(idxMonth, idxDate);
+    console.log(match.calendar[5].date[3].away_logo);
 
     //이전 경기 이동
     $('.btngroup .prev').click(function(e){

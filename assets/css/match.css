@@ -262,7 +262,7 @@ header .nav .hamburger {
   font-size: 60px;
   line-height: 68px;
   font-weight: lighter;
-  color: #4a0001;
+  color: #fff;
 }
 .match_intro .text_wrap .sub {
   position: relative;
@@ -272,6 +272,7 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
+  padding-left: 43.2px;
   color: #f90304;
 }
 .match_intro .text_wrap .line {
@@ -433,24 +434,18 @@ header .nav .hamburger {
   vertical-align: middle;
   padding: 0 10px;
 }
-.match_schedule .schedule .match_info .match_team .first_team:before {
-  content: "";
+.match_schedule .schedule .match_info .match_team .first_team img {
   display: inline-block;
   vertical-align: middle;
   width: 75px;
   height: 75px;
-  border: 1px #000 solid;
-  border-radius: 50%;
   margin-right: 20px;
 }
-.match_schedule .schedule .match_info .match_team .second_team:after {
-  content: "";
+.match_schedule .schedule .match_info .match_team .second_team img {
   display: inline-block;
   vertical-align: middle;
   width: 75px;
   height: 75px;
-  border: 1px #000 solid;
-  border-radius: 50%;
   margin-left: 20px;
 }
 @media screen and (max-width: 1200px) {

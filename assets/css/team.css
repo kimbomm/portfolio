@@ -355,6 +355,7 @@ header .nav .hamburger {
   color: #4a0001;
   padding: 10px;
   margin-left: 30px;
+  cursor: pointer;
 }
 .team_list .inner {
   width: 1024px;
@@ -432,6 +433,10 @@ header .nav .hamburger {
     width: 200px;
     height: 4px;
     margin: 30px auto;
+  }
+  .team_intro .text_wrap .comment {
+    font-size: 14px;
+    line-height: 20px;
   }
   .team_title > div {
     padding-top: 40px;

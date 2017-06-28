@@ -605,6 +605,10 @@ header .nav .hamburger {
     height: 4px;
     margin: 30px auto;
   }
+  .team_intro .text_wrap .comment {
+    font-size: 14px;
+    line-height: 20px;
+  }
   .team_title > div {
     padding-top: 40px;
   }

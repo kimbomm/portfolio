@@ -314,7 +314,7 @@ header .nav .hamburger {
   font-size: 60px;
   line-height: 68px;
   font-weight: lighter;
-  color: #4a0001;
+  color: #fff;
 }
 /* line 35, assets/less/match.less */
 .match_intro .text_wrap .sub {
@@ -325,47 +325,48 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
+  padding-left: 43.2px;
   color: #f90304;
 }
-/* line 45, assets/less/match.less */
+/* line 46, assets/less/match.less */
 .match_intro .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #f90304;
 }
-/* line 50, assets/less/match.less */
+/* line 51, assets/less/match.less */
 .match_intro .text_wrap .comment {
   font-size: 20px;
   line-height: 26px;
   text-align: center;
   color: #fff;
 }
-/* line 59, assets/less/match.less */
+/* line 60, assets/less/match.less */
 .match_title > div {
   padding-top: 140px;
 }
-/* line 62, assets/less/match.less */
+/* line 63, assets/less/match.less */
 .match_title .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 65, assets/less/match.less */
+/* line 66, assets/less/match.less */
 .match_title .inner:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 72, assets/less/match.less */
+/* line 73, assets/less/match.less */
 .match_title .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 76, assets/less/match.less */
+/* line 77, assets/less/match.less */
 .match_title .text_wrap > span {
   display: block;
   text-align: center;
@@ -374,7 +375,7 @@ header .nav .hamburger {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 84, assets/less/match.less */
+/* line 85, assets/less/match.less */
 .match_title .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -385,25 +386,25 @@ header .nav .hamburger {
   letter-spacing: 43.2px;
   color: #999999;
 }
-/* line 94, assets/less/match.less */
+/* line 95, assets/less/match.less */
 .match_title .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
 }
-/* line 101, assets/less/match.less */
+/* line 102, assets/less/match.less */
 .match_schedule {
   padding: 20px 0;
 }
-/* line 103, assets/less/match.less */
+/* line 104, assets/less/match.less */
 .match_schedule .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   position: relative;
 }
-/* line 108, assets/less/match.less */
+/* line 109, assets/less/match.less */
 .match_schedule .btngroup button {
   width: 16px;
   height: 30px;
@@ -411,97 +412,97 @@ header .nav .hamburger {
   top: 20px;
   cursor: pointer;
 }
-/* line 114, assets/less/match.less */
+/* line 115, assets/less/match.less */
 .match_schedule .btngroup .next {
   right: 400px;
   background: url(../photo/icon/next01.png) no-repeat center;
 }
-/* line 118, assets/less/match.less */
+/* line 119, assets/less/match.less */
 .match_schedule .btngroup .prev {
   left: 400px;
   background: url(../photo/icon/prev01.png) no-repeat center;
 }
-/* line 123, assets/less/match.less */
+/* line 124, assets/less/match.less */
 .match_schedule .match_month {
   text-align: center;
 }
-/* line 125, assets/less/match.less */
+/* line 126, assets/less/match.less */
 .match_schedule .match_month .month {
   display: inline-block;
   font-size: 38px;
   padding: 10px;
 }
-/* line 129, assets/less/match.less */
+/* line 130, assets/less/match.less */
 .match_schedule .match_month .month:after {
   content: "월";
 }
-/* line 133, assets/less/match.less */
+/* line 134, assets/less/match.less */
 .match_schedule .match_month .month_date {
   font-size: 0;
 }
-/* line 135, assets/less/match.less */
+/* line 136, assets/less/match.less */
 .match_schedule .match_month .month_date li {
   display: inline-block;
   width: 34.133333px;
   height: 34.133333px;
   background-color: #f90304;
 }
-/* line 140, assets/less/match.less */
+/* line 141, assets/less/match.less */
 .match_schedule .match_month .month_date li:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 146, assets/less/match.less */
+/* line 147, assets/less/match.less */
 .match_schedule .match_month .month_date li span {
   display: inline-block;
   vertical-align: middle;
   font-size: 10px;
   color: #fff;
 }
-/* line 156, assets/less/match.less */
+/* line 157, assets/less/match.less */
 .match_schedule .schedule {
   margin-top: 70px;
   text-align: center;
 }
-/* line 159, assets/less/match.less */
+/* line 160, assets/less/match.less */
 .match_schedule .schedule .match_info {
   display: inline-block;
   padding-bottom: 50px;
 }
-/* line 162, assets/less/match.less */
+/* line 163, assets/less/match.less */
 .match_schedule .schedule .match_info > div {
   margin: 10px 0;
 }
-/* line 166, assets/less/match.less */
+/* line 167, assets/less/match.less */
 .match_schedule .schedule .match_info .match_date span {
   font-size: 20px;
 }
-/* line 171, assets/less/match.less */
+/* line 172, assets/less/match.less */
 .match_schedule .schedule .match_info .match_status span {
   font-size: 18px;
   color: #f90304;
 }
-/* line 176, assets/less/match.less */
+/* line 177, assets/less/match.less */
 .match_schedule .schedule .match_info .match_stadium {
   border-bottom: 1px #999999 solid;
   margin-bottom: 30px;
 }
-/* line 179, assets/less/match.less */
+/* line 180, assets/less/match.less */
 .match_schedule .schedule .match_info .match_stadium span {
   font-size: 18px;
 }
-/* line 183, assets/less/match.less */
+/* line 184, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team {
   font-size: 0px;
 }
-/* line 185, assets/less/match.less */
+/* line 186, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team div {
   display: inline-block;
   padding: 10px 30px;
 }
-/* line 189, assets/less/match.less */
+/* line 190, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .name {
   text-align: center;
   width: 200px;
@@ -510,7 +511,7 @@ header .nav .hamburger {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 197, assets/less/match.less */
+/* line 198, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .score {
   font-size: 60px;
   color: #000;
@@ -518,156 +519,150 @@ header .nav .hamburger {
   vertical-align: middle;
   padding: 0 10px;
 }
-/* line 205, assets/less/match.less */
-.match_schedule .schedule .match_info .match_team .first_team:before {
-  content: "";
+/* line 206, assets/less/match.less */
+.match_schedule .schedule .match_info .match_team .first_team img {
   display: inline-block;
   vertical-align: middle;
   width: 75px;
   height: 75px;
-  border: 1px #000 solid;
-  border-radius: 50%;
   margin-right: 20px;
 }
-/* line 216, assets/less/match.less */
-.match_schedule .schedule .match_info .match_team .second_team:after {
-  content: "";
+/* line 214, assets/less/match.less */
+.match_schedule .schedule .match_info .match_team .second_team img {
   display: inline-block;
   vertical-align: middle;
   width: 75px;
   height: 75px;
-  border: 1px #000 solid;
-  border-radius: 50%;
   margin-left: 20px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 232, assets/less/match.less */
+  /* line 227, assets/less/match.less */
   .content_wrap {
     margin-left: 120px;
   }
-  /* line 235, assets/less/match.less */
+  /* line 230, assets/less/match.less */
   .match_intro {
     height: 300px;
   }
-  /* line 237, assets/less/match.less */
+  /* line 232, assets/less/match.less */
   .match_intro .inner {
     width: 100%;
   }
-  /* line 241, assets/less/match.less */
+  /* line 236, assets/less/match.less */
   .match_intro .text_wrap > span {
     font-size: 38px;
     line-height: 42px;
   }
-  /* line 245, assets/less/match.less */
+  /* line 240, assets/less/match.less */
   .match_intro .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 251, assets/less/match.less */
+  /* line 246, assets/less/match.less */
   .match_intro .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto;
   }
-  /* line 255, assets/less/match.less */
+  /* line 250, assets/less/match.less */
   .match_intro .text_wrap .comment {
     font-size: 14px;
     line-height: 20px;
   }
-  /* line 262, assets/less/match.less */
+  /* line 257, assets/less/match.less */
   .match_title > div {
     padding-top: 40px;
   }
-  /* line 265, assets/less/match.less */
+  /* line 260, assets/less/match.less */
   .match_title .inner {
     width: 100%;
   }
-  /* line 269, assets/less/match.less */
+  /* line 264, assets/less/match.less */
   .match_title .text_wrap > span {
     font-size: 38px;
     line-height: 1;
   }
-  /* line 273, assets/less/match.less */
+  /* line 268, assets/less/match.less */
   .match_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 279, assets/less/match.less */
+  /* line 274, assets/less/match.less */
   .match_title .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
-  /* line 286, assets/less/match.less */
+  /* line 281, assets/less/match.less */
   .match_schedule .inner {
     width: 100%;
   }
-  /* line 289, assets/less/match.less */
+  /* line 284, assets/less/match.less */
   .match_schedule .match_month {
     width: 95%;
     margin: 0 auto;
   }
-  /* line 292, assets/less/match.less */
+  /* line 287, assets/less/match.less */
   .match_schedule .match_month .month {
     font-size: 32px;
   }
-  /* line 295, assets/less/match.less */
+  /* line 290, assets/less/match.less */
   .match_schedule .match_month .month_date {
     display: none;
   }
-  /* line 300, assets/less/match.less */
+  /* line 295, assets/less/match.less */
   .match_schedule .btngroup .next {
     right: 100px;
   }
-  /* line 303, assets/less/match.less */
+  /* line 298, assets/less/match.less */
   .match_schedule .btngroup .prev {
     left: 100px;
   }
-  /* line 307, assets/less/match.less */
+  /* line 302, assets/less/match.less */
   .match_schedule .schedule {
     margin-top: 50px;
   }
-  /* line 309, assets/less/match.less */
+  /* line 304, assets/less/match.less */
   .match_schedule .schedule .match_info {
     padding-bottom: 30px;
   }
-  /* line 311, assets/less/match.less */
+  /* line 306, assets/less/match.less */
   .match_schedule .schedule .match_info > div {
     margin: 0;
   }
-  /* line 315, assets/less/match.less */
+  /* line 310, assets/less/match.less */
   .match_schedule .schedule .match_info .match_date span {
     font-size: 18px;
   }
-  /* line 320, assets/less/match.less */
+  /* line 315, assets/less/match.less */
   .match_schedule .schedule .match_info .match_status span,
   .match_schedule .schedule .match_info .match_stadium span {
     font-size: 15px;
   }
-  /* line 325, assets/less/match.less */
+  /* line 320, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team div {
     padding: 10px 20px;
   }
-  /* line 328, assets/less/match.less */
+  /* line 323, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .name {
     width: 130px;
     font-size: 18px;
   }
-  /* line 332, assets/less/match.less */
+  /* line 327, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .score {
     font-size: 48px;
   }
-  /* line 336, assets/less/match.less */
+  /* line 331, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .first_team:before {
     width: 60px;
     height: 60px;
     margin-right: 10px;
   }
-  /* line 342, assets/less/match.less */
+  /* line 337, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .second_team:after {
     width: 60px;
     height: 60px;
@@ -675,40 +670,40 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 353, assets/less/match.less */
+  /* line 348, assets/less/match.less */
   .content_wrap {
     margin-left: 0px;
   }
 }
 @media screen and (max-width: 680px) {
-  /* line 360, assets/less/match.less */
+  /* line 355, assets/less/match.less */
   .match_title .text_wrap .sub {
     letter-spacing: 20px;
     padding-left: 20px;
   }
-  /* line 368, assets/less/match.less */
+  /* line 363, assets/less/match.less */
   .match_schedule .match_month .month {
     font-size: 24px;
   }
-  /* line 372, assets/less/match.less */
+  /* line 367, assets/less/match.less */
   .match_schedule .schedule {
     margin-top: 30px;
   }
-  /* line 375, assets/less/match.less */
+  /* line 370, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team {
     padding: 5px 10px;
   }
-  /* line 377, assets/less/match.less */
+  /* line 372, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .score {
     font-size: 32px;
   }
-  /* line 381, assets/less/match.less */
+  /* line 376, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .first_team:before {
     width: 45px;
     height: 45px;
     margin-right: 5px;
   }
-  /* line 387, assets/less/match.less */
+  /* line 382, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .second_team:after {
     width: 45px;
     height: 45px;
@@ -716,33 +711,33 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 630px) {
-  /* line 400, assets/less/match.less */
+  /* line 395, assets/less/match.less */
   .match_intro .text_wrap > span {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 404, assets/less/match.less */
+  /* line 399, assets/less/match.less */
   .match_intro .text_wrap .line {
     width: 150px;
     height: 2px;
   }
-  /* line 410, assets/less/match.less */
+  /* line 405, assets/less/match.less */
   .match_title > div {
     padding-top: 30px;
   }
-  /* line 414, assets/less/match.less */
+  /* line 409, assets/less/match.less */
   .match_title .text_wrap > span {
     font-size: 32px;
     line-height: 1;
   }
-  /* line 418, assets/less/match.less */
+  /* line 413, assets/less/match.less */
   .match_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 20px;
     padding-left: 20px;
   }
-  /* line 424, assets/less/match.less */
+  /* line 419, assets/less/match.less */
   .match_title .text_wrap .line {
     width: 150px;
     height: 2px;
@@ -750,47 +745,47 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 435, assets/less/match.less */
+  /* line 430, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team {
     height: 100px;
     width: 330px;
     position: relative;
     padding: 0;
   }
-  /* line 440, assets/less/match.less */
+  /* line 435, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .name {
     width: auto;
     position: absolute;
     top: 65px;
   }
-  /* line 445, assets/less/match.less */
+  /* line 440, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .score {
     position: absolute;
     top: 20px;
   }
-  /* line 450, assets/less/match.less */
+  /* line 445, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .first_team .name {
     left: 35px;
   }
-  /* line 453, assets/less/match.less */
+  /* line 448, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .first_team .score {
     left: 110px;
   }
-  /* line 456, assets/less/match.less */
+  /* line 451, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .first_team:before {
     position: absolute;
     left: 50px;
     top: 10px;
   }
-  /* line 462, assets/less/match.less */
+  /* line 457, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .second_team .name {
     right: 35px;
   }
-  /* line 465, assets/less/match.less */
+  /* line 460, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .second_team .score {
     right: 110px;
   }
-  /* line 468, assets/less/match.less */
+  /* line 463, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .second_team:after {
     position: absolute;
     right: 50px;

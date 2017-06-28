@@ -30,7 +30,7 @@
       font-size: @intro_title;
       line-height: 68px;
       font-weight: lighter;
-      color:@font-main;
+      color:@font-white;
     }
     .sub{
       position: relative;
@@ -40,6 +40,7 @@
       text-align: center;
       text-transform: uppercase;
       letter-spacing: 43.2px;
+      padding-left: 43.2px;
       color:@font-sub;
     }
     .line{
@@ -202,24 +203,18 @@
           padding: 0 10px;
         }
         .first_team{
-          &:before{
-            content:"";
+          img{
             display: inline-block;
             vertical-align: middle;
             width: 75px;height: 75px;
-            border: 1px #000 solid;
-            border-radius: 50%;
             margin-right: 20px;
           }
         }
         .second_team{
-          &:after{
-            content:"";
+          img{
             display: inline-block;
             vertical-align: middle;
             width: 75px;height: 75px;
-            border: 1px #000 solid;
-            border-radius: 50%;
             margin-left: 20px;
           }
         }
