@@ -73,6 +73,21 @@ $(function(){
     }
   })
 
+  // 선수 random 출력
+  $.get('../json/team.json', function(team){
+    var ranNum = ["","",""];
+    ranNum[0] = Math.floor(Math.random() * 4);
+    ranNum[1] = Math.floor(Math.random() * 5) + 4;
+    ranNum[2] = Math.floor(Math.random() * 5) + 9;
+
+    for(i=0; i<$('.player_list li').length; i++){
+      $('.player_list li').eq(i).find('img').attr('src',team.player[ranNum[i]].photo);
+      $('.player_list li').eq(i).find('.name').html(team.player[ranNum[i]].name);
+      $('.player_list li').eq(i).find('.position').html(team.player[ranNum[i]].position);
+      $('.player_list li').eq(i).find('.number').html(team.player[ranNum[i]].number);
+    }
+
+  })
 
 
 })

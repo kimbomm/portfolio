@@ -657,13 +657,13 @@ header .nav .hamburger {
     font-size: 48px;
   }
   /* line 331, assets/less/match.less */
-  .match_schedule .schedule .match_info .match_team .first_team:before {
+  .match_schedule .schedule .match_info .match_team .first_team img {
     width: 60px;
     height: 60px;
     margin-right: 10px;
   }
   /* line 337, assets/less/match.less */
-  .match_schedule .schedule .match_info .match_team .second_team:after {
+  .match_schedule .schedule .match_info .match_team .second_team img {
     width: 60px;
     height: 60px;
     margin-left: 10px;
@@ -698,13 +698,13 @@ header .nav .hamburger {
     font-size: 32px;
   }
   /* line 376, assets/less/match.less */
-  .match_schedule .schedule .match_info .match_team .first_team:before {
+  .match_schedule .schedule .match_info .match_team .first_team img {
     width: 45px;
     height: 45px;
     margin-right: 5px;
   }
   /* line 382, assets/less/match.less */
-  .match_schedule .schedule .match_info .match_team .second_team:after {
+  .match_schedule .schedule .match_info .match_team .second_team img {
     width: 45px;
     height: 45px;
     margin-left: 5px;
@@ -772,7 +772,7 @@ header .nav .hamburger {
     left: 110px;
   }
   /* line 451, assets/less/match.less */
-  .match_schedule .schedule .match_info .match_team .first_team:before {
+  .match_schedule .schedule .match_info .match_team .first_team img {
     position: absolute;
     left: 50px;
     top: 10px;
@@ -786,7 +786,7 @@ header .nav .hamburger {
     right: 110px;
   }
   /* line 463, assets/less/match.less */
-  .match_schedule .schedule .match_info .match_team .second_team:after {
+  .match_schedule .schedule .match_info .match_team .second_team img {
     position: absolute;
     right: 50px;
     top: 10px;

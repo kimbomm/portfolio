@@ -179,11 +179,10 @@ $(function(){
       $('.second_team .name').html(match.calendar[i].date[j].away);
       $('.second_team .score').html(match.calendar[i].date[j].away_score);
       $('.match_stadium span').html(match.calendar[i].date[j].stadium);
-      $('first_team img').attr('src', match.calendar[i].date[j].home_logo);
-      $('second_team img').attr('src', match.calendar[i].date[j].away_logo);
+      $('.first_team img').attr('src', match.calendar[i].date[j].home_logo);
+      $('.second_team img').attr('src', match.calendar[i].date[j].away_logo);
     }
     matchInfo(idxMonth, idxDate);
-    console.log(match.calendar[5].date[3].away_logo);
 
     //이전 경기 이동
     $('.btngroup .prev').click(function(e){

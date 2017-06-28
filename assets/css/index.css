@@ -217,13 +217,13 @@ header .nav .hamburger {
   background-color: #f90304;
 }
 .content_wrap .match .text_wrap .match {
-  display: none;
   margin-top: 30px;
-  width: 100px;
-  height: 30px;
-  border: 1px #4a0001 solid;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border: 1px #f90304 solid;
   border-radius: 10px;
-  color: #4a0001;
+  color: #f90304;
 }
 .content_wrap .match .score div {
   width: 200px;

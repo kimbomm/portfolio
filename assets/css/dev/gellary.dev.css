@@ -447,18 +447,20 @@ header .nav .hamburger {
 /* line 144, assets/less/gellary.less */
 .gellary_list .gellary_img {
   margin-bottom: 10px;
-}
-/* line 146, assets/less/gellary.less */
-.gellary_list .gellary_img img {
   width: 300px;
   height: 300px;
+}
+/* line 147, assets/less/gellary.less */
+.gellary_list .gellary_img img {
+  width: 100%;
+  height: 100%;
   background-color: #4a0001;
 }
-/* line 151, assets/less/gellary.less */
+/* line 152, assets/less/gellary.less */
 .gellary_list .gellary_info {
   padding: 5px;
 }
-/* line 153, assets/less/gellary.less */
+/* line 154, assets/less/gellary.less */
 .gellary_list .gellary_info .gellary_title {
   display: block;
   font-size: 18px;
@@ -468,42 +470,42 @@ header .nav .hamburger {
   margin-bottom: 5px;
   width: 100%;
 }
-/* line 160, assets/less/gellary.less */
+/* line 161, assets/less/gellary.less */
 .gellary_list .gellary_info .gellary_writer {
   display: inline-block;
   float: right;
   font-size: 13px;
   margin-right: 10px;
 }
-/* line 165, assets/less/gellary.less */
+/* line 166, assets/less/gellary.less */
 .gellary_list .gellary_info .gellary_writer:before {
   content: "by ";
 }
-/* line 169, assets/less/gellary.less */
+/* line 170, assets/less/gellary.less */
 .gellary_list .gellary_info .gellary_date {
   display: inline-block;
   float: right;
   font-size: 13px;
   text-align: right;
 }
-/* line 176, assets/less/gellary.less */
+/* line 177, assets/less/gellary.less */
 .gellary_list .search {
   display: inline-block;
   height: 40px;
   margin-top: 20px;
 }
-/* line 180, assets/less/gellary.less */
+/* line 181, assets/less/gellary.less */
 .gellary_list .search:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 186, assets/less/gellary.less */
+/* line 187, assets/less/gellary.less */
 .gellary_list .search input {
   vertical-align: middle;
 }
-/* line 188, assets/less/gellary.less */
+/* line 189, assets/less/gellary.less */
 .gellary_list .search input:first-child {
   width: 200px;
   height: 30px;
@@ -511,7 +513,7 @@ header .nav .hamburger {
   border-radius: 10px;
   border: 1px #000 solid;
 }
-/* line 194, assets/less/gellary.less */
+/* line 195, assets/less/gellary.less */
 .gellary_list .search input:last-child {
   width: 40px;
   height: 36px;
@@ -519,12 +521,12 @@ header .nav .hamburger {
   background-color: rgba(0, 0, 0, 0);
   border-radius: 10px;
 }
-/* line 202, assets/less/gellary.less */
+/* line 203, assets/less/gellary.less */
 .gellary_list .btn {
   text-align: center;
   margin: 50px 0;
 }
-/* line 205, assets/less/gellary.less */
+/* line 206, assets/less/gellary.less */
 .gellary_list .btn button {
   width: 120px;
   height: 40px;
@@ -533,131 +535,131 @@ header .nav .hamburger {
   color: #f90304;
 }
 @media screen and (max-width: 1200px) {
-  /* line 215, assets/less/gellary.less */
+  /* line 216, assets/less/gellary.less */
   .content_wrap {
     margin-left: 120px;
   }
-  /* line 218, assets/less/gellary.less */
+  /* line 219, assets/less/gellary.less */
   .news_intro {
     height: 300px;
   }
-  /* line 220, assets/less/gellary.less */
+  /* line 221, assets/less/gellary.less */
   .news_intro .inner {
     width: 100%;
   }
-  /* line 224, assets/less/gellary.less */
+  /* line 225, assets/less/gellary.less */
   .news_intro .text_wrap > span {
     font-size: 38px;
     line-height: 42px;
   }
-  /* line 228, assets/less/gellary.less */
+  /* line 229, assets/less/gellary.less */
   .news_intro .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 234, assets/less/gellary.less */
+  /* line 235, assets/less/gellary.less */
   .news_intro .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto;
   }
-  /* line 241, assets/less/gellary.less */
+  /* line 242, assets/less/gellary.less */
   .news_title > div {
     padding-top: 40px;
   }
-  /* line 244, assets/less/gellary.less */
+  /* line 245, assets/less/gellary.less */
   .news_title .inner {
     width: 100%;
   }
-  /* line 248, assets/less/gellary.less */
+  /* line 249, assets/less/gellary.less */
   .news_title .text_wrap > span {
     font-size: 38px;
     line-height: 1;
   }
-  /* line 252, assets/less/gellary.less */
+  /* line 253, assets/less/gellary.less */
   .news_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 258, assets/less/gellary.less */
+  /* line 259, assets/less/gellary.less */
   .news_title .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
-  /* line 262, assets/less/gellary.less */
+  /* line 263, assets/less/gellary.less */
   .news_title .text_wrap .vertical_line {
     height: 70px;
     margin-bottom: 30px;
   }
-  /* line 269, assets/less/gellary.less */
+  /* line 270, assets/less/gellary.less */
   .news_menu .inner {
     width: 100%;
   }
-  /* line 272, assets/less/gellary.less */
+  /* line 273, assets/less/gellary.less */
   .news_menu ul {
     width: 95%;
   }
-  /* line 275, assets/less/gellary.less */
+  /* line 276, assets/less/gellary.less */
   .news_menu li {
     font-size: 18px;
   }
-  /* line 280, assets/less/gellary.less */
+  /* line 281, assets/less/gellary.less */
   .gellary_list .inner {
     width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 286, assets/less/gellary.less */
+  /* line 287, assets/less/gellary.less */
   .content_wrap {
     margin-left: 0px;
   }
 }
 @media screen and (max-width: 630px) {
-  /* line 293, assets/less/gellary.less */
+  /* line 294, assets/less/gellary.less */
   .news_intro .text_wrap > span {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 297, assets/less/gellary.less */
+  /* line 298, assets/less/gellary.less */
   .news_intro .text_wrap .line {
     width: 150px;
     height: 2px;
   }
-  /* line 300, assets/less/gellary.less */
+  /* line 301, assets/less/gellary.less */
   .news_intro .text_wrap .vertical_line {
     height: 50px;
   }
-  /* line 306, assets/less/gellary.less */
+  /* line 307, assets/less/gellary.less */
   .news_menu li {
     font-size: 14px;
     margin-left: 15px;
     padding: 10px 5px;
   }
-  /* line 314, assets/less/gellary.less */
+  /* line 315, assets/less/gellary.less */
   .gellary_list .inner li {
     border-bottom: 1px #999999 solid;
   }
-  /* line 316, assets/less/gellary.less */
+  /* line 317, assets/less/gellary.less */
   .gellary_list .inner li:last-child {
     border-bottom: none;
   }
-  /* line 321, assets/less/gellary.less */
+  /* line 322, assets/less/gellary.less */
   .gellary_list .btn {
     margin: 30px 0;
   }
-  /* line 323, assets/less/gellary.less */
+  /* line 324, assets/less/gellary.less */
   .gellary_list .btn button {
     width: 100px;
     height: 30px;
   }
 }
 @media screen and (max-width: 460px) {
-  /* line 331, assets/less/gellary.less */
+  /* line 332, assets/less/gellary.less */
   .news_menu li {
     text-align: center;
     width: 45%;
