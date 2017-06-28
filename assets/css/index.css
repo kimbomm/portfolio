@@ -746,14 +746,17 @@ header .nav .hamburger {
     top: 80px;
     right: 0;
     left: initial;
+    text-align: center;
     margin: 0;
-    width: 320px;
+    width: 100%;
     height: auto;
     border: 1px #999999 solid;
     background-color: #4a0001;
   }
   header .nav li {
     display: block;
+    width: 300px;
+    margin: 5px auto;
     line-height: 50px;
     border-bottom: 1px #999999 solid;
   }

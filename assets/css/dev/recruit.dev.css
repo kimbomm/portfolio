@@ -192,7 +192,7 @@ header .nav .hamburger {
     right: 0;
     left: initial;
     margin: 0;
-    width: 320px;
+    width: 100%;
     height: auto;
     border: 1px #999999 solid;
     background-color: #4a0001;
