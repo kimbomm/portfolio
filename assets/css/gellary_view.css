@@ -272,6 +272,7 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
+  padding-left: 43.2px;
   color: #fff;
 }
 .news_intro .text_wrap .line {
@@ -322,6 +323,7 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
+  padding-left: 43.2px;
   color: #999999;
 }
 .news_title .text_wrap .line {
@@ -372,6 +374,7 @@ header .nav .hamburger {
   background-color: #4a0001;
   position: relative;
   margin-bottom: 40px;
+  border-radius: 5px;
 }
 .gellary_content .view_title > div {
   position: absolute;
@@ -389,12 +392,13 @@ header .nav .hamburger {
   line-height: 1;
   display: inline-block;
   vertical-align: middle;
+  font-weight: 100;
 }
 .gellary_content .view_title .title {
-  font-size: 32px;
+  font-size: 24px;
 }
 .gellary_content .view_title .writer {
-  font-size: 24px;
+  font-size: 18px;
   margin-right: 50px;
 }
 .gellary_content .view_title .writer:before {
@@ -467,7 +471,7 @@ header .nav .hamburger {
   width: 100px;
   height: 30px;
   border: 1px #f90304 solid;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #f90304;
   margin: 5px;
 }
@@ -516,7 +520,7 @@ header .nav .hamburger {
   height: 30px;
   background-color: rgba(0, 0, 0, 0);
   border: 1px #f90304 solid;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #f90304;
   position: absolute;
   right: 0;

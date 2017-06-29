@@ -325,47 +325,48 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
+  padding-left: 43.2px;
   color: #fff;
 }
-/* line 45, assets/less/gellary_view.less */
+/* line 46, assets/less/gellary_view.less */
 .news_intro .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #fff;
 }
-/* line 50, assets/less/gellary_view.less */
+/* line 51, assets/less/gellary_view.less */
 .news_intro .text_wrap .comment {
   font-size: 20px;
   line-height: 26px;
   text-align: center;
   color: #fff;
 }
-/* line 59, assets/less/gellary_view.less */
+/* line 60, assets/less/gellary_view.less */
 .news_title > div {
   padding-top: 140px;
 }
-/* line 62, assets/less/gellary_view.less */
+/* line 63, assets/less/gellary_view.less */
 .news_title .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 65, assets/less/gellary_view.less */
+/* line 66, assets/less/gellary_view.less */
 .news_title .inner:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 72, assets/less/gellary_view.less */
+/* line 73, assets/less/gellary_view.less */
 .news_title .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 76, assets/less/gellary_view.less */
+/* line 77, assets/less/gellary_view.less */
 .news_title .text_wrap > span {
   display: block;
   text-align: center;
@@ -374,7 +375,7 @@ header .nav .hamburger {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 84, assets/less/gellary_view.less */
+/* line 85, assets/less/gellary_view.less */
 .news_title .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -383,30 +384,31 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
+  padding-left: 43.2px;
   color: #999999;
 }
-/* line 94, assets/less/gellary_view.less */
+/* line 96, assets/less/gellary_view.less */
 .news_title .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
 }
-/* line 99, assets/less/gellary_view.less */
+/* line 101, assets/less/gellary_view.less */
 .news_title .text_wrap .vertical_line {
   width: 2px;
   height: 100px;
   background-color: #4a0001;
   margin: 0 auto 40px;
 }
-/* line 107, assets/less/gellary_view.less */
+/* line 109, assets/less/gellary_view.less */
 .news_menu .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 111, assets/less/gellary_view.less */
+/* line 113, assets/less/gellary_view.less */
 .news_menu ul {
   width: 1000px;
   font-size: 0px;
@@ -414,7 +416,7 @@ header .nav .hamburger {
   text-align: left;
   margin: 0 auto 40px;
 }
-/* line 118, assets/less/gellary_view.less */
+/* line 120, assets/less/gellary_view.less */
 .news_menu li {
   text-transform: uppercase;
   display: inline-block;
@@ -422,85 +424,87 @@ header .nav .hamburger {
   padding: 10px;
   margin-left: 30px;
 }
-/* line 124, assets/less/gellary_view.less */
+/* line 126, assets/less/gellary_view.less */
 .news_menu li a {
   color: #4a0001;
 }
-/* line 129, assets/less/gellary_view.less */
+/* line 131, assets/less/gellary_view.less */
 .gellary_content {
   padding-bottom: 40px;
 }
-/* line 131, assets/less/gellary_view.less */
+/* line 133, assets/less/gellary_view.less */
 .gellary_content .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
 }
-/* line 134, assets/less/gellary_view.less */
+/* line 136, assets/less/gellary_view.less */
 .gellary_content .view_title {
   height: 80px;
   background-color: #4a0001;
   position: relative;
   margin-bottom: 40px;
+  border-radius: 5px;
 }
-/* line 139, assets/less/gellary_view.less */
+/* line 142, assets/less/gellary_view.less */
 .gellary_content .view_title > div {
   position: absolute;
 }
-/* line 142, assets/less/gellary_view.less */
+/* line 145, assets/less/gellary_view.less */
 .gellary_content .view_title .title_wrap {
   top: 10px;
   left: 30px;
 }
-/* line 145, assets/less/gellary_view.less */
+/* line 148, assets/less/gellary_view.less */
 .gellary_content .view_title .other_wrap {
   right: 30px;
   bottom: 10px;
 }
-/* line 148, assets/less/gellary_view.less */
+/* line 151, assets/less/gellary_view.less */
 .gellary_content .view_title span {
   color: #fff;
   line-height: 1;
   display: inline-block;
   vertical-align: middle;
+  font-weight: 100;
 }
-/* line 154, assets/less/gellary_view.less */
+/* line 158, assets/less/gellary_view.less */
 .gellary_content .view_title .title {
-  font-size: 32px;
-}
-/* line 157, assets/less/gellary_view.less */
-.gellary_content .view_title .writer {
   font-size: 24px;
-  margin-right: 50px;
 }
 /* line 161, assets/less/gellary_view.less */
+.gellary_content .view_title .writer {
+  font-size: 18px;
+  margin-right: 50px;
+}
+/* line 165, assets/less/gellary_view.less */
 .gellary_content .view_title .writer:before {
   content: "by ";
 }
-/* line 165, assets/less/gellary_view.less */
+/* line 169, assets/less/gellary_view.less */
 .gellary_content .view_title .date {
   font-size: 18px;
   margin-right: 30px;
 }
-/* line 168, assets/less/gellary_view.less */
+/* line 172, assets/less/gellary_view.less */
 .gellary_content .view_title .date:before {
   content: "작성일 : ";
 }
-/* line 172, assets/less/gellary_view.less */
+/* line 176, assets/less/gellary_view.less */
 .gellary_content .view_title .view {
   font-size: 18px;
 }
-/* line 174, assets/less/gellary_view.less */
+/* line 178, assets/less/gellary_view.less */
 .gellary_content .view_title .view:before {
   content: "조회수 : ";
 }
-/* line 179, assets/less/gellary_view.less */
+/* line 183, assets/less/gellary_view.less */
 .gellary_content .gellary_view {
   padding: 80px 20px 20px;
   text-align: center;
   position: relative;
 }
-/* line 184, assets/less/gellary_view.less */
+/* line 188, assets/less/gellary_view.less */
 .gellary_content .gellary_view .view li {
   display: inline-block;
   width: 130px;
@@ -508,92 +512,92 @@ header .nav .hamburger {
   background-color: #4a0001;
   margin: 10px;
 }
-/* line 189, assets/less/gellary_view.less */
+/* line 193, assets/less/gellary_view.less */
 .gellary_content .gellary_view .view li img {
   width: 100%;
   height: 100%;
 }
-/* line 193, assets/less/gellary_view.less */
+/* line 197, assets/less/gellary_view.less */
 .gellary_content .gellary_view .view .main_img {
   display: block;
   width: 600px;
   height: 500px;
   margin: 0 auto 30px;
 }
-/* line 200, assets/less/gellary_view.less */
+/* line 204, assets/less/gellary_view.less */
 .gellary_content .gellary_view .img_btn button {
   width: 30px;
   height: 20px;
   position: absolute;
   top: 30%;
 }
-/* line 205, assets/less/gellary_view.less */
+/* line 209, assets/less/gellary_view.less */
 .gellary_content .gellary_view .img_btn .next {
   background: url('../photo/icon/arrow02.png') no-repeat center;
   right: 10px;
 }
-/* line 209, assets/less/gellary_view.less */
+/* line 213, assets/less/gellary_view.less */
 .gellary_content .gellary_view .img_btn .prev {
   background: url('../photo/icon/arrow01.png') no-repeat center;
   left: 10px;
 }
-/* line 214, assets/less/gellary_view.less */
+/* line 218, assets/less/gellary_view.less */
 .gellary_content .gellary_view .view_btn {
   overflow: hidden;
   margin-top: 30px;
   padding: 10px 50px;
 }
-/* line 218, assets/less/gellary_view.less */
+/* line 222, assets/less/gellary_view.less */
 .gellary_content .gellary_view .view_btn .list_btn {
   float: left;
 }
-/* line 221, assets/less/gellary_view.less */
+/* line 225, assets/less/gellary_view.less */
 .gellary_content .gellary_view .view_btn .modi_btn {
   float: right;
 }
-/* line 224, assets/less/gellary_view.less */
+/* line 228, assets/less/gellary_view.less */
 .gellary_content .gellary_view .view_btn .modi_btn button:last-child {
   margin-right: 0;
 }
-/* line 229, assets/less/gellary_view.less */
+/* line 233, assets/less/gellary_view.less */
 .gellary_content .gellary_view .view_btn button {
   width: 100px;
   height: 30px;
   border: 1px #f90304 solid;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #f90304;
   margin: 5px;
 }
-/* line 237, assets/less/gellary_view.less */
+/* line 241, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap {
   width: 924px;
   margin: 0 auto 50px;
   text-align: left;
 }
-/* line 241, assets/less/gellary_view.less */
+/* line 245, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_line {
   border-bottom: 2px #4a0001 solid;
   margin-bottom: 20px;
 }
-/* line 244, assets/less/gellary_view.less */
+/* line 248, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_line span {
   display: inline-block;
   font-size: 18px;
   color: #4a0001;
   padding: 10px 40px;
 }
-/* line 251, assets/less/gellary_view.less */
+/* line 255, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_info {
   padding: 10px;
   position: relative;
   height: 150px;
 }
-/* line 255, assets/less/gellary_view.less */
+/* line 259, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_info input {
   text-align: center;
   margin-bottom: 20px;
 }
-/* line 259, assets/less/gellary_view.less */
+/* line 263, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_info .name,
 .gellary_content .gellary_view .reply_wrap .reply_info .pw {
   width: 110px;
@@ -602,7 +606,7 @@ header .nav .hamburger {
   margin-right: 20px;
   border-bottom: 1px #999999 solid;
 }
-/* line 265, assets/less/gellary_view.less */
+/* line 269, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_info .comment {
   text-align: left;
   display: block;
@@ -611,250 +615,250 @@ header .nav .hamburger {
   width: 750px;
   padding-left: 40px;
 }
-/* line 273, assets/less/gellary_view.less */
+/* line 277, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_info .submit {
   width: 100px;
   height: 30px;
   background-color: rgba(0, 0, 0, 0);
   border: 1px #f90304 solid;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #f90304;
   position: absolute;
   right: 0;
   bottom: 0;
 }
-/* line 284, assets/less/gellary_view.less */
+/* line 288, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_list li {
   position: relative;
   border-bottom: 1px #999999 solid;
 }
-/* line 288, assets/less/gellary_view.less */
+/* line 292, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_list .comment_info {
   margin-bottom: 20px;
 }
-/* line 290, assets/less/gellary_view.less */
+/* line 294, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_list .comment_info span {
   padding: 5px;
 }
-/* line 293, assets/less/gellary_view.less */
+/* line 297, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_list .comment_info .name {
   font-size: 15px;
   margin-right: 10px;
 }
-/* line 297, assets/less/gellary_view.less */
+/* line 301, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_list .comment_info .date {
   color: #999999;
 }
-/* line 301, assets/less/gellary_view.less */
+/* line 305, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_list .comment {
   width: 850px;
   margin: 0 auto 15px;
 }
-/* line 304, assets/less/gellary_view.less */
+/* line 308, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_list .comment p {
   color: #999999;
 }
-/* line 308, assets/less/gellary_view.less */
+/* line 312, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_list .comment_btn {
   position: absolute;
   top: 0;
   right: 55px;
 }
-/* line 311, assets/less/gellary_view.less */
+/* line 315, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_list .comment_btn button {
   padding: 5px;
 }
-/* line 314, assets/less/gellary_view.less */
+/* line 318, assets/less/gellary_view.less */
 .gellary_content .gellary_view .reply_wrap .reply_list .comment_btn .del {
   color: #f90304;
 }
 @media screen and (max-width: 1200px) {
-  /* line 324, assets/less/gellary_view.less */
+  /* line 328, assets/less/gellary_view.less */
   .content_wrap {
     margin-left: 120px;
   }
-  /* line 327, assets/less/gellary_view.less */
+  /* line 331, assets/less/gellary_view.less */
   .news_intro {
     height: 300px;
   }
-  /* line 329, assets/less/gellary_view.less */
+  /* line 333, assets/less/gellary_view.less */
   .news_intro .inner {
     width: 100%;
   }
-  /* line 333, assets/less/gellary_view.less */
+  /* line 337, assets/less/gellary_view.less */
   .news_intro .text_wrap > span {
     font-size: 38px;
     line-height: 42px;
   }
-  /* line 337, assets/less/gellary_view.less */
+  /* line 341, assets/less/gellary_view.less */
   .news_intro .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 343, assets/less/gellary_view.less */
+  /* line 347, assets/less/gellary_view.less */
   .news_intro .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto;
   }
-  /* line 350, assets/less/gellary_view.less */
+  /* line 354, assets/less/gellary_view.less */
   .news_title > div {
     padding-top: 40px;
   }
-  /* line 353, assets/less/gellary_view.less */
+  /* line 357, assets/less/gellary_view.less */
   .news_title .inner {
     width: 100%;
   }
-  /* line 357, assets/less/gellary_view.less */
+  /* line 361, assets/less/gellary_view.less */
   .news_title .text_wrap > span {
     font-size: 38px;
     line-height: 1;
   }
-  /* line 361, assets/less/gellary_view.less */
+  /* line 365, assets/less/gellary_view.less */
   .news_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 367, assets/less/gellary_view.less */
+  /* line 371, assets/less/gellary_view.less */
   .news_title .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
-  /* line 371, assets/less/gellary_view.less */
+  /* line 375, assets/less/gellary_view.less */
   .news_title .text_wrap .vertical_line {
     height: 70px;
     margin-bottom: 30px;
   }
-  /* line 378, assets/less/gellary_view.less */
+  /* line 382, assets/less/gellary_view.less */
   .news_menu .inner {
     width: 100%;
   }
-  /* line 381, assets/less/gellary_view.less */
+  /* line 385, assets/less/gellary_view.less */
   .news_menu ul {
     width: 95%;
   }
-  /* line 384, assets/less/gellary_view.less */
+  /* line 388, assets/less/gellary_view.less */
   .news_menu li {
     font-size: 18px;
   }
-  /* line 389, assets/less/gellary_view.less */
+  /* line 393, assets/less/gellary_view.less */
   .gellary_content .inner {
     width: 100%;
   }
-  /* line 392, assets/less/gellary_view.less */
+  /* line 396, assets/less/gellary_view.less */
   .gellary_content .gellary_view {
     padding: 50px 10px;
   }
-  /* line 394, assets/less/gellary_view.less */
+  /* line 398, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap {
     width: 90%;
     margin: 30px auto;
   }
-  /* line 397, assets/less/gellary_view.less */
+  /* line 401, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_line {
     width: 100%;
   }
-  /* line 399, assets/less/gellary_view.less */
+  /* line 403, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_line span {
     font-size: 16px;
     padding: 5px 25px;
   }
-  /* line 404, assets/less/gellary_view.less */
+  /* line 408, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_info {
     height: 80px;
   }
-  /* line 406, assets/less/gellary_view.less */
+  /* line 410, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_info .comment {
     width: 70%;
   }
-  /* line 411, assets/less/gellary_view.less */
+  /* line 415, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_list .comment {
     width: 90%;
     padding-left: 0;
     margin: 0 auto;
   }
-  /* line 415, assets/less/gellary_view.less */
+  /* line 419, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_list .comment p {
     display: block;
     width: 90%;
   }
-  /* line 423, assets/less/gellary_view.less */
+  /* line 427, assets/less/gellary_view.less */
   .gellary_content .view_title {
     width: 95%;
     margin: 0 auto;
   }
-  /* line 426, assets/less/gellary_view.less */
+  /* line 430, assets/less/gellary_view.less */
   .gellary_content .view_title .title {
     font-size: 24px;
   }
-  /* line 429, assets/less/gellary_view.less */
+  /* line 433, assets/less/gellary_view.less */
   .gellary_content .view_title .writer {
     font-size: 18px;
   }
-  /* line 432, assets/less/gellary_view.less */
+  /* line 436, assets/less/gellary_view.less */
   .gellary_content .view_title .date,
   .gellary_content .view_title .view {
     font-size: 15px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 439, assets/less/gellary_view.less */
+  /* line 443, assets/less/gellary_view.less */
   .content_wrap {
     margin-left: 0px;
   }
 }
 @media screen and (max-width: 630px) {
-  /* line 446, assets/less/gellary_view.less */
+  /* line 450, assets/less/gellary_view.less */
   .news_intro .text_wrap > span {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 450, assets/less/gellary_view.less */
+  /* line 454, assets/less/gellary_view.less */
   .news_intro .text_wrap .line {
     width: 150px;
     height: 2px;
   }
-  /* line 453, assets/less/gellary_view.less */
+  /* line 457, assets/less/gellary_view.less */
   .news_intro .text_wrap .vertical_line {
     height: 50px;
   }
-  /* line 459, assets/less/gellary_view.less */
+  /* line 463, assets/less/gellary_view.less */
   .news_menu li {
     font-size: 14px;
     margin-left: 15px;
     padding: 10px 5px;
   }
-  /* line 466, assets/less/gellary_view.less */
+  /* line 470, assets/less/gellary_view.less */
   .gellary_content .view_title {
     width: 95%;
     margin: 0 auto;
   }
-  /* line 469, assets/less/gellary_view.less */
+  /* line 473, assets/less/gellary_view.less */
   .gellary_content .view_title .title {
     font-size: 18px;
   }
-  /* line 472, assets/less/gellary_view.less */
+  /* line 476, assets/less/gellary_view.less */
   .gellary_content .view_title .writer {
     font-size: 13px;
     margin-right: 20px;
   }
-  /* line 476, assets/less/gellary_view.less */
+  /* line 480, assets/less/gellary_view.less */
   .gellary_content .view_title .date,
   .gellary_content .view_title .view {
     font-size: 11px;
   }
-  /* line 479, assets/less/gellary_view.less */
+  /* line 483, assets/less/gellary_view.less */
   .gellary_content .view_title .date {
     margin-right: 10px;
   }
 }
 @media screen and (max-width: 460px) {
-  /* line 487, assets/less/gellary_view.less */
+  /* line 491, assets/less/gellary_view.less */
   .news_menu li {
     text-align: center;
     width: 45%;
@@ -862,23 +866,23 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 820px) {
-  /* line 500, assets/less/gellary_view.less */
+  /* line 504, assets/less/gellary_view.less */
   .gellary_content .gellary_view .view li {
     width: 75px;
     height: 75px;
   }
-  /* line 503, assets/less/gellary_view.less */
+  /* line 507, assets/less/gellary_view.less */
   .gellary_content .gellary_view .view .main_img {
     width: 400px;
     height: 300px;
   }
 }
 @media screen and (max-width: 580px) {
-  /* line 514, assets/less/gellary_view.less */
+  /* line 518, assets/less/gellary_view.less */
   .gellary_content .gellary_view .img_btn {
     display: none;
   }
-  /* line 518, assets/less/gellary_view.less */
+  /* line 522, assets/less/gellary_view.less */
   .gellary_content .gellary_view .view li {
     border: 1px #999999 solid;
     width: 300px;
@@ -886,61 +890,61 @@ header .nav .hamburger {
     display: block;
     margin: 0 auto 10px;
   }
-  /* line 524, assets/less/gellary_view.less */
+  /* line 528, assets/less/gellary_view.less */
   .gellary_content .gellary_view .view .main_img {
     width: 300px;
     margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 680px) {
-  /* line 537, assets/less/gellary_view.less */
+  /* line 541, assets/less/gellary_view.less */
   .gellary_content .gellary_view .view_btn {
     padding: 0 30px;
   }
-  /* line 539, assets/less/gellary_view.less */
+  /* line 543, assets/less/gellary_view.less */
   .gellary_content .gellary_view .view_btn button {
     width: 80px;
     height: 20px;
     margin: 3px;
   }
-  /* line 546, assets/less/gellary_view.less */
+  /* line 550, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_info .submit {
     width: 80px;
     height: 20px;
   }
 }
 @media screen and (max-width: 520px) {
-  /* line 557, assets/less/gellary_view.less */
+  /* line 561, assets/less/gellary_view.less */
   .gellary_content .gellary_view .view_btn {
     padding: 0 10px;
   }
-  /* line 559, assets/less/gellary_view.less */
+  /* line 563, assets/less/gellary_view.less */
   .gellary_content .gellary_view .view_btn .modi_btn {
     float: left;
   }
-  /* line 565, assets/less/gellary_view.less */
+  /* line 569, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_info .name,
   .gellary_content .gellary_view .reply_wrap .reply_info .pw {
     width: 70px;
     margin-right: 10px;
   }
-  /* line 569, assets/less/gellary_view.less */
+  /* line 573, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_info .submit {
     top: 15px;
   }
-  /* line 575, assets/less/gellary_view.less */
+  /* line 579, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_list .comment_info .name {
     font-size: 13px;
   }
-  /* line 578, assets/less/gellary_view.less */
+  /* line 582, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_list .comment_info .date {
     font-size: 11px;
   }
-  /* line 583, assets/less/gellary_view.less */
+  /* line 587, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_list .comment p {
     font-size: 12px;
   }
-  /* line 587, assets/less/gellary_view.less */
+  /* line 591, assets/less/gellary_view.less */
   .gellary_content .gellary_view .reply_wrap .reply_list .comment_btn {
     right: 10px;
   }
