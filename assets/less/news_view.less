@@ -30,7 +30,7 @@
       font-size: @intro_title;
       line-height: 68px;
       font-weight: lighter;
-      color:@font-main;
+      color:@font-white;
     }
     .sub{
       position: relative;
@@ -40,12 +40,13 @@
       text-align: center;
       text-transform: uppercase;
       letter-spacing: 43.2px;
-      color:@font-white;
+      padding-left: 43.2px;
+      color:@font-sub;
     }
     .line{
       width: 240px;height: 6px;
       margin: 40px auto;
-      background-color: @font-white;
+      background-color: @font-sub;
     }
     .comment{
       font-size: 20px;
@@ -89,6 +90,7 @@
       text-align: center;
       text-transform: uppercase;
       letter-spacing: 43.2px;
+      padding-left: 43.2px;
       color:@color-gray;
     }
     .line{
@@ -150,13 +152,13 @@
       line-height: 1;
       display: inline-block;
       vertical-align: middle;
-      font-weight: 200;
+      font-weight: 100;
     }
     .title{
-      font-size: 32px;
+      font-size: 24px;
     }
     .writer{
-      font-size: 24px;
+      font-size: 18px;
       margin-right: 50px;
 
       &:before{
@@ -222,7 +224,7 @@
       button{
         width: 100px;height: 30px;
         border: 1px @font-sub solid;
-        border-radius: 10px;
+        border-radius: 5px;
         color: @font-sub;
       }
     }
@@ -244,7 +246,7 @@
     button{
       width: 100px;height: 30px;
       border: 1px @font-sub solid;
-      border-radius: 10px;
+      border-radius: 5px;
       color: @font-sub;
       margin: 5px;
     }
@@ -288,7 +290,7 @@
         width: 100px;height: 30px;
         background-color: rgba(0,0,0,0);
         border: 1px @font-sub solid;
-        border-radius: 10px;
+        border-radius: 5px;
         color:@font-sub;
         position: absolute;
         right: 0;bottom: 0;

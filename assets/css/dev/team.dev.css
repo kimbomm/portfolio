@@ -314,7 +314,7 @@ header .nav .hamburger {
   font-size: 60px;
   line-height: 68px;
   font-weight: lighter;
-  color: #4a0001;
+  color: #fff;
 }
 /* line 35, assets/less/team.less */
 .team_intro .text_wrap .sub {
@@ -325,47 +325,48 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
-  color: #fff;
+  padding-left: 43.2px;
+  color: #f90304;
 }
-/* line 45, assets/less/team.less */
+/* line 46, assets/less/team.less */
 .team_intro .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
-  background-color: #fff;
+  background-color: #f90304;
 }
-/* line 50, assets/less/team.less */
+/* line 51, assets/less/team.less */
 .team_intro .text_wrap .comment {
   font-size: 20px;
   line-height: 26px;
   text-align: center;
   color: #fff;
 }
-/* line 59, assets/less/team.less */
+/* line 60, assets/less/team.less */
 .team_title > div {
   padding-top: 140px;
 }
-/* line 62, assets/less/team.less */
+/* line 63, assets/less/team.less */
 .team_title .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 65, assets/less/team.less */
+/* line 66, assets/less/team.less */
 .team_title .inner:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 72, assets/less/team.less */
+/* line 73, assets/less/team.less */
 .team_title .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 76, assets/less/team.less */
+/* line 77, assets/less/team.less */
 .team_title .text_wrap > span {
   display: block;
   text-align: center;
@@ -374,7 +375,7 @@ header .nav .hamburger {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 84, assets/less/team.less */
+/* line 85, assets/less/team.less */
 .team_title .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -385,28 +386,28 @@ header .nav .hamburger {
   letter-spacing: 43.2px;
   color: #999999;
 }
-/* line 94, assets/less/team.less */
+/* line 95, assets/less/team.less */
 .team_title .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
 }
-/* line 99, assets/less/team.less */
+/* line 100, assets/less/team.less */
 .team_title .text_wrap .vertical_line {
   width: 2px;
   height: 100px;
   background-color: #4a0001;
   margin: 0 auto 40px;
 }
-/* line 107, assets/less/team.less */
+/* line 108, assets/less/team.less */
 .team_menu .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 111, assets/less/team.less */
+/* line 112, assets/less/team.less */
 .team_menu ul {
   width: 1000px;
   font-size: 0px;
@@ -414,7 +415,7 @@ header .nav .hamburger {
   text-align: left;
   margin: 0 auto 40px;
 }
-/* line 118, assets/less/team.less */
+/* line 119, assets/less/team.less */
 .team_menu li {
   display: inline-block;
   font-size: 24px;
@@ -423,7 +424,7 @@ header .nav .hamburger {
   margin-left: 30px;
   cursor: pointer;
 }
-/* line 128, assets/less/team.less */
+/* line 129, assets/less/team.less */
 .team_list .inner {
   width: 1024px;
   height: 100%;
@@ -431,7 +432,7 @@ header .nav .hamburger {
   padding: 0 0 50px;
   font-size: 0px;
 }
-/* line 133, assets/less/team.less */
+/* line 134, assets/less/team.less */
 .team_list .player {
   width: 175px;
   text-align: center;
@@ -440,24 +441,24 @@ header .nav .hamburger {
   margin: 10px 30px;
   cursor: pointer;
 }
-/* line 140, assets/less/team.less */
+/* line 141, assets/less/team.less */
 .team_list .player .player_img {
   width: 175px;
   height: 175px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
-/* line 144, assets/less/team.less */
+/* line 145, assets/less/team.less */
 .team_list .player .player_img img {
   width: 100%;
 }
-/* line 148, assets/less/team.less */
+/* line 149, assets/less/team.less */
 .team_list .player .name {
   display: block;
   font-size: 32px;
   color: #4a0001;
 }
-/* line 153, assets/less/team.less */
+/* line 154, assets/less/team.less */
 .team_list .player .position {
   display: inline-block;
   font-size: 24px;
@@ -468,7 +469,7 @@ header .nav .hamburger {
   top: -15px;
   left: -5px;
 }
-/* line 162, assets/less/team.less */
+/* line 163, assets/less/team.less */
 .team_list .player .number {
   display: inline-block;
   font-size: 24px;
@@ -479,143 +480,143 @@ header .nav .hamburger {
   top: -15px;
   left: 5px;
 }
-/* line 170, assets/less/team.less */
+/* line 171, assets/less/team.less */
 .team_list .player .number:before {
   content: "no.";
 }
 @media screen and (max-width: 1200px) {
-  /* line 178, assets/less/team.less */
+  /* line 179, assets/less/team.less */
   .content_wrap {
     margin-left: 120px;
   }
-  /* line 181, assets/less/team.less */
+  /* line 182, assets/less/team.less */
   .team_intro {
     height: 300px;
   }
-  /* line 183, assets/less/team.less */
+  /* line 184, assets/less/team.less */
   .team_intro .inner {
     width: 100%;
   }
-  /* line 187, assets/less/team.less */
+  /* line 188, assets/less/team.less */
   .team_intro .text_wrap > span {
     font-size: 38px;
     line-height: 42px;
   }
-  /* line 191, assets/less/team.less */
+  /* line 192, assets/less/team.less */
   .team_intro .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 197, assets/less/team.less */
+  /* line 198, assets/less/team.less */
   .team_intro .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto;
   }
-  /* line 201, assets/less/team.less */
+  /* line 202, assets/less/team.less */
   .team_intro .text_wrap .comment {
     font-size: 14px;
     line-height: 20px;
   }
-  /* line 208, assets/less/team.less */
+  /* line 209, assets/less/team.less */
   .team_title > div {
     padding-top: 40px;
   }
-  /* line 211, assets/less/team.less */
+  /* line 212, assets/less/team.less */
   .team_title .inner {
     width: 100%;
   }
-  /* line 215, assets/less/team.less */
+  /* line 216, assets/less/team.less */
   .team_title .text_wrap > span {
     font-size: 38px;
     line-height: 1;
   }
-  /* line 219, assets/less/team.less */
+  /* line 220, assets/less/team.less */
   .team_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 225, assets/less/team.less */
+  /* line 226, assets/less/team.less */
   .team_title .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
-  /* line 229, assets/less/team.less */
+  /* line 230, assets/less/team.less */
   .team_title .text_wrap .vertical_line {
     height: 70px;
     margin-bottom: 30px;
   }
-  /* line 236, assets/less/team.less */
+  /* line 237, assets/less/team.less */
   .team_menu .inner {
     width: 100%;
   }
-  /* line 239, assets/less/team.less */
+  /* line 240, assets/less/team.less */
   .team_menu ul {
     width: 95%;
   }
-  /* line 242, assets/less/team.less */
+  /* line 243, assets/less/team.less */
   .team_menu li {
     font-size: 18px;
   }
-  /* line 247, assets/less/team.less */
+  /* line 248, assets/less/team.less */
   .team_list .inner {
     width: 100%;
     text-align: center;
   }
-  /* line 251, assets/less/team.less */
+  /* line 252, assets/less/team.less */
   .team_list ul {
     text-align: center;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 257, assets/less/team.less */
+  /* line 258, assets/less/team.less */
   .content_wrap {
     margin-left: 0px;
   }
 }
 @media screen and (max-width: 630px) {
-  /* line 264, assets/less/team.less */
+  /* line 265, assets/less/team.less */
   .team_intro .text_wrap > span {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 268, assets/less/team.less */
+  /* line 269, assets/less/team.less */
   .team_intro .text_wrap .line {
     width: 150px;
     height: 2px;
   }
-  /* line 274, assets/less/team.less */
+  /* line 275, assets/less/team.less */
   .team_menu ul {
     text-align: center;
   }
-  /* line 277, assets/less/team.less */
+  /* line 278, assets/less/team.less */
   .team_menu li {
     font-size: 14px;
     margin-left: 15px;
     padding: 10px 5px;
   }
-  /* line 281, assets/less/team.less */
+  /* line 282, assets/less/team.less */
   .team_menu li:first-child {
     margin-left: 0;
   }
-  /* line 287, assets/less/team.less */
+  /* line 288, assets/less/team.less */
   .team_list li {
     border-bottom: 1px #999999 solid;
   }
-  /* line 289, assets/less/team.less */
+  /* line 290, assets/less/team.less */
   .team_list li:last-child {
     border-bottom: none;
   }
-  /* line 294, assets/less/team.less */
+  /* line 295, assets/less/team.less */
   .team_list .player .name {
     font-size: 24px;
   }
-  /* line 297, assets/less/team.less */
+  /* line 298, assets/less/team.less */
   .team_list .player .position,
   .team_list .player .number {
     font-size: 18px;

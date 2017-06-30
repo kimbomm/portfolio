@@ -148,8 +148,10 @@ $(function(){
 
     //경기전, 후 결과 확인
     function bb(i,j){
-      if((dat.getMonth() > match.calendar[i].month) || (dat.getDate() > j)){
-        $('.match_status span').html('경기종료').css('color','#000');
+      if(month[dat.getMonth()] >= match.calendar[i].month){
+        if(dat.getDate() >= j){
+          $('.match_status span').html('경기종료').css('color','#4a0001');
+        }
       }
     }
 
