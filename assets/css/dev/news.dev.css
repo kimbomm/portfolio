@@ -314,7 +314,7 @@ header .nav .hamburger {
   font-size: 60px;
   line-height: 68px;
   font-weight: lighter;
-  color: #4a0001;
+  color: #fff;
 }
 /* line 35, assets/less/news.less */
 .news_intro .text_wrap .sub {
@@ -325,47 +325,48 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
-  color: #fff;
+  padding-left: 43.2px;
+  color: #f90304;
 }
-/* line 45, assets/less/news.less */
+/* line 46, assets/less/news.less */
 .news_intro .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
-  background-color: #fff;
+  background-color: #f90304;
 }
-/* line 50, assets/less/news.less */
+/* line 51, assets/less/news.less */
 .news_intro .text_wrap .comment {
   font-size: 20px;
   line-height: 26px;
   text-align: center;
   color: #fff;
 }
-/* line 59, assets/less/news.less */
+/* line 60, assets/less/news.less */
 .news_title > div {
   padding-top: 140px;
 }
-/* line 62, assets/less/news.less */
+/* line 63, assets/less/news.less */
 .news_title .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 65, assets/less/news.less */
+/* line 66, assets/less/news.less */
 .news_title .inner:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 72, assets/less/news.less */
+/* line 73, assets/less/news.less */
 .news_title .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-/* line 76, assets/less/news.less */
+/* line 77, assets/less/news.less */
 .news_title .text_wrap > span {
   display: block;
   text-align: center;
@@ -374,7 +375,7 @@ header .nav .hamburger {
   font-weight: lighter;
   color: #4a0001;
 }
-/* line 84, assets/less/news.less */
+/* line 85, assets/less/news.less */
 .news_title .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -386,28 +387,28 @@ header .nav .hamburger {
   padding-left: 43.2px;
   color: #999999;
 }
-/* line 95, assets/less/news.less */
+/* line 96, assets/less/news.less */
 .news_title .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
 }
-/* line 100, assets/less/news.less */
+/* line 101, assets/less/news.less */
 .news_title .text_wrap .vertical_line {
   width: 2px;
   height: 100px;
   background-color: #4a0001;
   margin: 0 auto 40px;
 }
-/* line 108, assets/less/news.less */
+/* line 109, assets/less/news.less */
 .news_menu .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 112, assets/less/news.less */
+/* line 113, assets/less/news.less */
 .news_menu ul {
   width: 1000px;
   font-size: 0px;
@@ -415,7 +416,7 @@ header .nav .hamburger {
   text-align: left;
   margin: 0 auto 40px;
 }
-/* line 119, assets/less/news.less */
+/* line 120, assets/less/news.less */
 .news_menu li {
   text-transform: uppercase;
   display: inline-block;
@@ -423,52 +424,52 @@ header .nav .hamburger {
   padding: 10px;
   margin-left: 30px;
 }
-/* line 125, assets/less/news.less */
+/* line 126, assets/less/news.less */
 .news_menu li a {
   color: #4a0001;
 }
-/* line 131, assets/less/news.less */
+/* line 132, assets/less/news.less */
 .news_list .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 135, assets/less/news.less */
+/* line 136, assets/less/news.less */
 .news_list ul {
   overflow: hidden;
   padding: 10px 0;
 }
-/* line 139, assets/less/news.less */
+/* line 140, assets/less/news.less */
 .news_list li {
   float: left;
   width: 50%;
 }
-/* line 143, assets/less/news.less */
+/* line 144, assets/less/news.less */
 .news_list li:nth-child(2) img {
   width: 320px;
   height: 330px;
 }
-/* line 148, assets/less/news.less */
+/* line 149, assets/less/news.less */
 .news_list li:nth-child(3) img {
   width: 400px;
   height: 500px;
 }
-/* line 153, assets/less/news.less */
+/* line 154, assets/less/news.less */
 .news_list li:last-child img {
   width: 250px;
   height: 200px;
 }
-/* line 158, assets/less/news.less */
+/* line 159, assets/less/news.less */
 .news_list .odd {
   float: right;
 }
-/* line 161, assets/less/news.less */
+/* line 162, assets/less/news.less */
 .news_list .news_wrap {
   padding: 20px 50px;
   overflow: hidden;
 }
-/* line 166, assets/less/news.less */
+/* line 167, assets/less/news.less */
 .news_list .news_img img {
   border-radius: 10px;
   float: left;
@@ -477,12 +478,12 @@ header .nav .hamburger {
   background-color: #4a0001;
   margin-bottom: 20px;
 }
-/* line 174, assets/less/news.less */
+/* line 175, assets/less/news.less */
 .news_list .news_text {
   float: right;
   width: 400px;
 }
-/* line 177, assets/less/news.less */
+/* line 178, assets/less/news.less */
 .news_list .news_text:before {
   content: "";
   float: left;
@@ -492,41 +493,41 @@ header .nav .hamburger {
   height: 67px;
   background: url('../photo/icon/chat.png') no-repeat center;
 }
-/* line 185, assets/less/news.less */
+/* line 186, assets/less/news.less */
 .news_list .news_text span {
   display: inline-block;
   width: 300px;
   text-align: left;
 }
-/* line 190, assets/less/news.less */
+/* line 191, assets/less/news.less */
 .news_list .news_text .writer,
 .news_list .news_text .date {
   font-size: 16px;
   color: #999999;
 }
-/* line 194, assets/less/news.less */
+/* line 195, assets/less/news.less */
 .news_list .news_text .title {
   font-size: 18px;
   margin: 5px 0;
 }
-/* line 199, assets/less/news.less */
+/* line 200, assets/less/news.less */
 .news_list .search {
   display: inline-block;
   height: 40px;
   margin-top: 20px;
 }
-/* line 203, assets/less/news.less */
+/* line 204, assets/less/news.less */
 .news_list .search:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 209, assets/less/news.less */
+/* line 210, assets/less/news.less */
 .news_list .search input {
   vertical-align: middle;
 }
-/* line 211, assets/less/news.less */
+/* line 212, assets/less/news.less */
 .news_list .search input:first-child {
   width: 200px;
   height: 30px;
@@ -534,7 +535,7 @@ header .nav .hamburger {
   border-radius: 5px;
   border: 1px #000 solid;
 }
-/* line 217, assets/less/news.less */
+/* line 218, assets/less/news.less */
 .news_list .search input:last-child {
   width: 40px;
   height: 36px;
@@ -542,12 +543,12 @@ header .nav .hamburger {
   background-color: rgba(0, 0, 0, 0);
   border-radius: 5px;
 }
-/* line 225, assets/less/news.less */
+/* line 226, assets/less/news.less */
 .news_list .btn {
   text-align: center;
   margin: 50px 0;
 }
-/* line 228, assets/less/news.less */
+/* line 229, assets/less/news.less */
 .news_list .btn button {
   width: 120px;
   height: 40px;
@@ -556,123 +557,123 @@ header .nav .hamburger {
   color: #f90304;
 }
 @media screen and (max-width: 1200px) {
-  /* line 239, assets/less/news.less */
+  /* line 240, assets/less/news.less */
   .content_wrap {
     margin-left: 120px;
   }
-  /* line 242, assets/less/news.less */
+  /* line 243, assets/less/news.less */
   .news_intro {
     height: 300px;
   }
-  /* line 244, assets/less/news.less */
+  /* line 245, assets/less/news.less */
   .news_intro .inner {
     width: 100%;
   }
-  /* line 248, assets/less/news.less */
+  /* line 249, assets/less/news.less */
   .news_intro .text_wrap > span {
     font-size: 38px;
     line-height: 42px;
   }
-  /* line 252, assets/less/news.less */
+  /* line 253, assets/less/news.less */
   .news_intro .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 258, assets/less/news.less */
+  /* line 259, assets/less/news.less */
   .news_intro .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto;
   }
-  /* line 265, assets/less/news.less */
+  /* line 266, assets/less/news.less */
   .news_title > div {
     padding-top: 40px;
   }
-  /* line 268, assets/less/news.less */
+  /* line 269, assets/less/news.less */
   .news_title .inner {
     width: 100%;
   }
-  /* line 272, assets/less/news.less */
+  /* line 273, assets/less/news.less */
   .news_title .text_wrap > span {
     font-size: 38px;
     line-height: 1;
   }
-  /* line 276, assets/less/news.less */
+  /* line 277, assets/less/news.less */
   .news_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 282, assets/less/news.less */
+  /* line 283, assets/less/news.less */
   .news_title .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
-  /* line 286, assets/less/news.less */
+  /* line 287, assets/less/news.less */
   .news_title .text_wrap .vertical_line {
     height: 70px;
     margin-bottom: 30px;
   }
-  /* line 293, assets/less/news.less */
+  /* line 294, assets/less/news.less */
   .news_menu .inner {
     width: 100%;
   }
-  /* line 296, assets/less/news.less */
+  /* line 297, assets/less/news.less */
   .news_menu ul {
     width: 95%;
   }
-  /* line 299, assets/less/news.less */
+  /* line 300, assets/less/news.less */
   .news_menu li {
     font-size: 18px;
   }
-  /* line 304, assets/less/news.less */
+  /* line 305, assets/less/news.less */
   .news_list .inner {
     width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 310, assets/less/news.less */
+  /* line 311, assets/less/news.less */
   .content_wrap {
     margin-left: 0px;
   }
 }
 @media screen and (max-width: 630px) {
-  /* line 317, assets/less/news.less */
+  /* line 318, assets/less/news.less */
   .news_intro .text_wrap > span {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 321, assets/less/news.less */
+  /* line 322, assets/less/news.less */
   .news_intro .text_wrap .line {
     width: 150px;
     height: 2px;
   }
-  /* line 324, assets/less/news.less */
+  /* line 325, assets/less/news.less */
   .news_intro .text_wrap .vertical_line {
     height: 50px;
   }
-  /* line 330, assets/less/news.less */
+  /* line 331, assets/less/news.less */
   .news_menu li {
     font-size: 14px;
     margin-left: 15px;
     padding: 10px 5px;
   }
-  /* line 337, assets/less/news.less */
+  /* line 338, assets/less/news.less */
   .news_list .btn {
     margin: 30px 0;
   }
-  /* line 339, assets/less/news.less */
+  /* line 340, assets/less/news.less */
   .news_list .btn button {
     width: 100px;
     height: 30px;
   }
 }
 @media screen and (max-width: 460px) {
-  /* line 347, assets/less/news.less */
+  /* line 348, assets/less/news.less */
   .news_menu li {
     text-align: center;
     width: 45%;
@@ -680,93 +681,93 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 1130px) {
-  /* line 359, assets/less/news.less */
+  /* line 360, assets/less/news.less */
   .news_list .news_wrap {
     padding: 10px 30px;
   }
-  /* line 362, assets/less/news.less */
+  /* line 363, assets/less/news.less */
   .news_list .news_text {
     display: inline-block;
     height: 100px;
     float: none;
   }
-  /* line 366, assets/less/news.less */
+  /* line 367, assets/less/news.less */
   .news_list .news_text:before {
     float: none;
     width: 50px;
     height: 100%;
     background-size: 100%;
   }
-  /* line 371, assets/less/news.less */
+  /* line 372, assets/less/news.less */
   .news_list .news_text a {
     display: inline-block;
     width: 250px;
   }
-  /* line 375, assets/less/news.less */
+  /* line 376, assets/less/news.less */
   .news_list .news_text span {
     width: 250px;
   }
 }
 @media screen and (max-width: 1000px) {
-  /* line 383, assets/less/news.less */
+  /* line 384, assets/less/news.less */
   .news_list .news_wrap {
     padding: 10px 10px;
   }
 }
 @media screen and (max-width: 960px) {
-  /* line 390, assets/less/news.less */
+  /* line 391, assets/less/news.less */
   .news_list li {
     width: 600px;
     float: none;
     margin: 0 auto;
   }
-  /* line 395, assets/less/news.less */
+  /* line 396, assets/less/news.less */
   .news_list .odd {
     float: none;
   }
-  /* line 398, assets/less/news.less */
+  /* line 399, assets/less/news.less */
   .news_list .news_img {
     display: inline-block;
     margin: 0 auto;
   }
 }
 @media screen and (max-width: 630px) {
-  /* line 406, assets/less/news.less */
+  /* line 407, assets/less/news.less */
   .news_list li {
     width: 350px;
     border-bottom: 1px #999999 solid;
   }
-  /* line 409, assets/less/news.less */
+  /* line 410, assets/less/news.less */
   .news_list li:last-child {
     border-bottom: none;
   }
-  /* line 413, assets/less/news.less */
+  /* line 414, assets/less/news.less */
   .news_list .news_img {
     width: 350px;
   }
-  /* line 415, assets/less/news.less */
+  /* line 416, assets/less/news.less */
   .news_list .news_img img {
     width: 100%;
   }
-  /* line 419, assets/less/news.less */
+  /* line 420, assets/less/news.less */
   .news_list .news_text {
     width: 350px;
   }
-  /* line 421, assets/less/news.less */
+  /* line 422, assets/less/news.less */
   .news_list .news_text:before {
     margin-right: 15px;
     vertical-align: middle;
   }
-  /* line 425, assets/less/news.less */
+  /* line 426, assets/less/news.less */
   .news_list .news_text a {
     vertical-align: middle;
   }
-  /* line 428, assets/less/news.less */
+  /* line 429, assets/less/news.less */
   .news_list .news_text .writer,
   .news_list .news_text .date {
     font-size: 12px;
   }
-  /* line 431, assets/less/news.less */
+  /* line 432, assets/less/news.less */
   .news_list .news_text .title {
     font-size: 15px;
     margin: 2px 0;

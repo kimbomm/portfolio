@@ -262,7 +262,7 @@ header .nav .hamburger {
   font-size: 60px;
   line-height: 68px;
   font-weight: lighter;
-  color: #4a0001;
+  color: #fff;
 }
 .news_intro .text_wrap .sub {
   position: relative;
@@ -272,13 +272,14 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
-  color: #fff;
+  padding-left: 43.2px;
+  color: #f90304;
 }
 .news_intro .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
-  background-color: #fff;
+  background-color: #f90304;
 }
 .news_intro .text_wrap .comment {
   font-size: 20px;
@@ -322,6 +323,7 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
+  padding-left: 43.2px;
   color: #999999;
 }
 .news_title .text_wrap .line {
@@ -389,13 +391,13 @@ header .nav .hamburger {
   line-height: 1;
   display: inline-block;
   vertical-align: middle;
-  font-weight: 200;
+  font-weight: 100;
 }
 .news_content .view_title .title {
-  font-size: 32px;
+  font-size: 24px;
 }
 .news_content .view_title .writer {
-  font-size: 24px;
+  font-size: 18px;
   margin-right: 50px;
 }
 .news_content .view_title .writer:before {
@@ -463,7 +465,7 @@ header .nav .hamburger {
   width: 100px;
   height: 30px;
   border: 1px #f90304 solid;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #f90304;
 }
 .news_content .view_btn {
@@ -483,7 +485,7 @@ header .nav .hamburger {
   width: 100px;
   height: 30px;
   border: 1px #f90304 solid;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #f90304;
   margin: 5px;
 }
@@ -531,7 +533,7 @@ header .nav .hamburger {
   height: 30px;
   background-color: rgba(0, 0, 0, 0);
   border: 1px #f90304 solid;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #f90304;
   position: absolute;
   right: 0;

@@ -146,13 +146,6 @@ $(function(){
       $('.schedule .match_info').append(html);
     }
 
-    //경기전, 후 결과 확인
-    function bb(i,j){
-      if((dat.getMonth() > match.calendar[i].month) || (dat.getDate() > j)){
-        $('.match_status span').html('경기종료').css('color','#000');
-      }
-    }
-
     $('.schedule .match_info div').remove();
     for(i=0; i<match.calendar[dat.getMonth()].date.length; i++){
       if(match.calendar[dat.getMonth()].date[i].time != null){
@@ -217,6 +210,20 @@ $(function(){
         }
       }
     })
+
+    //경기전, 후 결과 확인
+    function bb(i,j){
+      if(month[dat.getMonth()] >= match.calendar[i].month){
+        if(dat.getDate() >= j){
+          $('.match_status span').html('경기종료').css('color','#4a0001');
+        }
+      }else if(month[dat.getMonth()] <= match.calendar[i].month){
+        if(dat.getDate() > j){
+          $('.first_team .score').html('0');
+          $('.second_team .score').html('0');
+        }
+      }
+    }
 
 
   })
