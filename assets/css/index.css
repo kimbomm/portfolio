@@ -143,6 +143,7 @@ header .nav .hamburger {
   font-size: 60px;
   line-height: 68px;
   font-weight: lighter;
+  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 5px;
   color: #fff;
 }
 .content_wrap .main .text_wrap .sub {
