@@ -69,7 +69,7 @@ header .nav {
   position: fixed;
   z-index: 2;
   left: 0;
-  background-color: #4a0001;
+  background-color: #333;
 }
 header .nav h1 {
   text-indent: -9999px;
@@ -142,6 +142,7 @@ header .nav .hamburger {
   text-align: center;
   font-size: 60px;
   line-height: 68px;
+  text-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
   font-weight: lighter;
   color: #fff;
 }
@@ -200,6 +201,7 @@ header .nav .hamburger {
   line-height: 68px;
   font-weight: lighter;
   color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
 }
 .content_wrap .match .text_wrap .sub {
   position: relative;
@@ -230,7 +232,7 @@ header .nav .hamburger {
 .content_wrap .match .text_wrap .match:hover {
   border: 1px #f90304 solid;
   color: #f90304;
-  box-shadow: 0px 0px 20px #f90304;
+  box-shadow: 0px 0px 5px #f90304;
 }
 .content_wrap .match .score div {
   width: 200px;
@@ -569,9 +571,6 @@ header .nav .hamburger {
 .content_wrap .footer .inner .twitter {
   background: url('../photo/icon/sns03.png') no-repeat center;
 }
-.content_wrap .footer .inner .youtube {
-  background: url('../photo/icon/sns04.png') no-repeat center;
-}
 @media screen and (max-width: 1200px) {
   header .nav {
     width: 120px;
@@ -825,13 +824,15 @@ header .nav .hamburger {
   .content_wrap .news .news_wrap .sec_left .section .title {
     width: 230px;
     height: 20px;
+    float: left;
   }
   .content_wrap .news .news_wrap .sec_left .section .title span {
     font-size: 16px;
   }
   .content_wrap .news .news_wrap .sec_left .section .content {
-    width: 250px;
+    width: 320px;
     height: 85px;
+    text-align: left;
   }
   .content_wrap .news .news_wrap .sec_left .section .content p {
     font-size: 14px;
@@ -861,8 +862,9 @@ header .nav .hamburger {
     font-size: 16px;
   }
   .content_wrap .news .news_wrap .sec_right .section .content {
-    width: 250px;
+    width: 320px;
     height: 85px;
+    text-align: left;
   }
   .content_wrap .news .news_wrap .sec_right .section .content p {
     font-size: 14px;
@@ -906,7 +908,7 @@ header .nav .hamburger {
     font-size: 16px;
   }
   .content_wrap .news .news_wrap .sec_left .section .content {
-    width: 200px;
+    width: 280px;
     height: 85px;
   }
   .content_wrap .news .news_wrap .sec_left .section .content p {
@@ -940,7 +942,7 @@ header .nav .hamburger {
     font-size: 16px;
   }
   .content_wrap .news .news_wrap .sec_right .section .content {
-    width: 200px;
+    width: 280px;
     height: 85px;
   }
   .content_wrap .news .news_wrap .sec_right .section .content p {
@@ -963,7 +965,7 @@ header .nav .hamburger {
     float: left;
   }
   .content_wrap .news .news_wrap .sec_left .section .content {
-    width: 260px;
+    width: 300px;
     margin-right: 0;
   }
   .content_wrap .news .news_wrap .sec_right {
@@ -977,8 +979,8 @@ header .nav .hamburger {
     margin-top: 30px;
   }
   .content_wrap .news .news_wrap .sec_right .section .content {
+    width: 300px;
     float: right;
-    width: 260px;
     margin-right: 0;
   }
 }
@@ -1004,23 +1006,20 @@ header .nav .hamburger {
     top: initial;
     left: 10px;
     right: 10px;
-    height: 40px;
+    height: 50px;
     bottom: 0;
   }
   .content_wrap .team .player_list li .player_info .sub_info span {
     font-size: 24px;
-    position: absolute;
-    top: 8px;
   }
   .content_wrap .team .player_list li .player_info .sub_info .name {
     font-size: 24px;
     display: inline-block;
-    right: 30px;
   }
   .content_wrap .team .player_list li .player_info .sub_info .position {
-    left: 30px;
+    border-right: 0;
   }
   .content_wrap .team .player_list li .player_info .sub_info .number {
-    left: 100px;
+    margin-right: 20px;
   }
 }

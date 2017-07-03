@@ -80,7 +80,7 @@ header .nav {
   position: fixed;
   z-index: 2;
   left: 0;
-  background-color: #4a0001;
+  background-color: #333;
 }
 /* line 34, assets\less\include\header.less */
 header .nav h1 {
@@ -256,18 +256,14 @@ header .nav .hamburger {
 .content_wrap .footer .inner .twitter {
   background: url('../photo/icon/sns03.png') no-repeat center;
 }
-/* line 36, assets\less\include\footer.less */
-.content_wrap .footer .inner .youtube {
-  background: url('../photo/icon/sns04.png') no-repeat center;
-}
 @media screen and (max-width: 1200px) {
-  /* line 47, assets\less\include\footer.less */
+  /* line 44, assets\less\include\footer.less */
   .content_wrap .footer .inner {
     width: 100%;
   }
 }
 @media screen and (max-width: 580px) {
-  /* line 58, assets\less\include\footer.less */
+  /* line 55, assets\less\include\footer.less */
   .content_wrap .footer .inner span {
     font-size: 11px;
   }
@@ -384,27 +380,28 @@ header .nav .hamburger {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 43.2px;
+  padding-left: 43.2px;
   color: #999999;
 }
-/* line 95, assets/less/match.less */
+/* line 96, assets/less/match.less */
 .match_title .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
 }
-/* line 102, assets/less/match.less */
+/* line 103, assets/less/match.less */
 .match_schedule {
   padding: 20px 0;
 }
-/* line 104, assets/less/match.less */
+/* line 105, assets/less/match.less */
 .match_schedule .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   position: relative;
 }
-/* line 109, assets/less/match.less */
+/* line 110, assets/less/match.less */
 .match_schedule .btngroup button {
   width: 16px;
   height: 30px;
@@ -412,97 +409,97 @@ header .nav .hamburger {
   top: 20px;
   cursor: pointer;
 }
-/* line 115, assets/less/match.less */
+/* line 116, assets/less/match.less */
 .match_schedule .btngroup .next {
   right: 400px;
   background: url(../photo/icon/next01.png) no-repeat center;
 }
-/* line 119, assets/less/match.less */
+/* line 120, assets/less/match.less */
 .match_schedule .btngroup .prev {
   left: 400px;
   background: url(../photo/icon/prev01.png) no-repeat center;
 }
-/* line 124, assets/less/match.less */
+/* line 125, assets/less/match.less */
 .match_schedule .match_month {
   text-align: center;
 }
-/* line 126, assets/less/match.less */
+/* line 127, assets/less/match.less */
 .match_schedule .match_month .month {
   display: inline-block;
   font-size: 38px;
   padding: 10px;
 }
-/* line 130, assets/less/match.less */
+/* line 131, assets/less/match.less */
 .match_schedule .match_month .month:after {
   content: "월";
 }
-/* line 134, assets/less/match.less */
+/* line 135, assets/less/match.less */
 .match_schedule .match_month .month_date {
   font-size: 0;
 }
-/* line 136, assets/less/match.less */
+/* line 137, assets/less/match.less */
 .match_schedule .match_month .month_date li {
   display: inline-block;
   width: 34.133333px;
   height: 34.133333px;
   background-color: #f90304;
 }
-/* line 141, assets/less/match.less */
+/* line 142, assets/less/match.less */
 .match_schedule .match_month .month_date li:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/* line 147, assets/less/match.less */
+/* line 148, assets/less/match.less */
 .match_schedule .match_month .month_date li span {
   display: inline-block;
   vertical-align: middle;
   font-size: 10px;
   color: #fff;
 }
-/* line 157, assets/less/match.less */
+/* line 158, assets/less/match.less */
 .match_schedule .schedule {
   margin-top: 70px;
   text-align: center;
 }
-/* line 160, assets/less/match.less */
+/* line 161, assets/less/match.less */
 .match_schedule .schedule .match_info {
   display: inline-block;
   padding-bottom: 50px;
 }
-/* line 163, assets/less/match.less */
+/* line 164, assets/less/match.less */
 .match_schedule .schedule .match_info > div {
   margin: 10px 0;
 }
-/* line 167, assets/less/match.less */
+/* line 168, assets/less/match.less */
 .match_schedule .schedule .match_info .match_date span {
   font-size: 20px;
 }
-/* line 172, assets/less/match.less */
+/* line 173, assets/less/match.less */
 .match_schedule .schedule .match_info .match_status span {
   font-size: 18px;
   color: #f90304;
 }
-/* line 177, assets/less/match.less */
+/* line 178, assets/less/match.less */
 .match_schedule .schedule .match_info .match_stadium {
   border-bottom: 1px #999999 solid;
   margin-bottom: 30px;
 }
-/* line 180, assets/less/match.less */
+/* line 181, assets/less/match.less */
 .match_schedule .schedule .match_info .match_stadium span {
   font-size: 18px;
 }
-/* line 184, assets/less/match.less */
+/* line 185, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team {
   font-size: 0px;
 }
-/* line 186, assets/less/match.less */
+/* line 187, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team div {
   display: inline-block;
   padding: 10px 30px;
 }
-/* line 190, assets/less/match.less */
+/* line 191, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .name {
   text-align: center;
   width: 200px;
@@ -511,7 +508,7 @@ header .nav .hamburger {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 198, assets/less/match.less */
+/* line 199, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .score {
   font-size: 60px;
   color: #000;
@@ -519,7 +516,7 @@ header .nav .hamburger {
   vertical-align: middle;
   padding: 0 10px;
 }
-/* line 206, assets/less/match.less */
+/* line 207, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .first_team img {
   display: inline-block;
   vertical-align: middle;
@@ -527,7 +524,7 @@ header .nav .hamburger {
   height: 75px;
   margin-right: 20px;
 }
-/* line 214, assets/less/match.less */
+/* line 215, assets/less/match.less */
 .match_schedule .schedule .match_info .match_team .second_team img {
   display: inline-block;
   vertical-align: middle;
@@ -536,133 +533,133 @@ header .nav .hamburger {
   margin-left: 20px;
 }
 @media screen and (max-width: 1200px) {
-  /* line 227, assets/less/match.less */
+  /* line 228, assets/less/match.less */
   .content_wrap {
     margin-left: 120px;
   }
-  /* line 230, assets/less/match.less */
+  /* line 231, assets/less/match.less */
   .match_intro {
     height: 300px;
   }
-  /* line 232, assets/less/match.less */
+  /* line 233, assets/less/match.less */
   .match_intro .inner {
     width: 100%;
   }
-  /* line 236, assets/less/match.less */
+  /* line 237, assets/less/match.less */
   .match_intro .text_wrap > span {
     font-size: 38px;
     line-height: 42px;
   }
-  /* line 240, assets/less/match.less */
+  /* line 241, assets/less/match.less */
   .match_intro .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 246, assets/less/match.less */
+  /* line 247, assets/less/match.less */
   .match_intro .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto;
   }
-  /* line 250, assets/less/match.less */
+  /* line 251, assets/less/match.less */
   .match_intro .text_wrap .comment {
     font-size: 14px;
     line-height: 20px;
   }
-  /* line 257, assets/less/match.less */
+  /* line 258, assets/less/match.less */
   .match_title > div {
     padding-top: 40px;
   }
-  /* line 260, assets/less/match.less */
+  /* line 261, assets/less/match.less */
   .match_title .inner {
     width: 100%;
   }
-  /* line 264, assets/less/match.less */
+  /* line 265, assets/less/match.less */
   .match_title .text_wrap > span {
     font-size: 38px;
     line-height: 1;
   }
-  /* line 268, assets/less/match.less */
+  /* line 269, assets/less/match.less */
   .match_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-  /* line 274, assets/less/match.less */
+  /* line 275, assets/less/match.less */
   .match_title .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
-  /* line 281, assets/less/match.less */
+  /* line 282, assets/less/match.less */
   .match_schedule .inner {
     width: 100%;
   }
-  /* line 284, assets/less/match.less */
+  /* line 285, assets/less/match.less */
   .match_schedule .match_month {
     width: 95%;
     margin: 0 auto;
   }
-  /* line 287, assets/less/match.less */
+  /* line 288, assets/less/match.less */
   .match_schedule .match_month .month {
     font-size: 32px;
   }
-  /* line 290, assets/less/match.less */
+  /* line 291, assets/less/match.less */
   .match_schedule .match_month .month_date {
     display: none;
   }
-  /* line 295, assets/less/match.less */
+  /* line 296, assets/less/match.less */
   .match_schedule .btngroup .next {
     right: 100px;
   }
-  /* line 298, assets/less/match.less */
+  /* line 299, assets/less/match.less */
   .match_schedule .btngroup .prev {
     left: 100px;
   }
-  /* line 302, assets/less/match.less */
+  /* line 303, assets/less/match.less */
   .match_schedule .schedule {
     margin-top: 50px;
   }
-  /* line 304, assets/less/match.less */
+  /* line 305, assets/less/match.less */
   .match_schedule .schedule .match_info {
     padding-bottom: 30px;
   }
-  /* line 306, assets/less/match.less */
+  /* line 307, assets/less/match.less */
   .match_schedule .schedule .match_info > div {
     margin: 0;
   }
-  /* line 310, assets/less/match.less */
+  /* line 311, assets/less/match.less */
   .match_schedule .schedule .match_info .match_date span {
     font-size: 18px;
   }
-  /* line 315, assets/less/match.less */
+  /* line 316, assets/less/match.less */
   .match_schedule .schedule .match_info .match_status span,
   .match_schedule .schedule .match_info .match_stadium span {
     font-size: 15px;
   }
-  /* line 320, assets/less/match.less */
+  /* line 321, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team div {
     padding: 10px 20px;
   }
-  /* line 323, assets/less/match.less */
+  /* line 324, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .name {
     width: 130px;
     font-size: 18px;
   }
-  /* line 327, assets/less/match.less */
+  /* line 328, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .score {
     font-size: 48px;
   }
-  /* line 331, assets/less/match.less */
+  /* line 332, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .first_team img {
     width: 60px;
     height: 60px;
     margin-right: 10px;
   }
-  /* line 337, assets/less/match.less */
+  /* line 338, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .second_team img {
     width: 60px;
     height: 60px;
@@ -670,40 +667,40 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 348, assets/less/match.less */
+  /* line 349, assets/less/match.less */
   .content_wrap {
     margin-left: 0px;
   }
 }
 @media screen and (max-width: 680px) {
-  /* line 355, assets/less/match.less */
+  /* line 356, assets/less/match.less */
   .match_title .text_wrap .sub {
     letter-spacing: 20px;
     padding-left: 20px;
   }
-  /* line 363, assets/less/match.less */
+  /* line 364, assets/less/match.less */
   .match_schedule .match_month .month {
     font-size: 24px;
   }
-  /* line 367, assets/less/match.less */
+  /* line 368, assets/less/match.less */
   .match_schedule .schedule {
     margin-top: 30px;
   }
-  /* line 370, assets/less/match.less */
+  /* line 371, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team {
     padding: 5px 10px;
   }
-  /* line 372, assets/less/match.less */
+  /* line 373, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .score {
     font-size: 32px;
   }
-  /* line 376, assets/less/match.less */
+  /* line 377, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .first_team img {
     width: 45px;
     height: 45px;
     margin-right: 5px;
   }
-  /* line 382, assets/less/match.less */
+  /* line 383, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .second_team img {
     width: 45px;
     height: 45px;
@@ -711,33 +708,33 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 630px) {
-  /* line 395, assets/less/match.less */
+  /* line 396, assets/less/match.less */
   .match_intro .text_wrap > span {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 399, assets/less/match.less */
+  /* line 400, assets/less/match.less */
   .match_intro .text_wrap .line {
     width: 150px;
     height: 2px;
   }
-  /* line 405, assets/less/match.less */
+  /* line 406, assets/less/match.less */
   .match_title > div {
     padding-top: 30px;
   }
-  /* line 409, assets/less/match.less */
+  /* line 410, assets/less/match.less */
   .match_title .text_wrap > span {
     font-size: 32px;
     line-height: 1;
   }
-  /* line 413, assets/less/match.less */
+  /* line 414, assets/less/match.less */
   .match_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 20px;
     padding-left: 20px;
   }
-  /* line 419, assets/less/match.less */
+  /* line 420, assets/less/match.less */
   .match_title .text_wrap .line {
     width: 150px;
     height: 2px;
@@ -745,47 +742,47 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 430, assets/less/match.less */
+  /* line 431, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team {
     height: 100px;
     width: 330px;
     position: relative;
     padding: 0;
   }
-  /* line 435, assets/less/match.less */
+  /* line 436, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .name {
     width: auto;
     position: absolute;
     top: 65px;
   }
-  /* line 440, assets/less/match.less */
+  /* line 441, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .score {
     position: absolute;
     top: 20px;
   }
-  /* line 445, assets/less/match.less */
+  /* line 446, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .first_team .name {
     left: 35px;
   }
-  /* line 448, assets/less/match.less */
+  /* line 449, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .first_team .score {
     left: 110px;
   }
-  /* line 451, assets/less/match.less */
+  /* line 452, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .first_team img {
     position: absolute;
     left: 50px;
     top: 10px;
   }
-  /* line 457, assets/less/match.less */
+  /* line 458, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .second_team .name {
     right: 35px;
   }
-  /* line 460, assets/less/match.less */
+  /* line 461, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .second_team .score {
     right: 110px;
   }
-  /* line 463, assets/less/match.less */
+  /* line 464, assets/less/match.less */
   .match_schedule .schedule .match_info .match_team .second_team img {
     position: absolute;
     right: 50px;

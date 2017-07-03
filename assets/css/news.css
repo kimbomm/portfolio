@@ -66,7 +66,7 @@ header .nav {
   position: fixed;
   z-index: 2;
   left: 0;
-  background-color: #4a0001;
+  background-color: #333;
 }
 header .nav h1 {
   text-indent: -9999px;
@@ -213,9 +213,6 @@ header .nav .hamburger {
 }
 .content_wrap .footer .inner .twitter {
   background: url('../photo/icon/sns03.png') no-repeat center;
-}
-.content_wrap .footer .inner .youtube {
-  background: url('../photo/icon/sns04.png') no-repeat center;
 }
 @media screen and (max-width: 1200px) {
   .content_wrap .footer .inner {
@@ -506,8 +503,8 @@ header .nav .hamburger {
   .news_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
-    letter-spacing: 32px;
-    padding-left: 32px;
+    letter-spacing: 24px;
+    padding-left: 24px;
   }
   .news_title .text_wrap .line {
     width: 200px;
@@ -618,8 +615,14 @@ header .nav .hamburger {
   .news_list li:last-child {
     border-bottom: none;
   }
+  .news_list li:last-child img {
+    width: 320px;
+  }
+  .news_list li:nth-child(3) img {
+    width: 320px;
+  }
   .news_list .news_img {
-    width: 350px;
+    width: 320px;
   }
   .news_list .news_img img {
     width: 100%;

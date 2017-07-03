@@ -34,7 +34,7 @@ header{
     position: fixed;
     z-index: 2;
     left: 0;
-    background-color: @font-main;
+    background-color: #333;
     h1{
       text-indent: -9999px;
       width: 46.66666%;height: 100px;
@@ -96,6 +96,7 @@ header{
         text-align: center;
         font-size: 60px;
         line-height: 68px;
+        text-shadow: rgba(0,0,0,.5) 5px 5px 5px;
         font-weight: lighter;
         color:@font-white;
       }
@@ -150,6 +151,7 @@ header{
         line-height: 68px;
         font-weight: lighter;
         color:@font-white;
+        text-shadow: rgba(0,0,0,.5) 0px 0px 5px;
       }
       .sub{
         position: relative;
@@ -177,7 +179,7 @@ header{
         &:hover{
           border: 1px @font-sub solid;
           color: @font-sub;
-          box-shadow: 0px 0px 20px @font-sub;
+          box-shadow: 0px 0px 5px @font-sub;
         }
       }
     }
@@ -510,9 +512,6 @@ header{
       .twitter{
         background: url('../photo/icon/sns03.png') no-repeat center;
       }
-      .youtube{
-        background: url('../photo/icon/sns04.png') no-repeat center;
-      }
     }
 
   }
@@ -821,12 +820,14 @@ header{
             }
             .title{
               width: 230px;height: 20px;
+              float: left;
               span{
                 font-size: 16px;
               }
             }
             .content{
-              width: 250px;height: 85px;
+              width: 320px;height: 85px;
+              text-align: left;
               p{
                 font-size: 14px;
                 line-height: 22px;
@@ -854,7 +855,8 @@ header{
               }
             }
             .content{
-              width: 250px;height: 85px;
+              width: 320px;height: 85px;
+              text-align: left;
               p{
                 font-size: 14px;
                 line-height: 22px;
@@ -900,7 +902,7 @@ header{
               }
             }
             .content{
-              width: 200px;height: 85px;
+              width: 280px;height: 85px;
               p{
                 font-size: 14px;
                 line-height: 22px;
@@ -931,7 +933,7 @@ header{
               }
             }
             .content{
-              width: 200px;height: 85px;
+              width: 280px;height: 85px;
               p{
                 font-size: 14px;
                 line-height: 22px;
@@ -961,7 +963,7 @@ header{
               float: left;
             }
             .content{
-              width: 260px;
+              width: 300px;
               margin-right: 0;
             }
           }
@@ -975,8 +977,8 @@ header{
               margin-top: 30px;
             }
             .content{
+              width: 300px;
               float: right;
-              width: 260px;
               margin-right: 0;
             }
           }
@@ -1021,24 +1023,21 @@ header{
             top:initial;
             left:10px;
             right:10px;
-            height: 40px;
+            height: 50px;
             bottom: 0;
             .sub_info{
               span{
                 font-size: 24px;
-                position: absolute;
-                top: 8px;
               }
               .name{
                 font-size: 24px;
                 display: inline-block;
-                right: 30px;
               }
               .position{
-                left: 30px;
+                border-right: 0;
               }
               .number{
-                left: 100px;
+                margin-right: 20px;
               }
             }
           }

@@ -80,7 +80,7 @@ header .nav {
   position: fixed;
   z-index: 2;
   left: 0;
-  background-color: #4a0001;
+  background-color: #333;
 }
 /* line 34, assets\less\include\header.less */
 header .nav h1 {
@@ -256,18 +256,14 @@ header .nav .hamburger {
 .content_wrap .footer .inner .twitter {
   background: url('../photo/icon/sns03.png') no-repeat center;
 }
-/* line 36, assets\less\include\footer.less */
-.content_wrap .footer .inner .youtube {
-  background: url('../photo/icon/sns04.png') no-repeat center;
-}
 @media screen and (max-width: 1200px) {
-  /* line 47, assets\less\include\footer.less */
+  /* line 44, assets\less\include\footer.less */
   .content_wrap .footer .inner {
     width: 100%;
   }
 }
 @media screen and (max-width: 580px) {
-  /* line 58, assets\less\include\footer.less */
+  /* line 55, assets\less\include\footer.less */
   .content_wrap .footer .inner span {
     font-size: 11px;
   }
