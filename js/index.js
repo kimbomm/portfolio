@@ -10,6 +10,11 @@ $(function(){
   };
 
   var autoSlide = setInterval(main_tri, main_speed);
+  $('.main li').mouseenter(function(){
+    clearInterval(autoSlide);
+  }).mouseleave(function(){
+    autoSlide = setInterval(main_tri, main_speed);
+  })
 
   function main_slide(i, start, end){
     $('.main li').eq(i).addClass('on').css({

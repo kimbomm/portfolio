@@ -80,7 +80,7 @@ header .nav {
   position: fixed;
   z-index: 2;
   left: 0;
-  background-color: #4a0001;
+  background-color: #333;
 }
 /* line 34, assets/less/include/header.less */
 header .nav h1 {
@@ -256,18 +256,27 @@ header .nav .hamburger {
 .content_wrap .footer .inner .twitter {
   background: url('../photo/icon/sns03.png') no-repeat center;
 }
+<<<<<<< HEAD
 /* line 36, assets/less/include/footer.less */
 .content_wrap .footer .inner .youtube {
   background: url('../photo/icon/sns04.png') no-repeat center;
 }
 @media screen and (max-width: 1200px) {
   /* line 47, assets/less/include/footer.less */
+=======
+@media screen and (max-width: 1200px) {
+  /* line 44, assets\less\include\footer.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .content_wrap .footer .inner {
     width: 100%;
   }
 }
 @media screen and (max-width: 580px) {
+<<<<<<< HEAD
   /* line 58, assets/less/include/footer.less */
+=======
+  /* line 55, assets\less\include\footer.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .content_wrap .footer .inner span {
     font-size: 11px;
   }
@@ -720,8 +729,8 @@ header .nav .hamburger {
   .news_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
-    letter-spacing: 32px;
-    padding-left: 32px;
+    letter-spacing: 24px;
+    padding-left: 24px;
   }
   /* line 371, assets/less/gellary_view.less */
   .news_title .text_wrap .line {
