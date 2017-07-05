@@ -146,8 +146,8 @@
           "stadium" : "서울 월드컵 경기장",
           "home" : "종로 해커스",
           "away" : "종로 YBM",
-          "home_score" : "2",
-          "away_score" : "3",
+          "home_score" : "1",
+          "away_score" : "6",
           "home_logo" : "../assets/photo/logo/logo07.jpg",
           "away_logo" : "../assets/photo/logo/logo02.jpg"
         },{},{},{},{},{},{},{
@@ -164,8 +164,8 @@
           "stadium" : "노원 마들구장",
           "home" : "노원구 대호",
           "away" : "노원구 비호",
-          "home_score" : "0",
-          "away_score" : "0",
+          "home_score" : "7",
+          "away_score" : "9",
           "home_logo" : "../assets/photo/logo/logo05.jpg",
           "away_logo" : "../assets/photo/logo/logo06.jpg"
         },{},{},{},{},{},{}
