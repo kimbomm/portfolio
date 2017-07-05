@@ -99,17 +99,23 @@ $(function(){
           'width' : $('.match_schedule .match_month').width() / 31,
           'height' : $('.match_schedule .match_month').width() / 31
         })
+        console.log($('.match_schedule .match_month').width());
+        console.log(match.calendar[i].date.length);
       }
       else if(match.calendar[i].date.length == 30){
         $('.match_schedule .month_date li').css({
           'width' : $('.match_schedule .match_month').width() / 30,
           'height' : $('.match_schedule .match_month').width() / 30
         })
+        console.log($('.match_schedule .match_month').width());
+        console.log(match.calendar[i].date.length);
       }else{
         $('.match_schedule .month_date li').css({
           'width' : $('.match_schedule .match_month').width() / match.calendar[i].date.length,
           'height' : $('.match_schedule .match_month').width() / match.calendar[i].date.length
         })
+        console.log($('.match_schedule .match_month').width());
+        console.log(match.calendar[i].date.length);
       }
     }
 
