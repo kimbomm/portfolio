@@ -221,7 +221,8 @@ $(function(){
           $('.match_status span').html('경기종료').css('color','#4a0001');
           console.log('이전달 경기종료');
         }
-      }else if(month[dat.getMonth()] <= match.calendar[i].month*1){
+      };
+      if(month[dat.getMonth()] <= match.calendar[i].month*1){
         if((month[dat.getMonth()] == match.calendar[i].month*1)&&dat.getDate() > j){
           $('.first_team .score').html('0');
           $('.second_team .score').html('0');
@@ -231,7 +232,7 @@ $(function(){
           $('.second_team .score').html('0');
           console.log('다음달 0,0');
         }
-      }
+      };
     }
 
 
