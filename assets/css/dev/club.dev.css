@@ -1,49 +1,49 @@
 @import url('fonts.googleapis.com/earlyaccess/notosanskr.css');
-/* line 1, assets/less/reset.less */
+/* line 1, assets\less\reset.less */
 * {
   margin: 0;
   padding: 0;
 }
-/* line 2, assets/less/reset.less */
+/* line 2, assets\less\reset.less */
 a {
   text-decoration: none;
   color: #000;
 }
-/* line 3, assets/less/reset.less */
+/* line 3, assets\less\reset.less */
 ol,
 ul {
   list-style: none;
 }
-/* line 4, assets/less/reset.less */
+/* line 4, assets\less\reset.less */
 img {
   vertical-align: top;
 }
-/* line 5, assets/less/reset.less */
+/* line 5, assets\less\reset.less */
 body {
   font-family: 'Noto Sans KR', sans-serif;
 }
-/* line 6, assets/less/reset.less */
+/* line 6, assets\less\reset.less */
 html,
 body {
   height: 100%;
   overflow-x: hidden;
 }
-/* line 7, assets/less/reset.less */
+/* line 7, assets\less\reset.less */
 button {
   background-color: rgba(0, 0, 0, 0);
   border-style: none;
   border-color: none;
   cursor: pointer;
 }
-/* line 8, assets/less/reset.less */
+/* line 8, assets\less\reset.less */
 legend {
   text-indent: -9999px;
 }
-/* line 9, assets/less/reset.less */
+/* line 9, assets\less\reset.less */
 fieldset {
   border: none;
 }
-/* line 5, assets/less/include/header.less */
+/* line 5, assets\less\include\header.less */
 header {
   height: 80px;
   width: 100%;
@@ -52,7 +52,7 @@ header {
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 11, assets/less/include/header.less */
+/* line 11, assets\less\include\header.less */
 header .button {
   font-size: 0;
   line-height: 1;
@@ -62,18 +62,18 @@ header .button {
   right: 30px;
   top: 31px;
 }
-/* line 18, assets/less/include/header.less */
+/* line 18, assets\less\include\header.less */
 header .button span {
   display: inline-block;
   font-size: 16px;
   padding: 0 15px;
   color: #fff;
 }
-/* line 24, assets/less/include/header.less */
+/* line 24, assets\less\include\header.less */
 header .button .login {
   border-right: 1px #fff solid;
 }
-/* line 28, assets/less/include/header.less */
+/* line 28, assets\less\include\header.less */
 header .nav {
   width: 15.625%;
   height: 100%;
@@ -82,7 +82,7 @@ header .nav {
   left: 0;
   background-color: #333;
 }
-/* line 34, assets/less/include/header.less */
+/* line 34, assets\less\include\header.less */
 header .nav h1 {
   text-indent: -9999px;
   width: 46.66666%;
@@ -93,7 +93,7 @@ header .nav h1 {
   background: url('../photo/logo.png') no-repeat center;
   background-size: 100%;
 }
-/* line 42, assets/less/include/header.less */
+/* line 42, assets\less\include\header.less */
 header .nav ul {
   position: absolute;
   text-align: center;
@@ -102,16 +102,16 @@ header .nav ul {
   right: 0;
   margin: auto;
 }
-/* line 48, assets/less/include/header.less */
+/* line 48, assets\less\include\header.less */
 header .nav li {
   padding: 10px 5px;
 }
-/* line 50, assets/less/include/header.less */
+/* line 50, assets\less\include\header.less */
 header .nav li a {
   font-size: 18px;
   color: #fff;
 }
-/* line 55, assets/less/include/header.less */
+/* line 55, assets\less\include\header.less */
 header .nav .hamburger {
   display: none;
   width: 26px;
@@ -124,54 +124,54 @@ header .nav .hamburger {
   cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
-  /* line 69, assets/less/include/header.less */
+  /* line 69, assets\less\include\header.less */
   header .nav {
     width: 120px;
   }
-  /* line 71, assets/less/include/header.less */
+  /* line 71, assets\less\include\header.less */
   header .nav h1 {
     width: 80px;
     margin: 50px auto 0;
     position: static;
   }
-  /* line 76, assets/less/include/header.less */
+  /* line 76, assets\less\include\header.less */
   header .nav ul {
     position: static;
     margin: 30px auto 0;
   }
-  /* line 81, assets/less/include/header.less */
+  /* line 81, assets\less\include\header.less */
   header .nav li a {
     font-size: 15px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 89, assets/less/include/header.less */
+  /* line 89, assets\less\include\header.less */
   header {
     position: static;
     text-align: center;
   }
-  /* line 92, assets/less/include/header.less */
+  /* line 92, assets\less\include\header.less */
   header .button {
     display: none;
   }
-  /* line 95, assets/less/include/header.less */
+  /* line 95, assets\less\include\header.less */
   header .nav {
     position: static;
     width: 100%;
     height: 80px;
   }
-  /* line 99, assets/less/include/header.less */
+  /* line 99, assets\less\include\header.less */
   header .nav h1 {
     margin: 0 10px;
     height: 80px;
     float: left;
   }
-  /* line 105, assets/less/include/header.less */
+  /* line 105, assets\less\include\header.less */
   header .nav ul {
     margin: 0 auto;
     font-size: 0;
   }
-  /* line 109, assets/less/include/header.less */
+  /* line 109, assets\less\include\header.less */
   header .nav li {
     display: inline-block;
     margin: 0 15px;
@@ -180,11 +180,11 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 580px) {
-  /* line 120, assets/less/include/header.less */
+  /* line 120, assets\less\include\header.less */
   header .nav {
     position: relative;
   }
-  /* line 122, assets/less/include/header.less */
+  /* line 122, assets\less\include\header.less */
   header .nav ul {
     display: none;
     position: absolute;
@@ -197,86 +197,73 @@ header .nav .hamburger {
     border: 1px #999999 solid;
     background-color: #4a0001;
   }
-  /* line 133, assets/less/include/header.less */
+  /* line 133, assets\less\include\header.less */
   header .nav li {
     display: block;
     line-height: 50px;
     border-bottom: 1px #999999 solid;
   }
-  /* line 137, assets/less/include/header.less */
+  /* line 137, assets\less\include\header.less */
   header .nav li:last-child {
     border-bottom: none;
   }
-  /* line 141, assets/less/include/header.less */
+  /* line 141, assets\less\include\header.less */
   header .nav .hamburger {
     display: block;
   }
 }
-/* line 6, assets/less/include/footer.less */
+/* line 6, assets\less\include\footer.less */
 .content_wrap .footer {
   width: 100%;
   height: 230px;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 9, assets/less/include/footer.less */
+/* line 9, assets\less\include\footer.less */
 .content_wrap .footer .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 12, assets/less/include/footer.less */
+/* line 12, assets\less\include\footer.less */
 .content_wrap .footer .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 18, assets/less/include/footer.less */
+/* line 18, assets\less\include\footer.less */
 .content_wrap .footer .inner > div {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 22, assets/less/include/footer.less */
+/* line 22, assets\less\include\footer.less */
 .content_wrap .footer .inner i {
   display: inline-block;
   width: 25px;
   height: 25px;
   margin: 10px;
 }
-/* line 27, assets/less/include/footer.less */
+/* line 27, assets\less\include\footer.less */
 .content_wrap .footer .inner .facebook {
   background: url('../photo/icon/sns01.png') no-repeat center;
 }
-/* line 30, assets/less/include/footer.less */
+/* line 30, assets\less\include\footer.less */
 .content_wrap .footer .inner .google {
   background: url('../photo/icon/sns02.png') no-repeat center;
 }
-/* line 33, assets/less/include/footer.less */
+/* line 33, assets\less\include\footer.less */
 .content_wrap .footer .inner .twitter {
   background: url('../photo/icon/sns03.png') no-repeat center;
 }
-<<<<<<< HEAD
-/* line 36, assets/less/include/footer.less */
-.content_wrap .footer .inner .youtube {
-  background: url('../photo/icon/sns04.png') no-repeat center;
-}
-@media screen and (max-width: 1200px) {
-  /* line 47, assets/less/include/footer.less */
-=======
 @media screen and (max-width: 1200px) {
   /* line 44, assets\less\include\footer.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .content_wrap .footer .inner {
     width: 100%;
   }
 }
 @media screen and (max-width: 580px) {
-<<<<<<< HEAD
-  /* line 58, assets/less/include/footer.less */
-=======
   /* line 55, assets\less\include\footer.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .content_wrap .footer .inner span {
     font-size: 11px;
   }

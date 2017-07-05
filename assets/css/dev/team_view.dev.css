@@ -1,49 +1,49 @@
 @import url('fonts.googleapis.com/earlyaccess/notosanskr.css');
-/* line 1, assets/less/reset.less */
+/* line 1, assets\less\reset.less */
 * {
   margin: 0;
   padding: 0;
 }
-/* line 2, assets/less/reset.less */
+/* line 2, assets\less\reset.less */
 a {
   text-decoration: none;
   color: #000;
 }
-/* line 3, assets/less/reset.less */
+/* line 3, assets\less\reset.less */
 ol,
 ul {
   list-style: none;
 }
-/* line 4, assets/less/reset.less */
+/* line 4, assets\less\reset.less */
 img {
   vertical-align: top;
 }
-/* line 5, assets/less/reset.less */
+/* line 5, assets\less\reset.less */
 body {
   font-family: 'Noto Sans KR', sans-serif;
 }
-/* line 6, assets/less/reset.less */
+/* line 6, assets\less\reset.less */
 html,
 body {
   height: 100%;
   overflow-x: hidden;
 }
-/* line 7, assets/less/reset.less */
+/* line 7, assets\less\reset.less */
 button {
   background-color: rgba(0, 0, 0, 0);
   border-style: none;
   border-color: none;
   cursor: pointer;
 }
-/* line 8, assets/less/reset.less */
+/* line 8, assets\less\reset.less */
 legend {
   text-indent: -9999px;
 }
-/* line 9, assets/less/reset.less */
+/* line 9, assets\less\reset.less */
 fieldset {
   border: none;
 }
-/* line 5, assets/less/include/header.less */
+/* line 5, assets\less\include\header.less */
 header {
   height: 80px;
   width: 100%;
@@ -52,7 +52,7 @@ header {
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 11, assets/less/include/header.less */
+/* line 11, assets\less\include\header.less */
 header .button {
   font-size: 0;
   line-height: 1;
@@ -62,18 +62,18 @@ header .button {
   right: 30px;
   top: 31px;
 }
-/* line 18, assets/less/include/header.less */
+/* line 18, assets\less\include\header.less */
 header .button span {
   display: inline-block;
   font-size: 16px;
   padding: 0 15px;
   color: #fff;
 }
-/* line 24, assets/less/include/header.less */
+/* line 24, assets\less\include\header.less */
 header .button .login {
   border-right: 1px #fff solid;
 }
-/* line 28, assets/less/include/header.less */
+/* line 28, assets\less\include\header.less */
 header .nav {
   width: 15.625%;
   height: 100%;
@@ -82,7 +82,7 @@ header .nav {
   left: 0;
   background-color: #333;
 }
-/* line 34, assets/less/include/header.less */
+/* line 34, assets\less\include\header.less */
 header .nav h1 {
   text-indent: -9999px;
   width: 46.66666%;
@@ -93,7 +93,7 @@ header .nav h1 {
   background: url('../photo/logo.png') no-repeat center;
   background-size: 100%;
 }
-/* line 42, assets/less/include/header.less */
+/* line 42, assets\less\include\header.less */
 header .nav ul {
   position: absolute;
   text-align: center;
@@ -102,16 +102,16 @@ header .nav ul {
   right: 0;
   margin: auto;
 }
-/* line 48, assets/less/include/header.less */
+/* line 48, assets\less\include\header.less */
 header .nav li {
   padding: 10px 5px;
 }
-/* line 50, assets/less/include/header.less */
+/* line 50, assets\less\include\header.less */
 header .nav li a {
   font-size: 18px;
   color: #fff;
 }
-/* line 55, assets/less/include/header.less */
+/* line 55, assets\less\include\header.less */
 header .nav .hamburger {
   display: none;
   width: 26px;
@@ -124,54 +124,54 @@ header .nav .hamburger {
   cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
-  /* line 69, assets/less/include/header.less */
+  /* line 69, assets\less\include\header.less */
   header .nav {
     width: 120px;
   }
-  /* line 71, assets/less/include/header.less */
+  /* line 71, assets\less\include\header.less */
   header .nav h1 {
     width: 80px;
     margin: 50px auto 0;
     position: static;
   }
-  /* line 76, assets/less/include/header.less */
+  /* line 76, assets\less\include\header.less */
   header .nav ul {
     position: static;
     margin: 30px auto 0;
   }
-  /* line 81, assets/less/include/header.less */
+  /* line 81, assets\less\include\header.less */
   header .nav li a {
     font-size: 15px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 89, assets/less/include/header.less */
+  /* line 89, assets\less\include\header.less */
   header {
     position: static;
     text-align: center;
   }
-  /* line 92, assets/less/include/header.less */
+  /* line 92, assets\less\include\header.less */
   header .button {
     display: none;
   }
-  /* line 95, assets/less/include/header.less */
+  /* line 95, assets\less\include\header.less */
   header .nav {
     position: static;
     width: 100%;
     height: 80px;
   }
-  /* line 99, assets/less/include/header.less */
+  /* line 99, assets\less\include\header.less */
   header .nav h1 {
     margin: 0 10px;
     height: 80px;
     float: left;
   }
-  /* line 105, assets/less/include/header.less */
+  /* line 105, assets\less\include\header.less */
   header .nav ul {
     margin: 0 auto;
     font-size: 0;
   }
-  /* line 109, assets/less/include/header.less */
+  /* line 109, assets\less\include\header.less */
   header .nav li {
     display: inline-block;
     margin: 0 15px;
@@ -180,11 +180,11 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 580px) {
-  /* line 120, assets/less/include/header.less */
+  /* line 120, assets\less\include\header.less */
   header .nav {
     position: relative;
   }
-  /* line 122, assets/less/include/header.less */
+  /* line 122, assets\less\include\header.less */
   header .nav ul {
     display: none;
     position: absolute;
@@ -197,86 +197,73 @@ header .nav .hamburger {
     border: 1px #999999 solid;
     background-color: #4a0001;
   }
-  /* line 133, assets/less/include/header.less */
+  /* line 133, assets\less\include\header.less */
   header .nav li {
     display: block;
     line-height: 50px;
     border-bottom: 1px #999999 solid;
   }
-  /* line 137, assets/less/include/header.less */
+  /* line 137, assets\less\include\header.less */
   header .nav li:last-child {
     border-bottom: none;
   }
-  /* line 141, assets/less/include/header.less */
+  /* line 141, assets\less\include\header.less */
   header .nav .hamburger {
     display: block;
   }
 }
-/* line 6, assets/less/include/footer.less */
+/* line 6, assets\less\include\footer.less */
 .content_wrap .footer {
   width: 100%;
   height: 230px;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 9, assets/less/include/footer.less */
+/* line 9, assets\less\include\footer.less */
 .content_wrap .footer .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 12, assets/less/include/footer.less */
+/* line 12, assets\less\include\footer.less */
 .content_wrap .footer .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 18, assets/less/include/footer.less */
+/* line 18, assets\less\include\footer.less */
 .content_wrap .footer .inner > div {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 22, assets/less/include/footer.less */
+/* line 22, assets\less\include\footer.less */
 .content_wrap .footer .inner i {
   display: inline-block;
   width: 25px;
   height: 25px;
   margin: 10px;
 }
-/* line 27, assets/less/include/footer.less */
+/* line 27, assets\less\include\footer.less */
 .content_wrap .footer .inner .facebook {
   background: url('../photo/icon/sns01.png') no-repeat center;
 }
-/* line 30, assets/less/include/footer.less */
+/* line 30, assets\less\include\footer.less */
 .content_wrap .footer .inner .google {
   background: url('../photo/icon/sns02.png') no-repeat center;
 }
-/* line 33, assets/less/include/footer.less */
+/* line 33, assets\less\include\footer.less */
 .content_wrap .footer .inner .twitter {
   background: url('../photo/icon/sns03.png') no-repeat center;
 }
-<<<<<<< HEAD
-/* line 36, assets/less/include/footer.less */
-.content_wrap .footer .inner .youtube {
-  background: url('../photo/icon/sns04.png') no-repeat center;
-}
-@media screen and (max-width: 1200px) {
-  /* line 47, assets/less/include/footer.less */
-=======
 @media screen and (max-width: 1200px) {
   /* line 44, assets\less\include\footer.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .content_wrap .footer .inner {
     width: 100%;
   }
 }
 @media screen and (max-width: 580px) {
-<<<<<<< HEAD
-  /* line 58, assets/less/include/footer.less */
-=======
   /* line 55, assets\less\include\footer.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .content_wrap .footer .inner span {
     font-size: 11px;
   }
@@ -396,43 +383,27 @@ header .nav .hamburger {
   padding-left: 43.2px;
   color: #999999;
 }
-<<<<<<< HEAD
-/* line 95, assets/less/team_view.less */
-=======
 /* line 96, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .team_title .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
 }
-<<<<<<< HEAD
-/* line 100, assets/less/team_view.less */
-=======
 /* line 101, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .team_title .text_wrap .vertical_line {
   width: 2px;
   height: 100px;
   background-color: #4a0001;
   margin: 0 auto 40px;
 }
-<<<<<<< HEAD
-/* line 108, assets/less/team_view.less */
-=======
 /* line 109, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
 }
-<<<<<<< HEAD
-/* line 111, assets/less/team_view.less */
-=======
 /* line 112, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player_img {
   width: 945px;
   height: 450px;
@@ -441,17 +412,6 @@ header .nav .hamburger {
   background: url('../photo/team/player_box.png') no-repeat center;
   background-size: 100% 100%;
 }
-<<<<<<< HEAD
-/* line 117, assets/less/team_view.less */
-.player_list .player_img img {
-  height: 100%;
-}
-/* line 121, assets/less/team_view.less */
-.player_list .player_other {
-  position: relative;
-}
-/* line 124, assets/less/team_view.less */
-=======
 /* line 118, assets/less/team_view.less */
 .player_list .player_img img {
   height: 100%;
@@ -461,7 +421,6 @@ header .nav .hamburger {
   position: relative;
 }
 /* line 125, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player_other .btngroup button {
   position: absolute;
   top: 35px;
@@ -470,29 +429,17 @@ header .nav .hamburger {
   display: block;
   cursor: pointer;
 }
-<<<<<<< HEAD
-/* line 131, assets/less/team_view.less */
-=======
 /* line 132, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player_other .btngroup .next {
   background: url(../photo/icon/next01.png) no-repeat center;
   right: 50px;
 }
-<<<<<<< HEAD
-/* line 135, assets/less/team_view.less */
-=======
 /* line 136, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player_other .btngroup .prev {
   background: url(../photo/icon/prev01.png) no-repeat center;
   left: 50px;
 }
-<<<<<<< HEAD
-/* line 140, assets/less/team_view.less */
-=======
 /* line 141, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player_other ul {
   width: 750px;
   height: 100px;
@@ -503,11 +450,7 @@ header .nav .hamburger {
   overflow: hidden;
   position: relative;
 }
-<<<<<<< HEAD
-/* line 149, assets/less/team_view.less */
-=======
 /* line 150, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player_other li {
   display: inline-block;
   width: 75px;
@@ -515,81 +458,49 @@ header .nav .hamburger {
   text-align: center;
   margin: 0 25px;
 }
-<<<<<<< HEAD
-/* line 155, assets/less/team_view.less */
-=======
 /* line 156, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player_other .other_img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
 }
-<<<<<<< HEAD
-/* line 158, assets/less/team_view.less */
-.player_list .player_other .other_img img {
-  width: 100%;
-}
-/* line 162, assets/less/team_view.less */
-=======
 /* line 159, assets/less/team_view.less */
 .player_list .player_other .other_img img {
   width: 100%;
 }
 /* line 163, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player_other span {
   text-transform: uppercase;
   display: inline-block;
   font-size: 13px;
   padding: 5px 2px;
 }
-<<<<<<< HEAD
-/* line 169, assets/less/team_view.less */
-=======
 /* line 170, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player {
   text-align: center;
   font-size: 0px;
   margin: 50px 0;
 }
-<<<<<<< HEAD
-/* line 173, assets/less/team_view.less */
-=======
 /* line 174, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player span {
   display: inline-block;
   text-transform: uppercase;
   line-height: 1;
   font-weight: 100;
 }
-<<<<<<< HEAD
-/* line 179, assets/less/team_view.less */
-=======
 /* line 180, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player .position {
   font-size: 60px;
   letter-spacing: 12px;
   padding-left: 12px;
 }
-<<<<<<< HEAD
-/* line 184, assets/less/team_view.less */
-=======
 /* line 185, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player .name {
   font-size: 60px;
   letter-spacing: 12px;
   padding-left: 12px;
 }
-<<<<<<< HEAD
-/* line 189, assets/less/team_view.less */
-=======
 /* line 190, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .player .number {
   display: block;
   margin: 0 auto;
@@ -600,28 +511,16 @@ header .nav .hamburger {
   position: relative;
   top: -10px;
 }
-<<<<<<< HEAD
-/* line 198, assets/less/team_view.less */
-.player_list .player .number:before {
-  content: "NO. ";
-}
-/* line 203, assets/less/team_view.less */
-=======
 /* line 199, assets/less/team_view.less */
 .player_list .player .number:before {
   content: "NO. ";
 }
 /* line 204, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .details {
   text-align: center;
   margin-bottom: 50px;
 }
-<<<<<<< HEAD
-/* line 206, assets/less/team_view.less */
-=======
 /* line 207, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .details span {
   width: 250px;
   font-size: 24px;
@@ -631,36 +530,13 @@ header .nav .hamburger {
   position: relative;
   text-transform: uppercase;
 }
-<<<<<<< HEAD
-/* line 215, assets/less/team_view.less */
-=======
 /* line 216, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .details .join,
 .player_list .details .birth,
 .player_list .details .foot {
   text-align: right;
   margin: 0 auto 0 200px;
 }
-<<<<<<< HEAD
-/* line 220, assets/less/team_view.less */
-.player_list .details .join:before {
-  content: "입단년도 : ";
-}
-/* line 223, assets/less/team_view.less */
-.player_list .details .join:after {
-  content: "년";
-}
-/* line 228, assets/less/team_view.less */
-.player_list .details .birth:before {
-  content: "생년월일 : ";
-}
-/* line 233, assets/less/team_view.less */
-.player_list .details .foot:before {
-  content: "주 사용발 : ";
-}
-/* line 237, assets/less/team_view.less */
-=======
 /* line 221, assets/less/team_view.less */
 .player_list .details .join:before {
   content: "입단년도 : ";
@@ -678,7 +554,6 @@ header .nav .hamburger {
   content: "주 사용발 : ";
 }
 /* line 238, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .details .height,
 .player_list .details .weight,
 .player_list .details .blood {
@@ -687,33 +562,6 @@ header .nav .hamburger {
   position: relative;
   top: -10px;
 }
-<<<<<<< HEAD
-/* line 244, assets/less/team_view.less */
-.player_list .details .height:before {
-  content: "신장 : ";
-}
-/* line 247, assets/less/team_view.less */
-.player_list .details .height:after {
-  content: "cm";
-}
-/* line 252, assets/less/team_view.less */
-.player_list .details .weight:before {
-  content: "체중 : ";
-}
-/* line 255, assets/less/team_view.less */
-.player_list .details .weight:after {
-  content: "kg";
-}
-/* line 260, assets/less/team_view.less */
-.player_list .details .blood:before {
-  content: "혈액형 : ";
-}
-/* line 263, assets/less/team_view.less */
-.player_list .details .blood:after {
-  content: "형";
-}
-/* line 268, assets/less/team_view.less */
-=======
 /* line 245, assets/less/team_view.less */
 .player_list .details .height:before {
   content: "신장 : ";
@@ -739,47 +587,30 @@ header .nav .hamburger {
   content: "형";
 }
 /* line 269, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .record_line {
   border-bottom: 2px #4a0001 solid;
   width: 1000px;
   margin: 0 auto;
 }
-<<<<<<< HEAD
-/* line 272, assets/less/team_view.less */
-=======
 /* line 273, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .record_line span {
   display: inline-block;
   font-size: 24px;
   color: #4a0001;
   padding: 10px 40px;
 }
-<<<<<<< HEAD
-/* line 279, assets/less/team_view.less */
-=======
 /* line 280, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .record {
   text-align: center;
   margin: 50px auto;
 }
-<<<<<<< HEAD
-/* line 283, assets/less/team_view.less */
-=======
 /* line 284, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .record .record_title .text_wrap {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
-<<<<<<< HEAD
-/* line 287, assets/less/team_view.less */
-=======
 /* line 288, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .record .record_title .text_wrap > span {
   display: block;
   text-align: center;
@@ -788,11 +619,7 @@ header .nav .hamburger {
   font-weight: lighter;
   color: #4a0001;
 }
-<<<<<<< HEAD
-/* line 295, assets/less/team_view.less */
-=======
 /* line 296, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .record .record_title .text_wrap .sub {
   position: relative;
   top: -20px;
@@ -804,41 +631,25 @@ header .nav .hamburger {
   padding-left: 43.2px;
   color: #999999;
 }
-<<<<<<< HEAD
-/* line 305, assets/less/team_view.less */
-=======
 /* line 307, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .record .record_title .text_wrap .line {
   width: 240px;
   height: 6px;
   margin: 40px auto;
   background-color: #4a0001;
 }
-<<<<<<< HEAD
-/* line 310, assets/less/team_view.less */
-=======
 /* line 312, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .record .record_title .text_wrap .vertical_line {
   width: 2px;
   height: 100px;
   background-color: #4a0001;
   margin: 0 auto 40px;
 }
-<<<<<<< HEAD
-/* line 317, assets/less/team_view.less */
-.player_list .record .record_info {
-  overflow: hidden;
-}
-/* line 319, assets/less/team_view.less */
-=======
 /* line 319, assets/less/team_view.less */
 .player_list .record .record_info {
   overflow: hidden;
 }
 /* line 321, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .record .record_info div {
   width: 100px;
   padding: 10px 0;
@@ -848,47 +659,27 @@ header .nav .hamburger {
   border-radius: 10px;
   text-align: center;
 }
-<<<<<<< HEAD
-/* line 327, assets/less/team_view.less */
-=======
 /* line 329, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .record .record_info div span {
   display: block;
   line-height: 1;
 }
-<<<<<<< HEAD
-/* line 330, assets/less/team_view.less */
-=======
 /* line 332, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .record .record_info div span:first-child {
   font-size: 32px;
   margin-bottom: 40px;
 }
-<<<<<<< HEAD
-/* line 335, assets/less/team_view.less */
-=======
 /* line 337, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .record .record_info div .score {
   font-size: 60px;
   color: #4a0001;
 }
-<<<<<<< HEAD
-/* line 342, assets/less/team_view.less */
-=======
 /* line 344, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .btn {
   margin: 80px 0;
   text-align: center;
 }
-<<<<<<< HEAD
-/* line 345, assets/less/team_view.less */
-=======
 /* line 347, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .player_list .btn button {
   width: 120px;
   height: 40px;
@@ -899,21 +690,6 @@ header .nav .hamburger {
   cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
-<<<<<<< HEAD
-  /* line 357, assets/less/team_view.less */
-  .content_wrap {
-    margin-left: 120px;
-  }
-  /* line 360, assets/less/team_view.less */
-  .team_intro {
-    height: 300px;
-  }
-  /* line 362, assets/less/team_view.less */
-  .team_intro .inner {
-    width: 100%;
-  }
-  /* line 366, assets/less/team_view.less */
-=======
   /* line 359, assets/less/team_view.less */
   .content_wrap {
     margin-left: 120px;
@@ -927,52 +703,28 @@ header .nav .hamburger {
     width: 100%;
   }
   /* line 368, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .team_intro .text_wrap > span {
     font-size: 38px;
     line-height: 42px;
   }
-<<<<<<< HEAD
-  /* line 370, assets/less/team_view.less */
-=======
   /* line 372, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .team_intro .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-<<<<<<< HEAD
-  /* line 376, assets/less/team_view.less */
-=======
   /* line 378, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .team_intro .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto;
   }
-<<<<<<< HEAD
-  /* line 380, assets/less/team_view.less */
-=======
   /* line 382, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .team_intro .text_wrap .comment {
     font-size: 14px;
     line-height: 20px;
   }
-<<<<<<< HEAD
-  /* line 387, assets/less/team_view.less */
-  .team_title > div {
-    padding-top: 40px;
-  }
-  /* line 390, assets/less/team_view.less */
-  .team_title .inner {
-    width: 100%;
-  }
-  /* line 394, assets/less/team_view.less */
-=======
   /* line 389, assets/less/team_view.less */
   .team_title > div {
     padding-top: 40px;
@@ -982,55 +734,23 @@ header .nav .hamburger {
     width: 100%;
   }
   /* line 396, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .team_title .text_wrap > span {
     font-size: 38px;
     line-height: 1;
   }
-<<<<<<< HEAD
-  /* line 398, assets/less/team_view.less */
-=======
   /* line 400, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .team_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-<<<<<<< HEAD
-  /* line 404, assets/less/team_view.less */
-=======
   /* line 406, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .team_title .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
-<<<<<<< HEAD
-  /* line 408, assets/less/team_view.less */
-  .team_title .text_wrap .vertical_line {
-    height: 70px;
-  }
-  /* line 414, assets/less/team_view.less */
-  .player_list .inner {
-    width: 100%;
-  }
-  /* line 417, assets/less/team_view.less */
-  .player_list .player_img {
-    width: 95%;
-  }
-  /* line 422, assets/less/team_view.less */
-  .player_list .player_other .btngroup .next {
-    right: 5px;
-  }
-  /* line 425, assets/less/team_view.less */
-  .player_list .player_other .btngroup .prev {
-    left: 5px;
-  }
-  /* line 429, assets/less/team_view.less */
-=======
   /* line 410, assets/less/team_view.less */
   .team_title .text_wrap .vertical_line {
     height: 70px;
@@ -1052,22 +772,10 @@ header .nav .hamburger {
     left: 5px;
   }
   /* line 431, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .player_other ul {
     width: 650px;
     padding: 0 5px;
   }
-<<<<<<< HEAD
-  /* line 433, assets/less/team_view.less */
-  .player_list .player_other li {
-    margin: 0 10px;
-  }
-  /* line 437, assets/less/team_view.less */
-  .player_list .player {
-    margin: 35px 0;
-  }
-  /* line 439, assets/less/team_view.less */
-=======
   /* line 435, assets/less/team_view.less */
   .player_list .player_other li {
     margin: 0 10px;
@@ -1077,43 +785,26 @@ header .nav .hamburger {
     margin: 35px 0;
   }
   /* line 441, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .player .position,
   .player_list .player .name {
     font-size: 42px;
   }
-<<<<<<< HEAD
-  /* line 442, assets/less/team_view.less */
-  .player_list .player .number {
-    font-size: 32px;
-  }
-  /* line 446, assets/less/team_view.less */
-=======
   /* line 444, assets/less/team_view.less */
   .player_list .player .number {
     font-size: 32px;
   }
   /* line 448, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .details {
     margin-bottom: 30px;
     width: 600px;
     margin: 0 auto;
     text-align: center;
   }
-<<<<<<< HEAD
-  /* line 451, assets/less/team_view.less */
-  .player_list .details span {
-    display: inline-block;
-  }
-  /* line 454, assets/less/team_view.less */
-=======
   /* line 453, assets/less/team_view.less */
   .player_list .details span {
     display: inline-block;
   }
   /* line 456, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .details .join,
   .player_list .details .birth,
   .player_list .details .foot {
@@ -1121,11 +812,7 @@ header .nav .hamburger {
     margin-right: 10px;
     margin-bottom: 25px;
   }
-<<<<<<< HEAD
-  /* line 459, assets/less/team_view.less */
-=======
   /* line 461, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .details .height,
   .player_list .details .weight,
   .player_list .details .blood {
@@ -1134,17 +821,6 @@ header .nav .hamburger {
     margin-left: 10px;
     margin-bottom: 25px;
   }
-<<<<<<< HEAD
-  /* line 466, assets/less/team_view.less */
-  .player_list .record_line {
-    width: 95%;
-  }
-  /* line 468, assets/less/team_view.less */
-  .player_list .record_line span {
-    font-size: 18px;
-  }
-  /* line 475, assets/less/team_view.less */
-=======
   /* line 468, assets/less/team_view.less */
   .player_list .record_line {
     width: 95%;
@@ -1154,100 +830,56 @@ header .nav .hamburger {
     font-size: 18px;
   }
   /* line 477, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .record .record_title .text_wrap > span {
     font-size: 38px;
     line-height: 1;
   }
-<<<<<<< HEAD
-  /* line 479, assets/less/team_view.less */
-=======
   /* line 481, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .record .record_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
-<<<<<<< HEAD
-  /* line 485, assets/less/team_view.less */
-=======
   /* line 487, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .record .record_title .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
-<<<<<<< HEAD
-  /* line 489, assets/less/team_view.less */
-  .player_list .record .record_title .text_wrap .vertical_line {
-    height: 70px;
-  }
-  /* line 494, assets/less/team_view.less */
-=======
   /* line 491, assets/less/team_view.less */
   .player_list .record .record_title .text_wrap .vertical_line {
     height: 70px;
   }
   /* line 496, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .record .record_info {
     text-align: center;
     display: inline-block;
     margin: 0 auto;
   }
-<<<<<<< HEAD
-  /* line 498, assets/less/team_view.less */
-=======
   /* line 500, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .record .record_info div {
     width: 80px;
     padding: 8px 0;
     margin: 0 20px;
   }
-<<<<<<< HEAD
-  /* line 503, assets/less/team_view.less */
-=======
   /* line 505, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .record .record_info div span:first-child {
     font-size: 28px;
     margin-bottom: 25px;
   }
-<<<<<<< HEAD
-  /* line 508, assets/less/team_view.less */
-=======
   /* line 510, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .record .record_info div .score {
     font-size: 48px;
   }
 }
 @media screen and (max-width: 880px) {
-<<<<<<< HEAD
-  /* line 520, assets/less/team_view.less */
-=======
   /* line 522, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .record .record_info div {
     margin: 0 10px;
   }
 }
 @media screen and (max-width: 768px) {
-<<<<<<< HEAD
-  /* line 528, assets/less/team_view.less */
-  .content_wrap {
-    margin-left: 0px;
-  }
-  /* line 532, assets/less/team_view.less */
-  .player_list .player_other {
-    display: none;
-  }
-  /* line 535, assets/less/team_view.less */
-=======
   /* line 530, assets/less/team_view.less */
   .content_wrap {
     margin-left: 0px;
@@ -1257,80 +889,47 @@ header .nav .hamburger {
     display: none;
   }
   /* line 537, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .player_img {
     height: 250px;
   }
 }
 @media screen and (max-width: 630px) {
-<<<<<<< HEAD
-  /* line 543, assets/less/team_view.less */
-=======
   /* line 545, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .team_intro .text_wrap > span {
     font-size: 32px;
     line-height: 40px;
   }
-<<<<<<< HEAD
-  /* line 547, assets/less/team_view.less */
-=======
   /* line 549, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .team_intro .text_wrap .line {
     width: 150px;
     height: 2px;
   }
-<<<<<<< HEAD
-  /* line 553, assets/less/team_view.less */
-  .player_list .player {
-    margin: 20px 0;
-  }
-  /* line 555, assets/less/team_view.less */
-=======
   /* line 555, assets/less/team_view.less */
   .player_list .player {
     margin: 20px 0;
   }
   /* line 557, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .player .position,
   .player_list .player .name {
     font-size: 34px;
   }
-<<<<<<< HEAD
-  /* line 558, assets/less/team_view.less */
-  .player_list .player .number {
-    font-size: 24px;
-  }
-  /* line 562, assets/less/team_view.less */
-=======
   /* line 560, assets/less/team_view.less */
   .player_list .player .number {
     font-size: 24px;
   }
   /* line 564, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .details {
     margin-bottom: 30px;
     width: 330px;
     margin: 0 auto;
     text-align: center;
   }
-<<<<<<< HEAD
-  /* line 567, assets/less/team_view.less */
-=======
   /* line 569, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .details span {
     width: 170px;
     font-size: 18px;
   }
-<<<<<<< HEAD
-  /* line 571, assets/less/team_view.less */
-=======
   /* line 573, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .details .join,
   .player_list .details .birth,
   .player_list .details .foot {
@@ -1338,11 +937,7 @@ header .nav .hamburger {
     margin-right: 0;
     margin-bottom: 10px;
   }
-<<<<<<< HEAD
-  /* line 576, assets/less/team_view.less */
-=======
   /* line 578, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .details .height,
   .player_list .details .weight,
   .player_list .details .blood {
@@ -1351,56 +946,21 @@ header .nav .hamburger {
     margin-left: 0;
     margin-bottom: 10px;
   }
-<<<<<<< HEAD
-  /* line 584, assets/less/team_view.less */
-=======
   /* line 586, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .record_line span {
     font-size: 14px;
     padding: 10px 5px;
     margin-left: 15px;
   }
-<<<<<<< HEAD
-  /* line 590, assets/less/team_view.less */
-  .player_list .record {
-    margin: 20px 0;
-  }
-  /* line 594, assets/less/team_view.less */
-=======
   /* line 592, assets/less/team_view.less */
   .player_list .record {
     margin: 20px 0;
   }
   /* line 596, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .record .record_title .text_wrap .sub {
     letter-spacing: 24px;
     padding-left: 24px;
   }
-<<<<<<< HEAD
-  /* line 600, assets/less/team_view.less */
-  .player_list .record .record_info {
-    width: 330px;
-  }
-  /* line 602, assets/less/team_view.less */
-  .player_list .record .record_info div {
-    margin: 0 14px 14px;
-  }
-  /* line 605, assets/less/team_view.less */
-  .player_list .record .record_info div span:first-child {
-    font-size: 18px;
-  }
-  /* line 609, assets/less/team_view.less */
-  .player_list .record .record_info div .score {
-    font-size: 32px;
-  }
-  /* line 615, assets/less/team_view.less */
-  .player_list .btn {
-    margin: 30px 0;
-  }
-  /* line 617, assets/less/team_view.less */
-=======
   /* line 602, assets/less/team_view.less */
   .player_list .record .record_info {
     width: 330px;
@@ -1422,7 +982,6 @@ header .nav .hamburger {
     margin: 30px 0;
   }
   /* line 619, assets/less/team_view.less */
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .player_list .btn button {
     width: 100px;
     height: 30px;

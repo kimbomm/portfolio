@@ -202,10 +202,7 @@ header .nav .hamburger {
   line-height: 68px;
   font-weight: lighter;
   color: #fff;
-<<<<<<< HEAD
-=======
   text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
->>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 }
 .content_wrap .match .text_wrap .sub {
   position: relative;
