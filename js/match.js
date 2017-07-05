@@ -215,13 +215,13 @@ $(function(){
     function bb(i,j){
       if(month[dat.getMonth()] >= match.calendar[i].month){
         if(dat.getDate() >= j){
-          console.log(month[dat.getMonth(), match.calendar[i].month);
+          console.log(month[dat.getMonth()], match.calendar[i].month);
           console.log(dat.getDate(), j);
           $('.match_status span').html('경기종료').css('color','#4a0001');
         }
       }else if(month[dat.getMonth()] <= match.calendar[i].month){
         if(dat.getDate() > j){
-          console.log(month[dat.getMonth(), match.calendar[i].month);
+          console.log(month[dat.getMonth()], match.calendar[i].month);
           console.log(dat.getDate(), j);
           $('.first_team .score').html('0');
           $('.second_team .score').html('0');
