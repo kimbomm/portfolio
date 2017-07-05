@@ -226,6 +226,7 @@ $(function(){
         if((month[dat.getMonth()] == match.calendar[i].month*1)&&dat.getDate() < j){
           $('.first_team .score').html('0');
           $('.second_team .score').html('0');
+          console.log(dat.getDate(), j);
           console.log('이번달 0,0');
         }else if(month[dat.getMonth()] < match.calendar[i].month*1){
           $('.first_team .score').html('0');
