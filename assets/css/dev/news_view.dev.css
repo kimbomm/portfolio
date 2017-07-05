@@ -1,49 +1,49 @@
 @import url('fonts.googleapis.com/earlyaccess/notosanskr.css');
-/* line 1, assets\less\reset.less */
+/* line 1, assets/less/reset.less */
 * {
   margin: 0;
   padding: 0;
 }
-/* line 2, assets\less\reset.less */
+/* line 2, assets/less/reset.less */
 a {
   text-decoration: none;
   color: #000;
 }
-/* line 3, assets\less\reset.less */
+/* line 3, assets/less/reset.less */
 ol,
 ul {
   list-style: none;
 }
-/* line 4, assets\less\reset.less */
+/* line 4, assets/less/reset.less */
 img {
   vertical-align: top;
 }
-/* line 5, assets\less\reset.less */
+/* line 5, assets/less/reset.less */
 body {
   font-family: 'Noto Sans KR', sans-serif;
 }
-/* line 6, assets\less\reset.less */
+/* line 6, assets/less/reset.less */
 html,
 body {
   height: 100%;
   overflow-x: hidden;
 }
-/* line 7, assets\less\reset.less */
+/* line 7, assets/less/reset.less */
 button {
   background-color: rgba(0, 0, 0, 0);
   border-style: none;
   border-color: none;
   cursor: pointer;
 }
-/* line 8, assets\less\reset.less */
+/* line 8, assets/less/reset.less */
 legend {
   text-indent: -9999px;
 }
-/* line 9, assets\less\reset.less */
+/* line 9, assets/less/reset.less */
 fieldset {
   border: none;
 }
-/* line 5, assets\less\include\header.less */
+/* line 5, assets/less/include/header.less */
 header {
   height: 80px;
   width: 100%;
@@ -52,7 +52,7 @@ header {
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 11, assets\less\include\header.less */
+/* line 11, assets/less/include/header.less */
 header .button {
   font-size: 0;
   line-height: 1;
@@ -62,18 +62,18 @@ header .button {
   right: 30px;
   top: 31px;
 }
-/* line 18, assets\less\include\header.less */
+/* line 18, assets/less/include/header.less */
 header .button span {
   display: inline-block;
   font-size: 16px;
   padding: 0 15px;
   color: #fff;
 }
-/* line 24, assets\less\include\header.less */
+/* line 24, assets/less/include/header.less */
 header .button .login {
   border-right: 1px #fff solid;
 }
-/* line 28, assets\less\include\header.less */
+/* line 28, assets/less/include/header.less */
 header .nav {
   width: 15.625%;
   height: 100%;
@@ -82,7 +82,7 @@ header .nav {
   left: 0;
   background-color: #333;
 }
-/* line 34, assets\less\include\header.less */
+/* line 34, assets/less/include/header.less */
 header .nav h1 {
   text-indent: -9999px;
   width: 46.66666%;
@@ -93,7 +93,7 @@ header .nav h1 {
   background: url('../photo/logo.png') no-repeat center;
   background-size: 100%;
 }
-/* line 42, assets\less\include\header.less */
+/* line 42, assets/less/include/header.less */
 header .nav ul {
   position: absolute;
   text-align: center;
@@ -102,16 +102,16 @@ header .nav ul {
   right: 0;
   margin: auto;
 }
-/* line 48, assets\less\include\header.less */
+/* line 48, assets/less/include/header.less */
 header .nav li {
   padding: 10px 5px;
 }
-/* line 50, assets\less\include\header.less */
+/* line 50, assets/less/include/header.less */
 header .nav li a {
   font-size: 18px;
   color: #fff;
 }
-/* line 55, assets\less\include\header.less */
+/* line 55, assets/less/include/header.less */
 header .nav .hamburger {
   display: none;
   width: 26px;
@@ -124,54 +124,54 @@ header .nav .hamburger {
   cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
-  /* line 69, assets\less\include\header.less */
+  /* line 69, assets/less/include/header.less */
   header .nav {
     width: 120px;
   }
-  /* line 71, assets\less\include\header.less */
+  /* line 71, assets/less/include/header.less */
   header .nav h1 {
     width: 80px;
     margin: 50px auto 0;
     position: static;
   }
-  /* line 76, assets\less\include\header.less */
+  /* line 76, assets/less/include/header.less */
   header .nav ul {
     position: static;
     margin: 30px auto 0;
   }
-  /* line 81, assets\less\include\header.less */
+  /* line 81, assets/less/include/header.less */
   header .nav li a {
     font-size: 15px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 89, assets\less\include\header.less */
+  /* line 89, assets/less/include/header.less */
   header {
     position: static;
     text-align: center;
   }
-  /* line 92, assets\less\include\header.less */
+  /* line 92, assets/less/include/header.less */
   header .button {
     display: none;
   }
-  /* line 95, assets\less\include\header.less */
+  /* line 95, assets/less/include/header.less */
   header .nav {
     position: static;
     width: 100%;
     height: 80px;
   }
-  /* line 99, assets\less\include\header.less */
+  /* line 99, assets/less/include/header.less */
   header .nav h1 {
     margin: 0 10px;
     height: 80px;
     float: left;
   }
-  /* line 105, assets\less\include\header.less */
+  /* line 105, assets/less/include/header.less */
   header .nav ul {
     margin: 0 auto;
     font-size: 0;
   }
-  /* line 109, assets\less\include\header.less */
+  /* line 109, assets/less/include/header.less */
   header .nav li {
     display: inline-block;
     margin: 0 15px;
@@ -180,11 +180,11 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 580px) {
-  /* line 120, assets\less\include\header.less */
+  /* line 120, assets/less/include/header.less */
   header .nav {
     position: relative;
   }
-  /* line 122, assets\less\include\header.less */
+  /* line 122, assets/less/include/header.less */
   header .nav ul {
     display: none;
     position: absolute;
@@ -197,73 +197,86 @@ header .nav .hamburger {
     border: 1px #999999 solid;
     background-color: #4a0001;
   }
-  /* line 133, assets\less\include\header.less */
+  /* line 133, assets/less/include/header.less */
   header .nav li {
     display: block;
     line-height: 50px;
     border-bottom: 1px #999999 solid;
   }
-  /* line 137, assets\less\include\header.less */
+  /* line 137, assets/less/include/header.less */
   header .nav li:last-child {
     border-bottom: none;
   }
-  /* line 141, assets\less\include\header.less */
+  /* line 141, assets/less/include/header.less */
   header .nav .hamburger {
     display: block;
   }
 }
-/* line 6, assets\less\include\footer.less */
+/* line 6, assets/less/include/footer.less */
 .content_wrap .footer {
   width: 100%;
   height: 230px;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 9, assets\less\include\footer.less */
+/* line 9, assets/less/include/footer.less */
 .content_wrap .footer .inner {
   width: 1024px;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 12, assets\less\include\footer.less */
+/* line 12, assets/less/include/footer.less */
 .content_wrap .footer .inner:before {
   content: "";
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 18, assets\less\include\footer.less */
+/* line 18, assets/less/include/footer.less */
 .content_wrap .footer .inner > div {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 22, assets\less\include\footer.less */
+/* line 22, assets/less/include/footer.less */
 .content_wrap .footer .inner i {
   display: inline-block;
   width: 25px;
   height: 25px;
   margin: 10px;
 }
-/* line 27, assets\less\include\footer.less */
+/* line 27, assets/less/include/footer.less */
 .content_wrap .footer .inner .facebook {
   background: url('../photo/icon/sns01.png') no-repeat center;
 }
-/* line 30, assets\less\include\footer.less */
+/* line 30, assets/less/include/footer.less */
 .content_wrap .footer .inner .google {
   background: url('../photo/icon/sns02.png') no-repeat center;
 }
-/* line 33, assets\less\include\footer.less */
+/* line 33, assets/less/include/footer.less */
 .content_wrap .footer .inner .twitter {
   background: url('../photo/icon/sns03.png') no-repeat center;
 }
+<<<<<<< HEAD
+/* line 36, assets/less/include/footer.less */
+.content_wrap .footer .inner .youtube {
+  background: url('../photo/icon/sns04.png') no-repeat center;
+}
+@media screen and (max-width: 1200px) {
+  /* line 47, assets/less/include/footer.less */
+=======
 @media screen and (max-width: 1200px) {
   /* line 44, assets\less\include\footer.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .content_wrap .footer .inner {
     width: 100%;
   }
 }
 @media screen and (max-width: 580px) {
+<<<<<<< HEAD
+  /* line 58, assets/less/include/footer.less */
+=======
   /* line 55, assets\less\include\footer.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .content_wrap .footer .inner span {
     font-size: 11px;
   }
@@ -442,21 +455,37 @@ header .nav .hamburger {
   margin-bottom: 40px;
   border-radius: 5px;
 }
+<<<<<<< HEAD
+/* line 141, assets/less/news_view.less */
+.news_content .view_title > div {
+  position: absolute;
+}
+/* line 144, assets/less/news_view.less */
+=======
 /* line 142, assets/less/news_view.less */
 .news_content .view_title > div {
   position: absolute;
 }
 /* line 145, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .view_title .title_wrap {
   top: 10px;
   left: 30px;
 }
+<<<<<<< HEAD
+/* line 147, assets/less/news_view.less */
+=======
 /* line 148, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .view_title .other_wrap {
   right: 30px;
   bottom: 10px;
 }
+<<<<<<< HEAD
+/* line 150, assets/less/news_view.less */
+=======
 /* line 151, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .view_title span {
   color: #fff;
   line-height: 1;
@@ -464,24 +493,55 @@ header .nav .hamburger {
   vertical-align: middle;
   font-weight: 100;
 }
+<<<<<<< HEAD
+/* line 157, assets/less/news_view.less */
+.news_content .view_title .title {
+  font-size: 24px;
+}
+/* line 160, assets/less/news_view.less */
+=======
 /* line 158, assets/less/news_view.less */
 .news_content .view_title .title {
   font-size: 24px;
 }
 /* line 161, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .view_title .writer {
   font-size: 18px;
   margin-right: 50px;
 }
+<<<<<<< HEAD
+/* line 164, assets/less/news_view.less */
+.news_content .view_title .writer:before {
+  content: "by ";
+}
+/* line 168, assets/less/news_view.less */
+=======
 /* line 165, assets/less/news_view.less */
 .news_content .view_title .writer:before {
   content: "by ";
 }
 /* line 169, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .view_title .date {
   font-size: 18px;
   margin-right: 30px;
 }
+<<<<<<< HEAD
+/* line 171, assets/less/news_view.less */
+.news_content .view_title .date:before {
+  content: "작성일 : ";
+}
+/* line 175, assets/less/news_view.less */
+.news_content .view_title .view {
+  font-size: 18px;
+}
+/* line 177, assets/less/news_view.less */
+.news_content .view_title .view:before {
+  content: "조회수 : ";
+}
+/* line 182, assets/less/news_view.less */
+=======
 /* line 172, assets/less/news_view.less */
 .news_content .view_title .date:before {
   content: "작성일 : ";
@@ -495,48 +555,88 @@ header .nav .hamburger {
   content: "조회수 : ";
 }
 /* line 183, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .view_content {
   margin: 20px 50px;
   min-height: 300px;
 }
+<<<<<<< HEAD
+/* line 185, assets/less/news_view.less */
+=======
 /* line 186, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .view_content .view_img {
   text-align: center;
   margin: 20px auto;
 }
+<<<<<<< HEAD
+/* line 188, assets/less/news_view.less */
+=======
 /* line 189, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .view_content .view_img img {
   width: 530px;
   height: 220px;
   background-color: #4a0001;
 }
+<<<<<<< HEAD
+/* line 192, assets/less/news_view.less */
+.news_content .view_content .view_img p {
+  font-size: 20px;
+}
+/* line 197, assets/less/news_view.less */
+=======
 /* line 193, assets/less/news_view.less */
 .news_content .view_content .view_img p {
   font-size: 20px;
 }
 /* line 198, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .file_wrap {
   width: 924px;
   margin: 0 auto 50px;
 }
+<<<<<<< HEAD
+/* line 200, assets/less/news_view.less */
+=======
 /* line 201, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .file_wrap .file_line {
   border-bottom: 2px #4a0001 solid;
   margin-bottom: 20px;
 }
+<<<<<<< HEAD
+/* line 203, assets/less/news_view.less */
+=======
 /* line 204, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .file_wrap .file_line span {
   display: inline-block;
   font-size: 18px;
   color: #4a0001;
   padding: 10px 40px;
 }
+<<<<<<< HEAD
+/* line 210, assets/less/news_view.less */
+=======
 /* line 211, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .file_wrap .file_content {
   padding: 0 20px;
   min-height: 50px;
   border-bottom: 1px #999999 solid;
 }
+<<<<<<< HEAD
+/* line 214, assets/less/news_view.less */
+.news_content .file_wrap .file_content .file {
+  padding: 5px 0;
+}
+/* line 217, assets/less/news_view.less */
+.news_content .file_wrap .file_content input {
+  margin-right: 10px;
+}
+/* line 221, assets/less/news_view.less */
+=======
 /* line 215, assets/less/news_view.less */
 .news_content .file_wrap .file_content .file {
   padding: 5px 0;
@@ -546,11 +646,16 @@ header .nav .hamburger {
   margin-right: 10px;
 }
 /* line 222, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .file_wrap .file_btn {
   margin-top: 20px;
   text-align: right;
 }
+<<<<<<< HEAD
+/* line 224, assets/less/news_view.less */
+=======
 /* line 225, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .file_wrap .file_btn button {
   width: 100px;
   height: 30px;
@@ -558,11 +663,30 @@ header .nav .hamburger {
   border-radius: 5px;
   color: #f90304;
 }
+<<<<<<< HEAD
+/* line 232, assets/less/news_view.less */
+=======
 /* line 233, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .view_btn {
   overflow: hidden;
   padding: 0 50px;
 }
+<<<<<<< HEAD
+/* line 235, assets/less/news_view.less */
+.news_content .view_btn .list_btn {
+  float: left;
+}
+/* line 238, assets/less/news_view.less */
+.news_content .view_btn .modi_btn {
+  float: right;
+}
+/* line 241, assets/less/news_view.less */
+.news_content .view_btn .modi_btn button:last-child {
+  margin-right: 0;
+}
+/* line 246, assets/less/news_view.less */
+=======
 /* line 236, assets/less/news_view.less */
 .news_content .view_btn .list_btn {
   float: left;
@@ -576,6 +700,7 @@ header .nav .hamburger {
   margin-right: 0;
 }
 /* line 247, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .view_btn button {
   width: 100px;
   height: 30px;
@@ -584,35 +709,59 @@ header .nav .hamburger {
   color: #f90304;
   margin: 5px;
 }
+<<<<<<< HEAD
+/* line 254, assets/less/news_view.less */
+=======
 /* line 255, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap {
   width: 924px;
   margin: 0 auto 50px;
 }
+<<<<<<< HEAD
+/* line 257, assets/less/news_view.less */
+=======
 /* line 258, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap .reply_line {
   border-bottom: 2px #4a0001 solid;
   margin-bottom: 20px;
 }
+<<<<<<< HEAD
+/* line 260, assets/less/news_view.less */
+=======
 /* line 261, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap .reply_line span {
   display: inline-block;
   font-size: 18px;
   color: #4a0001;
   padding: 10px 40px;
 }
+<<<<<<< HEAD
+/* line 267, assets/less/news_view.less */
+=======
 /* line 268, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap .reply_info {
   padding: 10px;
   position: relative;
   height: 150px;
 }
+<<<<<<< HEAD
+/* line 271, assets/less/news_view.less */
+=======
 /* line 272, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap .reply_info input {
   text-align: center;
   margin-bottom: 20px;
 }
+<<<<<<< HEAD
+/* line 275, assets/less/news_view.less */
+=======
 /* line 276, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap .reply_info .name,
 .news_content .reply_wrap .reply_info .pw {
   width: 110px;
@@ -621,7 +770,11 @@ header .nav .hamburger {
   margin-right: 20px;
   border-bottom: 1px #999999 solid;
 }
+<<<<<<< HEAD
+/* line 281, assets/less/news_view.less */
+=======
 /* line 282, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap .reply_info .comment {
   text-align: left;
   display: block;
@@ -630,7 +783,11 @@ header .nav .hamburger {
   width: 750px;
   padding-left: 40px;
 }
+<<<<<<< HEAD
+/* line 289, assets/less/news_view.less */
+=======
 /* line 290, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap .reply_info .submit {
   width: 100px;
   height: 30px;
@@ -642,11 +799,26 @@ header .nav .hamburger {
   right: 0;
   bottom: 0;
 }
+<<<<<<< HEAD
+/* line 300, assets/less/news_view.less */
+=======
 /* line 301, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap .reply_list li {
   position: relative;
   border-bottom: 1px #999999 solid;
 }
+<<<<<<< HEAD
+/* line 304, assets/less/news_view.less */
+.news_content .reply_wrap .reply_list .comment_info {
+  margin-bottom: 20px;
+}
+/* line 306, assets/less/news_view.less */
+.news_content .reply_wrap .reply_list .comment_info span {
+  padding: 5px;
+}
+/* line 309, assets/less/news_view.less */
+=======
 /* line 305, assets/less/news_view.less */
 .news_content .reply_wrap .reply_list .comment_info {
   margin-bottom: 20px;
@@ -656,38 +828,78 @@ header .nav .hamburger {
   padding: 5px;
 }
 /* line 310, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap .reply_list .comment_info .name {
   font-size: 15px;
   margin-right: 10px;
 }
+<<<<<<< HEAD
+/* line 313, assets/less/news_view.less */
+.news_content .reply_wrap .reply_list .comment_info .date {
+  color: #999999;
+}
+/* line 317, assets/less/news_view.less */
+=======
 /* line 314, assets/less/news_view.less */
 .news_content .reply_wrap .reply_list .comment_info .date {
   color: #999999;
 }
 /* line 318, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap .reply_list .comment {
   width: 850px;
   margin: 0 auto 15px;
 }
+<<<<<<< HEAD
+/* line 320, assets/less/news_view.less */
+.news_content .reply_wrap .reply_list .comment p {
+  color: #999999;
+}
+/* line 324, assets/less/news_view.less */
+=======
 /* line 321, assets/less/news_view.less */
 .news_content .reply_wrap .reply_list .comment p {
   color: #999999;
 }
 /* line 325, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap .reply_list .comment_btn {
   position: absolute;
   top: 0;
   right: 55px;
 }
+<<<<<<< HEAD
+/* line 327, assets/less/news_view.less */
+.news_content .reply_wrap .reply_list .comment_btn button {
+  padding: 5px;
+}
+/* line 330, assets/less/news_view.less */
+=======
 /* line 328, assets/less/news_view.less */
 .news_content .reply_wrap .reply_list .comment_btn button {
   padding: 5px;
 }
 /* line 331, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
 .news_content .reply_wrap .reply_list .comment_btn .del {
   color: #f90304;
 }
 @media screen and (max-width: 1200px) {
+<<<<<<< HEAD
+  /* line 340, assets/less/news_view.less */
+  .content_wrap {
+    margin-left: 120px;
+  }
+  /* line 343, assets/less/news_view.less */
+  .news_intro {
+    height: 300px;
+  }
+  /* line 345, assets/less/news_view.less */
+  .news_intro .inner {
+    width: 100%;
+  }
+  /* line 349, assets/less/news_view.less */
+=======
   /* line 341, assets/less/news_view.less */
   .content_wrap {
     margin-left: 120px;
@@ -701,23 +913,43 @@ header .nav .hamburger {
     width: 100%;
   }
   /* line 350, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_intro .text_wrap > span {
     font-size: 38px;
     line-height: 42px;
   }
+<<<<<<< HEAD
+  /* line 353, assets/less/news_view.less */
+=======
   /* line 354, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_intro .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 32px;
     padding-left: 32px;
   }
+<<<<<<< HEAD
+  /* line 359, assets/less/news_view.less */
+=======
   /* line 360, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_intro .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto;
   }
+<<<<<<< HEAD
+  /* line 366, assets/less/news_view.less */
+  .news_title > div {
+    padding-top: 40px;
+  }
+  /* line 369, assets/less/news_view.less */
+  .news_title .inner {
+    width: 100%;
+  }
+  /* line 373, assets/less/news_view.less */
+=======
   /* line 367, assets/less/news_view.less */
   .news_title > div {
     padding-top: 40px;
@@ -727,28 +959,60 @@ header .nav .hamburger {
     width: 100%;
   }
   /* line 374, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_title .text_wrap > span {
     font-size: 38px;
     line-height: 1;
   }
+<<<<<<< HEAD
+  /* line 377, assets/less/news_view.less */
+=======
   /* line 378, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_title .text_wrap .sub {
     top: -10px;
     font-size: 24px;
     letter-spacing: 24px;
     padding-left: 24px;
   }
+<<<<<<< HEAD
+  /* line 383, assets/less/news_view.less */
+=======
   /* line 384, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_title .text_wrap .line {
     width: 200px;
     height: 4px;
     margin: 30px auto 0;
   }
+<<<<<<< HEAD
+  /* line 387, assets/less/news_view.less */
+=======
   /* line 388, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_title .text_wrap .vertical_line {
     height: 70px;
     margin-bottom: 30px;
   }
+<<<<<<< HEAD
+  /* line 394, assets/less/news_view.less */
+  .news_menu .inner {
+    width: 100%;
+  }
+  /* line 397, assets/less/news_view.less */
+  .news_menu ul {
+    width: 95%;
+  }
+  /* line 400, assets/less/news_view.less */
+  .news_menu li {
+    font-size: 18px;
+  }
+  /* line 405, assets/less/news_view.less */
+  .news_content .inner {
+    width: 100%;
+  }
+  /* line 408, assets/less/news_view.less */
+=======
   /* line 395, assets/less/news_view.less */
   .news_menu .inner {
     width: 100%;
@@ -766,10 +1030,22 @@ header .nav .hamburger {
     width: 100%;
   }
   /* line 409, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .view_title {
     width: 95%;
     margin: 0 auto;
   }
+<<<<<<< HEAD
+  /* line 411, assets/less/news_view.less */
+  .news_content .view_title .title {
+    font-size: 24px;
+  }
+  /* line 414, assets/less/news_view.less */
+  .news_content .view_title .writer {
+    font-size: 18px;
+  }
+  /* line 417, assets/less/news_view.less */
+=======
   /* line 412, assets/less/news_view.less */
   .news_content .view_title .title {
     font-size: 24px;
@@ -779,43 +1055,83 @@ header .nav .hamburger {
     font-size: 18px;
   }
   /* line 418, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .view_title .date,
   .news_content .view_title .view {
     font-size: 15px;
   }
+<<<<<<< HEAD
+  /* line 421, assets/less/news_view.less */
+=======
   /* line 422, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .view_content {
     width: 650px;
     margin: 20px auto;
   }
+<<<<<<< HEAD
+  /* line 425, assets/less/news_view.less */
+=======
   /* line 426, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .file_wrap {
     width: 95%;
     margin-bottom: 40px;
   }
+<<<<<<< HEAD
+  /* line 428, assets/less/news_view.less */
+  .news_content .file_wrap .file_line {
+    width: 100%;
+  }
+  /* line 430, assets/less/news_view.less */
+=======
   /* line 429, assets/less/news_view.less */
   .news_content .file_wrap .file_line {
     width: 100%;
   }
   /* line 431, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .file_wrap .file_line span {
     font-size: 16px;
     padding: 5px 25px;
   }
+<<<<<<< HEAD
+  /* line 436, assets/less/news_view.less */
+=======
   /* line 437, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .reply_wrap {
     width: 90%;
     margin: 30px auto;
   }
+<<<<<<< HEAD
+  /* line 439, assets/less/news_view.less */
+  .news_content .reply_wrap .reply_line {
+    width: 100%;
+  }
+  /* line 441, assets/less/news_view.less */
+=======
   /* line 440, assets/less/news_view.less */
   .news_content .reply_wrap .reply_line {
     width: 100%;
   }
   /* line 442, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .reply_wrap .reply_line span {
     font-size: 16px;
     padding: 5px 25px;
   }
+<<<<<<< HEAD
+  /* line 446, assets/less/news_view.less */
+  .news_content .reply_wrap .reply_info {
+    height: 80px;
+  }
+  /* line 448, assets/less/news_view.less */
+  .news_content .reply_wrap .reply_info .comment {
+    width: 70%;
+  }
+  /* line 453, assets/less/news_view.less */
+=======
   /* line 447, assets/less/news_view.less */
   .news_content .reply_wrap .reply_info {
     height: 80px;
@@ -825,18 +1141,34 @@ header .nav .hamburger {
     width: 70%;
   }
   /* line 454, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .reply_wrap .reply_list .comment {
     width: 90%;
     padding-left: 0;
     margin: 0 auto;
   }
+<<<<<<< HEAD
+  /* line 457, assets/less/news_view.less */
+=======
   /* line 458, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .reply_wrap .reply_list .comment p {
     display: block;
     width: 90%;
   }
 }
 @media screen and (max-width: 768px) {
+<<<<<<< HEAD
+  /* line 467, assets/less/news_view.less */
+  .content_wrap {
+    margin-left: 0px;
+  }
+  /* line 471, assets/less/news_view.less */
+  .news_content .view_content {
+    width: 80%;
+  }
+  /* line 476, assets/less/news_view.less */
+=======
   /* line 468, assets/less/news_view.less */
   .content_wrap {
     margin-left: 0px;
@@ -846,50 +1178,98 @@ header .nav .hamburger {
     width: 80%;
   }
   /* line 477, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .file_wrap .file_content label {
     font-size: 13px;
   }
 }
 @media screen and (max-width: 630px) {
+<<<<<<< HEAD
+  /* line 486, assets/less/news_view.less */
+=======
   /* line 487, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_intro .text_wrap > span {
     font-size: 32px;
     line-height: 40px;
   }
+<<<<<<< HEAD
+  /* line 490, assets/less/news_view.less */
+=======
   /* line 491, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_intro .text_wrap .line {
     width: 150px;
     height: 2px;
   }
+<<<<<<< HEAD
+  /* line 493, assets/less/news_view.less */
+  .news_intro .text_wrap .vertical_line {
+    height: 50px;
+  }
+  /* line 499, assets/less/news_view.less */
+=======
   /* line 494, assets/less/news_view.less */
   .news_intro .text_wrap .vertical_line {
     height: 50px;
   }
   /* line 500, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_menu li {
     font-size: 14px;
     margin-left: 15px;
     padding: 10px 5px;
   }
+<<<<<<< HEAD
+  /* line 506, assets/less/news_view.less */
+=======
   /* line 507, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .view_title {
     width: 95%;
     margin: 0 auto;
   }
+<<<<<<< HEAD
+  /* line 509, assets/less/news_view.less */
+  .news_content .view_title .title {
+    font-size: 18px;
+  }
+  /* line 512, assets/less/news_view.less */
+=======
   /* line 510, assets/less/news_view.less */
   .news_content .view_title .title {
     font-size: 18px;
   }
   /* line 513, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .view_title .writer {
     font-size: 13px;
     margin-right: 20px;
   }
+<<<<<<< HEAD
+  /* line 516, assets/less/news_view.less */
+=======
   /* line 517, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .view_title .date,
   .news_content .view_title .view {
     font-size: 11px;
   }
+<<<<<<< HEAD
+  /* line 519, assets/less/news_view.less */
+  .news_content .view_title .date {
+    margin-right: 10px;
+  }
+  /* line 524, assets/less/news_view.less */
+  .news_content .view_content p {
+    font-size: 14px;
+  }
+  /* line 527, assets/less/news_view.less */
+  .news_content .view_content .view_img {
+    width: 90%;
+  }
+  /* line 529, assets/less/news_view.less */
+=======
   /* line 520, assets/less/news_view.less */
   .news_content .view_title .date {
     margin-right: 10px;
@@ -903,12 +1283,17 @@ header .nav .hamburger {
     width: 90%;
   }
   /* line 530, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .view_content .view_img img {
     width: 100%;
   }
 }
 @media screen and (max-width: 460px) {
+<<<<<<< HEAD
+  /* line 538, assets/less/news_view.less */
+=======
   /* line 539, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_menu li {
     text-align: center;
     width: 45%;
@@ -916,29 +1301,56 @@ header .nav .hamburger {
   }
 }
 @media screen and (max-width: 680px) {
+<<<<<<< HEAD
+  /* line 551, assets/less/news_view.less */
+=======
   /* line 552, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .file_wrap .file_btn button {
     margin-top: 5px;
     width: 80px;
     height: 20px;
   }
+<<<<<<< HEAD
+  /* line 557, assets/less/news_view.less */
+  .news_content .view_btn {
+    padding: 0 30px;
+  }
+  /* line 559, assets/less/news_view.less */
+=======
   /* line 558, assets/less/news_view.less */
   .news_content .view_btn {
     padding: 0 30px;
   }
   /* line 560, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .view_btn button {
     width: 80px;
     height: 20px;
     margin: 3px;
   }
+<<<<<<< HEAD
+  /* line 566, assets/less/news_view.less */
+=======
   /* line 567, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .reply_wrap .reply_info .submit {
     width: 80px;
     height: 20px;
   }
 }
 @media screen and (max-width: 520px) {
+<<<<<<< HEAD
+  /* line 575, assets/less/news_view.less */
+  .news_content .view_btn {
+    padding: 0 10px;
+  }
+  /* line 577, assets/less/news_view.less */
+  .news_content .view_btn .modi_btn {
+    float: left;
+  }
+  /* line 583, assets/less/news_view.less */
+=======
   /* line 576, assets/less/news_view.less */
   .news_content .view_btn {
     padding: 0 10px;
@@ -948,11 +1360,31 @@ header .nav .hamburger {
     float: left;
   }
   /* line 584, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .reply_wrap .reply_info .name,
   .news_content .reply_wrap .reply_info .pw {
     width: 70px;
     margin-right: 10px;
   }
+<<<<<<< HEAD
+  /* line 587, assets/less/news_view.less */
+  .news_content .reply_wrap .reply_info .submit {
+    top: 15px;
+  }
+  /* line 593, assets/less/news_view.less */
+  .news_content .reply_wrap .reply_list .comment_info .name {
+    font-size: 13px;
+  }
+  /* line 596, assets/less/news_view.less */
+  .news_content .reply_wrap .reply_list .comment_info .date {
+    font-size: 11px;
+  }
+  /* line 601, assets/less/news_view.less */
+  .news_content .reply_wrap .reply_list .comment p {
+    font-size: 12px;
+  }
+  /* line 605, assets/less/news_view.less */
+=======
   /* line 588, assets/less/news_view.less */
   .news_content .reply_wrap .reply_info .submit {
     top: 15px;
@@ -970,6 +1402,7 @@ header .nav .hamburger {
     font-size: 12px;
   }
   /* line 606, assets/less/news_view.less */
+>>>>>>> ea20916609b27df4dae86f715d1b6cd5ff85de69
   .news_content .reply_wrap .reply_list .comment_btn {
     right: 10px;
   }
