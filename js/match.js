@@ -109,10 +109,10 @@ $(function(){
         })
         console.log($('.match_schedule .match_month').width());
         console.log(match.calendar[i].date.length);
-      }else{
+      }else if(match.calendar[i].date.length == 28){
         $('.match_schedule .month_date li').css({
-          'width' : $('.match_schedule .match_month').width() / match.calendar[i].date.length,
-          'height' : $('.match_schedule .match_month').width() / match.calendar[i].date.length
+          'width' : $('.match_schedule .match_month').width() / 28,
+          'height' : $('.match_schedule .match_month').width() / 28
         })
         console.log($('.match_schedule .match_month').width());
         console.log(match.calendar[i].date.length);
