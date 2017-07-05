@@ -1,28 +1,7 @@
 $(function(){
+
+  var aaa = 1;
   $.get('../json/match.json', function(match){
-
-    //달력너비 맞추기
-    function calWidth(i){
-      if(match.calendar[i].date.length == 31){
-        $('.match_schedule .month_date li').css({
-          'width' : $('.match_schedule .match_month').width() / 31,
-          'height' : $('.match_schedule .match_month').width() / 31
-        })
-
-      }
-      else if(match.calendar[i].date.length == 30){
-        $('.match_schedule .month_date li').css({
-          'width' : $('.match_schedule .match_month').width() / 30,
-          'height' : $('.match_schedule .match_month').width() / 30
-        })
-
-      }else if(match.calendar[i].date.length == 28){
-        $('.match_schedule .month_date li').css({
-          'width' : $('.match_schedule .match_month').width() / 28,
-          'height' : $('.match_schedule .match_month').width() / 28
-        })
-      }
-    }
 
     //달력만들기
     function calendar(control){
@@ -36,7 +15,7 @@ $(function(){
 
         $('.match_schedule .month_date').append(html);
       }
-      calWidth(month[control]);
+
 
     }
 
@@ -114,6 +93,29 @@ $(function(){
       match_prev--;
     })
 
+    //달력너비 맞추기
+    function calWidth(i){
+      if(match.calendar[i].date.length == 31){
+        $('.match_schedule .month_date li').css({
+          'width' : $('.match_schedule .match_month').width() / 31,
+          'height' : $('.match_schedule .match_month').width() / 31
+        })
+
+      }
+      else if(match.calendar[i].date.length == 30){
+        $('.match_schedule .month_date li').css({
+          'width' : $('.match_schedule .match_month').width() / 30,
+          'height' : $('.match_schedule .match_month').width() / 30
+        })
+
+      }else if(match.calendar[i].date.length == 28){
+        $('.match_schedule .month_date li').css({
+          'width' : $('.match_schedule .match_month').width() / 28,
+          'height' : $('.match_schedule .match_month').width() / 28
+        })
+      }
+    }
+
 
 
 
@@ -122,6 +124,7 @@ $(function(){
       var html='';
       var k = j+1;
 
+      html += '<div class="match_info">'
       html += '<div class="match_date">';
       html += '<span class="month">' + match.calendar[i].month + '월 ' +'</span>';
       html += '<span class="date">' + k + '일 ' + '</span>';
@@ -147,8 +150,9 @@ $(function(){
       html += '<div class="match_stadium">';
       html += '<span>'+match.calendar[i].date[j].stadium+'</span>';
       html += '</div>';
+      html += '</div>';
 
-      $('.schedule .match_info').append(html);
+      $('.schedule').append(html);
     }
 
     $('.schedule .match_info div').remove();
@@ -216,22 +220,30 @@ $(function(){
       }
     })
 
+
     //경기전, 후 결과 확인
+
     function bb(i,j){
+
       if(month[dat.getMonth()] >= match.calendar[i].month *1){
-        if((month[dat.getMonth()] == match.calendar[i].month *1)&&dat.getDate() > j){
+        if((month[dat.getMonth()] == match.calendar[i].month *1)&&dat.getDate() >= j){
           $('.match_status span').html('경기종료').css('color','#4a0001');
         }else if(month[dat.getMonth()] > match.calendar[i].month *1){
           $('.match_status span').html('경기종료').css('color','#4a0001');
         }
       };
       if(month[dat.getMonth()] <= match.calendar[i].month*1){
-        if((month[dat.getMonth()] == match.calendar[i].month*1)&&dat.getDate() < j){
-          $('.first_team .score').html('0');
-          $('.second_team .score').html('0');
+        if((month[dat.getMonth()] == match.calendar[i].month*1)&&dat.getDate() <= j){
+
+          ++aaa
+          $('.schedule .match_info:eq('+ -aaa +') .first_team .score').html('0');
+          $('.schedule .match_info:eq('+ -aaa +') .second_team .score').html('0');
+
+
         }else if(month[dat.getMonth()] < match.calendar[i].month*1){
           $('.first_team .score').html('0');
           $('.second_team .score').html('0');
+
         }
       };
     }
