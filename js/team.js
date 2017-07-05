@@ -1,5 +1,5 @@
 $(function(){
-  $.get('team.json', function(team){
+  $.get('../js/team.json', function(team){
 
     //선수 데이터 변수
     var playName = [];

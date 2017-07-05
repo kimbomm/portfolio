@@ -79,7 +79,7 @@ $(function(){
   })
 
   // 선수 random 출력
-  $.get('team.json', function(team){
+  $.get('js/team.json', function(team){
     var ranNum = ["","",""];
     ranNum[0] = Math.floor(Math.random() * 4);
     ranNum[1] = Math.floor(Math.random() * 5) + 4;
