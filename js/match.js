@@ -1,5 +1,5 @@
 $(function(){
-  $.get('../js/match.json', function(match){
+  $.get('../json/match.json', function(match){
 
 
     //달력만들기
