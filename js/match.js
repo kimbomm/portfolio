@@ -213,13 +213,13 @@ $(function(){
 
     //경기전, 후 결과 확인
     function bb(i,j){
-      if(month[dat.getMonth()] >= match.calendar[i].month){
+      if(month[dat.getMonth()] >= match.calendar[i].month *1){
         if(dat.getDate() >= j){
           console.log(month[dat.getMonth()], match.calendar[i].month);
           console.log(dat.getDate(), j);
           $('.match_status span').html('경기종료').css('color','#4a0001');
         }
-      }else if(month[dat.getMonth()] <= match.calendar[i].month){
+      }else if(month[dat.getMonth()] <= match.calendar[i].month*1){
         if(dat.getDate() > j){
           console.log(month[dat.getMonth()], match.calendar[i].month);
           console.log(dat.getDate(), j);
