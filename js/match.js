@@ -37,7 +37,7 @@ $(function(){
         $('.match_schedule .month_date').append(html);
       }
       calWidth(month[control]);
-      console.log('bbb');
+      console.log('ccccc');
     }
 
     $('.month_date li').remove();
