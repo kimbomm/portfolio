@@ -14,6 +14,7 @@ $(function(){
 
         $('.match_schedule .month_date').append(html);
       }
+      calWidth(month[control]);
     }
 
     $('.month_date li').remove();
