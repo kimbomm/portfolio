@@ -214,7 +214,7 @@ $(function(){
     //경기전, 후 결과 확인
     function bb(i,j){
       if(month[dat.getMonth()] >= match.calendar[i].month *1){
-        if((month[dat.getMonth()] == match.calendar[i].month *1)&&dat.getDate() >= j){
+        if((month[dat.getMonth()] == match.calendar[i].month *1)&&dat.getDate() > j){
           $('.match_status span').html('경기종료').css('color','#4a0001');
           console.log('같은달 경기종료');
         }else if(month[dat.getMonth()] > match.calendar[i].month *1){
