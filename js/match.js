@@ -1,6 +1,28 @@
 $(function(){
   $.get('../json/match.json', function(match){
 
+    //달력너비 맞추기
+    function calWidth(i){
+      if(match.calendar[i].date.length == 31){
+        $('.match_schedule .month_date li').css({
+          'width' : $('.match_schedule .match_month').width() / 31,
+          'height' : $('.match_schedule .match_month').width() / 31
+        })
+
+      }
+      else if(match.calendar[i].date.length == 30){
+        $('.match_schedule .month_date li').css({
+          'width' : $('.match_schedule .match_month').width() / 30,
+          'height' : $('.match_schedule .match_month').width() / 30
+        })
+
+      }else if(match.calendar[i].date.length == 28){
+        $('.match_schedule .month_date li').css({
+          'width' : $('.match_schedule .match_month').width() / 28,
+          'height' : $('.match_schedule .match_month').width() / 28
+        })
+      }
+    }
 
     //달력만들기
     function calendar(control){
@@ -15,7 +37,7 @@ $(function(){
         $('.match_schedule .month_date').append(html);
       }
       calWidth(month[control]);
-      console.log('aaa');
+      console.log('bbb');
     }
 
     $('.month_date li').remove();
@@ -92,29 +114,7 @@ $(function(){
       match_prev--;
     })
 
-    //달력너비 맞추기
-    function calWidth(i){
-      if(match.calendar[i].date.length == 31){
-        $('.match_schedule .month_date li').css({
-          'width' : $('.match_schedule .match_month').width() / 31,
-          'height' : $('.match_schedule .match_month').width() / 31
-        })
 
-      }
-      else if(match.calendar[i].date.length == 30){
-        $('.match_schedule .month_date li').css({
-          'width' : $('.match_schedule .match_month').width() / 30,
-          'height' : $('.match_schedule .match_month').width() / 30
-        })
-
-      }else if(match.calendar[i].date.length == 28){
-        $('.match_schedule .month_date li').css({
-          'width' : $('.match_schedule .match_month').width() / 28,
-          'height' : $('.match_schedule .match_month').width() / 28
-        })
-
-      }
-    }
 
 
     //경기일정 출력하기
