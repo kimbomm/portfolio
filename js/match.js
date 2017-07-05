@@ -37,7 +37,7 @@ $(function(){
         $('.match_schedule .month_date').append(html);
       }
       calWidth(month[control]);
-      console.log('ccccc');
+
     }
 
     $('.month_date li').remove();
@@ -221,22 +221,17 @@ $(function(){
       if(month[dat.getMonth()] >= match.calendar[i].month *1){
         if((month[dat.getMonth()] == match.calendar[i].month *1)&&dat.getDate() > j){
           $('.match_status span').html('경기종료').css('color','#4a0001');
-          console.log('같은달 경기종료');
         }else if(month[dat.getMonth()] > match.calendar[i].month *1){
           $('.match_status span').html('경기종료').css('color','#4a0001');
-          console.log('이전달 경기종료');
         }
       };
       if(month[dat.getMonth()] <= match.calendar[i].month*1){
         if((month[dat.getMonth()] == match.calendar[i].month*1)&&dat.getDate() < j){
           $('.first_team .score').html('0');
           $('.second_team .score').html('0');
-          console.log(dat.getDate(), j);
-          console.log('이번달 0,0');
         }else if(month[dat.getMonth()] < match.calendar[i].month*1){
           $('.first_team .score').html('0');
           $('.second_team .score').html('0');
-          console.log('다음달 0,0');
         }
       };
     }
