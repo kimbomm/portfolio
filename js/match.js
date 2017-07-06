@@ -1,6 +1,4 @@
 $(function(){
-
-  var aaa = 1;
   $.get('../json/match.json', function(match){
 
     //달력만들기
@@ -224,7 +222,7 @@ $(function(){
     //경기전, 후 결과 확인
 
     function bb(i,j){
-
+      var aaa = 1;
       if(month[dat.getMonth()] >= match.calendar[i].month *1){
         if((month[dat.getMonth()] == match.calendar[i].month *1)&&dat.getDate() >= j){
           $('.match_status span').html('경기종료').css('color','#4a0001');
@@ -235,7 +233,6 @@ $(function(){
       if(month[dat.getMonth()] <= match.calendar[i].month*1){
         if((month[dat.getMonth()] == match.calendar[i].month*1)&&dat.getDate() <= j){
 
-          ++aaa
           $('.schedule .match_info:eq('+ -aaa +') .first_team .score').html('0');
           $('.schedule .match_info:eq('+ -aaa +') .second_team .score').html('0');
 
@@ -247,8 +244,5 @@ $(function(){
         }
       };
     }
-
-
   })
-
 })

@@ -16,8 +16,8 @@
       "assist" : "2",
       "warning" : "3",
       "out" : "1",
-      "photo" : "/portfolio/assets/photo/team/view/team01.jpg",
-      "profile" : "/portfolio/assets/photo/team/player01.png"
+      "photo" : "/../assets/photo/team/view/team01.jpg",
+      "profile" : "/../assets/photo/team/player01.png"
     },
     {
       "name" : "송창호",
@@ -35,8 +35,8 @@
       "assist" : "11",
       "warning" : "1",
       "out" : "0",
-      "photo" : "/portfolio/assets/photo/team/view/team02.jpg",
-      "profile" : "/portfolio/assets/photo/team/player02.png"
+      "photo" : "/../assets/photo/team/view/team02.jpg",
+      "profile" : "/../assets/photo/team/player02.png"
     },
     {
       "name" : "박대한",
@@ -54,8 +54,8 @@
       "assist" : "0",
       "warning" : "1",
       "out" : "0",
-      "photo" : "/portfolio/assets/photo/team/view/team03.jpg",
-      "profile" : "/portfolio/assets/photo/team/player03.png"
+      "photo" : "/../assets/photo/team/view/team03.jpg",
+      "profile" : "/../assets/photo/team/player03.png"
     },
     {
       "name" : "이호승",
@@ -73,8 +73,8 @@
       "assist" : "0",
       "warning" : "5",
       "out" : "1",
-      "photo" : "/portfolio/assets/photo/team/view/team04.jpg",
-      "profile" : "/portfolio/assets/photo/team/player04.png"
+      "photo" : "/../assets/photo/team/view/team04.jpg",
+      "profile" : "/../assets/photo/team/player04.png"
     },
     {
       "name" : "임민혁",
@@ -92,8 +92,8 @@
       "assist" : "0",
       "warning" : "0",
       "out" : "0",
-      "photo" : "/portfolio/assets/photo/team/view/team05.jpg",
-      "profile" : "/portfolio/assets/photo/team/player05.png"
+      "photo" : "/../assets/photo/team/view/team05.jpg",
+      "profile" : "/../assets/photo/team/player05.png"
     },
     {
       "name" : "토미",
@@ -111,8 +111,8 @@
       "assist" : "15",
       "warning" : "10",
       "out" : "5",
-      "photo" : "/portfolio/assets/photo/team/view/team06.jpg",
-      "profile" : "/portfolio/assets/photo/team/player06.png"
+      "photo" : "/../assets/photo/team/view/team06.jpg",
+      "profile" : "/../assets/photo/team/player06.png"
     },
     {
       "name" : "고태원",
@@ -130,8 +130,8 @@
       "assist" : "0",
       "warning" : "0",
       "out" : "0",
-      "photo" : "/portfolio/assets/photo/team/view/team07.jpg",
-      "profile" : "/portfolio/assets/photo/team/player07.png"
+      "photo" : "/../assets/photo/team/view/team07.jpg",
+      "profile" : "/../assets/photo/team/player07.png"
     },
     {
       "name" : "현영민",
@@ -149,8 +149,8 @@
       "assist" : "0",
       "warning" : "0",
       "out" : "0",
-      "photo" : "/portfolio/assets/photo/team/view/team08.jpg",
-      "profile" : "/portfolio/assets/photo/team/player08.png"
+      "photo" : "/../assets/photo/team/view/team08.jpg",
+      "profile" : "/../assets/photo/team/player08.png"
     },
     {
       "name" : "이슬찬",
@@ -168,8 +168,8 @@
       "assist" : "3",
       "warning" : "0",
       "out" : "0",
-      "photo" : "/portfolio/assets/photo/team/view/team09.jpg",
-      "profile" : "/portfolio/assets/photo/team/player09.png"
+      "photo" : "/../assets/photo/team/view/team09.jpg",
+      "profile" : "/../assets/photo/team/player09.png"
     },
     {
       "name" : "박대한",
@@ -187,8 +187,8 @@
       "assist" : "1",
       "warning" : "30",
       "out" : "5",
-      "photo" : "/portfolio/assets/photo/team/view/team10.jpg",
-      "profile" : "/portfolio/assets/photo/team/player10.png"
+      "photo" : "/../assets/photo/team/view/team10.jpg",
+      "profile" : "/../assets/photo/team/player10.png"
     },
     {
       "name" : "연제민",
@@ -206,8 +206,8 @@
       "assist" : "11",
       "warning" : "12",
       "out" : "3",
-      "photo" : "/portfolio/assets/photo/team/view/team11.jpg",
-      "profile" : "/portfolio/assets/photo/team/player11.png"
+      "photo" : "/../assets/photo/team/view/team11.jpg",
+      "profile" : "/../assets/photo/team/player11.png"
     },
     {
       "name" : "김준수",
@@ -225,8 +225,8 @@
       "assist" : "10",
       "warning" : "6",
       "out" : "0",
-      "photo" : "/portfolio/assets/photo/team/view/team12.jpg",
-      "profile" : "/portfolio/assets/photo/team/player12.png"
+      "photo" : "/../assets/photo/team/view/team12.jpg",
+      "profile" : "/../assets/photo/team/player12.png"
     },
     {
       "name" : "김경재",
@@ -244,8 +244,8 @@
       "assist" : "10",
       "warning" : "0",
       "out" : "0",
-      "photo" : "/portfolio/assets/photo/team/view/team13.jpg",
-      "profile" : "/portfolio/assets/photo/team/player13.png"
+      "photo" : "/../assets/photo/team/view/team13.jpg",
+      "profile" : "/../assets/photo/team/player13.png"
     },
     {
       "name" : "이유현",
@@ -263,8 +263,8 @@
       "assist" : "24",
       "warning" : "1",
       "out" : "1",
-      "photo" : "/portfolio/assets/photo/team/view/team14.jpg",
-      "profile" : "/portfolio/assets/photo/team/player14.png"
+      "photo" : "/../assets/photo/team/view/team14.jpg",
+      "profile" : "/../assets/photo/team/player14.png"
     }
   ]
 }
