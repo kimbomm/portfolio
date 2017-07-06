@@ -727,7 +727,7 @@ header .nav .hamburger {
     width: 100%;
     height: auto;
     border: 1px #999999 solid;
-    background-color: #4a0001;
+    background-color: #333;
   }
   header .nav li {
     display: block;

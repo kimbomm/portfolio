@@ -25,7 +25,7 @@ module.exports = function(grunt) {
           'assets/css/news.css': 'assets/less/news.less',
           'assets/css/news_view.css': 'assets/less/news_view.less',
           'assets/css/gellary.css': 'assets/less/gellary.less',
-          'assets/css/gellary_view.css': 'assets/less/gellary_view.less',
+          'assets/css/gellary_view.css': 'assets/less/gellary_view.less'
         }
       },
       development: {
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'assets/css/output.css': ['assets/css/index.css']
+          'assets/css/min/style.min.css': ['assets/css/*.css']
         }
       }
     },
@@ -82,16 +82,32 @@ module.exports = function(grunt) {
         }]
       }
     },
+
     jshint: {
       all: ['Gruntfile.js', 'js/*.js', 'assets/**/*.js']
     },
-    // uglify: {
-    //   my_target: {
-    //     files: {
-    //       'assets/js/output.min.js': ['js/index.js', 'js/news.js']
-    //     }
-    //   }
-    // },
+
+    autoprefixer: {
+      options: {
+        browsers: ['last 2 versions', 'ie 9', 'chrome', 'Firefox', 'Safari', 'Android']
+      },
+      dist: {
+        file: {
+          'assets/css/index.css': 'assets/css/index.css',
+          'assets/css/recruit.css': 'assets/css/recruit.css',
+          'assets/css/club.css': 'assets/css/club.css',
+          'assets/css/match.css': 'assets/css/match.css',
+          'assets/css/match_view.css': 'assets/css/match_view.css',
+          'assets/css/team.css': 'assets/css/team.css',
+          'assets/css/team_view.css': 'assets/css/team_view.css',
+          'assets/css/news.css': 'assets/css/news.css',
+          'assets/css/news_view.css': 'assets/css/news_view.css',
+          'assets/css/gellary.css': 'assets/css/gellary.css',
+          'assets/css/gellary_view.css': 'assets/css/gellary_view.css'
+        }
+      }
+    },
+
     watch: {
       less: {
         files: ['assets/less/*.less','assets/**/*.less'],
@@ -133,7 +149,7 @@ module.exports = function(grunt) {
   });
 
   // 플러그인 로드.
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
