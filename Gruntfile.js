@@ -57,7 +57,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'assets/css/min/style.min.css': ['assets/css/*.css']
+          'assets/cssmin/style.min.css': ['assets/css/*.css']
         }
       }
     },
