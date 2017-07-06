@@ -16,6 +16,7 @@
       "assist" : "2",
       "warning" : "3",
       "out" : "1",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team01.jpg",
       "photo" : "../assets/photo/team/view/team01.jpg",
       "profile" : "../assets/photo/team/player01.png"
     },
@@ -35,6 +36,7 @@
       "assist" : "11",
       "warning" : "1",
       "out" : "0",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team02.jpg",
       "photo" : "../assets/photo/team/view/team02.jpg",
       "profile" : "../assets/photo/team/player02.png"
     },
@@ -54,6 +56,7 @@
       "assist" : "0",
       "warning" : "1",
       "out" : "0",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team03.jpg",
       "photo" : "../assets/photo/team/view/team03.jpg",
       "profile" : "../assets/photo/team/player03.png"
     },
@@ -73,6 +76,7 @@
       "assist" : "0",
       "warning" : "5",
       "out" : "1",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team04.jpg",
       "photo" : "../assets/photo/team/view/team04.jpg",
       "profile" : "../assets/photo/team/player04.png"
     },
@@ -92,6 +96,7 @@
       "assist" : "0",
       "warning" : "0",
       "out" : "0",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team05.jpg",
       "photo" : "../assets/photo/team/view/team05.jpg",
       "profile" : "../assets/photo/team/player05.png"
     },
@@ -111,6 +116,7 @@
       "assist" : "15",
       "warning" : "10",
       "out" : "5",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team06.jpg",
       "photo" : "../assets/photo/team/view/team06.jpg",
       "profile" : "../assets/photo/team/player06.png"
     },
@@ -130,6 +136,7 @@
       "assist" : "0",
       "warning" : "0",
       "out" : "0",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team07.jpg",
       "photo" : "../assets/photo/team/view/team07.jpg",
       "profile" : "../assets/photo/team/player07.png"
     },
@@ -149,6 +156,7 @@
       "assist" : "0",
       "warning" : "0",
       "out" : "0",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team08.jpg",
       "photo" : "../assets/photo/team/view/team08.jpg",
       "profile" : "../assets/photo/team/player08.png"
     },
@@ -168,6 +176,7 @@
       "assist" : "3",
       "warning" : "0",
       "out" : "0",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team09.jpg",
       "photo" : "../assets/photo/team/view/team09.jpg",
       "profile" : "../assets/photo/team/player09.png"
     },
@@ -187,6 +196,7 @@
       "assist" : "1",
       "warning" : "30",
       "out" : "5",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team10.jpg",
       "photo" : "../assets/photo/team/view/team10.jpg",
       "profile" : "../assets/photo/team/player10.png"
     },
@@ -206,6 +216,7 @@
       "assist" : "11",
       "warning" : "12",
       "out" : "3",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team11.jpg",
       "photo" : "../assets/photo/team/view/team11.jpg",
       "profile" : "../assets/photo/team/player11.png"
     },
@@ -225,6 +236,7 @@
       "assist" : "10",
       "warning" : "6",
       "out" : "0",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team12.jpg",
       "photo" : "../assets/photo/team/view/team12.jpg",
       "profile" : "../assets/photo/team/player12.png"
     },
@@ -244,6 +256,7 @@
       "assist" : "10",
       "warning" : "0",
       "out" : "0",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team13.jpg",
       "photo" : "../assets/photo/team/view/team13.jpg",
       "profile" : "../assets/photo/team/player13.png"
     },
@@ -263,6 +276,7 @@
       "assist" : "24",
       "warning" : "1",
       "out" : "1",
+      "index_photo" : "https://kimbomm.github.io/portfolio/assets/photo/team/view/team14.jpg",
       "photo" : "../assets/photo/team/view/team14.jpg",
       "profile" : "../assets/photo/team/player14.png"
     }
