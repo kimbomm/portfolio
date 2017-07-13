@@ -221,10 +221,12 @@ header .nav .hamburger {
   background-color: #f90304;
 }
 .content_wrap .match .text_wrap .match {
+  display: inline-block;
   margin-top: 30px;
   width: 200px;
   height: 50px;
   font-size: 20px;
+  line-height: 50px;
   border: 1px #fff solid;
   border-radius: 5px;
   color: #fff;
